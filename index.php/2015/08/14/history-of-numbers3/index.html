@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<base href="https://ga-explorer.netlify.com" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="https://ga-explorer.netlify.com/xmlrpc.php">
+
+  <title>A Functional History of Numbers (3 of 3) - Geometric Algebra Explorer</title>
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+
+<!-- This site is optimized with the Yoast SEO plugin v5.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://ga-explorer.netlify.com/index.php/2015/08/14/history-of-numbers3/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="A Functional History of Numbers (3 of 3) - Geometric Algebra Explorer" />
+<meta property="og:description" content="Science is what we understand well enough to explain to a computer. Art is everything else we do. &#8212; Donald Knuth. here are 3 kinds of science: the experimental, the theoretical, and the simulated1.&#046;&#046;&#046;" />
+<meta property="og:url" content="https://ga-explorer.netlify.com/index.php/2015/08/14/history-of-numbers3/" />
+<meta property="og:site_name" content="Geometric Algebra Explorer" />
+<meta property="article:tag" content="Algebra" />
+<meta property="article:tag" content="Computing" />
+<meta property="article:tag" content="History" />
+<meta property="article:tag" content="Numbers" />
+<meta property="article:section" content="GA History" />
+<meta property="article:published_time" content="2015-08-14T16:00:55+00:00" />
+<meta property="article:modified_time" content="2017-10-14T12:44:33+00:00" />
+<meta property="og:updated_time" content="2017-10-14T12:44:33+00:00" />
+<meta property="og:image" content="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Solenoid-large.jpg" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="768" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Science is what we understand well enough to explain to a computer. Art is everything else we do. &#8212; Donald Knuth. here are 3 kinds of science: the experimental, the theoretical, and the simulated1.&#046;&#046;&#046;" />
+<meta name="twitter:title" content="A Functional History of Numbers (3 of 3) - Geometric Algebra Explorer" />
+<meta name="twitter:image" content="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Solenoid-large.jpg" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/ga-explorer.netlify.com\/","name":"Geometric Algebra Explorer","potentialAction":{"@type":"SearchAction","target":"http:\/\/ga-explorer.netlify.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Geometric Algebra Explorer &raquo; Feed" href="https://ga-explorer.netlify.com/index.php/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Geometric Algebra Explorer &raquo; Comments Feed" href="https://ga-explorer.netlify.com/index.php/comments/feed/" />
+<link id="hu-user-gfont" href="//fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700" rel="stylesheet" type="text/css">		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/ga-explorer.netlify.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='papercite_css-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/papercite/papercite.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='cpsh-shortcodes-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/column-shortcodes//assets/css/shortcodes.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='mbpro-font-awesome-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/maxbuttons/assets/libraries/font-awesome/css/font-awesome.min.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-lightbox-swipebox-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/responsive-lightbox/assets/swipebox/css/swipebox.min.css?ver=1.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wds_frontend-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/slider-wd/css/wds_frontend.css?ver=1.1.91' type='text/css' media='all' />
+<link rel='stylesheet' id='wds_effects-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/slider-wd/css/wds_effects.css?ver=1.1.91' type='text/css' media='all' />
+<link rel='stylesheet' id='wds_font-awesome-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/slider-wd/css/font-awesome/font-awesome.css?ver=4.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dlm-frontend-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/download-monitor/assets/css/frontend.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://ga-explorer.netlify.com/wp-includes/css/dashicons.min.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='hueman-main-style-css'  href='https://ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/css/main.min.css?ver=3.3.22' type='text/css' media='all' />
+<style id='hueman-main-style-inline-css' type='text/css'>
+body { font-family:'Droid Serif', serif;font-size:1.00rem }@media only screen and (min-width: 720px) {
+        .nav > li { font-size:1.00rem; }
+      }.is-scrolled #header #nav-mobile { background-color: #454e5c; background-color: rgba(69,78,92,0.90) }.site-title a img { max-height: 280px; }body { background-color: #eaeaea; }
+</style>
+<link rel='stylesheet' id='hueman-font-awesome-css'  href='https://ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/css/font-awesome.min.css?ver=3.3.22' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.14' type='text/css' media='all' />
+<link rel='stylesheet' id='forget-about-shortcode-buttons-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/forget-about-shortcode-buttons/public/css/button-styles.css?ver=2.1.1' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://ga-explorer.netlify.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/papercite/js/papercite.js?ver=4.8.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/ga-explorer.netlify.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta'></script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mb_ajax = {"ajaxurl":"http:\/\/ga-explorer.netlify.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/maxbuttons/js/min/front.js?ver=1'></script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.7.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rlArgs = {"script":"swipebox","selector":"lightbox","customEvents":"","activeGalleries":"1","animation":"1","hideCloseButtonOnMobile":"0","removeBarsOnMobile":"0","hideBars":"1","hideBarsDelay":"5000","videoMaxWidth":"1080","useSVG":"1","loopAtEnd":"0","woocommerce_gallery":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/responsive-lightbox/js/front.js?ver=1.7.2'></script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/slider-wd/js/jquery.mobile.js?ver=1.1.91'></script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/slider-wd/js/wds_frontend.js?ver=1.1.91'></script>
+<link rel='https://api.w.org/' href='https://ga-explorer.netlify.com/index.php/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ga-explorer.netlify.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://ga-explorer.netlify.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.2" />
+<link rel='shortlink' href='https://ga-explorer.netlify.com/?p=395' />
+<link rel="alternate" type="application/json+oembed" href="https://ga-explorer.netlify.com/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fga-explorer.netlify.com%2Findex.php%2F2015%2F08%2F14%2Fhistory-of-numbers3%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://ga-explorer.netlify.com/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fga-explorer.netlify.com%2Findex.php%2F2015%2F08%2F14%2Fhistory-of-numbers3%2F&#038;format=xml" />
+
+<script type="text/javascript">
+var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};
+</script>
+<script type="text/javascript" src="https://static.addtoany.com/menu/page.js" async="async"></script>
+            <script type="text/javascript" id="ha-customize-btn">
+              jQuery( function($) {
+                  $( "#wp-admin-bar-customize").find('a').attr('title', 'Customize this page !' );
+              });
+            </script>
+            <style type="text/css" id="ha-fun-ab">
+              @-webkit-keyframes super-rainbow {
+                0%   { text-shadow : 0px 0px 2px;}
+                20%  { text-shadow : 0px 0px 5px; }
+                40%  { text-shadow : 0px 0px 10px; }
+                60%  { text-shadow : 0px 0px 13px }
+                80%  { text-shadow : 0px 0px 10px; }
+                100% { text-shadow : 0px 0px 5px; }
+              }
+              @-moz-keyframes super-rainbow {
+                0%   { text-shadow : 0px 0px 2px;}
+                20%  { text-shadow : 0px 0px 5px; }
+                40%  { text-shadow : 0px 0px 10px; }
+                60%  { text-shadow : 0px 0px 13px }
+                80%  { text-shadow : 0px 0px 10px; }
+                100% { text-shadow : 0px 0px 5px; }
+              }
+
+              #wp-admin-bar-customize .ab-item:before {
+                  color:#7ECEFD;
+                  -webkit-animation: super-rainbow 4s infinite linear;
+                   -moz-animation: super-rainbow 4s infinite linear;
+              }
+            </style>
+        <!--[if lt IE 9]>
+<script src="https://ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/js/ie/html5shiv-printshiv.min.js"></script>
+<script src="https://ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/js/ie/selectivizr.js"></script>
+<![endif]-->
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><link rel="icon" href="https://ga-explorer.netlify.com/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg" sizes="32x32" />
+<link rel="icon" href="https://ga-explorer.netlify.com/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-300x300.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://ga-explorer.netlify.com/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-300x300.jpg" />
+<meta name="msapplication-TileImage" content="https://ga-explorer.netlify.com/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-300x300.jpg" />
+<style type="text/css">/** Mega Menu CSS: fs **/</style>
+<style type="text/css"> #turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } body.wp-admin #turnkey-credit, body#image #turnkey-credit, body#media-upload #turnkey-credit { display: none; } </style></head>
+
+<body class="post-template-default single single-post postid-395 single-format-standard col-1c boxed topbar-enabled header-desktop-sticky header-mobile-sticky unknown elementor-default">
+
+<div id="wrapper">
+
+  
+  <header id="header" class="top-menu-mobile-on one-mobile-menu top_menu header-ads-desktop  topbar-transparent has-header-img">
+        <nav class="nav-container group mobile-menu mobile-sticky " id="nav-mobile" data-menu-id="header-1">
+  <div class="mobile-title-logo-in-header"></div>
+        
+                    <!-- <div class="ham__navbar-toggler collapsed" aria-expanded="false">
+          <div class="ham__navbar-span-wrapper">
+            <span class="ham-toggler-menu__span"></span>
+          </div>
+        </div> -->
+        <div class="ham__navbar-toggler-two collapsed" title="Menu" aria-expanded="false">
+          <div class="ham__navbar-span-wrapper">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+          </div>
+        </div>
+            
+      <div class="nav-text"></div>
+      <div class="nav-wrap container">
+                  <ul class="nav container-inner group mobile-search">
+                            <li>
+                  <form method="get" class="searchform themeform" action="https://ga-explorer.netlify.com/">
+	<div>
+		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
+	</div>
+</form>                </li>
+                      </ul>
+                <ul id="menu-main-navigation-menu" class="nav container-inner group"><li id="menu-item-2838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2838"><a href="https://ga-explorer.netlify.com/">Home</a></li>
+<li id="menu-item-3238" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3238"><a href="#">About</a>
+<ul  class="sub-menu">
+	<li id="menu-item-3240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3240"><a href="https://ga-explorer.netlify.com/index.php/dedication/">Dedication</a></li>
+	<li id="menu-item-3244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3244"><a href="https://ga-explorer.netlify.com/index.php/about-ga-explorer/">About GA Explorer</a></li>
+	<li id="menu-item-3245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3245"><a href="https://ga-explorer.netlify.com/index.php/site-news/">Site News</a></li>
+	<li id="menu-item-2839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2839"><a href="https://ga-explorer.netlify.com/index.php/contact/">Contact</a></li>
+</ul>
+</li>
+<li id="menu-item-2840" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2840"><a href="https://ga-explorer.netlify.com/index.php/blog/">Blog</a></li>
+<li id="menu-item-2835" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2835"><a href="#">Geometric Algebra</a>
+<ul  class="sub-menu">
+	<li id="menu-item-2843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2843"><a href="https://ga-explorer.netlify.com/index.php/ga-online-resources/">GA Online Resources</a></li>
+	<li id="menu-item-2844" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2844"><a href="https://ga-explorer.netlify.com/index.php/ga-community/">GA Community</a></li>
+	<li id="menu-item-2846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2846"><a href="https://ga-explorer.netlify.com/index.php/ga-software/">GA Software</a></li>
+</ul>
+</li>
+<li id="menu-item-2836" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2836"><a href="https://gmac-guides.netlify.com/">GMac Guides</a></li>
+<li id="menu-item-2856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2856"><a href="https://ga-explorer.netlify.com/index.php/publications/">Publications</a></li>
+<li id="menu-item-2837" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2837"><a href="#">Explorations</a></li>
+<li id="menu-item-2834" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2834"><a href="#">Galleries</a>
+<ul  class="sub-menu">
+	<li id="menu-item-2845" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2845"><a href="https://ga-explorer.netlify.com/index.php/islamic-calligraphy/">Islamic Calligraphy</a></li>
+	<li id="menu-item-2854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2854"><a href="https://ga-explorer.netlify.com/index.php/gmac-logos/">GMac Logos</a></li>
+	<li id="menu-item-2855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2855"><a href="https://ga-explorer.netlify.com/index.php/textcomposerlib-logos/">TextComposerLib Logos</a></li>
+</ul>
+</li>
+</ul>      </div>
+</nav><!--/#nav-topbar-->  
+        <nav class="nav-container group desktop-menu desktop-sticky " id="nav-topbar" data-menu-id="header-2">
+    <div class="nav-text"></div>
+  <div class="topbar-toggle-down">
+    <i class="fa fa-angle-double-down" aria-hidden="true" data-toggle="down" title="Expand menu"></i>
+    <i class="fa fa-angle-double-up" aria-hidden="true" data-toggle="up" title="Collapse menu"></i>
+  </div>
+  <div class="nav-wrap container">
+    <ul id="menu-main-navigation-menu-1" class="nav container-inner group"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2838"><a href="https://ga-explorer.netlify.com/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3238"><a href="#">About</a>
+<ul  class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3240"><a href="https://ga-explorer.netlify.com/index.php/dedication/">Dedication</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3244"><a href="https://ga-explorer.netlify.com/index.php/about-ga-explorer/">About GA Explorer</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3245"><a href="https://ga-explorer.netlify.com/index.php/site-news/">Site News</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2839"><a href="https://ga-explorer.netlify.com/index.php/contact/">Contact</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2840"><a href="https://ga-explorer.netlify.com/index.php/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2835"><a href="#">Geometric Algebra</a>
+<ul  class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2843"><a href="https://ga-explorer.netlify.com/index.php/ga-online-resources/">GA Online Resources</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2844"><a href="https://ga-explorer.netlify.com/index.php/ga-community/">GA Community</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2846"><a href="https://ga-explorer.netlify.com/index.php/ga-software/">GA Software</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2836"><a href="https://gmac-guides.netlify.com/">GMac Guides</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2856"><a href="https://ga-explorer.netlify.com/index.php/publications/">Publications</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2837"><a href="#">Explorations</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2834"><a href="#">Galleries</a>
+<ul  class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2845"><a href="https://ga-explorer.netlify.com/index.php/islamic-calligraphy/">Islamic Calligraphy</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2854"><a href="https://ga-explorer.netlify.com/index.php/gmac-logos/">GMac Logos</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2855"><a href="https://ga-explorer.netlify.com/index.php/textcomposerlib-logos/">TextComposerLib Logos</a></li>
+</ul>
+</li>
+</ul>  </div>
+      <div id="topbar-header-search" class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner"><form method="get" class="searchform themeform" action="https://ga-explorer.netlify.com/">
+	<div>
+		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
+	</div>
+</form></div>
+        </div>
+      </div><!--/.container-inner-->
+    </div><!--/.container-->
+  
+</nav><!--/#nav-topbar-->  
+  <div class="container group">
+        <div class="container-inner">
+
+                <div id="header-image-wrap">
+              <div class="group pad central-header-zone">
+                                                  </div>
+
+              <a href="https://ga-explorer.netlify.com/" rel="home"><img class="site-image" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/GA-Explorer-Logo-v2.jpg" alt="Geometric Algebra Explorer"></a>          </div>
+      
+      
+    </div><!--/.container-inner-->
+      </div><!--/.container-->
+
+</header><!--/#header-->
+  
+  <div class="container" id="page">
+    <div class="container-inner">
+            <div class="main">
+        <div class="main-inner group">
+          
+              <section class="content">
+              <div class="page-title pad group">
+          	    		<ul class="meta-single group">
+    			<li class="category"><a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-history/" rel="category tag">GA History</a></li>
+    			    		</ul>
+
+    	
+    </div><!--/.page-title-->
+          <div class="pad group">
+              <article class="post-395 post type-post status-publish format-standard has-post-thumbnail hentry category-ga-history tag-algebra tag-computing tag-history tag-numbers">
+    <div class="post-inner group">
+
+      <h1 class="post-title entry-title">A Functional History of Numbers (3 of 3)</h1>
+<p class="post-byline">by   <span class="vcard author">
+     <span class="fn"><a href="https://ga-explorer.netlify.com/index.php/author/gacomputing/" title="Posts by Ahmad Eid" rel="author">Ahmad Eid</a></span>
+   </span> &middot;
+                            Published <time class="published" datetime="August 14, 2015">August 14, 2015</time>
+              &middot; Updated <time class="updated" datetime="October 14, 2017">October 14, 2017</time>
+               </p>
+      
+      <div class="clear"></div>
+
+      <div class="entry themeform share">
+        <div class="entry-inner">
+          <div id="attachment_396" style="width: 730px" class="wp-caption aligncenter"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Solenoid-large.jpg" data-rel="lightbox-0" title=""><img class="wp-image-396 size-large" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Solenoid-large-1024x768.jpg" alt="Solenoid-large" width="720" height="540" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Solenoid-large.jpg 1024w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Solenoid-large-300x225.jpg 300w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Solenoid-large-768x576.jpg 768w" sizes="(max-width: 720px) 100vw, 720px" /></a><p class="wp-caption-text">Magnetic Field Simulation. (<a href="https://nylander.wordpress.com/2006/05/17/magnetic-field-of-a-solenoid/">Source</a>)</p></div>
+<blockquote><p>Science is what we understand well enough to explain to a computer. Art is everything else we do. &#8212; Donald Knuth.</p></blockquote>
+<p><span class="dropcap">T</span>here are 3 kinds of science: the experimental, the theoretical, and the simulated<sup class='endnote'><a href='#en-395-1' id='enref-395-1' onclick='return hhEndnotes_show(395)'>1</a></sup>. Over the whole history of human discovery experimental scientific activities guided, and in many times surprised, the human imagination&#8217;s search to understand and control the observable universe. After sometime human knowledge seekers used the language of mathematics to create simplified, consistent theoretical models for the complex data and patterns they experimentally observe; abstractions were now put on paper. The third kind of scientific activity only appeared recently, about 75 years ago, when the first electronic computers were made; effectively creating the &#8220;human computational universe&#8221; and upgrading our scientific methods to a whole new level. The idea of this third kind of science is to computationally and visually investigate our theoretical mathematical models encoded as computer programs executed on various sets of inputs to get new patterns, ideas, and &#8220;virtual&#8221; discoveries that can be verified experimentally later or at least may provide grounds for new abstractions, theories, and practical applications. This third kind of science, the science and art of computer simulations, is now unavoidable in all scientific research and education activities. All this is made possible by using only the two numbers <strong>1</strong> and <strong>0;</strong> a.k.a <strong>True</strong> and <strong>False</strong>.</p>
+<p>After our journey with classic numbers in <a href="https://ga-explorer.netlify.com/index.php/2015/07/24/history-of-numbers1/">part one</a> and geometric numbers in <a href="https://ga-explorer.netlify.com/index.php/2015/08/07/history-of-numbers2/">part two</a>, in this final part of our functional history of numbers, we will take a look at a third kind of numbers: the computational numbers.</p>
+<h3>True or False: From Laws of Thought to Switching Algebra</h3>
+<blockquote><p>It appeared to me that, although Logic might be viewed with reference to the idea of quantity, it had also another and a deeper system of relations. If it was lawful to regard it from without, as connecting itself through the medium of Number with the intuitions of Space and Time, it was lawful also to regard it from within, as based upon facts of another order which have their abode in the constitution of the Mind. &#8212; George Boole, The Mathematical Analysis of Logic.</p></blockquote>
+<p><a href="https://plato.stanford.edu/entries/boole/">George Boole</a>, famous for his knowledge, kindness, and total lack of egoism was an English mathematician who died from bad cold, at the age of 49, resulting from walking from his house to his College under heavy rain and lecturing in wet clothes. Boole&#8217;s greatest achievement was to create an algebra of logic: <a href="https://en.wikipedia.org/wiki/Boolean_algebra_(structure)">Boolean algebra</a>. Boole had minimal formal education due to the poverty of his family. His fellow students considered him to be something of a genius. His early training in languages<sup class='endnote'><a href='#en-395-2' id='enref-395-2' onclick='return hhEndnotes_show(395)'>2</a></sup> had its share among the inﬂuences which led to the construction of Boole’s logic: he built his logic in the same way he felt languages were built<sup class='endnote'><a href='#en-395-3' id='enref-395-3' onclick='return hhEndnotes_show(395)'>3</a></sup>. Boole’s thinking may have been spurred on by a heated controversy raging at the time between two formidable academics working in this area<sup class='endnote'><a href='#en-395-4' id='enref-395-4' onclick='return hhEndnotes_show(395)'>4</a></sup>. They were the British mathematician and logician Augustus De Morgan and the Scottish philosopher and metaphysician Sir William Hamilton; the creator of quaternions. Boole came up with an ingenious formulation that synthesized the approaches of both De Morgan and Hamilton. Indeed De Morgan praised Boole’s work on logic saying:</p>
+<blockquote><p>Boole&#8217;s system of logic is but one of many proofs of genius and patience combined &#8230; That the symbolic processes of algebra, invented as tools of numerical calculation, should be competent to express every act of thought, and to furnish the grammar and dictionary of an all-containing system of logic, would not have been believed until it was proved<sup class='endnote'><a href='#en-395-5' id='enref-395-5' onclick='return hhEndnotes_show(395)'>5</a></sup>.</p></blockquote>
+<p>Boole discussed, in the Introduction of his book &#8220;The Mathematical Analysis of Logic&#8221;, the issue of the relevance of symbols in scientiﬁc expositions. His aim was probably to correct Hamilton’s opinion that the symbolization of mathematics could lead to the destruction of the reﬂective powers of students of that discipline. He contended that if symbols are used with full understanding of the laws which render them useful, “an intellectual discipline of high order is provided”. In 1854 Boole published his book &#8220;<a href="https://en.wikipedia.org/wiki/The_Laws_of_Thought">The Laws of Thought</a>&#8220;. Boole’s goals were “to go under, over, and beyond” Aristotle’s logic by providing it with mathematical foundations involving equations; extending the class of problems it could treat from assessing validity to solving equations, and expanding the range of applications it could handle (e.g. from propositions having only two terms to those having arbitrarily many).</p>
+<div id="attachment_496" style="width: 310px" class="wp-caption alignright"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Baops.gif" data-rel="lightbox-1" title=""><img class="wp-image-496" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Baops.gif" alt="Baops" width="300" height="226" /></a><p class="wp-caption-text">Switching Algebra by Shannon is based on Boolean Algebra (<a href="https://en.wikibooks.org/wiki/Digital_Circuits/Logic_Operations">Source</a>)</p></div>
+<p><a href="https://en.wikipedia.org/wiki/George_Boole#20th-century_development">Boole&#8217;s work</a> and that of later logicians initially appeared to have no engineering uses. <a href="https://en.wikipedia.org/wiki/Claude_Shannon">Claude Shannon</a> attended a philosophy class at the University of Michigan which introduced him to Boole&#8217;s studies. Shannon recognized that Boole&#8217;s work could form the basis of mechanisms and processes in the real world and that it was therefore highly relevant. In 1937 Shannon went on to write his <a href="http://dspace.mit.edu/handle/1721.1/11173">master&#8217;s thesis</a>:&#8221;A symbolic analysis of relay and switching circuits&#8221;, at the Massachusetts Institute of Technology, in which he showed how Boolean algebra could optimize the design of systems of electromechanical relays then used in telephone routing switches. He also proved that circuits with relays could solve Boolean algebra problems; a great milestone in the development of Switching Theory. Andrew Emerson in an <a href="https://www.theguardian.com/science/2001/mar/08/obituaries.news">article</a> in The Guardian states:</p>
+<blockquote><p>That dissertation has since been hailed as one of the most significant master&#8217;s theses of the 20th century. To all intents and purposes, its use of binary code and Boolean algebra paved the way for the digital circuitry that is crucial to the operation of modern computers and telecommunications equipment.</p></blockquote>
+<p>Employing the properties of electrical switches to process logic is the basic concept that underlies all modern electronic digital computers. Victor Shestakov at Moscow State University proposed a theory of electric switches based on Boolean logic even earlier than Claude Shannon in 1935. But the first publication of Shestakov&#8217;s result took place only in 1941 in Russian<sup class='endnote'><a href='#en-395-6' id='enref-395-6' onclick='return hhEndnotes_show(395)'>6</a></sup>. Hence Boolean algebra became the foundation of practical digital circuit design; and Boole, via Shannon and Shestakov, provided the theoretical grounding for the Digital Age.</p>
+<h3>The Three of Balance</h3>
+<blockquote><p>Perhaps the prettiest number system of all, is the balanced ternary notation &#8230; and perhaps the symmetric properties and simple arithmetic of this number system will prove to be quite important someday; when the &#8220;flip-flop&#8221; is replaced by a &#8220;flip-flap-flop&#8221;. &#8212; Donald E. Knuth, The Art of Computer Programming Volume 2.</p></blockquote>
+<p>The reason behind the exclusive use of binary numbers in computing is purely physical as the electronic transistors of computers only have 2 stable states. All computer applications require testing conditions and taking actions accordingly through the ubiquitous If-Then statement. Life isn&#8217;t binary, though; you must occasionally say &#8220;I don&#8217;t know the answer&#8221; to be human. We actually need at least 3 states for our decision-making models: True, False, and Unknown. The <a href="https://en.wikipedia.org/wiki/Null_(SQL)">symbol &#8220;NULL&#8221;</a> in modern database management systems is one shining example of needing the unknown in modern computing.</p>
+<div id="attachment_486" style="width: 310px" class="wp-caption alignleft"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Bachet-weight-problem.png" data-rel="lightbox-2" title=""><img class="size-medium wp-image-486" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Bachet-weight-problem-300x131.png" alt="Bachet-weight-problem" width="300" height="131" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Bachet-weight-problem-300x131.png 300w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Bachet-weight-problem-768x335.png 768w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Bachet-weight-problem.png 902w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Bachet&#8217;s Problem: as few weights to weigh them all (<a href="https://arxiv.org/abs/1010.5486">Source</a>)</p></div>
+<p>Mathematically, a <a href="https://en.wikipedia.org/wiki/Ternary_computer">ternary</a> (i.e. base 3) number system is more efficient than a binary system in many ways; it offers <a href="http://bit-player.org/wp-content/extras/bph-publications/AmSci-2001-11-Hayes-ternary.pdf">the most economical way</a> of representing integers among all number systems. A <a href="https://en.wikipedia.org/wiki/Balanced_ternary">balanced ternary</a> number system is based on the numbers (-1, 0, and 1) instead of (0, 1, and 2). This number system first appeared in the 18th century and was used for solving the Bachet’s Weights Problem attributed to Bachet in the early 17th century, but actually dating back all the way to Fibonacci or earlier<sup class='endnote'><a href='#en-395-7' id='enref-395-7' onclick='return hhEndnotes_show(395)'>7</a></sup>, as one of the first problems of integer partitions:</p>
+<blockquote><p>What is the least number of pound weights that can be used on a scale pan to weigh any integral number of pounds from 1 to 40 inclusive, if the weights can be placed in either of the scale pans?</p></blockquote>
+<div id="attachment_380" style="width: 310px" class="wp-caption alignright"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/fowlerdiagram.jpg" data-rel="lightbox-3" title=""><img class="size-medium wp-image-380" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/fowlerdiagram-300x150.jpg" alt="A model of the ternary calculating machine of Thomas Fowler" width="300" height="150" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/fowlerdiagram-300x150.jpg 300w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/fowlerdiagram.jpg 621w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">A model of the ternary calculating machine of Thomas Fowler. See <a href="http://www.mortati.com/glusker/fowler/about.htm">here</a> for more details.</p></div>
+<p>The first true appearance of “pure” balanced ternary notation was in an article by Léon Lalanne in 1840, who was a designer of mechanical devices for arithmetic. <a href="http://www.mortati.com/glusker/fowler/fowlerbio.htm">Thomas Fowler</a> independently invented and constructed a balanced ternary calculator at about the same time. The balanced ternary number system was mentioned only rarely for the next 100 years, until the development of the first electronic computers at the Moore School of Electrical Engineering in 1945–1946; at that time it was given serious consideration as a possible replacement for the decimal system. The complexity of arithmetic circuitry for balanced ternary arithmetic is not much greater than it is for the binary system, and a given number requires only 63% as many digit positions for its representation<sup class='endnote'><a href='#en-395-8' id='enref-395-8' onclick='return hhEndnotes_show(395)'>8</a></sup>. An implementation of this uncommonly used but beautiful symmetric number system in several computer languages can be found in <a href="http://rosettacode.org/wiki/Balanced_ternary">this Rosetta Code article</a>. A Demonstration of the weighting problem can be found in <a href="http://demonstrations.wolfram.com/BalancedTernaryNotation/">this Wolfram demonstration</a>.</p>
+<p>Perhaps someday ternary computers would replace our binary ones as described by Douglas W. Jones who wrote <a href="http://homepage.cs.uiowa.edu/~jones/ternary/">The Ternary Manifesto</a>. Some researchers even began to suggest hardware implementations of this number system; for example, a system based on the <a href="http://ieeexplore.ieee.org/document/679270/?reload=true&amp;arnumber=679270">Josephson junction</a>, and another system based on a <a href="http://iopscience.iop.org/article/10.1238/Physica.Topical.118a00098/meta;jsessionid=70C4C8ABF84CB6757494D0680027D880.c5.iopscience.cld.iop.org">ternary optical computer architecture</a>. Maybe we will see the &#8220;flip-flap-flop&#8221; in the near future after all.</p>
+<h3>The Curious Case of Floating Points</h3>
+<blockquote><p>There are 10 types of people in this world: those who understand binary and those who don&#8217;t. &#8212; Author Unknown.</p></blockquote>
+<div id="attachment_478" style="width: 310px" class="wp-caption alignleft"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/IEEE-754-ENGLISH.jpg" data-rel="lightbox-4" title=""><img class="size-medium wp-image-478" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/IEEE-754-ENGLISH-300x120.jpg" alt="IEEE-754-ENGLISH" width="300" height="120" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/IEEE-754-ENGLISH-300x120.jpg 300w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/IEEE-754-ENGLISH-768x306.jpg 768w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/IEEE-754-ENGLISH-1024x408.jpg 1024w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/IEEE-754-ENGLISH.jpg 1586w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">The IEEE-754 Standard for Floating-Point Numbers (<a href="http://www.puntoflotante.net/FLOATING-POINT-FORMAT-IEEE-754.htm">Source</a>)</p></div>
+<p>All the geometric number systems we talked about earlier (the complex numbers, quaternions, vectors, and multivectors) can be represented inside a computer as data structures consisting of real number components. The problem is that most real numbers are impossible to accurately represent inside our computationally limited space, in time and storage, so we have to approximate. The <a href="https://en.wikipedia.org/wiki/Floating_point">floating-point numbers</a> are the standard system for storing and manipulating approximations of real numbers in modern computers. The dedicated circuitry inside computers ensure fast floating-point based computations; some even rely on the GPU for <a href="http://gpgpu.org/">accelerating parallel computations</a>. As useful as they are, floating-point numbers have many <a href="http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html">bad mathematical properties</a>:</p>
+<ul>
+<li>They are only a subset of rational numbers; all irrationals are impossible to represent as they have infinite decimals.</li>
+<li>Many common rational decimal numbers we intuitively use can only be represented in binary as recurring decimals. For example, the number (0.1) in decimal is (0.0 0011 0011 0011 0011 0011 &#8230;) in binary; leading also to an approximate representation for such simple decimals!</li>
+<li>Floating point numbers are not closed under any of the basic operations of addition, subtraction, multiplication or division; a numerical recipe for computational disaster under chaos theory!</li>
+<li>They don&#8217;t obey the important property of associativity: a+(b+c) is not always equal to (a+b)+c for floating point numbers a,b,c. The same problem is present in associativity of multiplication and distributivity of multiplication over addition.</li>
+<li>They are not uniformly distributed on the real number line. This is a serious problem for geometric modeling applications; applying a transformation on an object near the origin is different than applying the same transformation to the same object far from the origin.</li>
+<li>They have a limited range, accuracy, and precision for many practical applications.</li>
+<li>Two floating-point numbers in different format must be scaled before being added together. In other words, the binary points must be aligned before the addition can be performed resulting in possible loss of accuracy.</li>
+<li>Because of all of the above, equality and ordering tests are sometimes problematic; we must use tolerances and intervals instead of direct equality tests in many applications.</li>
+</ul>
+<div id="attachment_384" style="width: 310px" class="wp-caption alignright"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/strange_attractors-0086.jpg.jpeg" data-rel="lightbox-5" title=""><img class="size-medium wp-image-384" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/strange_attractors-0086.jpg-300x297.jpeg" alt="Chaos Theory" width="300" height="297" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/strange_attractors-0086.jpg-300x297.jpeg 300w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/strange_attractors-0086.jpg-150x150.jpeg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/strange_attractors-0086.jpg.jpeg 440w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">If not careful, floating point errors combined with <a href="https://en.wikipedia.org/wiki/Chaos_theory">chaos theory</a> can destroy simulation results.</p></div>
+<p>All these problems make direct implementation of mathematical models difficult for many applications. We need to add an additional &#8220;layer of protection&#8221; to ensure the model will work for an acceptable range of inputs just to avoid the bad effects of floating-point arithmetic<sup class='endnote'><a href='#en-395-9' id='enref-395-9' onclick='return hhEndnotes_show(395)'>9</a></sup>. There exist some approaches to reduce the bad effects of these numbers in computing like <a href="https://en.wikipedia.org/wiki/Decimal_floating_point">decimal floating-point</a>, <a href="https://en.wikipedia.org/wiki/Fixed-point_arithmetic#Precision_loss_and_overflow">fixed-point arithmetic,</a> and <a href="https://en.wikipedia.org/wiki/P-adic_number">p-adic arithmetic</a>. One other radically different solution is avoiding irrationals in our models from the start by only using rational numbers<sup class='endnote'><a href='#en-395-10' id='enref-395-10' onclick='return hhEndnotes_show(395)'>10</a></sup>; something that would definitely please the ancient Greeks. This approach requires us to create a library for &#8220;big integers&#8221; and base a rational numbers library on it. Another approach, common in financial applications, is to use very small units of measurement, like cents for example, and do all computations using integers; then do a final step of simple division when showing the results after accurately computing them. In any case, the floating-point binary number system will not go away anytime soon; we must take care when coding our geometric models not to allow these strange numbers to destroy the beauty of our geometry.</p>
+<h3>The Symbolic Meaning of Trees</h3>
+<blockquote><p>I had a very selfish reason for building Mathematica. I wanted to use it myself, a bit like Galileo got to use his telescope four hundred years ago. But I wanted to look, not at the astronomical universe, but at the computational universe. &#8212; Stephen Wolfram.</p></blockquote>
+<div id="attachment_510" style="width: 310px" class="wp-caption alignleft"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/MemoryAddressContent.png" data-rel="lightbox-6" title=""><img class="size-medium wp-image-510" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/MemoryAddressContent-300x228.png" alt="MemoryAddressContent" width="300" height="228" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/MemoryAddressContent-300x228.png 300w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/MemoryAddressContent.png 661w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Pointers and Strings are the bases for all data structures (<a href="https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp4_PointerReference.html">Source</a>)</p></div>
+<p>Binary integers are not just used for numerical calculations; their more important uses are for encoding symbols (using <a href="https://en.wikipedia.org/wiki/String_(computer_science)">strings of characters</a>) and for referencing memory locations (using <a href="https://en.wikipedia.org/wiki/Pointer_(computer_programming)">pointers</a>). Humans reason by symbols, they invent names for new entities on daily basis. Computers are required to store textual data and complex relations between symbolic entities to be useful; not just act as fast calculators. Strings and pointers are the bases for all other data structures that ever existed. Using sets of binary integers encoding symbols, their memory locations, and their semantic properties we have created arrays, stacks, queues, hash tables, heaps, trees, graphs, and geometrically optimized spatial data structures<sup class='endnote'><a href='#en-395-11' id='enref-395-11' onclick='return hhEndnotes_show(395)'>11</a></sup>. In the collective experience of computer scientists and software engineers, the most widely used data structures are <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)">trees</a> of various kinds; think XML.</p>
+<p>For our specific purpose of computational applications, there exists one type of software systems that relies completely on trees and their transformations: <a href="https://en.wikipedia.org/wiki/Symbolic_computation">Symbolic Computation Systems</a> a.k.a <a href="https://en.wikipedia.org/wiki/Computer_algebra_system">Computer Algebra Systems</a> (CAS). The mathematical and logical base for modern CAS date back to George Boole&#8217;s method of separation of symbols, the contemporary name for a method which is a precursor of today&#8217;s abstract mathematical formalization<sup class='endnote'><a href='#en-395-12' id='enref-395-12' onclick='return hhEndnotes_show(395)'>12</a></sup>. Computer algebra can be defined as<sup class='endnote'><a href='#en-395-13' id='enref-395-13' onclick='return hhEndnotes_show(395)'>13</a></sup>:</p>
+<blockquote><p>Computer Algebra is a subject of science devoted to methods for solving mathematically formulated problems by symbolic algorithms, and to implementation of these algorithms in software and hardware. It is based on the exact finite representation of finite or infinite mathematical objects and structures, and allows for symbolic and abstract manipulation by a computer. Structural mathematical knowledge is used during the design as well as for verification and complexity analysis of the respective algorithms. Therefore computer algebra can be effectively employed for answering questions from various areas of computer science and mathematics, as well as natural sciences and engineering, provided they can be expressed in a mathematical model.</p></blockquote>
+<div id="attachment_468" style="width: 305px" class="wp-caption alignright"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/expr-tree.png" data-rel="lightbox-7" title=""><img class="size-medium wp-image-468" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/expr-tree-295x300.png" alt="expr-tree" width="295" height="300" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/expr-tree-295x300.png 295w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/expr-tree.png 679w" sizes="(max-width: 295px) 100vw, 295px" /></a><p class="wp-caption-text">Computer Algebra Systems use and manipulate trees of symbols to accurately represent data, mathematical expressions, and algorithmic procedures (<a href="https://mathematica.stackexchange.com/questions/11632/how-to-generate-a-random-tree">Source</a>)</p></div>
+<p>Although properly speaking, computer algebra should be a sub-field of scientific computing, they are generally considered as distinct fields because scientific computing is usually based on numerical computation with approximate floating point numbers, while symbolic computation emphasizes exact computation with expressions containing variables that have not any given value and are thus manipulated as symbols (therefore the name of symbolic computation).</p>
+<p><a href="https://en.wikipedia.org/wiki/Computer_algebra_system#History">Historically</a>, computer algebra evolved out of two quite different sources: the requirements of theoretical physicists and research into classical symbolic artificial intelligence in the 60&#8217;s. Physics is one of the oldest application fields of computer algebra; in fact, many of the early computer algebra systems were designed or strongly influenced by physicists in order to suit their research needs, in particular, the need to handle highly complicated mathematical relations with parameters in an exact way. The other source for CAS development was symbolic AI, the dominant paradigm of AI research from the middle fifties until the late 1980s, that was motivated by the <a href="https://en.wikipedia.org/wiki/Physical_symbol_system">physical symbol system hypothesis</a>, later challenged from many directions, stating: &#8220;a physical symbol system has the necessary and sufficient means for general intelligent action&#8221;. For example, Mathematica contains some form of an internal knowledge base and inference engine, the main components of an expert system symbolic AI, as part of its core components. In addition, many of the historical developments required for the normal construction and operation of modern CAS were developed out of symbolic AI research including timesharing, interactive interpreters, graphical user interfaces and the computer mouse, rapid development environments, the linked list data structure, automatic storage management, symbolic programming, functional programming, dynamic programming and object-oriented programming<sup class='endnote'><a href='#en-395-14' id='enref-395-14' onclick='return hhEndnotes_show(395)'>14</a></sup>.</p>
+<p>As of today, the most popular commercial systems are <a href="http://www.wolfram.com/mathematica/">Mathematica</a> and <a href="https://www.maplesoft.com/products/maple/">Maple</a>, which are commonly used by research mathematicians, scientists, and engineers. Freely available alternatives include <a href="http://www.sagemath.org/">Sage</a> which can act as a front-end to several other free and nonfree CAS. Computer algebra systems have profoundly impacted scientific activities in many ways:</p>
+<ul>
+<li>Standard problems in high school mathematics can be solved by the push of a button nowadays; for example, see the Wolfram Demonstration Project <a href="http://demonstrations.wolfram.com/">online site</a>.</li>
+<li>They enable to teach the more application-oriented material, which is usually more extensive but also more interesting, and there is more time to explore more general and conceptual aspects of mathematics. Both can considerably improve comprehension of mathematical methods, their potential, and their limitations, by non-mathematicians.</li>
+<li>The use of computer algebra systems has become a standard tool for experiments in advanced research that help to find, support, or refute conjectures. They have become absolutely indispensable in the design and update of tables of mathematical, physical or other scientific objects.</li>
+<li>The goals of computer algebra constituted a major challenge for the development and refinement of a wide range of computer science tools and methods, among them list processing, abstract data types, parametric polymorphism, constraint logic programming, parallel computing at various levels of granularity, dynamical memory management, user interfaces and interfaces between systems, mathematical knowledge representation and management.</li>
+</ul>
+<p>This site is concerned with exploring the computational universe using geometric algebra. Naturally, the main utility for such exploration will definitely be based on a computer algebra system.</p>
+<h3>Arriving at an Exact Value, Give or Take</h3>
+<blockquote><p>As far as the laws of mathematics refer to reality, they are not certain; and as far as they are certain, they do not refer to reality. &#8212; Albert Einstein, Sidelights on Relativity.</p></blockquote>
+<div id="attachment_527" style="width: 310px" class="wp-caption alignleft"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Sci-method-Eng-method.png" data-rel="lightbox-8" title=""><img class="size-medium wp-image-527" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Sci-method-Eng-method-300x200.png" alt="Sci-method-Eng-method" width="300" height="200" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Sci-method-Eng-method-300x200.png 300w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Sci-method-Eng-method-768x511.png 768w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Sci-method-Eng-method.png 981w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">In both science and engineering, data gathered from measurements or generated from models are approximations to reality (<a href="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-compare-scientific-method">Source</a>)</p></div>
+<p>In science and engineering, data gathering is of prime importance. Our ability to measure has developed over the ages to remarkable levels of accuracy. Many of our computational algorithms are originally designed to deal explicitly with well defined exact numerical values. On the other hand, real data obtained by measurement, however accurate, are mere approximations of the actual value. Sometimes there is not even an exact value but just an acceptable range of values of some random variable. Repeatability, the main feature of scientific experimentation, is in many cases only possible within a &#8220;margin of error&#8221; or tolerance. To make things more complicated, there are many natural and computational systems that are very sensitive to small changes in their initial conditions and parameter variations; any small deviation from our theoretical computations will result in unpredictable behavior of the studied system; this is called <a href="https://en.wikipedia.org/wiki/Chaos_theory">chaos theory</a>. Many solutions are used for this type of problem: <a href="https://en.wikipedia.org/wiki/Probability_theory">probability theory</a>, <a href="https://en.wikipedia.org/wiki/Fuzzy_logic">fuzzy logic</a>, <a href="https://en.wikipedia.org/wiki/Propagation_of_uncertainty">propagation of error</a>, and <a href="https://en.wikipedia.org/wiki/Interval_arithmetic">interval arithmetic</a>.</p>
+<div id="attachment_530" style="width: 310px" class="wp-caption alignright"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Archimedes_pi.png" data-rel="lightbox-video-0" title=""><img class="size-medium wp-image-530" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Archimedes_pi-300x101.png" alt="Archimedes_pi" width="300" height="101" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Archimedes_pi-300x101.png 300w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Archimedes_pi.png 707w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Archimedes used a method based on intervals to approximate Pi. See <a href="https://www.youtube.com/watch?v=_rJdkhlWZVQ">this video</a> for a full explanation</p></div>
+<p>Interval arithmetic is a method developed by mathematicians <a href="https://en.wikipedia.org/wiki/Interval_arithmetic#History">since the 1950s and 1960s</a> as an approach to putting bounds on rounding errors and measurement errors in mathematical computation and thus developing numerical methods that yield reliable results. Very simply put, it represents each value as a range of possibilities. For example, instead of estimating the height of someone using standard arithmetic as 2.0 meters, using interval arithmetic we might be certain that that person is somewhere between 1.97 and 2.03 meters. Whereas classical arithmetic defines operations on individual numbers, interval arithmetic defines a set of operations on intervals. Interval arithmetic is not a completely new phenomenon in mathematics; it has appeared several times under different names in the course of history. For example, Archimedes calculated lower and upper bounds 223/71 &lt; π &lt; 22/7 in the 3rd century BC.</p>
+<div id="attachment_533" style="width: 310px" class="wp-caption alignleft"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/interval-arith.png" data-rel="lightbox-10" title=""><img class="size-medium wp-image-533" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/interval-arith-300x128.png" alt="interval-arith" width="300" height="128" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/interval-arith-300x128.png 300w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/interval-arith.png 567w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Basic rules for arithmetic on real intervals. Though simple, they have many bad mathematical and semantic properties</p></div>
+<p>At some point in time, research in interval computations was too optimistic; especially in applications related to global optimization<sup class='endnote'><a href='#en-395-15' id='enref-395-15' onclick='return hhEndnotes_show(395)'>15</a></sup>. But as research progressed many problems started to show. Most of these problems resulted from the bad semantics behind the basic rules of interval arithmetic. For example the operation of subtraction of intervals is not the reverse of addition, simple equations on intervals like A + X = [0, 0] and A X = [1, 1] have no interval solution. Another problem is interval dependency where traditional interval computation algorithms assume all occurrences of intervals to be independent so in an expression like x(1 + 2x) the two x&#8217;s are considered independent resulting in flawed outcomes. This means that most traditional floating point algorithms will never work correctly for intervals. Specific algorithms for solving the same problems will need to be developed specifically for intervals.</p>
+<p>The more fundamental problem with intervals arises from the logical interpretation of intervals in practical applications. If we take the interval [a, b] for, say, a temperature satisfying some condition (predicate); what do we really mean by it:</p>
+<ul>
+<li>All values inside this interval satisfy the given condition.</li>
+<li>There exist one or more values inside this interval satisfying the given condition.</li>
+</ul>
+<p>The difference may seem minor at first glance but it actually leads to different semantics in problems having many variables and many interactions between the variables. Realizing such problems researchers began to investigate other computational laws for intervals based on the actual semantics of their applications<sup class='endnote'><a href='#en-395-16' id='enref-395-16' onclick='return hhEndnotes_show(395)'>16</a></sup>. This serious problem with interval semantics is the main cause preventing the universal use of interval arithmetic in many computational problems, even though many <a href="http://www.cs.utep.edu/interval-comp/intsoft.html">software libraries</a> already exist for handling traditional interval arithmetic, including the <a href="http://ieeexplore.ieee.org/document/7140721/?reload=true&amp;arnumber=7140721&amp;filter%3DAND%28p_Publication_Number%3A7140719%29">IEEE Std 1788-2015</a> standard. I suspect that no single number system can alone handle all kinds of inaccuracies in data and intermediate computations. We need to re-think our algebra and algorithms for each problem area to select the most suitable solutions.</p>
+<h3>A Functional Definition of Numbers</h3>
+<blockquote><p>The real danger is not that computers will begin to think like men, but that men will begin to think like computers. &#8212; Sydney J. Harris.</p></blockquote>
+<p>In our 3 part journey with numbers we saw some of the functional roles they play in our modern &#8220;computation oriented&#8221; civilization. It&#8217;s very difficult to give a single universal definition of a number. The reason is that each branch of mathematics, physics, and engineering depends on different kinds of numbers with many interpretations of each. Nevertheless, we can approach a definition using the functional role number systems play in our continuous investigations. The general characteristics of numbers include:</p>
+<ul>
+<li>Numbers are abstract symbolic mathematical entities with basic operations of, at least, addition and multiplication; algebra is the art and science of manipulating numbers. Some number systems are closed under their operations and some are not (for example floating-point numbers).</li>
+<li>Numbers always result from finite or infinite processes (counting, partitioning, extending in dimension, geometric construction, digital manipulation etc.). We can only use infinite processes as conceptual abstractions while we can only implement our computational abstractions using finite processes.</li>
+<li>The same number or class of numbers can be found\utilized through many processes: geometric, algebraic, physical, measurement, limiting, computing etc. In this sense, numbers are the most fundamental of all abstractions serving a universal encoding and exchange of information medium between all parts of the human scientific activity.</li>
+</ul>
+<p>Numbers are no more than abstract tools of the mind; they must be used wisely and creatively. Geometric algebra and its multivectors can be an excellent theoretical base for geometric modeling that encompass, generalize, and interpret complex, quaternion, and vector based abstractions. On the algorithmic and implementation side, we need much more work because of the limited ability to use floating-point numbers for representing our abstract numerical patterns. We need to create new algorithms for our computational needs even for well-studied mathematical models. The blind conversion of abstractions into implementations result in all sorts of problems<sup class='endnote'><a href='#en-395-17' id='enref-395-17' onclick='return hhEndnotes_show(395)'>17</a></sup>. One very powerful interactive geometry software, <a href="https://www.cinderella.de/tiki-index.php">Cinderella</a>, avoided many of the problems other similar systems face not by increasing floating point accuracy or using interval arithmetic, but be intelligently using more advanced geometry-oriented algebraic structures on complex numbers; see <a href="https://doc.cinderella.de/tiki-index.php?page=Theoretical+Background">this technical background</a> for some details. This level of intelligence in software design require creative use of our number systems usually unobtainable by studying traditional mathematics\engineering textbooks alone.</p>
+<div id="attachment_597" style="width: 310px" class="wp-caption alignright"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/finished-diagram-for-dikw.png" data-rel="lightbox-11" title=""><img class="size-medium wp-image-597" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/finished-diagram-for-dikw-300x111.png" alt="finished-diagram-for-dikw" width="300" height="111" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/finished-diagram-for-dikw-300x111.png 300w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/finished-diagram-for-dikw-768x285.png 768w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/finished-diagram-for-dikw-1024x380.png 1024w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/finished-diagram-for-dikw.png 1173w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">A closer look at the DIKW pyramid: starting at data we can arrive at wisdom and create vision (<a href="https://psuf10.wordpress.com/2014/02/16/a-walking-tour-of-the-pathway-to-wisdom/">Souce</a>)</p></div>
+<p>If we take a closer look at the famous <a href="https://en.wikipedia.org/wiki/DIKW_Pyramid">DIKW Pyramid</a>, we see that numbers are needed at every stage in our non-stop pursuit of wisdom. However, the effective use of numbers in such pursuit of wisdom requires much wisdom in its own right. We need deep knowledge about a problem we&#8217;re trying to solve in order to select the best numbers to represent our solution, and we need to use whatever numbers we see potentially useful to reach a deep understanding of our problem. In effect, using numbers in a scientific activity should be an iterative process of four steps applied again and again on the long run:</p>
+<ol>
+<li>Select one or several number systems for the problem.</li>
+<li>Represent your data and model with the selected number systems.</li>
+<li>Study your system using the numeric tools you&#8217;ve selected.</li>
+<li>Assess your findings and, perhaps, change some or all numbers you&#8217;ve worked with to more suitable number systems.</li>
+</ol>
+<p>Some number system might be better at an early stage of data gathering, some other might be better at a later stage of analysis, yet another one should be used at an implementation stage on computers, while a totally different number system is best used for teaching concepts of the exact same problem. For each problem area we need to be deeply aware of its application and computation requirements to select and use suitable number systems to arrive at our goals. Any other path will result in a large number of ad hoc trial and error based techniques that may never advance our understanding, both collective and individual, for our particular application area. I don&#8217;t believe that we are at the danger of arriving at an &#8220;artificial intelligence&#8221; that can perform such &#8220;deeply creative and artistic&#8221; methods of selecting and using numbers anytime soon, or perhaps never. I do believe that many of us have completely been converted into &#8220;mindless computational machines&#8221; blindly using certain limited sets of number systems that we were taught to use with no idea whatsoever about the universe of other number systems out of our immediate scope of narrow specialty; this is a clear and present danger to our human scientific side. I hope this site may widen the &#8220;numerical horizon&#8221; of some of us, including me, to the point of no return.</p>
+<p><a href="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/done4.png" data-rel="lightbox-12" title=""><img class="alignright size-full wp-image-545" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/done4.png" alt="done4" width="300" height="40" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr />
+<div class='endnotes' id='hhendnotes-395'>
+<ol>
+<li id='en-395-1'>Stephen Wolfram, &#8220;A New Kind of Science&#8221;. Wolfram Research 2002 <span class='endnotereverse'><a href='#enref-395-1'>&#8617;</a></span></li>
+<li id='en-395-2'>It&#8217;s worth noticing that 3 of our central mathematicians in this series were brilliant linguists: Hamilton, Grassmann, and Boole. See the studies <a href="http://basilo.kaist.ac.kr/mathnet/kms_tex/981583.pdf">here</a> and <a href="http://lshss.pubs.asha.org/article.aspx?articleid=1832557">here</a> for the relation between mathematics and language <span class='endnotereverse'><a href='#enref-395-2'>&#8617;</a></span></li>
+<li id='en-395-3'>Luis M. Laita et al., &#8220;George Boole, a Forerunner of Symbolic Computation&#8221;. International Conference AISC 2000 Madrid, Spain, July 17–19, 2000 Revised Papers <span class='endnotereverse'><a href='#enref-395-3'>&#8617;</a></span></li>
+<li id='en-395-4'>Luis M. Laita, &#8220;Influences on Boole&#8217;s logic: The controversy between William Hamilton and Augustus De Morgan&#8221;. Annals of Science Volume 36, Issue 1, 1979 <span class='endnotereverse'><a href='#enref-395-4'>&#8617;</a></span></li>
+<li id='en-395-5'>George Boole 200, University College Cork, <a href="https://georgeboole200.ucc.ie/boole/legacy/phil/">Online</a> <span class='endnotereverse'><a href='#enref-395-5'>&#8617;</a></span></li>
+<li id='en-395-6'>Radomir S. Stankovic and Jaakko Astola, &#8220;From Boolean Logic to Switching Circuits and Automata &#8211; Towards Modern Information Technology&#8221;. Springer 2011 <span class='endnotereverse'><a href='#enref-395-6'>&#8617;</a></span></li>
+<li id='en-395-7'>Mohammad Bagheri, &#8220;Recreational Problems from Hasib Tabari’s Miftāh al-mu’āmalāt&#8221;. GANITA BHARATI Vol. 21, 1999. <a href="http://www.mb-kushyar.com/articles_e/RECREATIONAL%20PROBLEMS%20FROM%20HASIB%20TABARI.pdf">Online Version</a>. <span class='endnotereverse'><a href='#enref-395-7'>&#8617;</a></span></li>
+<li id='en-395-8'>Donald E. Knuth, &#8220;The Art of Computer Programming Volume 2: Seminumerical Algorithms, 3rd Edition&#8221;. Addison-Wesley Professional 1997 <span class='endnotereverse'><a href='#enref-395-8'>&#8617;</a></span></li>
+<li id='en-395-9'>For real instances of disastrous software failure due to floating-point errors see section 3.10 &#8220;The Elephant in the Living Room&#8221; in Ronald T. Kneusel, &#8220;Numbers and Computers&#8221;. Springer 2015 <span class='endnotereverse'><a href='#enref-395-9'>&#8617;</a></span></li>
+<li id='en-395-10'>N.J. Wildberger, &#8220;Divine Proportions: Rational Trigonometry to Universal Geometry&#8221;. Wild Egg Books 2005 <span class='endnotereverse'><a href='#enref-395-10'>&#8617;</a></span></li>
+<li id='en-395-11'>Hanan Samet, &#8220;Foundations of Multidimensional and Metric Data Structures&#8221;. Morgan Kaufmann 2006 <span class='endnotereverse'><a href='#enref-395-11'>&#8617;</a></span></li>
+<li id='en-395-12'>Luis de Ledesma et al., &#8220;A Computational Approach to George Boole&#8217;s Discovery of Mathematical Logic&#8221;. Artificial Intelligence Volume 91 Issue 2, April 1997 <span class='endnotereverse'><a href='#enref-395-12'>&#8617;</a></span></li>
+<li id='en-395-13'>Johannes Grabmeier, Erich Kaltofen, Volker Weispfenning (Editors), &#8220;Computer Algebra Handbook &#8211; Foundations, Applications, Systems&#8221;. Springer 2003 <span class='endnotereverse'><a href='#enref-395-13'>&#8617;</a></span></li>
+<li id='en-395-14'>Stuart Russell, Peter Norvig, &#8220;Artificial Intelligence: A Modern Approach, 2nd Ed.&#8221;. Prentice Hall 2002 <span class='endnotereverse'><a href='#enref-395-14'>&#8617;</a></span></li>
+<li id='en-395-15'>Eldon Hansen, G. William Walster (Editors), &#8220;Global Optimization Using Interval Analysis: Revised And Expanded, 2nd Edition&#8221;. CRC Press 2003 <span class='endnotereverse'><a href='#enref-395-15'>&#8617;</a></span></li>
+<li id='en-395-16'>Sainz, M.A., Armengol, J., Calm, R., Herrero, P., Jorba, L., Vehi, J, &#8220;Modal Interval Analysis &#8211; New Tools for Numerical Information&#8221;. Springer 2014 <span class='endnotereverse'><a href='#enref-395-16'>&#8617;</a></span></li>
+<li id='en-395-17'>Joab Winkler, Mahesan Niranjan (Editors), &#8220;Uncertainty in Geometric Computations&#8221;. Springer 2002 <span class='endnotereverse'><a href='#enref-395-17'>&#8617;</a></span></li>
+</ol>
+</div>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://ga-explorer.netlify.com/index.php/2015/08/14/history-of-numbers3/" data-a2a-title="A Functional History of Numbers (3 of 3)"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fga-explorer.netlify.com%2Findex.php%2F2015%2F08%2F14%2Fhistory-of-numbers3%2F&amp;linkname=A%20Functional%20History%20of%20Numbers%20%283%20of%203%29" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fga-explorer.netlify.com%2Findex.php%2F2015%2F08%2F14%2Fhistory-of-numbers3%2F&amp;linkname=A%20Functional%20History%20of%20Numbers%20%283%20of%203%29" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Fga-explorer.netlify.com%2Findex.php%2F2015%2F08%2F14%2Fhistory-of-numbers3%2F&amp;linkname=A%20Functional%20History%20of%20Numbers%20%283%20of%203%29" title="Google+" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share"></a></div></div>          <nav class="pagination group">
+                      </nav><!--/.pagination-->
+        </div>
+
+        <div class="sharrre-container">
+	<span>Share</span>
+  	   <div id="twitter" data-url="https://ga-explorer.netlify.com/index.php/2015/08/14/history-of-numbers3/" data-text="A Functional History of Numbers (3 of 3)" data-title="Tweet"><a class="box" href="#"><div class="count" href="#"><i class="fa fa-plus"></i></div><div class="share"><i class="fa fa-twitter"></i></div></a></div>
+    	   <div id="facebook" data-url="https://ga-explorer.netlify.com/index.php/2015/08/14/history-of-numbers3/" data-text="A Functional History of Numbers (3 of 3)" data-title="Like"></div>
+    	   <div id="googleplus" data-url="https://ga-explorer.netlify.com/index.php/2015/08/14/history-of-numbers3/" data-text="A Functional History of Numbers (3 of 3)" data-title="+1"></div>
+      </div><!--/.sharrre-container-->
+
+<script type="text/javascript">
+  	// Sharrre
+  	jQuery( function($) {
+                		$('#twitter').sharrre({
+        			share: {
+        				twitter: true
+        			},
+        			template: '<a class="box" href="#"><div class="count" href="#">{total}</div><div class="share"><i class="fa fa-twitter"></i></div></a>',
+        			enableHover: false,
+        			enableTracking: true,
+        			buttons: { twitter: {via: ''}},
+        			click: function(api, options){
+        				api.simulateClick();
+        				api.openPopup('twitter');
+        			}
+        		});
+            		            $('#facebook').sharrre({
+        			share: {
+        				facebook: true
+        			},
+        			template: '<a class="box" href="#"><div class="count" href="#">{total}</div><div class="share"><i class="fa fa-facebook-square"></i></div></a>',
+        			enableHover: false,
+        			enableTracking: true,
+              buttons:{layout: 'box_count'},
+        			click: function(api, options){
+        				api.simulateClick();
+        				api.openPopup('facebook');
+        			}
+        		});
+                                    		$('#googleplus').sharrre({
+        			share: {
+        				googlePlus: true
+        			},
+        			template: '<a class="box" href="#"><div class="count" href="#">{total}</div><div class="share"><i class="fa fa-google-plus-square"></i></div></a>',
+        			enableHover: false,
+        			enableTracking: true,
+              buttons:{size: 'tall'},
+        			urlCurl: 'https://ga-explorer.netlify.com/wp-content/plugins/hueman-addons/addons/assets/front/js/sharrre.php',
+        			click: function(api, options){
+        				api.simulateClick();
+        				api.openPopup('googlePlus');
+        			}
+        		});
+                        
+    		
+    			// Scrollable sharrre bar, contributed by Erik Frye. Awesome!
+    			var $_shareContainer = $(".sharrre-container"),
+    			    $_header         = $('#header'),
+    			    $_postEntry      = $('.entry'),
+        			$window          = $(window),
+        			startSharePosition = $_shareContainer.offset(),//object
+        			contentBottom    = $_postEntry.offset().top + $_postEntry.outerHeight(),
+        			topOfTemplate    = $_header.offset().top,
+              topSpacing       = _setTopSpacing();
+
+          //triggered on scroll
+    			shareScroll = function(){
+      				var scrollTop     = $window.scrollTop() + topOfTemplate,
+      				    stopLocation  = contentBottom - ($_shareContainer.outerHeight() + topSpacing);
+
+              $_shareContainer.css({position : 'fixed'});
+
+      				if( scrollTop > stopLocation ){
+      					  $_shareContainer.css( { position:'relative' } );
+                  $_shareContainer.offset(
+                      {
+                        top: contentBottom - $_shareContainer.outerHeight(),
+                        left: startSharePosition.left,
+                      }
+                  );
+      				}
+      				else if (scrollTop >= $_postEntry.offset().top - topSpacing){
+      					 $_shareContainer.css( { position:'fixed',top: '100px' } );
+                 $_shareContainer.offset(
+                      {
+                        //top: scrollTop + topSpacing,
+                        left: startSharePosition.left,
+                      }
+                  );
+      				} else if (scrollTop < startSharePosition.top + ( topSpacing - 1 ) ) {
+      					 $_shareContainer.css( { position:'relative' } );
+                 $_shareContainer.offset(
+                      {
+                        top: $_postEntry.offset().top,
+                        left:startSharePosition.left,
+                      }
+                  );
+      				}
+    			},
+
+          //triggered on resize
+    			shareMove = function() {
+      				startSharePosition = $_shareContainer.offset();
+      				contentBottom = $_postEntry.offset().top + $_postEntry.outerHeight();
+      				topOfTemplate = $_header.offset().top;
+      				_setTopSpacing();
+    			};
+
+    			/* As new images load the page content body gets longer. The bottom of the content area needs to be adjusted in case images are still loading. */
+    			setTimeout( function() {
+    				  contentBottom = $_postEntry.offset().top + $_postEntry.outerHeight();
+    			}, 2000);
+
+          function _setTopSpacing(){
+              var distanceFromTop  = 20;
+
+              if( $window.width() > 1024 ) {
+                topSpacing = distanceFromTop + $('.nav-wrap').outerHeight();
+              } else {
+                topSpacing = distanceFromTop;
+              }
+              return topSpacing;
+          }
+
+          //setup event listeners
+          $window.scroll( _.throttle( function() {
+              if ( $window.width() > 719 ) {
+                  shareScroll();
+              } else {
+                  $_shareContainer.css({
+                      top:'',
+                      left:'',
+                      position:''
+                  })
+              }
+          }, 50 ) );
+          $window.resize( _.debounce( function() {
+              if ( $window.width() > 719 ) {
+                  shareMove();
+              } else {
+                  $_shareContainer.css({
+                      top:'',
+                      left:'',
+                      position:''
+                  })
+              }
+          }, 50 ) );
+    		
+  	});
+</script>
+        <div class="clear"></div>
+      </div><!--/.entry-->
+
+    </div><!--/.post-inner-->
+  </article><!--/.post-->
+
+<div class="clear"></div>
+
+<p class="post-tags"><span>Tags:</span> <a href="https://ga-explorer.netlify.com/index.php/tag/algebra/" rel="tag">Algebra</a><a href="https://ga-explorer.netlify.com/index.php/tag/computing/" rel="tag">Computing</a><a href="https://ga-explorer.netlify.com/index.php/tag/history/" rel="tag">History</a><a href="https://ga-explorer.netlify.com/index.php/tag/numbers/" rel="tag">Numbers</a></p>
+
+
+
+
+<h4 class="heading">
+	<i class="fa fa-hand-o-right"></i>You may also like...</h4>
+
+<ul class="related-posts group">
+
+		<li class="related post-hover">
+		<article class="post-251 post type-post status-publish format-standard has-post-thumbnail hentry category-ga-history tag-algebra tag-geometry tag-history tag-numbers">
+
+			<div class="post-thumbnail">
+				<a href="https://ga-explorer.netlify.com/index.php/2015/07/24/history-of-numbers1/" title="A Functional History of Numbers (1 of 3)">
+					<img width="520" height="245" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/07/numbers-520x245.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="Black and white numbers background" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/07/numbers-520x245.jpg 520w, https://ga-explorer.netlify.com/wp-content/uploads/2015/07/numbers-720x340.jpg 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+									<a class="post-comments" href="https://ga-explorer.netlify.com/index.php/2015/07/24/history-of-numbers1/#respond"><span><i class="fa fa-comments-o"></i>0</span></a>
+							</div><!--/.post-thumbnail-->
+
+			<div class="related-inner">
+
+				<h4 class="post-title entry-title">
+					<a href="https://ga-explorer.netlify.com/index.php/2015/07/24/history-of-numbers1/" rel="bookmark" title="A Functional History of Numbers (1 of 3)">A Functional History of Numbers (1 of 3)</a>
+				</h4><!--/.post-title-->
+
+				<div class="post-meta group">
+					<p class="post-date">
+  <time class="published updated" datetime="2015-07-24 16:00:19">July 24, 2015</time>
+</p>
+
+  <p class="post-byline" style="display:none">&nbsp;by    <span class="vcard author">
+      <span class="fn"><a href="https://ga-explorer.netlify.com/index.php/author/gacomputing/" title="Posts by Ahmad Eid" rel="author">Ahmad Eid</a></span>
+    </span> &middot; Published <span class="published">July 24, 2015</span>
+     &middot; Last modified <span class="updated">October 14, 2017</span>  </p>
+				</div><!--/.post-meta-->
+
+			</div><!--/.related-inner-->
+
+		</article>
+	</li><!--/.related-->
+		<li class="related post-hover">
+		<article class="post-270 post type-post status-publish format-standard has-post-thumbnail hentry category-ga-history tag-algebra tag-computing tag-ga tag-geometry tag-history tag-numbers">
+
+			<div class="post-thumbnail">
+				<a href="https://ga-explorer.netlify.com/index.php/2015/08/07/history-of-numbers2/" title="A Functional History of Numbers (2 of 3)">
+					<img width="520" height="245" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Old-Geometry-520x245.png" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="Old-Geometry" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Old-Geometry-520x245.png 520w, https://ga-explorer.netlify.com/wp-content/uploads/2015/08/Old-Geometry-720x340.png 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+							</div><!--/.post-thumbnail-->
+
+			<div class="related-inner">
+
+				<h4 class="post-title entry-title">
+					<a href="https://ga-explorer.netlify.com/index.php/2015/08/07/history-of-numbers2/" rel="bookmark" title="A Functional History of Numbers (2 of 3)">A Functional History of Numbers (2 of 3)</a>
+				</h4><!--/.post-title-->
+
+				<div class="post-meta group">
+					<p class="post-date">
+  <time class="published updated" datetime="2015-08-07 16:00:09">August 7, 2015</time>
+</p>
+
+  <p class="post-byline" style="display:none">&nbsp;by    <span class="vcard author">
+      <span class="fn"><a href="https://ga-explorer.netlify.com/index.php/author/gacomputing/" title="Posts by Ahmad Eid" rel="author">Ahmad Eid</a></span>
+    </span> &middot; Published <span class="published">August 7, 2015</span>
+     &middot; Last modified <span class="updated">October 14, 2017</span>  </p>
+				</div><!--/.post-meta-->
+
+			</div><!--/.related-inner-->
+
+		</article>
+	</li><!--/.related-->
+		<li class="related post-hover">
+		<article class="post-2331 post type-post status-publish format-standard has-post-thumbnail hentry category-ga-history category-geometric-algebra category-interview tag-clifford-algebra tag-differential-geometry tag-dr-garret-sobczyk tag-foundations tag-geometric-algebra tag-geometric-calculus tag-linear-algebra tag-mathematics tag-physics tag-prof-david-hestenes">
+
+			<div class="post-thumbnail">
+				<a href="https://ga-explorer.netlify.com/index.php/2017/01/17/founding-geometric-calculus/" title="Founders of Geometric Calculus">
+					<img width="520" height="245" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/01/bridge-246913_1280-520x245.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="Bridge" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/01/bridge-246913_1280-520x245.jpg 520w, https://ga-explorer.netlify.com/wp-content/uploads/2017/01/bridge-246913_1280-720x340.jpg 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+							</div><!--/.post-thumbnail-->
+
+			<div class="related-inner">
+
+				<h4 class="post-title entry-title">
+					<a href="https://ga-explorer.netlify.com/index.php/2017/01/17/founding-geometric-calculus/" rel="bookmark" title="Founders of Geometric Calculus">Founders of Geometric Calculus</a>
+				</h4><!--/.post-title-->
+
+				<div class="post-meta group">
+					<p class="post-date">
+  <time class="published updated" datetime="2017-01-17 19:21:45">January 17, 2017</time>
+</p>
+
+  <p class="post-byline" style="display:none">&nbsp;by    <span class="vcard author">
+      <span class="fn"><a href="https://ga-explorer.netlify.com/index.php/author/gacomputing/" title="Posts by Ahmad Eid" rel="author">Ahmad Eid</a></span>
+    </span> &middot; Published <span class="published">January 17, 2017</span>
+     &middot; Last modified <span class="updated">October 13, 2017</span>  </p>
+				</div><!--/.post-meta-->
+
+			</div><!--/.related-inner-->
+
+		</article>
+	</li><!--/.related-->
+		
+</ul><!--/.post-related-->
+
+
+
+<section id="comments" class="themeform">
+
+	
+					<!-- comments closed, no comments -->
+		
+	
+	
+</section><!--/#comments-->          </div><!--/.pad-->
+        </section><!--/.content-->
+          
+
+        </div><!--/.main-inner-->
+      </div><!--/.main-->
+    </div><!--/.container-inner-->
+  </div><!--/.container-->
+    <footer id="footer">
+
+    
+    
+        <section class="container" id="footer-widgets">
+          <div class="container-inner">
+
+            <div class="pad group">
+
+                                <div class="footer-widget-1 grid one-full last">
+                    <div id="alxtabs-2" class="widget widget_hu_tabs">
+<h3 class="widget-title"></h3><ul class="alx-tabs-nav group tab-count-4"><li class="alx-tab tab-recent"><a href="#tab-recent-2" title="Recent Posts"><i class="fa fa-clock-o"></i><span>Recent Posts</span></a></li><li class="alx-tab tab-popular"><a href="#tab-popular-2" title="Popular Posts"><i class="fa fa-star"></i><span>Popular Posts</span></a></li><li class="alx-tab tab-tags"><a href="#tab-tags-2" title="Tags"><i class="fa fa-tags"></i><span>Tags</span></a></li><li class="alx-tab tab-comments"><a href="#tab-comments-2" title="Recent Comments"><i class="fa fa-comments-o"></i><span>Recent Comments</span></a></li></ul>
+	<div class="alx-tabs-container">
+
+
+		
+						
+			<ul id="tab-recent-2" class="alx-tab group thumbs-enabled">
+								<li>
+
+										<div class="tab-item-thumbnail">
+						<a href="https://ga-explorer.netlify.com/index.php/2017/10/18/exploring-static-web/" title="Exploring The Static Web">
+							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/10/spider-web-2732247_1280-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Web Design" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/10/spider-web-2732247_1280-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/10/spider-web-2732247_1280-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/10/spider-web-2732247_1280-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+					</div>
+					
+					<div class="tab-item-inner group">
+						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/exploration/" rel="category tag">Exploration</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/10/18/exploring-static-web/" rel="bookmark" title="Exploring The Static Web">Exploring The Static Web</a></p>
+						<p class="tab-item-date">18 Oct, 2017</p>					</div>
+
+				</li>
+								<li>
+
+										<div class="tab-item-thumbnail">
+						<a href="https://ga-explorer.netlify.com/index.php/2017/04/26/edifying-the-young/" title="Edifying The Young">
+							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+					</div>
+					
+					<div class="tab-item-inner group">
+						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/ga-books/" rel="category tag">GA Books</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-math/" rel="category tag">GA Math</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a> / <a href="https://ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/04/26/edifying-the-young/" rel="bookmark" title="Edifying The Young">Edifying The Young</a></p>
+						<p class="tab-item-date">26 Apr, 2017</p>					</div>
+
+				</li>
+								<li>
+
+										<div class="tab-item-thumbnail">
+						<a href="https://ga-explorer.netlify.com/index.php/2017/03/17/projective-insights/" title="Projective Insights">
+							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Projective Insights" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+					</div>
+					
+					<div class="tab-item-inner group">
+						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-math/" rel="category tag">GA Math</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a> / <a href="https://ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/03/17/projective-insights/" rel="bookmark" title="Projective Insights">Projective Insights</a></p>
+						<p class="tab-item-date">17 Mar, 2017</p>					</div>
+
+				</li>
+								<li>
+
+										<div class="tab-item-thumbnail">
+						<a href="https://ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" title="Visualizing Scientific Insights">
+							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="SciViz" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+					</div>
+					
+					<div class="tab-item-inner group">
+						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/computing/ga-computing/" rel="category tag">GA Computing</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> / <a href="https://ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" rel="bookmark" title="Visualizing Scientific Insights">Visualizing Scientific Insights</a></p>
+						<p class="tab-item-date">20 Feb, 2017</p>					</div>
+
+				</li>
+								<li>
+
+										<div class="tab-item-thumbnail">
+						<a href="https://ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" title="GMac: The Next Generation (2 of 2)">
+							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Arches" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+					</div>
+					
+					<div class="tab-item-inner group">
+						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/gmac/" rel="category tag">GMac</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" rel="bookmark" title="GMac: The Next Generation (2 of 2)">GMac: The Next Generation (2 of 2)</a></p>
+						<p class="tab-item-date">10 Feb, 2017</p>					</div>
+
+				</li>
+											</ul><!--/.alx-tab-->
+
+		
+
+		
+						<ul id="tab-popular-2" class="alx-tab group thumbs-enabled">
+
+								<li>
+
+										<div class="tab-item-thumbnail">
+						<a href="https://ga-explorer.netlify.com/index.php/2015/07/03/the-abstract/" title="The Abstract">
+							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/06/wordle-4-160x160.png" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Abstraction Word Cloud" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/06/wordle-4-160x160.png 160w, https://ga-explorer.netlify.com/wp-content/uploads/2015/06/wordle-4-150x150.png 150w, https://ga-explorer.netlify.com/wp-content/uploads/2015/06/wordle-4-320x320.png 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+					</div>
+					
+					<div class="tab-item-inner group">
+						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2015/07/03/the-abstract/" rel="bookmark" title="The Abstract">The Abstract</a></p>
+						<p class="tab-item-date">3 Jul, 2015</p>					</div>
+
+				</li>
+								<li>
+
+										<div class="tab-item-thumbnail">
+						<a href="https://ga-explorer.netlify.com/index.php/2017/04/26/edifying-the-young/" title="Edifying The Young">
+							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+					</div>
+					
+					<div class="tab-item-inner group">
+						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/ga-books/" rel="category tag">GA Books</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-math/" rel="category tag">GA Math</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a> / <a href="https://ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/04/26/edifying-the-young/" rel="bookmark" title="Edifying The Young">Edifying The Young</a></p>
+						<p class="tab-item-date">26 Apr, 2017</p>					</div>
+
+				</li>
+								<li>
+
+										<div class="tab-item-thumbnail">
+						<a href="https://ga-explorer.netlify.com/index.php/2017/03/17/projective-insights/" title="Projective Insights">
+							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Projective Insights" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+					</div>
+					
+					<div class="tab-item-inner group">
+						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-math/" rel="category tag">GA Math</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a> / <a href="https://ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/03/17/projective-insights/" rel="bookmark" title="Projective Insights">Projective Insights</a></p>
+						<p class="tab-item-date">17 Mar, 2017</p>					</div>
+
+				</li>
+								<li>
+
+										<div class="tab-item-thumbnail">
+						<a href="https://ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" title="Visualizing Scientific Insights">
+							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="SciViz" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+					</div>
+					
+					<div class="tab-item-inner group">
+						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/computing/ga-computing/" rel="category tag">GA Computing</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> / <a href="https://ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" rel="bookmark" title="Visualizing Scientific Insights">Visualizing Scientific Insights</a></p>
+						<p class="tab-item-date">20 Feb, 2017</p>					</div>
+
+				</li>
+								<li>
+
+										<div class="tab-item-thumbnail">
+						<a href="https://ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" title="GMac: The Next Generation (2 of 2)">
+							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Arches" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+					</div>
+					
+					<div class="tab-item-inner group">
+						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/gmac/" rel="category tag">GMac</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" rel="bookmark" title="GMac: The Next Generation (2 of 2)">GMac: The Next Generation (2 of 2)</a></p>
+						<p class="tab-item-date">10 Feb, 2017</p>					</div>
+
+				</li>
+											</ul><!--/.alx-tab-->
+
+		
+
+		
+			
+			<ul id="tab-comments-2" class="alx-tab group avatars-enabled">
+							</ul><!--/.alx-tab-->
+
+		
+		
+			<ul id="tab-tags-2" class="alx-tab group">
+				<li>
+					<a href="https://ga-explorer.netlify.com/index.php/tag/abstraction/" class="tag-cloud-link tag-link-16 tag-link-position-1" style="font-size: 8pt;" aria-label="Abstraction (1 item)">Abstraction</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/algebra/" class="tag-cloud-link tag-link-17 tag-link-position-2" style="font-size: 15.179487179487pt;" aria-label="Algebra (4 items)">Algebra</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/astrophysics/" class="tag-cloud-link tag-link-19 tag-link-position-3" style="font-size: 8pt;" aria-label="Astrophysics (1 item)">Astrophysics</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/belief-in-allah/" class="tag-cloud-link tag-link-21 tag-link-position-4" style="font-size: 8pt;" aria-label="Belief in Allah (1 item)">Belief in Allah</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/big-data/" class="tag-cloud-link tag-link-22 tag-link-position-5" style="font-size: 8pt;" aria-label="Big Data (1 item)">Big Data</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/biquaternions/" class="tag-cloud-link tag-link-23 tag-link-position-6" style="font-size: 8pt;" aria-label="Biquaternions (1 item)">Biquaternions</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/blade/" class="tag-cloud-link tag-link-24 tag-link-position-7" style="font-size: 8pt;" aria-label="Blade (1 item)">Blade</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/blades/" class="tag-cloud-link tag-link-25 tag-link-position-8" style="font-size: 8pt;" aria-label="Blades (1 item)">Blades</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/clifford-algebra/" class="tag-cloud-link tag-link-26 tag-link-position-9" style="font-size: 11.230769230769pt;" aria-label="Clifford Algebra (2 items)">Clifford Algebra</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/compiler/" class="tag-cloud-link tag-link-28 tag-link-position-10" style="font-size: 8pt;" aria-label="Compiler (1 item)">Compiler</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/computational-universe/" class="tag-cloud-link tag-link-29 tag-link-position-11" style="font-size: 8pt;" aria-label="Computational Universe (1 item)">Computational Universe</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/computer-algebra/" class="tag-cloud-link tag-link-30 tag-link-position-12" style="font-size: 8pt;" aria-label="Computer Algebra (1 item)">Computer Algebra</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/computer-graphics/" class="tag-cloud-link tag-link-31 tag-link-position-13" style="font-size: 8pt;" aria-label="Computer Graphics (1 item)">Computer Graphics</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/computer-science/" class="tag-cloud-link tag-link-32 tag-link-position-14" style="font-size: 11.230769230769pt;" aria-label="Computer Science (2 items)">Computer Science</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/computer-vision/" class="tag-cloud-link tag-link-33 tag-link-position-15" style="font-size: 11.230769230769pt;" aria-label="Computer Vision (2 items)">Computer Vision</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/computing/" class="tag-cloud-link tag-link-34 tag-link-position-16" style="font-size: 17.871794871795pt;" aria-label="Computing (6 items)">Computing</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/contraction/" class="tag-cloud-link tag-link-35 tag-link-position-17" style="font-size: 8pt;" aria-label="Contraction (1 item)">Contraction</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/control/" class="tag-cloud-link tag-link-36 tag-link-position-18" style="font-size: 8pt;" aria-label="Control (1 item)">Control</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/cybernetics/" class="tag-cloud-link tag-link-37 tag-link-position-19" style="font-size: 8pt;" aria-label="Cybernetics (1 item)">Cybernetics</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/development/" class="tag-cloud-link tag-link-38 tag-link-position-20" style="font-size: 8pt;" aria-label="Development (1 item)">Development</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/development-environment/" class="tag-cloud-link tag-link-39 tag-link-position-21" style="font-size: 8pt;" aria-label="Development Environment (1 item)">Development Environment</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/differential-geometry/" class="tag-cloud-link tag-link-40 tag-link-position-22" style="font-size: 8pt;" aria-label="Differential Geometry (1 item)">Differential Geometry</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/distance/" class="tag-cloud-link tag-link-41 tag-link-position-23" style="font-size: 8pt;" aria-label="Distance (1 item)">Distance</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/domain-specific/" class="tag-cloud-link tag-link-42 tag-link-position-24" style="font-size: 8pt;" aria-label="Domain Specific (1 item)">Domain Specific</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/dr-garret-sobczyk/" class="tag-cloud-link tag-link-43 tag-link-position-25" style="font-size: 8pt;" aria-label="Dr. Garret Sobczyk (1 item)">Dr. Garret Sobczyk</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/dr-yu-zhaoyuan/" class="tag-cloud-link tag-link-44 tag-link-position-26" style="font-size: 8pt;" aria-label="Dr. Yu Zhaoyuan (1 item)">Dr. Yu Zhaoyuan</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/dsl/" class="tag-cloud-link tag-link-45 tag-link-position-27" style="font-size: 11.230769230769pt;" aria-label="DSL (2 items)">DSL</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/duality/" class="tag-cloud-link tag-link-46 tag-link-position-28" style="font-size: 8pt;" aria-label="Duality (1 item)">Duality</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/effort/" class="tag-cloud-link tag-link-47 tag-link-position-29" style="font-size: 8pt;" aria-label="Effort (1 item)">Effort</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/engineering/" class="tag-cloud-link tag-link-48 tag-link-position-30" style="font-size: 8pt;" aria-label="Engineering (1 item)">Engineering</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/euclidean-geometry/" class="tag-cloud-link tag-link-49 tag-link-position-31" style="font-size: 8pt;" aria-label="Euclidean Geometry (1 item)">Euclidean Geometry</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/ga/" class="tag-cloud-link tag-link-55 tag-link-position-32" style="font-size: 11.230769230769pt;" aria-label="GA (2 items)">GA</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/geometric-algebra/" class="tag-cloud-link tag-link-58 tag-link-position-33" style="font-size: 22pt;" aria-label="Geometric Algebra (11 items)">Geometric Algebra</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/geometric-calculus/" class="tag-cloud-link tag-link-59 tag-link-position-34" style="font-size: 11.230769230769pt;" aria-label="Geometric Calculus (2 items)">Geometric Calculus</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/geometric-computing/" class="tag-cloud-link tag-link-60 tag-link-position-35" style="font-size: 11.230769230769pt;" aria-label="Geometric Computing (2 items)">Geometric Computing</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/geometry/" class="tag-cloud-link tag-link-62 tag-link-position-36" style="font-size: 15.179487179487pt;" aria-label="Geometry (4 items)">Geometry</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/gmac/" class="tag-cloud-link tag-link-64 tag-link-position-37" style="font-size: 11.230769230769pt;" aria-label="GMac (2 items)">GMac</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/history/" class="tag-cloud-link tag-link-70 tag-link-position-38" style="font-size: 13.384615384615pt;" aria-label="History (3 items)">History</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/interview/" class="tag-cloud-link tag-link-74 tag-link-position-39" style="font-size: 13.384615384615pt;" aria-label="Interview (3 items)">Interview</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/linear-algebra/" class="tag-cloud-link tag-link-80 tag-link-position-40" style="font-size: 13.384615384615pt;" aria-label="Linear Algebra (3 items)">Linear Algebra</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/neural-computing/" class="tag-cloud-link tag-link-89 tag-link-position-41" style="font-size: 11.230769230769pt;" aria-label="Neural Computing (2 items)">Neural Computing</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/numbers/" class="tag-cloud-link tag-link-90 tag-link-position-42" style="font-size: 15.179487179487pt;" aria-label="Numbers (4 items)">Numbers</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/projective-geometry/" class="tag-cloud-link tag-link-102 tag-link-position-43" style="font-size: 11.230769230769pt;" aria-label="Projective Geometry (2 items)">Projective Geometry</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/robotics/" class="tag-cloud-link tag-link-105 tag-link-position-44" style="font-size: 11.230769230769pt;" aria-label="Robotics (2 items)">Robotics</a>
+<a href="https://ga-explorer.netlify.com/index.php/tag/teaching/" class="tag-cloud-link tag-link-115 tag-link-position-45" style="font-size: 13.384615384615pt;" aria-label="Teaching (3 items)">Teaching</a>				</li>
+			</ul><!--/.alx-tab-->
+
+			</div>
+
+</div>
+<div id="responsive_lightbox_image_widget-2" class="widget rl-image-widget"><h3 class="widget-title"></h3><img class="rl-image-widget-image" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/GA-Explorer-Footer-v2.jpg" width="100%" height="auto" title="GA-Explorer-Footer-v2" alt="GA-Explorer-Footer-v2" style="margin-left: auto; margin-right: auto; display: block;" /><div class="rl-image-widget-text"></div></div>                  </div>
+              
+            </div><!--/.pad-->
+
+          </div><!--/.container-inner-->
+        </section><!--/.container-->
+
+    
+    
+    <section class="container" id="footer-bottom">
+      <div class="container-inner">
+
+        <a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+
+        <div class="pad group">
+
+          <div class="grid one-half">
+                        
+            <div id="copyright">
+                              <p>Geometric Algebra Explorer &copy; 2017. All Rights Reserved.</p>
+                          </div><!--/#copyright-->
+
+                                                          <div id="credit" style="">
+                    <p>Powered by&nbsp;<a class="fa fa-wordpress" title="Powered by WordPress" href="https://wordpress.org/" target="_blank"></a> - Designed with the&nbsp;<a href="https://presscustomizr.com/hueman/" title="Hueman theme">Hueman theme</a></p>
+                  </div><!--/#credit-->
+                          
+          </div>
+
+          <div class="grid one-half last">
+                                                  </div>
+
+        </div><!--/.pad-->
+
+      </div><!--/.container-inner-->
+    </section><!--/.container-->
+
+  </footer><!--/#footer-->
+
+</div><!--/#wrapper-->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/ga-explorer.netlify.com\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.9'></script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/hueman-addons/addons/assets/front/js/jQuerySharrre.min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"1","extLinksTargetExt":"1","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":false,"mobile":false},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"http:\/\/ga-explorer.netlify.com\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"fdbd3e4d50"},"userStarted":{"with":"with|3.3.21","on":{"date":"2017-10-12 21:00:09.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/js/scripts.min.js?ver=3.3.22'></script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=2.4'></script>
+<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
+<!--[if lt IE 9]>
+<script src="https://ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/js/ie/respond.js"></script>
+<![endif]-->
+<div id="turnkey-credit"> <div style="clear: both;"> <a href="https://www.turnkeylinux.org/wordpress">WordPress Appliance</a> - Powered by <a href="https://www.turnkeylinux.org">TurnKey Linux</a> </div> </div></body>
+</html>
