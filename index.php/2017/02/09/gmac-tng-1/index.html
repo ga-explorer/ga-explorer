@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
-<base href="https://ga-explorer.netlify.com" />
+<base href="ga-explorer.netlify.com" />
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="profile" href="http://gmpg.org/xfn/11">
-  <link rel="pingback" href="https://ga-explorer.netlify.com/xmlrpc.php">
+  <link rel="pingback" href="ga-explorer.netlify.com/xmlrpc.php">
 
   <title>GMac: The Next Generation (1 of 2) - Geometric Algebra Explorer</title>
 <script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
 
 <!-- This site is optimized with the Yoast SEO plugin v5.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
 <meta name="description" content="In this post, I talk about the first part of my journey developing GMac, the fascinating discoveries I made, and the difficulties I faced along the way."/>
-<link rel="canonical" href="https://ga-explorer.netlify.com/index.php/2017/02/09/gmac-tng-1/" />
+<link rel="canonical" href="ga-explorer.netlify.com/index.php/2017/02/09/gmac-tng-1/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="GMac: The Next Generation (1 of 2) - Geometric Algebra Explorer" />
 <meta property="og:description" content="In this post, I talk about the first part of my journey developing GMac, the fascinating discoveries I made, and the difficulties I faced along the way." />
-<meta property="og:url" content="https://ga-explorer.netlify.com/index.php/2017/02/09/gmac-tng-1/" />
+<meta property="og:url" content="ga-explorer.netlify.com/index.php/2017/02/09/gmac-tng-1/" />
 <meta property="og:site_name" content="Geometric Algebra Explorer" />
 <meta property="article:tag" content="Belief in Allah" />
 <meta property="article:tag" content="Computational Universe" />
@@ -36,21 +36,21 @@
 <meta property="article:published_time" content="2017-02-09T18:00:02+00:00" />
 <meta property="article:modified_time" content="2017-10-14T12:24:53+00:00" />
 <meta property="og:updated_time" content="2017-10-14T12:24:53+00:00" />
-<meta property="og:image" content="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280.jpg" />
+<meta property="og:image" content="ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280.jpg" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="853" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:description" content="In this post, I talk about the first part of my journey developing GMac, the fascinating discoveries I made, and the difficulties I faced along the way." />
 <meta name="twitter:title" content="GMac: The Next Generation (1 of 2) - Geometric Algebra Explorer" />
-<meta name="twitter:image" content="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280.jpg" />
-<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/ga-explorer.netlify.com\/","name":"Geometric Algebra Explorer","potentialAction":{"@type":"SearchAction","target":"http:\/\/ga-explorer.netlify.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<meta name="twitter:image" content="ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280.jpg" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/\/","name":"Geometric Algebra Explorer","potentialAction":{"@type":"SearchAction","target":"http:\/\/\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
 <!-- / Yoast SEO plugin. -->
 
 <link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="Geometric Algebra Explorer &raquo; Feed" href="https://ga-explorer.netlify.com/index.php/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Geometric Algebra Explorer &raquo; Comments Feed" href="https://ga-explorer.netlify.com/index.php/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Geometric Algebra Explorer &raquo; Feed" href="ga-explorer.netlify.com/index.php/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Geometric Algebra Explorer &raquo; Comments Feed" href="ga-explorer.netlify.com/index.php/comments/feed/" />
 <link id="hu-user-gfont" href="//fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700" rel="stylesheet" type="text/css">		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/ga-explorer.netlify.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
 			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -67,59 +67,59 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='papercite_css-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/papercite/papercite.css?ver=4.8.2' type='text/css' media='all' />
-<link rel='stylesheet' id='crayon-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta' type='text/css' media='all' />
-<link rel='stylesheet' id='cpsh-shortcodes-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/column-shortcodes//assets/css/shortcodes.css?ver=1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='contact-form-7-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9' type='text/css' media='all' />
-<link rel='stylesheet' id='mbpro-font-awesome-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/maxbuttons/assets/libraries/font-awesome/css/font-awesome.min.css?ver=4.8.2' type='text/css' media='all' />
-<link rel='stylesheet' id='responsive-lightbox-swipebox-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/responsive-lightbox/assets/swipebox/css/swipebox.min.css?ver=1.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='wds_frontend-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/slider-wd/css/wds_frontend.css?ver=1.1.91' type='text/css' media='all' />
-<link rel='stylesheet' id='wds_effects-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/slider-wd/css/wds_effects.css?ver=1.1.91' type='text/css' media='all' />
-<link rel='stylesheet' id='wds_font-awesome-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/slider-wd/css/font-awesome/font-awesome.css?ver=4.6.3' type='text/css' media='all' />
-<link rel='stylesheet' id='dlm-frontend-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/download-monitor/assets/css/frontend.css?ver=4.8.2' type='text/css' media='all' />
-<link rel='stylesheet' id='dashicons-css'  href='https://ga-explorer.netlify.com/wp-includes/css/dashicons.min.css?ver=4.8.2' type='text/css' media='all' />
-<link rel='stylesheet' id='hueman-main-style-css'  href='https://ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/css/main.min.css?ver=3.3.22' type='text/css' media='all' />
+<link rel='stylesheet' id='papercite_css-css'  href='ga-explorer.netlify.com/wp-content/plugins/papercite/papercite.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-css'  href='ga-explorer.netlify.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='cpsh-shortcodes-css'  href='ga-explorer.netlify.com/wp-content/plugins/column-shortcodes//assets/css/shortcodes.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='ga-explorer.netlify.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='mbpro-font-awesome-css'  href='ga-explorer.netlify.com/wp-content/plugins/maxbuttons/assets/libraries/font-awesome/css/font-awesome.min.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-lightbox-swipebox-css'  href='ga-explorer.netlify.com/wp-content/plugins/responsive-lightbox/assets/swipebox/css/swipebox.min.css?ver=1.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wds_frontend-css'  href='ga-explorer.netlify.com/wp-content/plugins/slider-wd/css/wds_frontend.css?ver=1.1.91' type='text/css' media='all' />
+<link rel='stylesheet' id='wds_effects-css'  href='ga-explorer.netlify.com/wp-content/plugins/slider-wd/css/wds_effects.css?ver=1.1.91' type='text/css' media='all' />
+<link rel='stylesheet' id='wds_font-awesome-css'  href='ga-explorer.netlify.com/wp-content/plugins/slider-wd/css/font-awesome/font-awesome.css?ver=4.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dlm-frontend-css'  href='ga-explorer.netlify.com/wp-content/plugins/download-monitor/assets/css/frontend.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='ga-explorer.netlify.com/wp-includes/css/dashicons.min.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='hueman-main-style-css'  href='ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/css/main.min.css?ver=3.3.22' type='text/css' media='all' />
 <style id='hueman-main-style-inline-css' type='text/css'>
 body { font-family:'Droid Serif', serif;font-size:1.00rem }@media only screen and (min-width: 720px) {
         .nav > li { font-size:1.00rem; }
       }.is-scrolled #header #nav-mobile { background-color: #454e5c; background-color: rgba(69,78,92,0.90) }.site-title a img { max-height: 280px; }body { background-color: #eaeaea; }
 </style>
-<link rel='stylesheet' id='hueman-font-awesome-css'  href='https://ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/css/font-awesome.min.css?ver=3.3.22' type='text/css' media='all' />
-<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.14' type='text/css' media='all' />
-<link rel='stylesheet' id='forget-about-shortcode-buttons-css'  href='https://ga-explorer.netlify.com/wp-content/plugins/forget-about-shortcode-buttons/public/css/button-styles.css?ver=2.1.1' type='text/css' media='all' />
-<!--n2css--><script type='text/javascript' src='https://ga-explorer.netlify.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/papercite/js/papercite.js?ver=4.8.2'></script>
+<link rel='stylesheet' id='hueman-font-awesome-css'  href='ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/css/font-awesome.min.css?ver=3.3.22' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='ga-explorer.netlify.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.14' type='text/css' media='all' />
+<link rel='stylesheet' id='forget-about-shortcode-buttons-css'  href='ga-explorer.netlify.com/wp-content/plugins/forget-about-shortcode-buttons/public/css/button-styles.css?ver=2.1.1' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='ga-explorer.netlify.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-content/plugins/papercite/js/papercite.js?ver=4.8.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/ga-explorer.netlify.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
 var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta'></script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var mb_ajax = {"ajaxurl":"http:\/\/ga-explorer.netlify.com\/wp-admin\/admin-ajax.php"};
+var mb_ajax = {"ajaxurl":"http:\/\/\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/maxbuttons/js/min/front.js?ver=1'></script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.7.2'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-content/plugins/maxbuttons/js/min/front.js?ver=1'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.7.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var rlArgs = {"script":"swipebox","selector":"lightbox","customEvents":"","activeGalleries":"1","animation":"1","hideCloseButtonOnMobile":"0","removeBarsOnMobile":"0","hideBars":"1","hideBarsDelay":"5000","videoMaxWidth":"1080","useSVG":"1","loopAtEnd":"0","woocommerce_gallery":"0"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/responsive-lightbox/js/front.js?ver=1.7.2'></script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/slider-wd/js/jquery.mobile.js?ver=1.1.91'></script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/slider-wd/js/wds_frontend.js?ver=1.1.91'></script>
-<link rel='https://api.w.org/' href='https://ga-explorer.netlify.com/index.php/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ga-explorer.netlify.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://ga-explorer.netlify.com/wp-includes/wlwmanifest.xml" /> 
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-content/plugins/responsive-lightbox/js/front.js?ver=1.7.2'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-content/plugins/slider-wd/js/jquery.mobile.js?ver=1.1.91'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-content/plugins/slider-wd/js/wds_frontend.js?ver=1.1.91'></script>
+<link rel='https://api.w.org/' href='ga-explorer.netlify.com/index.php/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="ga-explorer.netlify.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="ga-explorer.netlify.com/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 4.8.2" />
-<link rel='shortlink' href='https://ga-explorer.netlify.com/?p=2532' />
-<link rel="alternate" type="application/json+oembed" href="https://ga-explorer.netlify.com/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fga-explorer.netlify.com%2Findex.php%2F2017%2F02%2F09%2Fgmac-tng-1%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://ga-explorer.netlify.com/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fga-explorer.netlify.com%2Findex.php%2F2017%2F02%2F09%2Fgmac-tng-1%2F&#038;format=xml" />
+<link rel='shortlink' href='ga-explorer.netlify.com/?p=2532' />
+<link rel="alternate" type="application/json+oembed" href="ga-explorer.netlify.com/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Findex.php%2F2017%2F02%2F09%2Fgmac-tng-1%2F" />
+<link rel="alternate" type="text/xml+oembed" href="ga-explorer.netlify.com/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Findex.php%2F2017%2F02%2F09%2Fgmac-tng-1%2F&#038;format=xml" />
 
 <script type="text/javascript">
 var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};
@@ -155,16 +155,16 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
               }
             </style>
         <!--[if lt IE 9]>
-<script src="https://ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/js/ie/html5shiv-printshiv.min.js"></script>
-<script src="https://ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/js/ie/selectivizr.js"></script>
+<script src="ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/js/ie/html5shiv-printshiv.min.js"></script>
+<script src="ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/js/ie/selectivizr.js"></script>
 <![endif]-->
 		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 		<style type="text/css">.broken_link, a.broken_link {
 	text-decoration: line-through;
-}</style><link rel="icon" href="https://ga-explorer.netlify.com/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg" sizes="32x32" />
-<link rel="icon" href="https://ga-explorer.netlify.com/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-300x300.jpg" sizes="192x192" />
-<link rel="apple-touch-icon-precomposed" href="https://ga-explorer.netlify.com/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-300x300.jpg" />
-<meta name="msapplication-TileImage" content="https://ga-explorer.netlify.com/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-300x300.jpg" />
+}</style><link rel="icon" href="ga-explorer.netlify.com/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg" sizes="32x32" />
+<link rel="icon" href="ga-explorer.netlify.com/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-300x300.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="ga-explorer.netlify.com/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-300x300.jpg" />
+<meta name="msapplication-TileImage" content="ga-explorer.netlify.com/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-300x300.jpg" />
 <style type="text/css">/** Mega Menu CSS: fs **/</style>
 <style type="text/css"> #turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } body.wp-admin #turnkey-credit, body#image #turnkey-credit, body#media-upload #turnkey-credit { display: none; } </style></head>
 
@@ -194,37 +194,37 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
       <div class="nav-wrap container">
                   <ul class="nav container-inner group mobile-search">
                             <li>
-                  <form method="get" class="searchform themeform" action="https://ga-explorer.netlify.com/">
+                  <form method="get" class="searchform themeform" action="ga-explorer.netlify.com/">
 	<div>
 		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
 	</div>
 </form>                </li>
                       </ul>
-                <ul id="menu-main-navigation-menu" class="nav container-inner group"><li id="menu-item-2838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2838"><a href="https://ga-explorer.netlify.com/">Home</a></li>
+                <ul id="menu-main-navigation-menu" class="nav container-inner group"><li id="menu-item-2838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2838"><a href="ga-explorer.netlify.com/">Home</a></li>
 <li id="menu-item-3238" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3238"><a href="#">About</a>
 <ul  class="sub-menu">
-	<li id="menu-item-3240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3240"><a href="https://ga-explorer.netlify.com/index.php/dedication/">Dedication</a></li>
-	<li id="menu-item-3244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3244"><a href="https://ga-explorer.netlify.com/index.php/about-ga-explorer/">About GA Explorer</a></li>
-	<li id="menu-item-3245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3245"><a href="https://ga-explorer.netlify.com/index.php/site-news/">Site News</a></li>
-	<li id="menu-item-2839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2839"><a href="https://ga-explorer.netlify.com/index.php/contact/">Contact</a></li>
+	<li id="menu-item-3240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3240"><a href="ga-explorer.netlify.com/index.php/dedication/">Dedication</a></li>
+	<li id="menu-item-3244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3244"><a href="ga-explorer.netlify.com/index.php/about-ga-explorer/">About GA Explorer</a></li>
+	<li id="menu-item-3245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3245"><a href="ga-explorer.netlify.com/index.php/site-news/">Site News</a></li>
+	<li id="menu-item-2839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2839"><a href="ga-explorer.netlify.com/index.php/contact/">Contact</a></li>
 </ul>
 </li>
-<li id="menu-item-2840" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2840"><a href="https://ga-explorer.netlify.com/index.php/blog/">Blog</a></li>
+<li id="menu-item-2840" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2840"><a href="ga-explorer.netlify.com/index.php/blog/">Blog</a></li>
 <li id="menu-item-2835" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2835"><a href="#">Geometric Algebra</a>
 <ul  class="sub-menu">
-	<li id="menu-item-2843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2843"><a href="https://ga-explorer.netlify.com/index.php/ga-online-resources/">GA Online Resources</a></li>
-	<li id="menu-item-2844" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2844"><a href="https://ga-explorer.netlify.com/index.php/ga-community/">GA Community</a></li>
-	<li id="menu-item-2846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2846"><a href="https://ga-explorer.netlify.com/index.php/ga-software/">GA Software</a></li>
+	<li id="menu-item-2843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2843"><a href="ga-explorer.netlify.com/index.php/ga-online-resources/">GA Online Resources</a></li>
+	<li id="menu-item-2844" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2844"><a href="ga-explorer.netlify.com/index.php/ga-community/">GA Community</a></li>
+	<li id="menu-item-2846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2846"><a href="ga-explorer.netlify.com/index.php/ga-software/">GA Software</a></li>
 </ul>
 </li>
 <li id="menu-item-2836" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2836"><a href="https://gmac-guides.netlify.com/">GMac Guides</a></li>
-<li id="menu-item-2856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2856"><a href="https://ga-explorer.netlify.com/index.php/publications/">Publications</a></li>
+<li id="menu-item-2856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2856"><a href="ga-explorer.netlify.com/index.php/publications/">Publications</a></li>
 <li id="menu-item-2837" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2837"><a href="#">Explorations</a></li>
 <li id="menu-item-2834" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2834"><a href="#">Galleries</a>
 <ul  class="sub-menu">
-	<li id="menu-item-2845" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2845"><a href="https://ga-explorer.netlify.com/index.php/islamic-calligraphy/">Islamic Calligraphy</a></li>
-	<li id="menu-item-2854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2854"><a href="https://ga-explorer.netlify.com/index.php/gmac-logos/">GMac Logos</a></li>
-	<li id="menu-item-2855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2855"><a href="https://ga-explorer.netlify.com/index.php/textcomposerlib-logos/">TextComposerLib Logos</a></li>
+	<li id="menu-item-2845" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2845"><a href="ga-explorer.netlify.com/index.php/islamic-calligraphy/">Islamic Calligraphy</a></li>
+	<li id="menu-item-2854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2854"><a href="ga-explorer.netlify.com/index.php/gmac-logos/">GMac Logos</a></li>
+	<li id="menu-item-2855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2855"><a href="ga-explorer.netlify.com/index.php/textcomposerlib-logos/">TextComposerLib Logos</a></li>
 </ul>
 </li>
 </ul>      </div>
@@ -236,31 +236,31 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
     <i class="fa fa-angle-double-up" aria-hidden="true" data-toggle="up" title="Collapse menu"></i>
   </div>
   <div class="nav-wrap container">
-    <ul id="menu-main-navigation-menu-1" class="nav container-inner group"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2838"><a href="https://ga-explorer.netlify.com/">Home</a></li>
+    <ul id="menu-main-navigation-menu-1" class="nav container-inner group"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2838"><a href="ga-explorer.netlify.com/">Home</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3238"><a href="#">About</a>
 <ul  class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3240"><a href="https://ga-explorer.netlify.com/index.php/dedication/">Dedication</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3244"><a href="https://ga-explorer.netlify.com/index.php/about-ga-explorer/">About GA Explorer</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3245"><a href="https://ga-explorer.netlify.com/index.php/site-news/">Site News</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2839"><a href="https://ga-explorer.netlify.com/index.php/contact/">Contact</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3240"><a href="ga-explorer.netlify.com/index.php/dedication/">Dedication</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3244"><a href="ga-explorer.netlify.com/index.php/about-ga-explorer/">About GA Explorer</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3245"><a href="ga-explorer.netlify.com/index.php/site-news/">Site News</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2839"><a href="ga-explorer.netlify.com/index.php/contact/">Contact</a></li>
 </ul>
 </li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2840"><a href="https://ga-explorer.netlify.com/index.php/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2840"><a href="ga-explorer.netlify.com/index.php/blog/">Blog</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2835"><a href="#">Geometric Algebra</a>
 <ul  class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2843"><a href="https://ga-explorer.netlify.com/index.php/ga-online-resources/">GA Online Resources</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2844"><a href="https://ga-explorer.netlify.com/index.php/ga-community/">GA Community</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2846"><a href="https://ga-explorer.netlify.com/index.php/ga-software/">GA Software</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2843"><a href="ga-explorer.netlify.com/index.php/ga-online-resources/">GA Online Resources</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2844"><a href="ga-explorer.netlify.com/index.php/ga-community/">GA Community</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2846"><a href="ga-explorer.netlify.com/index.php/ga-software/">GA Software</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2836"><a href="https://gmac-guides.netlify.com/">GMac Guides</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2856"><a href="https://ga-explorer.netlify.com/index.php/publications/">Publications</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2856"><a href="ga-explorer.netlify.com/index.php/publications/">Publications</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2837"><a href="#">Explorations</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2834"><a href="#">Galleries</a>
 <ul  class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2845"><a href="https://ga-explorer.netlify.com/index.php/islamic-calligraphy/">Islamic Calligraphy</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2854"><a href="https://ga-explorer.netlify.com/index.php/gmac-logos/">GMac Logos</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2855"><a href="https://ga-explorer.netlify.com/index.php/textcomposerlib-logos/">TextComposerLib Logos</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2845"><a href="ga-explorer.netlify.com/index.php/islamic-calligraphy/">Islamic Calligraphy</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2854"><a href="ga-explorer.netlify.com/index.php/gmac-logos/">GMac Logos</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2855"><a href="ga-explorer.netlify.com/index.php/textcomposerlib-logos/">TextComposerLib Logos</a></li>
 </ul>
 </li>
 </ul>  </div>
@@ -268,7 +268,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
       <div class="container-inner">
         <div class="toggle-search"><i class="fa fa-search"></i></div>
         <div class="search-expand">
-          <div class="search-expand-inner"><form method="get" class="searchform themeform" action="https://ga-explorer.netlify.com/">
+          <div class="search-expand-inner"><form method="get" class="searchform themeform" action="ga-explorer.netlify.com/">
 	<div>
 		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
 	</div>
@@ -285,7 +285,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
               <div class="group pad central-header-zone">
                                                   </div>
 
-              <a href="https://ga-explorer.netlify.com/" rel="home"><img class="site-image" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/GA-Explorer-Logo-v2.jpg" alt="Geometric Algebra Explorer"></a>          </div>
+              <a href="ga-explorer.netlify.com/" rel="home"><img class="site-image" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/GA-Explorer-Logo-v2.jpg" alt="Geometric Algebra Explorer"></a>          </div>
       
       
     </div><!--/.container-inner-->
@@ -301,7 +301,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
               <section class="content">
               <div class="page-title pad group">
           	    		<ul class="meta-single group">
-    			<li class="category"><a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> <span>/</span> <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/gmac/" rel="category tag">GMac</a></li>
+    			<li class="category"><a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> <span>/</span> <a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/gmac/" rel="category tag">GMac</a></li>
     			    		</ul>
 
     	
@@ -312,7 +312,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 
       <h1 class="post-title entry-title">GMac: The Next Generation (1 of 2)</h1>
 <p class="post-byline">by   <span class="vcard author">
-     <span class="fn"><a href="https://ga-explorer.netlify.com/index.php/author/gacomputing/" title="Posts by Ahmad Eid" rel="author">Ahmad Eid</a></span>
+     <span class="fn"><a href="ga-explorer.netlify.com/index.php/author/gacomputing/" title="Posts by Ahmad Eid" rel="author">Ahmad Eid</a></span>
    </span> &middot;
                             Published <time class="published" datetime="February 9, 2017">February 9, 2017</time>
               &middot; Updated <time class="updated" datetime="October 14, 2017">October 14, 2017</time>
@@ -322,44 +322,44 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 
       <div class="entry themeform share">
         <div class="entry-inner">
-          <p><a href="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280.jpg" data-rel="lightbox-0" title=""><img class="aligncenter size-large wp-image-2536" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280-1024x682.jpg" alt="Water Drop" width="1024" height="682" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280-1024x682.jpg 1024w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280-300x200.jpg 300w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280-768x512.jpg 768w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+          <p><a href="ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280.jpg" data-rel="lightbox-0" title=""><img class="aligncenter size-large wp-image-2536" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280-1024x682.jpg" alt="Water Drop" width="1024" height="682" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280-1024x682.jpg 1024w, ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280-300x200.jpg 300w, ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280-768x512.jpg 768w, ga-explorer.netlify.com/wp-content/uploads/2017/02/water-1828846_1280.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
 <blockquote><p>The belief that complex systems require armies of designers and programmers is wrong. A system that is not understood in its entirety, or at least to a significant degree of detail by a single individual, should probably not be built. &#8212; Niklaus Wirth.</p></blockquote>
-<p><span class="dropcap">I</span>n the summer of 2003, I was almost at the end of <a href="https://arxiv.org/abs/1607.06973" target="_blank">my M.Sc. thesis</a>. One day I was surfing the web searching for some references to add to the thesis I&#8217;d been writing. I ran into Mikael Nilsson’s interesting <a href="http://cid.nada.kth.se/pdf/CID-201.pdf" target="_blank">M.Sc. thesis</a> “Geometric Algebra with Conzilla: Building a Conceptual Web of Mathematics”. His work contains a nice introduction to Geometric Algebra, with accompanying <a href="https://en.wikipedia.org/wiki/Unified_Modeling_Language" target="_blank">UML</a>-based conceptual models. It got me very curious about GA. I made some more searches finding a few papers, books, and tutorials. After reading some of them I was suddenly transferred into a new world of algebraic abstractions. For the first time in my life as a student, engineer, and software developer I could hope to express, explore, and manipulate geometric abstractions with such clarity. I then decided that my Ph.D. will be about exploring Geometric Algebra using the best way I know: developing software. It was a natural decision to make given GA&#8217;s potential, but a hard and lonely journey to make. About 8 years have passed now developing my tool, <strong><a href="https://ga-explorer.netlify.com/index.php/about-gmac/" target="_blank">GMac</a></strong>, into its current state all by myself passing through difficult events I could only have passed by Allah&#8217;s well and mercy.</p>
+<p><span class="dropcap">I</span>n the summer of 2003, I was almost at the end of <a href="https://arxiv.org/abs/1607.06973" target="_blank">my M.Sc. thesis</a>. One day I was surfing the web searching for some references to add to the thesis I&#8217;d been writing. I ran into Mikael Nilsson’s interesting <a href="http://cid.nada.kth.se/pdf/CID-201.pdf" target="_blank">M.Sc. thesis</a> “Geometric Algebra with Conzilla: Building a Conceptual Web of Mathematics”. His work contains a nice introduction to Geometric Algebra, with accompanying <a href="https://en.wikipedia.org/wiki/Unified_Modeling_Language" target="_blank">UML</a>-based conceptual models. It got me very curious about GA. I made some more searches finding a few papers, books, and tutorials. After reading some of them I was suddenly transferred into a new world of algebraic abstractions. For the first time in my life as a student, engineer, and software developer I could hope to express, explore, and manipulate geometric abstractions with such clarity. I then decided that my Ph.D. will be about exploring Geometric Algebra using the best way I know: developing software. It was a natural decision to make given GA&#8217;s potential, but a hard and lonely journey to make. About 8 years have passed now developing my tool, <strong><a href="ga-explorer.netlify.com/index.php/about-gmac/" target="_blank" class="broken_link">GMac</a></strong>, into its current state all by myself passing through difficult events I could only have passed by Allah&#8217;s well and mercy.</p>
 <p>In this post and the next, I talk about this journey and some of the lessons I learned along the way. I talk about how the current GMac design came to appear and the joys I found learning the hard way that profound belief <sup class='endnote'><a href='#en-2532-1' id='enref-2532-1' onclick='return hhEndnotes_show(2532)'>1</a></sup>, solid foundation, clear goals, and lots of patience are together the only way to realizing distant dreams.</p>
 <h3>Discovering The Computational Universe</h3>
 <blockquote><p>I had a very selfish reason for building Mathematica. I wanted to use it myself, a bit like Galileo got to use his telescope four hundred years ago. But I wanted to look, not at the astronomical universe, but at the computational universe. &#8212; Stephen Wolfram.</p></blockquote>
-<div id="attachment_2486" style="width: 310px" class="wp-caption alignright"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Rule30-first-500-rows.png" data-rel="lightbox-1" title=""><img class="size-medium wp-image-2486" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Rule30-first-500-rows-300x150.png" alt="Rule30-first-500-rows" width="300" height="150" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Rule30-first-500-rows-300x150.png 300w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Rule30-first-500-rows-768x384.png 768w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Rule30-first-500-rows.png 1008w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Rule 30: Rich behavior can emerge from very simple computational rules. (<a href="https://en.wikipedia.org/wiki/Rule_30" target="_blank">source</a>)</p></div>
+<div id="attachment_2486" style="width: 310px" class="wp-caption alignright"><a href="ga-explorer.netlify.com/wp-content/uploads/2017/02/Rule30-first-500-rows.png" data-rel="lightbox-1" title=""><img class="size-medium wp-image-2486" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/Rule30-first-500-rows-300x150.png" alt="Rule30-first-500-rows" width="300" height="150" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/02/Rule30-first-500-rows-300x150.png 300w, ga-explorer.netlify.com/wp-content/uploads/2017/02/Rule30-first-500-rows-768x384.png 768w, ga-explorer.netlify.com/wp-content/uploads/2017/02/Rule30-first-500-rows.png 1008w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Rule 30: Rich behavior can emerge from very simple computational rules. (<a href="https://en.wikipedia.org/wiki/Rule_30" target="_blank">source</a>)</p></div>
 <p>In the Autumn of 2005, I&#8217;d just begun my Ph.D. preparatory courses when I had another perceptual shift, this time in how I think about computations. I found Stephen Wolfram&#8217;s 2002 fascinating book <strong>&#8220;<a href="http://www.wolframscience.com/thebook.html" target="_blank">A New Kind of Science</a>&#8221; (NKS)</strong> after watching <a href="https://www.youtube.com/watch?v=_eC14GonZnU&amp;t=2s" data-rel="lightbox-video-0" target="_blank">one of his lectures about it</a>. After reading a few pages of NKS online, I couldn&#8217;t stop until I finished reading the whole book, without the endnotes, in just 2 weeks. I couldn&#8217;t wait to buy the book because it would take at least a month to arrive back then so <a href="http://www.wolframscience.com/nks/" target="_blank">I read it online</a>.</p>
 <p>Reading this book made me rethink about many concepts of science, mathematics, and computation that I took for granted. Concepts like <a href="http://www.wolframscience.com/nks/chap-4--systems-based-on-numbers/" target="_blank">numbers</a>, <a href="http://www.wolframscience.com/nks/chap-6--starting-from-randomness/" target="_blank">chaos</a>, <a href="http://www.wolframscience.com/nks/chap-6--starting-from-randomness/" target="_blank">randomness</a>, <a href="http://www.wolframscience.com/nks/chap-3--the-world-of-simple-programs/" target="_blank">complexity</a>, <a href="https://www.youtube.com/watch?v=DJ0WG3D3m1U" data-rel="lightbox-video-1" target="_blank">intelligence</a>, <a href="http://www.wolframscience.com/nks/p606--traditional-mathematics-and-mathematical-formulas/" target="_blank">mathematical models</a>, and <a href="http://www.wolframscience.com/nks/chap-11--the-notion-of-computation/" target="_blank">the nature of computation</a>. Although I don&#8217;t agree with everything he says in his book, Wolfram&#8217;s insights and explorations are fascinating and inspiring for someone like me. The most intriguing of all the concepts he talks about is the <strong><a href="http://www.stephenwolfram.com/publications/mining-computational-universe/" target="_blank">Computational Universe</a></strong>. Wolfram used <a href="https://en.wikipedia.org/wiki/Cellular_automaton" target="_blank">cellular automata</a> and similar computational tools for mapping and mining the computational universe.</p>
 <p>I instantly realized that Geometric Algebra can be a uniquely valuable tool in any attempt to explore the computational universe. I just needed the right computational vessel to make such explorations. I searched a lot but found none that suited my goals. I read that Wolfram had created <a href="https://en.wikipedia.org/wiki/Wolfram_Mathematica" target="_blank"><strong>Mathematica</strong></a> as his personal lab for doing computational experiments. All this made me decide to create my own GA-based tool for voyaging and exploring the computational universe, and so my journey began.</p>
 <h3>Creating The Perfect Library</h3>
 <blockquote><p>Good judgment comes from experience, and experience comes from bad judgment. &#8212; Frederick P. Brooks</p></blockquote>
-<div id="attachment_2487" style="width: 310px" class="wp-caption alignright"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/OOPrinciples.jpg" data-rel="lightbox-2" title=""><img class="size-medium wp-image-2487" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/OOPrinciples-300x266.jpg" alt="OO Design Principles" width="300" height="266" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/OOPrinciples-300x266.jpg 300w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/OOPrinciples.jpg 620w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Object Oriented Design Principles (<a href="https://www.codeproject.com/Articles/186107/Object-Orientation-Beginners-Tutorial" target="_blank">source</a>)</p></div>
+<div id="attachment_2487" style="width: 310px" class="wp-caption alignright"><a href="ga-explorer.netlify.com/wp-content/uploads/2017/02/OOPrinciples.jpg" data-rel="lightbox-2" title=""><img class="size-medium wp-image-2487" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/OOPrinciples-300x266.jpg" alt="OO Design Principles" width="300" height="266" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/02/OOPrinciples-300x266.jpg 300w, ga-explorer.netlify.com/wp-content/uploads/2017/02/OOPrinciples.jpg 620w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Object Oriented Design Principles (<a href="https://www.codeproject.com/Articles/186107/Object-Orientation-Beginners-Tutorial" target="_blank">source</a>)</p></div>
 <p>When it comes to repetitive tasks, good software developers are the laziest of people; they prefer to create programs to do the repetitive tasks for them <sup class='endnote'><a href='#en-2532-2' id='enref-2532-2' onclick='return hhEndnotes_show(2532)'>2</a></sup>. To be more accurate, their deep creativity drives their apparent laziness. They never want to do the same task twice, and if they have to, they never want to do it in the same way. They almost always enjoy finding the most general framework for doing several tasks at once with minimum effort; I&#8217;m one of those people.</p>
 <p>I started my actual Ph.D. research work in 2007 by studying GA mathematics through reading the excellent book &#8220;<a href="http://www.sciencedirect.com/science/book/9780123694652" target="_blank">Geometric Algebra for Computer Science</a>&#8220;. In 2008 I started to investigate several software designs and implementations in hope to implement a single perfect universal GA-based software library.</p>
-<p>Driven by my creative laziness, I initially thought that the powerful unification GA brings to mathematics can be directly translated into a unified software library suitable for all <a href="https://ga-explorer.netlify.com/index.php/2015/09/18/ga-computing2/" target="_blank">Geometric Computing</a> purposes. I was naive back then with little experience in the difficult problems that face designing large sophisticated multi-purpose software systems. I gradually realized that this perfect software library is a myth. While working on the development of two big decision support software systems based on relational databases for several years, I gradually gained experience in the true meaning of the phrase &#8220;Necessity is the Mother of Invention&#8221;.</p>
+<p>Driven by my creative laziness, I initially thought that the powerful unification GA brings to mathematics can be directly translated into a unified software library suitable for all <a href="ga-explorer.netlify.com/index.php/2015/09/18/ga-computing2/" target="_blank">Geometric Computing</a> purposes. I was naive back then with little experience in the difficult problems that face designing large sophisticated multi-purpose software systems. I gradually realized that this perfect software library is a myth. While working on the development of two big decision support software systems based on relational databases for several years, I gradually gained experience in the true meaning of the phrase &#8220;Necessity is the Mother of Invention&#8221;.</p>
 <p>Successful software libraries are mainly driven by necessity not only by the elegance of some underlying abstraction, even a beautiful algebraic abstraction such as GA. Each particular application has its own set of necessities that we, software engineers, call requirements: <a href="https://en.wikipedia.org/wiki/Functional_requirement" target="_blank">functional</a>, <a href="https://en.wikipedia.org/wiki/Non-functional_requirement" target="_blank">non-functional</a>, financial, scope related, performance related, etc. There can never be a single perfect software library suitable for all applications in a wide-ranging domain like Geometric Computing.</p>
 <p>Failing in my initial attempt I went higher in the level of abstraction. I had a good background in <a href="https://en.wikipedia.org/wiki/Object-oriented_design" target="_blank">Object-Oriented (OO) Software Design</a>. Why not, I asked myself, create an OO design based on the mathematical concepts of Geometric Algebra and then derive specific concrete implementations for specific applications. After all, this is how I learned about GA originally; using UML to diagram GA&#8217;s main concepts and relations. I soon found that OO design is a good conceptual tool to study some domain, but there can never be a single OO design suitable for all purposes either; especially when good memory\processing performance is critical <sup class='endnote'><a href='#en-2532-3' id='enref-2532-3' onclick='return hhEndnotes_show(2532)'>3</a></sup>. This got me to learn about other <a href="https://en.wikipedia.org/wiki/Programming_paradigm" target="_blank">programming paradigms</a> I&#8217;ve never considered reading about before.</p>
 <h3>Shifting Paradigms</h3>
 <blockquote><p>One principle problem of educating software engineers is that they will not use a new method until they believe it works and, more importantly, that they will not believe the method will work until they see it for themselves. &#8212; W. S. Humphrey, The Personal Software Process</p></blockquote>
-<div id="attachment_2480" style="width: 310px" class="wp-caption alignright"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Programming-Paradigms.png" data-rel="lightbox-3" title=""><img class="size-medium wp-image-2480" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Programming-Paradigms-300x261.png" alt="Programming Paradigms" width="300" height="261" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Programming-Paradigms-300x261.png 300w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Programming-Paradigms-768x667.png 768w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Programming-Paradigms-1024x889.png 1024w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Programming-Paradigms.png 1179w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Programming Paradigms (<a href="https://en.wikipedia.org/wiki/File:Programming_paradigms.svg" target="_blank">source</a>)</p></div>
+<div id="attachment_2480" style="width: 310px" class="wp-caption alignright"><a href="ga-explorer.netlify.com/wp-content/uploads/2017/02/Programming-Paradigms.png" data-rel="lightbox-3" title=""><img class="size-medium wp-image-2480" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/Programming-Paradigms-300x261.png" alt="Programming Paradigms" width="300" height="261" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/02/Programming-Paradigms-300x261.png 300w, ga-explorer.netlify.com/wp-content/uploads/2017/02/Programming-Paradigms-768x667.png 768w, ga-explorer.netlify.com/wp-content/uploads/2017/02/Programming-Paradigms-1024x889.png 1024w, ga-explorer.netlify.com/wp-content/uploads/2017/02/Programming-Paradigms.png 1179w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Programming Paradigms (<a href="https://en.wikipedia.org/wiki/File:Programming_paradigms.svg" target="_blank">source</a>)</p></div>
 <p>Back in 2009, I only knew about <a href="https://en.wikipedia.org/wiki/Procedural_programming" target="_blank">procedural programming</a> and <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" target="_blank">object oriented programming</a>. I did some reading and discovered many other paradigms like functional, aspect-oriented, concurrent, dynamic, feature-oriented, and more. I realized that GA can be used equally well as an algebraic base for creating software in all of these paradigms. My deep creative laziness led me to the most general of all paradigms: <a href="https://en.wikipedia.org/wiki/Automatic_programming" target="_blank">Automatic Meta-Programming</a>.</p>
 <p>In April 2009 I bought and read the book &#8220;<a href="https://www.amazon.com/Generative-Programming-Methods-Tools-Applications/dp/0201309777" target="_blank">Generative Programming: Methods, Tools, and Applications</a>&#8221; in which the authors present a grand tour of <a href="http://program-transformation.org/Transform/GenerativeProgrammingWiki" target="_blank">Generative Programming</a> that is bound to become a classic. The book focuses on the generally unappreciated connection, back then, between <strong><a href="https://en.wikipedia.org/wiki/Domain-specific_language" target="_blank">Domain Specific Languages</a> (DSLs)</strong> and Generative Programming as a motivation for future developments. I immediately started designing and implementing the first prototype of my dream GA-based software vessel for exploring the computational universe; I called it GMac. The prototype took a couple of months to be functional for the purpose of completing my Ph.D. <sup class='endnote'><a href='#en-2532-4' id='enref-2532-4' onclick='return hhEndnotes_show(2532)'>4</a></sup>.</p>
 <p>I tried to apply some of what I&#8217;d learned from the Generative Programming book to implement simple GA-based algorithms, which I call <em><strong>G</strong></em>eometric <em><strong>Mac</strong></em>ros, through code generation. A geometric macro is a set of standard GA multivector expressions assigned to local variables inside the macro. There are no <a href="https://en.wikipedia.org/wiki/Control_flow" target="_blank">control flow statements</a> inside this simple computational concept. All the computational power mainly comes from the mathematics of GA itself. I used the GMac prototype to implement parts of a ray tracer that I implemented based on Kevin Suffern&#8217;s nice book &#8220;<a href="http://www.raytracegroundup.com/" target="_blank">Ray Tracing from the Ground Up</a>&#8220;, in addition to some other small computational problems.</p>
 <p>Using Automatic Programming and Code Generation is a fundamental design decision I made for GMac. My experience with OO design can be expected to extend to all other programming paradigms. There can be no universal design methodology suitable for all applications. Even more, in a single large application, we might need several paradigms to be used <sup class='endnote'><a href='#en-2532-5' id='enref-2532-5' onclick='return hhEndnotes_show(2532)'>5</a></sup>. The only common activity between all paradigms is the creative composition of structured textual code that is both human-readable and machine-compilable. Instead of trying to force some kind of fixed design method upon GA-based application developers, we can just provide a set of powerful tools to help them in composing their application in whatever programming paradigm, software system design, or programming language they choose. I still believe this is the best, most effective, and most general way to use GA in software development.</p>
 <h3>Swimming Upstream</h3>
 <blockquote><p>I had to resign from the University to continue my intellectual research project. &#8212; <a href="http://www.arabphilosophers.com/English/philosophers/contemporary/contemporary-names/Abdl-Wahab%20Elmessiri/Article/E_Elmessiri.htm" target="_blank">Professor Abdel-Wahab Elmessiri</a> <sup class='endnote'><a href='#en-2532-6' id='enref-2532-6' onclick='return hhEndnotes_show(2532)'>6</a></sup></p></blockquote>
-<div id="attachment_2548" style="width: 295px" class="wp-caption alignright"><a href="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Introvert-Brain.jpg" data-rel="lightbox-4" title=""><img class="size-large wp-image-2548" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Introvert-Brain-285x1024.jpg" alt="Introvert Brain" width="285" height="1024" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Introvert-Brain-285x1024.jpg 285w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Introvert-Brain.jpg 736w" sizes="(max-width: 285px) 100vw, 285px" /></a><p class="wp-caption-text">I&#8217;m an Introvert. The brains of Introverts and Extroverts work differently.</p></div>
+<div id="attachment_2548" style="width: 295px" class="wp-caption alignright"><a href="ga-explorer.netlify.com/wp-content/uploads/2017/02/Introvert-Brain.jpg" data-rel="lightbox-4" title=""><img class="size-large wp-image-2548" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/Introvert-Brain-285x1024.jpg" alt="Introvert Brain" width="285" height="1024" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/02/Introvert-Brain-285x1024.jpg 285w, ga-explorer.netlify.com/wp-content/uploads/2017/02/Introvert-Brain.jpg 736w" sizes="(max-width: 285px) 100vw, 285px" /></a><p class="wp-caption-text">I&#8217;m an Introvert. The brains of Introverts and Extroverts work differently.</p></div>
 <p>My Ph.D. part of the journey was completed in April 2010 when I defended my thesis. It was an exhausting part of my life with many difficulties resulting from working in an anti-scientific, anti-creative environment by design; especially for <a href="https://www.quietrev.com/6-illustrations-that-show-what-its-like-in-an-introverts-head/" target="_blank">introverted people</a> like me <sup class='endnote'><a href='#en-2532-7' id='enref-2532-7' onclick='return hhEndnotes_show(2532)'>7</a></sup>. In this difficult environment, I met many talented, highly creative, and mostly self-educated people. These people motivated their colleagues and students to make the best research possible and sincerely promoted good education. I&#8217;m very grateful for their presence in my life. The system itself is designed to kill the hope in such talented people or drive them out into more scientifically and humanly attractive environments <sup class='endnote'><a href='#en-2532-8' id='enref-2532-8' onclick='return hhEndnotes_show(2532)'>8</a></sup>. As Barry Schwartz <sup class='endnote'><a href='#en-2532-9' id='enref-2532-9' onclick='return hhEndnotes_show(2532)'>9</a></sup> describes it in <a href="https://www.ted.com/talks/barry_schwartz_the_way_we_think_about_work_is_broken?language=en" target="_blank">his beautiful TED talk</a>:</p>
 <blockquote><p>It is not true that you &#8220;just can&#8217;t get good help anymore.&#8221; It is true that you &#8220;can&#8217;t get good help anymore&#8221; when you give people work to do that is demeaning and soulless. And interestingly enough, Adam Smith — the same guy who gave us this incredible invention of mass production, and division of labor — understood this. He said, of people who worked in assembly lines, of men who worked in assembly lines, he says: &#8220;He generally becomes as stupid as it is possible for a human being to become.&#8221; Now, notice the word here is &#8220;become.&#8221; &#8220;He generally becomes as stupid as it is possible for a human being to become.&#8221; Whether he intended it or not, what Adam Smith was telling us there, is that the very shape of the institution within which people work creates people who are fitted to the demands of that institution and deprives people of the opportunity to derive the kinds of satisfactions from their work that we take for granted.</p></blockquote>
 <p>You can get some idea about the results of this sad situation by reading this 2011 article by Hillel Ofek: &#8220;<a href="http://www.thenewatlantis.com/publications/why-the-arabic-world-turned-away-from-science" target="_blank">Why the Arabic World Turned Away From Science</a>&#8220;. I can only pray and hope this situation changes in the near future.</p>
-<p>In 2010 I made a mistake trying to publish my Ph.D. work as an article in a high-profile journal not concerned about Geometric Algebra. They rejected the article for good reasons, mostly not related to GA but to the article itself. The editor gave me a piece of advice going around Geometric Algebra having nothing new to offer in terms of applications in computer science. He emphasized that more effort must be made by the GA community to overcome this situation by finding new insights that only GA can provide. I realized then that choosing to do research using GA is a lonely path to take. Recently, I made some <a href="https://ga-explorer.netlify.com/index.php/category/interview/" target="_blank">interviews</a> with leading researchers in the GA community who stated this experience in similar words. The situation has gotten much better in the last couple of years where GA-related research started to appear at increasing rates in many fields in engineering and computer science.</p>
+<p>In 2010 I made a mistake trying to publish my Ph.D. work as an article in a high-profile journal not concerned about Geometric Algebra. They rejected the article for good reasons, mostly not related to GA but to the article itself. The editor gave me a piece of advice going around Geometric Algebra having nothing new to offer in terms of applications in computer science. He emphasized that more effort must be made by the GA community to overcome this situation by finding new insights that only GA can provide. I realized then that choosing to do research using GA is a lonely path to take. Recently, I made some <a href="ga-explorer.netlify.com/index.php/category/interview/" target="_blank">interviews</a> with leading researchers in the GA community who stated this experience in similar words. The situation has gotten much better in the last couple of years where GA-related research started to appear at increasing rates in many fields in engineering and computer science.</p>
 <p>After completing my Ph.D. back in 2010 I knew I had to design a new version of GMac to realize my dream vessel for exploring the computational universe with Geometric Algebra. I knew it would be a difficult journey to make. As Walter Bright puts it in his article &#8220;<a href="http://www.drdobbs.com/architecture-and-design/so-you-want-to-write-your-own-language/240165488" target="_blank">So You Want To Write Your Own Language?</a>&#8220;:</p>
 <blockquote><p>First off, you&#8217;re in for a lot of work…years of work…most of which will be wandering in the desert. The odds of success are heavily stacked against you. If you are not strongly self-motivated to do this, it isn&#8217;t going to happen. If you need validation and encouragement from others, it isn&#8217;t going to happen.</p></blockquote>
 <p>Nevertheless, I was certain that GA will be accepted in the near future as a major language for mathematical modeling in computer science and engineering. I was also certain that I will gain much experience and feel many joys developing the next generation of GMac. I could only work on my project alone against the surrounding environment for two to four months per year because of my many family obligations and non-research work duties. These available months weren&#8217;t even consecutive; they were spread along the year with no apparent order. During all these years whenever I got an opportunity to make research I faced a difficult question. Should I focus on writing papers in computer science topics not related to Geometric Algebra to be promoted? Or should I invest the little time I had in developing my dream vessel? I always chose the second.</p>
 <p>After I finally got promoted to Assistant Professor <sup class='endnote'><a href='#en-2532-10' id='enref-2532-10' onclick='return hhEndnotes_show(2532)'>10</a></sup> in July 2010 and for another full year up to Summer 2011, I had to find additional jobs to support my family, so I had to delay developing the next generation of GMac until August 2011.</p>
-<p>In <a href="https://ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" target="_blank">the final part</a> of this series, I will talk about the next phase of my journey developing GMac&#8217;s next generation. I will explain its main components and how I arrived at their design.</p>
-<p><img class="size-full wp-image-2554 alignright" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Done.jpg" alt="" width="375" height="40" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Done.jpg 375w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Done-300x32.jpg 300w" sizes="(max-width: 375px) 100vw, 375px" /></p>
+<p>In <a href="ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" target="_blank">the final part</a> of this series, I will talk about the next phase of my journey developing GMac&#8217;s next generation. I will explain its main components and how I arrived at their design.</p>
+<p><img class="size-full wp-image-2554 alignright" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/Done.jpg" alt="" width="375" height="40" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/02/Done.jpg 375w, ga-explorer.netlify.com/wp-content/uploads/2017/02/Done-300x32.jpg 300w" sizes="(max-width: 375px) 100vw, 375px" /></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <div class='endnotes' id='hhendnotes-2532'>
@@ -376,15 +376,15 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 <li id='en-2532-10'>You can read more about academic ranks in Egyptian universities in <a href="https://en.wikipedia.org/wiki/Academic_ranks_in_Egypt" target="_blank">here</a>. <span class='endnotereverse'><a href='#enref-2532-10'>&#8617;</a></span></li>
 </ol>
 </div>
-<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://ga-explorer.netlify.com/index.php/2017/02/09/gmac-tng-1/" data-a2a-title="GMac: The Next Generation (1 of 2)"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fga-explorer.netlify.com%2Findex.php%2F2017%2F02%2F09%2Fgmac-tng-1%2F&amp;linkname=GMac%3A%20The%20Next%20Generation%20%281%20of%202%29" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fga-explorer.netlify.com%2Findex.php%2F2017%2F02%2F09%2Fgmac-tng-1%2F&amp;linkname=GMac%3A%20The%20Next%20Generation%20%281%20of%202%29" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Fga-explorer.netlify.com%2Findex.php%2F2017%2F02%2F09%2Fgmac-tng-1%2F&amp;linkname=GMac%3A%20The%20Next%20Generation%20%281%20of%202%29" title="Google+" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share"></a></div></div>          <nav class="pagination group">
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="ga-explorer.netlify.com/index.php/2017/02/09/gmac-tng-1/" data-a2a-title="GMac: The Next Generation (1 of 2)"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2F%2Findex.php%2F2017%2F02%2F09%2Fgmac-tng-1%2F&amp;linkname=GMac%3A%20The%20Next%20Generation%20%281%20of%202%29" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2F%2Findex.php%2F2017%2F02%2F09%2Fgmac-tng-1%2F&amp;linkname=GMac%3A%20The%20Next%20Generation%20%281%20of%202%29" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2F%2Findex.php%2F2017%2F02%2F09%2Fgmac-tng-1%2F&amp;linkname=GMac%3A%20The%20Next%20Generation%20%281%20of%202%29" title="Google+" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share"></a></div></div>          <nav class="pagination group">
                       </nav><!--/.pagination-->
         </div>
 
         <div class="sharrre-container">
 	<span>Share</span>
-  	   <div id="twitter" data-url="https://ga-explorer.netlify.com/index.php/2017/02/09/gmac-tng-1/" data-text="GMac: The Next Generation (1 of 2)" data-title="Tweet"><a class="box" href="#"><div class="count" href="#"><i class="fa fa-plus"></i></div><div class="share"><i class="fa fa-twitter"></i></div></a></div>
-    	   <div id="facebook" data-url="https://ga-explorer.netlify.com/index.php/2017/02/09/gmac-tng-1/" data-text="GMac: The Next Generation (1 of 2)" data-title="Like"></div>
-    	   <div id="googleplus" data-url="https://ga-explorer.netlify.com/index.php/2017/02/09/gmac-tng-1/" data-text="GMac: The Next Generation (1 of 2)" data-title="+1"></div>
+  	   <div id="twitter" data-url="ga-explorer.netlify.com/index.php/2017/02/09/gmac-tng-1/" data-text="GMac: The Next Generation (1 of 2)" data-title="Tweet"><a class="box" href="#"><div class="count" href="#"><i class="fa fa-plus"></i></div><div class="share"><i class="fa fa-twitter"></i></div></a></div>
+    	   <div id="facebook" data-url="ga-explorer.netlify.com/index.php/2017/02/09/gmac-tng-1/" data-text="GMac: The Next Generation (1 of 2)" data-title="Like"></div>
+    	   <div id="googleplus" data-url="ga-explorer.netlify.com/index.php/2017/02/09/gmac-tng-1/" data-text="GMac: The Next Generation (1 of 2)" data-title="+1"></div>
       </div><!--/.sharrre-container-->
 
 <script type="text/javascript">
@@ -424,7 +424,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
         			enableHover: false,
         			enableTracking: true,
               buttons:{size: 'tall'},
-        			urlCurl: 'https://ga-explorer.netlify.com/wp-content/plugins/hueman-addons/addons/assets/front/js/sharrre.php',
+        			urlCurl: 'ga-explorer.netlify.com/wp-content/plugins/hueman-addons/addons/assets/front/js/sharrre.php',
         			click: function(api, options){
         				api.simulateClick();
         				api.openPopup('googlePlus');
@@ -535,7 +535,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 
 <div class="clear"></div>
 
-<p class="post-tags"><span>Tags:</span> <a href="https://ga-explorer.netlify.com/index.php/tag/belief-in-allah/" rel="tag">Belief in Allah</a><a href="https://ga-explorer.netlify.com/index.php/tag/computational-universe/" rel="tag">Computational Universe</a><a href="https://ga-explorer.netlify.com/index.php/tag/effort/" rel="tag">Effort</a><a href="https://ga-explorer.netlify.com/index.php/tag/geometric-algebra/" rel="tag">Geometric Algebra</a><a href="https://ga-explorer.netlify.com/index.php/tag/gmac/" rel="tag">GMac</a><a href="https://ga-explorer.netlify.com/index.php/tag/introverted/" rel="tag">Introverted</a><a href="https://ga-explorer.netlify.com/index.php/tag/journey/" rel="tag">Journey</a><a href="https://ga-explorer.netlify.com/index.php/tag/object-oriented/" rel="tag">Object Oriented</a><a href="https://ga-explorer.netlify.com/index.php/tag/ph-d/" rel="tag">Ph.D.</a><a href="https://ga-explorer.netlify.com/index.php/tag/programming-paradigm/" rel="tag">Programming Paradigm</a><a href="https://ga-explorer.netlify.com/index.php/tag/requirements/" rel="tag">Requirements</a><a href="https://ga-explorer.netlify.com/index.php/tag/software-engineering/" rel="tag">Software Engineering</a></p>
+<p class="post-tags"><span>Tags:</span> <a href="ga-explorer.netlify.com/index.php/tag/belief-in-allah/" rel="tag">Belief in Allah</a><a href="ga-explorer.netlify.com/index.php/tag/computational-universe/" rel="tag">Computational Universe</a><a href="ga-explorer.netlify.com/index.php/tag/effort/" rel="tag">Effort</a><a href="ga-explorer.netlify.com/index.php/tag/geometric-algebra/" rel="tag">Geometric Algebra</a><a href="ga-explorer.netlify.com/index.php/tag/gmac/" rel="tag">GMac</a><a href="ga-explorer.netlify.com/index.php/tag/introverted/" rel="tag">Introverted</a><a href="ga-explorer.netlify.com/index.php/tag/journey/" rel="tag">Journey</a><a href="ga-explorer.netlify.com/index.php/tag/object-oriented/" rel="tag">Object Oriented</a><a href="ga-explorer.netlify.com/index.php/tag/ph-d/" rel="tag">Ph.D.</a><a href="ga-explorer.netlify.com/index.php/tag/programming-paradigm/" rel="tag">Programming Paradigm</a><a href="ga-explorer.netlify.com/index.php/tag/requirements/" rel="tag">Requirements</a><a href="ga-explorer.netlify.com/index.php/tag/software-engineering/" rel="tag">Software Engineering</a></p>
 
 
 
@@ -546,46 +546,17 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 <ul class="related-posts group">
 
 		<li class="related post-hover">
-		<article class="post-2447 post type-post status-publish format-standard has-post-thumbnail hentry category-ga-computing category-ga-software category-interview tag-astrophysics tag-big-data tag-computing tag-fiber-bundles tag-geometric-algebra tag-geometric-computing tag-hdf5 tag-high-performance-computing tag-interview tag-scientific-visualization tag-sciviz tag-vish">
-
-			<div class="post-thumbnail">
-				<a href="https://ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" title="Visualizing Scientific Insights">
-					<img width="520" height="245" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-520x245.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="SciViz" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-520x245.jpg 520w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-720x340.jpg 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
-							</div><!--/.post-thumbnail-->
-
-			<div class="related-inner">
-
-				<h4 class="post-title entry-title">
-					<a href="https://ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" rel="bookmark" title="Visualizing Scientific Insights">Visualizing Scientific Insights</a>
-				</h4><!--/.post-title-->
-
-				<div class="post-meta group">
-					<p class="post-date">
-  <time class="published updated" datetime="2017-02-20 22:51:31">February 20, 2017</time>
-</p>
-
-  <p class="post-byline" style="display:none">&nbsp;by    <span class="vcard author">
-      <span class="fn"><a href="https://ga-explorer.netlify.com/index.php/author/gacomputing/" title="Posts by Ahmad Eid" rel="author">Ahmad Eid</a></span>
-    </span> &middot; Published <span class="published">February 20, 2017</span>
-     &middot; Last modified <span class="updated">October 14, 2017</span>  </p>
-				</div><!--/.post-meta-->
-
-			</div><!--/.related-inner-->
-
-		</article>
-	</li><!--/.related-->
-		<li class="related post-hover">
 		<article class="post-2531 post type-post status-publish format-standard has-post-thumbnail hentry category-ga-software category-gmac tag-compiler tag-computer-algebra tag-development tag-development-environment tag-domain-specific tag-dsl tag-geometric-algebra tag-gmac tag-gmacapi tag-gmacast tag-gmacdsl tag-irony-framework tag-mathematica tag-parsing tag-scripting tag-semantic-analysis tag-textcomposerlib">
 
 			<div class="post-thumbnail">
-				<a href="https://ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" title="GMac: The Next Generation (2 of 2)">
-					<img width="520" height="245" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-520x245.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="Arches" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-520x245.jpg 520w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-720x340.jpg 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+				<a href="ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" title="GMac: The Next Generation (2 of 2)">
+					<img width="520" height="245" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-520x245.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="Arches" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-520x245.jpg 520w, ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-720x340.jpg 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
 							</div><!--/.post-thumbnail-->
 
 			<div class="related-inner">
 
 				<h4 class="post-title entry-title">
-					<a href="https://ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" rel="bookmark" title="GMac: The Next Generation (2 of 2)">GMac: The Next Generation (2 of 2)</a>
+					<a href="ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" rel="bookmark" title="GMac: The Next Generation (2 of 2)">GMac: The Next Generation (2 of 2)</a>
 				</h4><!--/.post-title-->
 
 				<div class="post-meta group">
@@ -594,7 +565,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 </p>
 
   <p class="post-byline" style="display:none">&nbsp;by    <span class="vcard author">
-      <span class="fn"><a href="https://ga-explorer.netlify.com/index.php/author/gacomputing/" title="Posts by Ahmad Eid" rel="author">Ahmad Eid</a></span>
+      <span class="fn"><a href="ga-explorer.netlify.com/index.php/author/gacomputing/" title="Posts by Ahmad Eid" rel="author">Ahmad Eid</a></span>
     </span> &middot; Published <span class="published">February 10, 2017</span>
      &middot; Last modified <span class="updated">October 14, 2017</span>  </p>
 				</div><!--/.post-meta-->
@@ -607,14 +578,14 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 		<article class="post-2137 post type-post status-publish format-standard has-post-thumbnail hentry category-ga-applications category-ga-computing category-ga-software category-interview tag-computer-graphics tag-computer-science tag-computer-vision tag-computing tag-geometric-algebra tag-neural-computing tag-robotics tag-school tag-teaching">
 
 			<div class="post-thumbnail">
-				<a href="https://ga-explorer.netlify.com/index.php/2017/01/17/ga-computer-science/" title="Geometric Algebra in Computer Science">
-					<img width="520" height="245" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/01/Computer-Science-520x245.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="Computer Science" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/01/Computer-Science-520x245.jpg 520w, https://ga-explorer.netlify.com/wp-content/uploads/2017/01/Computer-Science-720x340.jpg 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+				<a href="ga-explorer.netlify.com/index.php/2017/01/17/ga-computer-science/" title="Geometric Algebra in Computer Science">
+					<img width="520" height="245" src="ga-explorer.netlify.com/wp-content/uploads/2017/01/Computer-Science-520x245.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="Computer Science" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/01/Computer-Science-520x245.jpg 520w, ga-explorer.netlify.com/wp-content/uploads/2017/01/Computer-Science-720x340.jpg 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
 							</div><!--/.post-thumbnail-->
 
 			<div class="related-inner">
 
 				<h4 class="post-title entry-title">
-					<a href="https://ga-explorer.netlify.com/index.php/2017/01/17/ga-computer-science/" rel="bookmark" title="Geometric Algebra in Computer Science">Geometric Algebra in Computer Science</a>
+					<a href="ga-explorer.netlify.com/index.php/2017/01/17/ga-computer-science/" rel="bookmark" title="Geometric Algebra in Computer Science">Geometric Algebra in Computer Science</a>
 				</h4><!--/.post-title-->
 
 				<div class="post-meta group">
@@ -623,9 +594,38 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 </p>
 
   <p class="post-byline" style="display:none">&nbsp;by    <span class="vcard author">
-      <span class="fn"><a href="https://ga-explorer.netlify.com/index.php/author/gacomputing/" title="Posts by Ahmad Eid" rel="author">Ahmad Eid</a></span>
+      <span class="fn"><a href="ga-explorer.netlify.com/index.php/author/gacomputing/" title="Posts by Ahmad Eid" rel="author">Ahmad Eid</a></span>
     </span> &middot; Published <span class="published">January 17, 2017</span>
      &middot; Last modified <span class="updated">October 13, 2017</span>  </p>
+				</div><!--/.post-meta-->
+
+			</div><!--/.related-inner-->
+
+		</article>
+	</li><!--/.related-->
+		<li class="related post-hover">
+		<article class="post-2447 post type-post status-publish format-standard has-post-thumbnail hentry category-ga-computing category-ga-software category-interview tag-astrophysics tag-big-data tag-computing tag-fiber-bundles tag-geometric-algebra tag-geometric-computing tag-hdf5 tag-high-performance-computing tag-interview tag-scientific-visualization tag-sciviz tag-vish">
+
+			<div class="post-thumbnail">
+				<a href="ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" title="Visualizing Scientific Insights">
+					<img width="520" height="245" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-520x245.jpg" class="attachment-thumb-medium size-thumb-medium wp-post-image" alt="SciViz" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-520x245.jpg 520w, ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-720x340.jpg 720w" sizes="(max-width: 520px) 100vw, 520px" />																			</a>
+							</div><!--/.post-thumbnail-->
+
+			<div class="related-inner">
+
+				<h4 class="post-title entry-title">
+					<a href="ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" rel="bookmark" title="Visualizing Scientific Insights">Visualizing Scientific Insights</a>
+				</h4><!--/.post-title-->
+
+				<div class="post-meta group">
+					<p class="post-date">
+  <time class="published updated" datetime="2017-02-20 22:51:31">February 20, 2017</time>
+</p>
+
+  <p class="post-byline" style="display:none">&nbsp;by    <span class="vcard author">
+      <span class="fn"><a href="ga-explorer.netlify.com/index.php/author/gacomputing/" title="Posts by Ahmad Eid" rel="author">Ahmad Eid</a></span>
+    </span> &middot; Published <span class="published">February 20, 2017</span>
+     &middot; Last modified <span class="updated">October 14, 2017</span>  </p>
 				</div><!--/.post-meta-->
 
 			</div><!--/.related-inner-->
@@ -673,60 +673,60 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 								<li>
 
 										<div class="tab-item-thumbnail">
-						<a href="https://ga-explorer.netlify.com/index.php/2017/10/18/exploring-static-web/" title="Exploring The Static Web">
-							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/10/spider-web-2732247_1280-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Web Design" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/10/spider-web-2732247_1280-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/10/spider-web-2732247_1280-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/10/spider-web-2732247_1280-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+						<a href="ga-explorer.netlify.com/index.php/2017/10/18/exploring-static-web/" title="Exploring The Static Web">
+							<img width="160" height="160" src="ga-explorer.netlify.com/wp-content/uploads/2017/10/spider-web-2732247_1280-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Web Design" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/10/spider-web-2732247_1280-160x160.jpg 160w, ga-explorer.netlify.com/wp-content/uploads/2017/10/spider-web-2732247_1280-150x150.jpg 150w, ga-explorer.netlify.com/wp-content/uploads/2017/10/spider-web-2732247_1280-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
 					</div>
 					
 					<div class="tab-item-inner group">
-						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/exploration/" rel="category tag">Exploration</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/10/18/exploring-static-web/" rel="bookmark" title="Exploring The Static Web">Exploring The Static Web</a></p>
+						<p class="tab-item-category"><a href="ga-explorer.netlify.com/index.php/category/exploration/" rel="category tag">Exploration</a></p>						<p class="tab-item-title"><a href="ga-explorer.netlify.com/index.php/2017/10/18/exploring-static-web/" rel="bookmark" title="Exploring The Static Web">Exploring The Static Web</a></p>
 						<p class="tab-item-date">18 Oct, 2017</p>					</div>
 
 				</li>
 								<li>
 
 										<div class="tab-item-thumbnail">
-						<a href="https://ga-explorer.netlify.com/index.php/2017/04/26/edifying-the-young/" title="Edifying The Young">
-							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+						<a href="ga-explorer.netlify.com/index.php/2017/04/26/edifying-the-young/" title="Edifying The Young">
+							<img width="160" height="160" src="ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-160x160.jpg 160w, ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-150x150.jpg 150w, ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
 					</div>
 					
 					<div class="tab-item-inner group">
-						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/ga-books/" rel="category tag">GA Books</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-math/" rel="category tag">GA Math</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a> / <a href="https://ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/04/26/edifying-the-young/" rel="bookmark" title="Edifying The Young">Edifying The Young</a></p>
+						<p class="tab-item-category"><a href="ga-explorer.netlify.com/index.php/category/ga-books/" rel="category tag">GA Books</a> / <a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-math/" rel="category tag">GA Math</a> / <a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a> / <a href="ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="ga-explorer.netlify.com/index.php/2017/04/26/edifying-the-young/" rel="bookmark" title="Edifying The Young">Edifying The Young</a></p>
 						<p class="tab-item-date">26 Apr, 2017</p>					</div>
 
 				</li>
 								<li>
 
 										<div class="tab-item-thumbnail">
-						<a href="https://ga-explorer.netlify.com/index.php/2017/03/17/projective-insights/" title="Projective Insights">
-							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Projective Insights" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+						<a href="ga-explorer.netlify.com/index.php/2017/03/17/projective-insights/" title="Projective Insights">
+							<img width="160" height="160" src="ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Projective Insights" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-160x160.jpg 160w, ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-150x150.jpg 150w, ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
 					</div>
 					
 					<div class="tab-item-inner group">
-						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-math/" rel="category tag">GA Math</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a> / <a href="https://ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/03/17/projective-insights/" rel="bookmark" title="Projective Insights">Projective Insights</a></p>
+						<p class="tab-item-category"><a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-math/" rel="category tag">GA Math</a> / <a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a> / <a href="ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="ga-explorer.netlify.com/index.php/2017/03/17/projective-insights/" rel="bookmark" title="Projective Insights">Projective Insights</a></p>
 						<p class="tab-item-date">17 Mar, 2017</p>					</div>
 
 				</li>
 								<li>
 
 										<div class="tab-item-thumbnail">
-						<a href="https://ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" title="Visualizing Scientific Insights">
-							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="SciViz" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+						<a href="ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" title="Visualizing Scientific Insights">
+							<img width="160" height="160" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="SciViz" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-160x160.jpg 160w, ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-150x150.jpg 150w, ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
 					</div>
 					
 					<div class="tab-item-inner group">
-						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/computing/ga-computing/" rel="category tag">GA Computing</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> / <a href="https://ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" rel="bookmark" title="Visualizing Scientific Insights">Visualizing Scientific Insights</a></p>
+						<p class="tab-item-category"><a href="ga-explorer.netlify.com/index.php/category/computing/ga-computing/" rel="category tag">GA Computing</a> / <a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> / <a href="ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" rel="bookmark" title="Visualizing Scientific Insights">Visualizing Scientific Insights</a></p>
 						<p class="tab-item-date">20 Feb, 2017</p>					</div>
 
 				</li>
 								<li>
 
 										<div class="tab-item-thumbnail">
-						<a href="https://ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" title="GMac: The Next Generation (2 of 2)">
-							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Arches" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+						<a href="ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" title="GMac: The Next Generation (2 of 2)">
+							<img width="160" height="160" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Arches" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-160x160.jpg 160w, ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-150x150.jpg 150w, ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
 					</div>
 					
 					<div class="tab-item-inner group">
-						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/gmac/" rel="category tag">GMac</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" rel="bookmark" title="GMac: The Next Generation (2 of 2)">GMac: The Next Generation (2 of 2)</a></p>
+						<p class="tab-item-category"><a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> / <a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/gmac/" rel="category tag">GMac</a></p>						<p class="tab-item-title"><a href="ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" rel="bookmark" title="GMac: The Next Generation (2 of 2)">GMac: The Next Generation (2 of 2)</a></p>
 						<p class="tab-item-date">10 Feb, 2017</p>					</div>
 
 				</li>
@@ -740,60 +740,60 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 								<li>
 
 										<div class="tab-item-thumbnail">
-						<a href="https://ga-explorer.netlify.com/index.php/2015/07/03/the-abstract/" title="The Abstract">
-							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2015/06/wordle-4-160x160.png" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Abstraction Word Cloud" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2015/06/wordle-4-160x160.png 160w, https://ga-explorer.netlify.com/wp-content/uploads/2015/06/wordle-4-150x150.png 150w, https://ga-explorer.netlify.com/wp-content/uploads/2015/06/wordle-4-320x320.png 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+						<a href="ga-explorer.netlify.com/index.php/2015/07/03/the-abstract/" title="The Abstract">
+							<img width="160" height="160" src="ga-explorer.netlify.com/wp-content/uploads/2015/06/wordle-4-160x160.png" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Abstraction Word Cloud" srcset="ga-explorer.netlify.com/wp-content/uploads/2015/06/wordle-4-160x160.png 160w, ga-explorer.netlify.com/wp-content/uploads/2015/06/wordle-4-150x150.png 150w, ga-explorer.netlify.com/wp-content/uploads/2015/06/wordle-4-320x320.png 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
 					</div>
 					
 					<div class="tab-item-inner group">
-						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2015/07/03/the-abstract/" rel="bookmark" title="The Abstract">The Abstract</a></p>
+						<p class="tab-item-category"><a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a></p>						<p class="tab-item-title"><a href="ga-explorer.netlify.com/index.php/2015/07/03/the-abstract/" rel="bookmark" title="The Abstract">The Abstract</a></p>
 						<p class="tab-item-date">3 Jul, 2015</p>					</div>
 
 				</li>
 								<li>
 
 										<div class="tab-item-thumbnail">
-						<a href="https://ga-explorer.netlify.com/index.php/2017/04/26/edifying-the-young/" title="Edifying The Young">
-							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+						<a href="ga-explorer.netlify.com/index.php/2017/04/26/edifying-the-young/" title="Edifying The Young">
+							<img width="160" height="160" src="ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-160x160.jpg 160w, ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-150x150.jpg 150w, ga-explorer.netlify.com/wp-content/uploads/2017/04/mathematics-1622448_1280-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
 					</div>
 					
 					<div class="tab-item-inner group">
-						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/ga-books/" rel="category tag">GA Books</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-math/" rel="category tag">GA Math</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a> / <a href="https://ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/04/26/edifying-the-young/" rel="bookmark" title="Edifying The Young">Edifying The Young</a></p>
+						<p class="tab-item-category"><a href="ga-explorer.netlify.com/index.php/category/ga-books/" rel="category tag">GA Books</a> / <a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-math/" rel="category tag">GA Math</a> / <a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a> / <a href="ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="ga-explorer.netlify.com/index.php/2017/04/26/edifying-the-young/" rel="bookmark" title="Edifying The Young">Edifying The Young</a></p>
 						<p class="tab-item-date">26 Apr, 2017</p>					</div>
 
 				</li>
 								<li>
 
 										<div class="tab-item-thumbnail">
-						<a href="https://ga-explorer.netlify.com/index.php/2017/03/17/projective-insights/" title="Projective Insights">
-							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Projective Insights" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+						<a href="ga-explorer.netlify.com/index.php/2017/03/17/projective-insights/" title="Projective Insights">
+							<img width="160" height="160" src="ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Projective Insights" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-160x160.jpg 160w, ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-150x150.jpg 150w, ga-explorer.netlify.com/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
 					</div>
 					
 					<div class="tab-item-inner group">
-						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-math/" rel="category tag">GA Math</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a> / <a href="https://ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/03/17/projective-insights/" rel="bookmark" title="Projective Insights">Projective Insights</a></p>
+						<p class="tab-item-category"><a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-math/" rel="category tag">GA Math</a> / <a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/" rel="category tag">Geometric Algebra</a> / <a href="ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="ga-explorer.netlify.com/index.php/2017/03/17/projective-insights/" rel="bookmark" title="Projective Insights">Projective Insights</a></p>
 						<p class="tab-item-date">17 Mar, 2017</p>					</div>
 
 				</li>
 								<li>
 
 										<div class="tab-item-thumbnail">
-						<a href="https://ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" title="Visualizing Scientific Insights">
-							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="SciViz" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+						<a href="ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" title="Visualizing Scientific Insights">
+							<img width="160" height="160" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="SciViz" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-160x160.jpg 160w, ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-150x150.jpg 150w, ga-explorer.netlify.com/wp-content/uploads/2017/02/SciViz-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
 					</div>
 					
 					<div class="tab-item-inner group">
-						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/computing/ga-computing/" rel="category tag">GA Computing</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> / <a href="https://ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" rel="bookmark" title="Visualizing Scientific Insights">Visualizing Scientific Insights</a></p>
+						<p class="tab-item-category"><a href="ga-explorer.netlify.com/index.php/category/computing/ga-computing/" rel="category tag">GA Computing</a> / <a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> / <a href="ga-explorer.netlify.com/index.php/category/interview/" rel="category tag">Interview</a></p>						<p class="tab-item-title"><a href="ga-explorer.netlify.com/index.php/2017/02/20/ga-sciviz/" rel="bookmark" title="Visualizing Scientific Insights">Visualizing Scientific Insights</a></p>
 						<p class="tab-item-date">20 Feb, 2017</p>					</div>
 
 				</li>
 								<li>
 
 										<div class="tab-item-thumbnail">
-						<a href="https://ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" title="GMac: The Next Generation (2 of 2)">
-							<img width="160" height="160" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Arches" srcset="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-160x160.jpg 160w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-150x150.jpg 150w, https://ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
+						<a href="ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" title="GMac: The Next Generation (2 of 2)">
+							<img width="160" height="160" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-160x160.jpg" class="attachment-thumb-small size-thumb-small wp-post-image" alt="Arches" srcset="ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-160x160.jpg 160w, ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-150x150.jpg 150w, ga-explorer.netlify.com/wp-content/uploads/2017/02/Arches-320x320.jpg 320w" sizes="(max-width: 160px) 100vw, 160px" />																											</a>
 					</div>
 					
 					<div class="tab-item-inner group">
-						<p class="tab-item-category"><a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> / <a href="https://ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/gmac/" rel="category tag">GMac</a></p>						<p class="tab-item-title"><a href="https://ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" rel="bookmark" title="GMac: The Next Generation (2 of 2)">GMac: The Next Generation (2 of 2)</a></p>
+						<p class="tab-item-category"><a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/" rel="category tag">GA Software</a> / <a href="ga-explorer.netlify.com/index.php/category/geometric-algebra/ga-software/gmac/" rel="category tag">GMac</a></p>						<p class="tab-item-title"><a href="ga-explorer.netlify.com/index.php/2017/02/10/gmac-tng-2/" rel="bookmark" title="GMac: The Next Generation (2 of 2)">GMac: The Next Generation (2 of 2)</a></p>
 						<p class="tab-item-date">10 Feb, 2017</p>					</div>
 
 				</li>
@@ -810,57 +810,57 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 		
 			<ul id="tab-tags-2" class="alx-tab group">
 				<li>
-					<a href="https://ga-explorer.netlify.com/index.php/tag/abstraction/" class="tag-cloud-link tag-link-16 tag-link-position-1" style="font-size: 8pt;" aria-label="Abstraction (1 item)">Abstraction</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/algebra/" class="tag-cloud-link tag-link-17 tag-link-position-2" style="font-size: 15.179487179487pt;" aria-label="Algebra (4 items)">Algebra</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/astrophysics/" class="tag-cloud-link tag-link-19 tag-link-position-3" style="font-size: 8pt;" aria-label="Astrophysics (1 item)">Astrophysics</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/belief-in-allah/" class="tag-cloud-link tag-link-21 tag-link-position-4" style="font-size: 8pt;" aria-label="Belief in Allah (1 item)">Belief in Allah</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/big-data/" class="tag-cloud-link tag-link-22 tag-link-position-5" style="font-size: 8pt;" aria-label="Big Data (1 item)">Big Data</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/biquaternions/" class="tag-cloud-link tag-link-23 tag-link-position-6" style="font-size: 8pt;" aria-label="Biquaternions (1 item)">Biquaternions</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/blade/" class="tag-cloud-link tag-link-24 tag-link-position-7" style="font-size: 8pt;" aria-label="Blade (1 item)">Blade</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/blades/" class="tag-cloud-link tag-link-25 tag-link-position-8" style="font-size: 8pt;" aria-label="Blades (1 item)">Blades</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/clifford-algebra/" class="tag-cloud-link tag-link-26 tag-link-position-9" style="font-size: 11.230769230769pt;" aria-label="Clifford Algebra (2 items)">Clifford Algebra</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/compiler/" class="tag-cloud-link tag-link-28 tag-link-position-10" style="font-size: 8pt;" aria-label="Compiler (1 item)">Compiler</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/computational-universe/" class="tag-cloud-link tag-link-29 tag-link-position-11" style="font-size: 8pt;" aria-label="Computational Universe (1 item)">Computational Universe</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/computer-algebra/" class="tag-cloud-link tag-link-30 tag-link-position-12" style="font-size: 8pt;" aria-label="Computer Algebra (1 item)">Computer Algebra</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/computer-graphics/" class="tag-cloud-link tag-link-31 tag-link-position-13" style="font-size: 8pt;" aria-label="Computer Graphics (1 item)">Computer Graphics</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/computer-science/" class="tag-cloud-link tag-link-32 tag-link-position-14" style="font-size: 11.230769230769pt;" aria-label="Computer Science (2 items)">Computer Science</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/computer-vision/" class="tag-cloud-link tag-link-33 tag-link-position-15" style="font-size: 11.230769230769pt;" aria-label="Computer Vision (2 items)">Computer Vision</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/computing/" class="tag-cloud-link tag-link-34 tag-link-position-16" style="font-size: 17.871794871795pt;" aria-label="Computing (6 items)">Computing</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/contraction/" class="tag-cloud-link tag-link-35 tag-link-position-17" style="font-size: 8pt;" aria-label="Contraction (1 item)">Contraction</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/control/" class="tag-cloud-link tag-link-36 tag-link-position-18" style="font-size: 8pt;" aria-label="Control (1 item)">Control</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/cybernetics/" class="tag-cloud-link tag-link-37 tag-link-position-19" style="font-size: 8pt;" aria-label="Cybernetics (1 item)">Cybernetics</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/development/" class="tag-cloud-link tag-link-38 tag-link-position-20" style="font-size: 8pt;" aria-label="Development (1 item)">Development</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/development-environment/" class="tag-cloud-link tag-link-39 tag-link-position-21" style="font-size: 8pt;" aria-label="Development Environment (1 item)">Development Environment</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/differential-geometry/" class="tag-cloud-link tag-link-40 tag-link-position-22" style="font-size: 8pt;" aria-label="Differential Geometry (1 item)">Differential Geometry</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/distance/" class="tag-cloud-link tag-link-41 tag-link-position-23" style="font-size: 8pt;" aria-label="Distance (1 item)">Distance</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/domain-specific/" class="tag-cloud-link tag-link-42 tag-link-position-24" style="font-size: 8pt;" aria-label="Domain Specific (1 item)">Domain Specific</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/dr-garret-sobczyk/" class="tag-cloud-link tag-link-43 tag-link-position-25" style="font-size: 8pt;" aria-label="Dr. Garret Sobczyk (1 item)">Dr. Garret Sobczyk</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/dr-yu-zhaoyuan/" class="tag-cloud-link tag-link-44 tag-link-position-26" style="font-size: 8pt;" aria-label="Dr. Yu Zhaoyuan (1 item)">Dr. Yu Zhaoyuan</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/dsl/" class="tag-cloud-link tag-link-45 tag-link-position-27" style="font-size: 11.230769230769pt;" aria-label="DSL (2 items)">DSL</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/duality/" class="tag-cloud-link tag-link-46 tag-link-position-28" style="font-size: 8pt;" aria-label="Duality (1 item)">Duality</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/effort/" class="tag-cloud-link tag-link-47 tag-link-position-29" style="font-size: 8pt;" aria-label="Effort (1 item)">Effort</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/engineering/" class="tag-cloud-link tag-link-48 tag-link-position-30" style="font-size: 8pt;" aria-label="Engineering (1 item)">Engineering</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/euclidean-geometry/" class="tag-cloud-link tag-link-49 tag-link-position-31" style="font-size: 8pt;" aria-label="Euclidean Geometry (1 item)">Euclidean Geometry</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/ga/" class="tag-cloud-link tag-link-55 tag-link-position-32" style="font-size: 11.230769230769pt;" aria-label="GA (2 items)">GA</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/geometric-algebra/" class="tag-cloud-link tag-link-58 tag-link-position-33" style="font-size: 22pt;" aria-label="Geometric Algebra (11 items)">Geometric Algebra</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/geometric-calculus/" class="tag-cloud-link tag-link-59 tag-link-position-34" style="font-size: 11.230769230769pt;" aria-label="Geometric Calculus (2 items)">Geometric Calculus</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/geometric-computing/" class="tag-cloud-link tag-link-60 tag-link-position-35" style="font-size: 11.230769230769pt;" aria-label="Geometric Computing (2 items)">Geometric Computing</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/geometry/" class="tag-cloud-link tag-link-62 tag-link-position-36" style="font-size: 15.179487179487pt;" aria-label="Geometry (4 items)">Geometry</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/gmac/" class="tag-cloud-link tag-link-64 tag-link-position-37" style="font-size: 11.230769230769pt;" aria-label="GMac (2 items)">GMac</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/history/" class="tag-cloud-link tag-link-70 tag-link-position-38" style="font-size: 13.384615384615pt;" aria-label="History (3 items)">History</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/interview/" class="tag-cloud-link tag-link-74 tag-link-position-39" style="font-size: 13.384615384615pt;" aria-label="Interview (3 items)">Interview</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/linear-algebra/" class="tag-cloud-link tag-link-80 tag-link-position-40" style="font-size: 13.384615384615pt;" aria-label="Linear Algebra (3 items)">Linear Algebra</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/neural-computing/" class="tag-cloud-link tag-link-89 tag-link-position-41" style="font-size: 11.230769230769pt;" aria-label="Neural Computing (2 items)">Neural Computing</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/numbers/" class="tag-cloud-link tag-link-90 tag-link-position-42" style="font-size: 15.179487179487pt;" aria-label="Numbers (4 items)">Numbers</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/projective-geometry/" class="tag-cloud-link tag-link-102 tag-link-position-43" style="font-size: 11.230769230769pt;" aria-label="Projective Geometry (2 items)">Projective Geometry</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/robotics/" class="tag-cloud-link tag-link-105 tag-link-position-44" style="font-size: 11.230769230769pt;" aria-label="Robotics (2 items)">Robotics</a>
-<a href="https://ga-explorer.netlify.com/index.php/tag/teaching/" class="tag-cloud-link tag-link-115 tag-link-position-45" style="font-size: 13.384615384615pt;" aria-label="Teaching (3 items)">Teaching</a>				</li>
+					<a href="ga-explorer.netlify.com/index.php/tag/abstraction/" class="tag-cloud-link tag-link-16 tag-link-position-1" style="font-size: 8pt;" aria-label="Abstraction (1 item)">Abstraction</a>
+<a href="ga-explorer.netlify.com/index.php/tag/algebra/" class="tag-cloud-link tag-link-17 tag-link-position-2" style="font-size: 15.179487179487pt;" aria-label="Algebra (4 items)">Algebra</a>
+<a href="ga-explorer.netlify.com/index.php/tag/astrophysics/" class="tag-cloud-link tag-link-19 tag-link-position-3" style="font-size: 8pt;" aria-label="Astrophysics (1 item)">Astrophysics</a>
+<a href="ga-explorer.netlify.com/index.php/tag/belief-in-allah/" class="tag-cloud-link tag-link-21 tag-link-position-4" style="font-size: 8pt;" aria-label="Belief in Allah (1 item)">Belief in Allah</a>
+<a href="ga-explorer.netlify.com/index.php/tag/big-data/" class="tag-cloud-link tag-link-22 tag-link-position-5" style="font-size: 8pt;" aria-label="Big Data (1 item)">Big Data</a>
+<a href="ga-explorer.netlify.com/index.php/tag/biquaternions/" class="tag-cloud-link tag-link-23 tag-link-position-6" style="font-size: 8pt;" aria-label="Biquaternions (1 item)">Biquaternions</a>
+<a href="ga-explorer.netlify.com/index.php/tag/blade/" class="tag-cloud-link tag-link-24 tag-link-position-7" style="font-size: 8pt;" aria-label="Blade (1 item)">Blade</a>
+<a href="ga-explorer.netlify.com/index.php/tag/blades/" class="tag-cloud-link tag-link-25 tag-link-position-8" style="font-size: 8pt;" aria-label="Blades (1 item)">Blades</a>
+<a href="ga-explorer.netlify.com/index.php/tag/clifford-algebra/" class="tag-cloud-link tag-link-26 tag-link-position-9" style="font-size: 11.230769230769pt;" aria-label="Clifford Algebra (2 items)">Clifford Algebra</a>
+<a href="ga-explorer.netlify.com/index.php/tag/compiler/" class="tag-cloud-link tag-link-28 tag-link-position-10" style="font-size: 8pt;" aria-label="Compiler (1 item)">Compiler</a>
+<a href="ga-explorer.netlify.com/index.php/tag/computational-universe/" class="tag-cloud-link tag-link-29 tag-link-position-11" style="font-size: 8pt;" aria-label="Computational Universe (1 item)">Computational Universe</a>
+<a href="ga-explorer.netlify.com/index.php/tag/computer-algebra/" class="tag-cloud-link tag-link-30 tag-link-position-12" style="font-size: 8pt;" aria-label="Computer Algebra (1 item)">Computer Algebra</a>
+<a href="ga-explorer.netlify.com/index.php/tag/computer-graphics/" class="tag-cloud-link tag-link-31 tag-link-position-13" style="font-size: 8pt;" aria-label="Computer Graphics (1 item)">Computer Graphics</a>
+<a href="ga-explorer.netlify.com/index.php/tag/computer-science/" class="tag-cloud-link tag-link-32 tag-link-position-14" style="font-size: 11.230769230769pt;" aria-label="Computer Science (2 items)">Computer Science</a>
+<a href="ga-explorer.netlify.com/index.php/tag/computer-vision/" class="tag-cloud-link tag-link-33 tag-link-position-15" style="font-size: 11.230769230769pt;" aria-label="Computer Vision (2 items)">Computer Vision</a>
+<a href="ga-explorer.netlify.com/index.php/tag/computing/" class="tag-cloud-link tag-link-34 tag-link-position-16" style="font-size: 17.871794871795pt;" aria-label="Computing (6 items)">Computing</a>
+<a href="ga-explorer.netlify.com/index.php/tag/contraction/" class="tag-cloud-link tag-link-35 tag-link-position-17" style="font-size: 8pt;" aria-label="Contraction (1 item)">Contraction</a>
+<a href="ga-explorer.netlify.com/index.php/tag/control/" class="tag-cloud-link tag-link-36 tag-link-position-18" style="font-size: 8pt;" aria-label="Control (1 item)">Control</a>
+<a href="ga-explorer.netlify.com/index.php/tag/cybernetics/" class="tag-cloud-link tag-link-37 tag-link-position-19" style="font-size: 8pt;" aria-label="Cybernetics (1 item)">Cybernetics</a>
+<a href="ga-explorer.netlify.com/index.php/tag/development/" class="tag-cloud-link tag-link-38 tag-link-position-20" style="font-size: 8pt;" aria-label="Development (1 item)">Development</a>
+<a href="ga-explorer.netlify.com/index.php/tag/development-environment/" class="tag-cloud-link tag-link-39 tag-link-position-21" style="font-size: 8pt;" aria-label="Development Environment (1 item)">Development Environment</a>
+<a href="ga-explorer.netlify.com/index.php/tag/differential-geometry/" class="tag-cloud-link tag-link-40 tag-link-position-22" style="font-size: 8pt;" aria-label="Differential Geometry (1 item)">Differential Geometry</a>
+<a href="ga-explorer.netlify.com/index.php/tag/distance/" class="tag-cloud-link tag-link-41 tag-link-position-23" style="font-size: 8pt;" aria-label="Distance (1 item)">Distance</a>
+<a href="ga-explorer.netlify.com/index.php/tag/domain-specific/" class="tag-cloud-link tag-link-42 tag-link-position-24" style="font-size: 8pt;" aria-label="Domain Specific (1 item)">Domain Specific</a>
+<a href="ga-explorer.netlify.com/index.php/tag/dr-garret-sobczyk/" class="tag-cloud-link tag-link-43 tag-link-position-25" style="font-size: 8pt;" aria-label="Dr. Garret Sobczyk (1 item)">Dr. Garret Sobczyk</a>
+<a href="ga-explorer.netlify.com/index.php/tag/dr-yu-zhaoyuan/" class="tag-cloud-link tag-link-44 tag-link-position-26" style="font-size: 8pt;" aria-label="Dr. Yu Zhaoyuan (1 item)">Dr. Yu Zhaoyuan</a>
+<a href="ga-explorer.netlify.com/index.php/tag/dsl/" class="tag-cloud-link tag-link-45 tag-link-position-27" style="font-size: 11.230769230769pt;" aria-label="DSL (2 items)">DSL</a>
+<a href="ga-explorer.netlify.com/index.php/tag/duality/" class="tag-cloud-link tag-link-46 tag-link-position-28" style="font-size: 8pt;" aria-label="Duality (1 item)">Duality</a>
+<a href="ga-explorer.netlify.com/index.php/tag/effort/" class="tag-cloud-link tag-link-47 tag-link-position-29" style="font-size: 8pt;" aria-label="Effort (1 item)">Effort</a>
+<a href="ga-explorer.netlify.com/index.php/tag/engineering/" class="tag-cloud-link tag-link-48 tag-link-position-30" style="font-size: 8pt;" aria-label="Engineering (1 item)">Engineering</a>
+<a href="ga-explorer.netlify.com/index.php/tag/euclidean-geometry/" class="tag-cloud-link tag-link-49 tag-link-position-31" style="font-size: 8pt;" aria-label="Euclidean Geometry (1 item)">Euclidean Geometry</a>
+<a href="ga-explorer.netlify.com/index.php/tag/ga/" class="tag-cloud-link tag-link-55 tag-link-position-32" style="font-size: 11.230769230769pt;" aria-label="GA (2 items)">GA</a>
+<a href="ga-explorer.netlify.com/index.php/tag/geometric-algebra/" class="tag-cloud-link tag-link-58 tag-link-position-33" style="font-size: 22pt;" aria-label="Geometric Algebra (11 items)">Geometric Algebra</a>
+<a href="ga-explorer.netlify.com/index.php/tag/geometric-calculus/" class="tag-cloud-link tag-link-59 tag-link-position-34" style="font-size: 11.230769230769pt;" aria-label="Geometric Calculus (2 items)">Geometric Calculus</a>
+<a href="ga-explorer.netlify.com/index.php/tag/geometric-computing/" class="tag-cloud-link tag-link-60 tag-link-position-35" style="font-size: 11.230769230769pt;" aria-label="Geometric Computing (2 items)">Geometric Computing</a>
+<a href="ga-explorer.netlify.com/index.php/tag/geometry/" class="tag-cloud-link tag-link-62 tag-link-position-36" style="font-size: 15.179487179487pt;" aria-label="Geometry (4 items)">Geometry</a>
+<a href="ga-explorer.netlify.com/index.php/tag/gmac/" class="tag-cloud-link tag-link-64 tag-link-position-37" style="font-size: 11.230769230769pt;" aria-label="GMac (2 items)">GMac</a>
+<a href="ga-explorer.netlify.com/index.php/tag/history/" class="tag-cloud-link tag-link-70 tag-link-position-38" style="font-size: 13.384615384615pt;" aria-label="History (3 items)">History</a>
+<a href="ga-explorer.netlify.com/index.php/tag/interview/" class="tag-cloud-link tag-link-74 tag-link-position-39" style="font-size: 13.384615384615pt;" aria-label="Interview (3 items)">Interview</a>
+<a href="ga-explorer.netlify.com/index.php/tag/linear-algebra/" class="tag-cloud-link tag-link-80 tag-link-position-40" style="font-size: 13.384615384615pt;" aria-label="Linear Algebra (3 items)">Linear Algebra</a>
+<a href="ga-explorer.netlify.com/index.php/tag/neural-computing/" class="tag-cloud-link tag-link-89 tag-link-position-41" style="font-size: 11.230769230769pt;" aria-label="Neural Computing (2 items)">Neural Computing</a>
+<a href="ga-explorer.netlify.com/index.php/tag/numbers/" class="tag-cloud-link tag-link-90 tag-link-position-42" style="font-size: 15.179487179487pt;" aria-label="Numbers (4 items)">Numbers</a>
+<a href="ga-explorer.netlify.com/index.php/tag/projective-geometry/" class="tag-cloud-link tag-link-102 tag-link-position-43" style="font-size: 11.230769230769pt;" aria-label="Projective Geometry (2 items)">Projective Geometry</a>
+<a href="ga-explorer.netlify.com/index.php/tag/robotics/" class="tag-cloud-link tag-link-105 tag-link-position-44" style="font-size: 11.230769230769pt;" aria-label="Robotics (2 items)">Robotics</a>
+<a href="ga-explorer.netlify.com/index.php/tag/teaching/" class="tag-cloud-link tag-link-115 tag-link-position-45" style="font-size: 13.384615384615pt;" aria-label="Teaching (3 items)">Teaching</a>				</li>
 			</ul><!--/.alx-tab-->
 
 			</div>
 
 </div>
-<div id="responsive_lightbox_image_widget-2" class="widget rl-image-widget"><h3 class="widget-title"></h3><img class="rl-image-widget-image" src="https://ga-explorer.netlify.com/wp-content/uploads/2017/02/GA-Explorer-Footer-v2.jpg" width="100%" height="auto" title="GA-Explorer-Footer-v2" alt="GA-Explorer-Footer-v2" style="margin-left: auto; margin-right: auto; display: block;" /><div class="rl-image-widget-text"></div></div>                  </div>
+<div id="responsive_lightbox_image_widget-2" class="widget rl-image-widget"><h3 class="widget-title"></h3><img class="rl-image-widget-image" src="ga-explorer.netlify.com/wp-content/uploads/2017/02/GA-Explorer-Footer-v2.jpg" width="100%" height="auto" title="GA-Explorer-Footer-v2" alt="GA-Explorer-Footer-v2" style="margin-left: auto; margin-right: auto; display: block;" /><div class="rl-image-widget-text"></div></div>                  </div>
               
             </div><!--/.pad-->
 
@@ -902,28 +902,28 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 
 <script type='text/javascript'>
 /* <![CDATA[ */
-var wpcf7 = {"apiSettings":{"root":"http:\/\/ga-explorer.netlify.com\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+var wpcf7 = {"apiSettings":{"root":"http:\/\/\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.9'></script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/hueman-addons/addons/assets/front/js/jQuerySharrre.min.js?ver=4.8.2'></script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.9'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-content/plugins/hueman-addons/addons/assets/front/js/jQuerySharrre.min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"1","extLinksTargetExt":"1","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":false,"mobile":false},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"http:\/\/ga-explorer.netlify.com\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"fdbd3e4d50"},"userStarted":{"with":"with|3.3.21","on":{"date":"2017-10-12 21:00:09.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
+var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"1","extLinksTargetExt":"1","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":false,"mobile":false},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"http:\/\/\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"fdbd3e4d50"},"userStarted":{"with":"with|3.3.21","on":{"date":"2017-10-12 21:00:09.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/js/scripts.min.js?ver=3.3.22'></script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/js/scripts.min.js?ver=3.3.22'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var megamenu = {"timeout":"300","interval":"100"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=2.4'></script>
-<script type='text/javascript' src='https://ga-explorer.netlify.com/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=2.4'></script>
+<script type='text/javascript' src='ga-explorer.netlify.com/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
 <!--[if lt IE 9]>
-<script src="https://ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/js/ie/respond.js"></script>
+<script src="ga-explorer.netlify.com/wp-content/themes/hueman/assets/front/js/ie/respond.js"></script>
 <![endif]-->
 <div id="turnkey-credit"> <div style="clear: both;"> <a href="https://www.turnkeylinux.org/wordpress">WordPress Appliance</a> - Powered by <a href="https://www.turnkeylinux.org">TurnKey Linux</a> </div> </div></body>
 </html>
