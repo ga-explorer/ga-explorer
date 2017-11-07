@@ -12,7 +12,7 @@
 	<atom:link href="/index.php/tag/static-web-design/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Tue, 07 Nov 2017 06:57:43 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 Nov 2017 19:18:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -28,6 +28,7 @@
 	<item>
 		<title>Exploring The Static Web</title>
 		<link>/index.php/2017/10/18/exploring-static-web/</link>
+		<comments>/index.php/2017/10/18/exploring-static-web/#respond</comments>
 		<pubDate>Wed, 18 Oct 2017 19:13:54 +0000</pubDate>
 		<dc:creator><![CDATA[Ahmad Eid]]></dc:creator>
 				<category><![CDATA[Exploration]]></category>
@@ -59,15 +60,9 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
                             </div>
                         </div>
 <hr />
-<div class='dropshadowboxes-container ' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
-                            
-<span class="su-dropcap su-dropcap-style-flat" style="font-size:2em">T</span>he Geometric Algebra Explorer website has been up and running for more than 2 years now. I developed this website using the WordPress <a href="http://searchcontentmanagement.techtarget.com/definition/content-management-system-CMS" target="_blank" rel="noopener">Content Management System</a> (CMS). WordPress and its countless plugins provide many impressive features for dynamic website developers, especially if they don&#8217;t want to code much<sup class='endnote'><a href='#en-3208-1' id='enref-3208-1' onclick='return hhEndnotes_show(3208)'>1</a></sup>. I really enjoyed working with it, but it&#8217;s time for me to go static.</p>
+<span class="dropcap">T</span>he Geometric Algebra Explorer website has been up and running for more than 2 years now. I developed this website using the WordPress <a href="http://searchcontentmanagement.techtarget.com/definition/content-management-system-CMS" target="_blank" rel="noopener">Content Management System</a> (CMS). WordPress and its countless plugins provide many impressive features for dynamic website developers, especially if they don&#8217;t want to code much<sup class='endnote'><a href='#en-3208-1' id='enref-3208-1' onclick='return hhEndnotes_show(3208)'>1</a></sup>. I really enjoyed working with it, but it&#8217;s time for me to go static.</p>
 <p>In this post, I share my reasons, experience, and final workflow for leaving dynamic web development with WordPress and going into the static web development side. I think this might be helpful to someone trying to do the same or wanting to develop a similar website. Enjoy!</p>
-
-                            </div>
-                        </div>
-<p>&nbsp;</p>
+<hr />
 <h2>Web Needs</h2>
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <div class="su-note" style="border-color:#512310;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#5A2712;border-color:#ded4d0;color:#ffffff;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
@@ -275,6 +270,8 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/10/18/exploring-static-web/">Exploring The Static Web</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>/index.php/2017/10/18/exploring-static-web/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 	</channel>
 </rss>

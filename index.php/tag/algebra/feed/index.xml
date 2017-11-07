@@ -12,7 +12,7 @@
 	<atom:link href="/index.php/tag/algebra/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Tue, 07 Nov 2017 06:57:43 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 Nov 2017 19:18:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -28,6 +28,7 @@
 	<item>
 		<title>Geometric Algebra: Ascension of the Mind</title>
 		<link>/index.php/2017/01/13/ga-computing3/</link>
+		<comments>/index.php/2017/01/13/ga-computing3/#respond</comments>
 		<pubDate>Fri, 13 Jan 2017 14:00:42 +0000</pubDate>
 		<dc:creator><![CDATA[Ahmad Eid]]></dc:creator>
 				<category><![CDATA[Geometric Algebra]]></category>
@@ -174,10 +175,13 @@ Working with the algebra, physicists have developed a conformal split mapping of
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/13/ga-computing3/">Geometric Algebra: Ascension of the Mind</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>/index.php/2017/01/13/ga-computing3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
 		<title>A Functional History of Numbers (3 of 3)</title>
 		<link>/index.php/2015/08/14/history-of-numbers3/</link>
+		<comments>/index.php/2015/08/14/history-of-numbers3/#respond</comments>
 		<pubDate>Fri, 14 Aug 2015 14:00:55 +0000</pubDate>
 		<dc:creator><![CDATA[Ahmad Eid]]></dc:creator>
 				<category><![CDATA[GA History]]></category>
@@ -305,10 +309,13 @@ After our journey with classic numbers in part one and geometric numbers in par
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2015/08/14/history-of-numbers3/">A Functional History of Numbers (3 of 3)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>/index.php/2015/08/14/history-of-numbers3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
 		<title>A Functional History of Numbers (2 of 3)</title>
 		<link>/index.php/2015/08/07/history-of-numbers2/</link>
+		<comments>/index.php/2015/08/07/history-of-numbers2/#respond</comments>
 		<pubDate>Fri, 07 Aug 2015 14:00:09 +0000</pubDate>
 		<dc:creator><![CDATA[Ahmad Eid]]></dc:creator>
 				<category><![CDATA[GA History]]></category>
@@ -414,12 +421,14 @@ After our journey with classic numbers in part one and geometric numbers in par
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2015/08/07/history-of-numbers2/">A Functional History of Numbers (2 of 3)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>/index.php/2015/08/07/history-of-numbers2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
 		<title>A Functional History of Numbers (1 of 3)</title>
 		<link>/index.php/2015/07/24/history-of-numbers1/</link>
 		<comments>/index.php/2015/07/24/history-of-numbers1/#respond</comments>
-		<pubDate>Fri, 24 Jul 2015 13:00:19 +0000</pubDate>
+		<pubDate>Fri, 24 Jul 2015 14:00:19 +0000</pubDate>
 		<dc:creator><![CDATA[Ahmad Eid]]></dc:creator>
 				<category><![CDATA[GA History]]></category>
 		<category><![CDATA[Algebra]]></category>

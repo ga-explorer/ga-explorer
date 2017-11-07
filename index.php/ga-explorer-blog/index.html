@@ -68,7 +68,6 @@ body { font-family:'Droid Serif', serif;font-size:1.06rem }@media only screen an
 <link rel='stylesheet' id='hueman-font-awesome-css'  href='/wp-content/themes/hueman/assets/front/css/font-awesome.min.css?ver=3.3.22' type='text/css' media='all' />
 <link rel='stylesheet' id='fo-fonts-declaration-css'  href='/wp-content/uploads/font-organizer/fo-declarations.css?ver=4.8.3' type='text/css' media='all' />
 <link rel='stylesheet' id='fo-fonts-elements-css'  href='/wp-content/uploads/font-organizer/fo-elements.css?ver=4.8.3' type='text/css' media='all' />
-<link rel='stylesheet' id='wpgform-css-css'  href='/wp-content/plugins/wpgform/css/wpgform.css?ver=4.8.3' type='text/css' media='all' />
 <link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.14' type='text/css' media='all' />
 <link rel="stylesheet" type="text/css" href="/wp-content/cache/nextend/web/n2-ss-5/n2-ss-5.css?1509962814" media="all" />
 <style type="text/css">.n2-ss-spinner-simple-white-container {
@@ -663,12 +662,34 @@ jQuery(document).ready(function($) {
 
 </div><!--/#wrapper-->
 
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Comfortaa:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Droid+Serif:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"><link rel='stylesheet' id='elementor-frontend-css'  href='/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=1.7.12' type='text/css' media='all' />
+        <script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'ga-explorer';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1 && nodes[i].parentNode.tagName == 'A') {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Comfortaa:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Droid+Serif:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"><link rel='stylesheet' id='elementor-frontend-css'  href='/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=1.8.0' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-post-3601-css'  href='/wp-content/uploads/elementor/css/post-3601.css?ver=1509987243' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-post-3599-css'  href='/wp-content/uploads/elementor/css/post-3599.css?ver=1509987063' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-icons-css'  href='/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=1.7.12' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=1.8.0' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-css'  href='/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-animations-css'  href='/wp-content/plugins/elementor/assets/css/animations.min.css?ver=1.7.12' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='/wp-content/plugins/elementor/assets/css/animations.min.css?ver=1.8.0' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-global-css'  href='/wp-content/uploads/elementor/css/global.css?ver=1508518043' type='text/css' media='all' />
 <link rel='stylesheet' id='lae-frontend-styles-css'  href='/wp-content/plugins/addons-for-elementor/assets/css/lae-frontend.css?ver=1.3' type='text/css' media='all' />
 <link rel='stylesheet' id='lae-widgets-styles-css'  href='/wp-content/plugins/addons-for-elementor/assets/css/lae-widgets.css?ver=1.3' type='text/css' media='all' />
@@ -684,13 +705,13 @@ var wpcf7 = {"apiSettings":{"root":"\/index.php\/wp-json\/contact-form-7\/v1","n
 <script type='text/javascript' src='/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"1","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":false,"mobile":false},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"0c9df3b5b8"},"userStarted":{"with":"with|3.3.21","on":{"date":"2017-10-12 21:00:09.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
+var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"1","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":false,"mobile":false},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"0de000b6ff"},"userStarted":{"with":"with|3.3.21","on":{"date":"2017-10-12 21:00:09.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='/wp-content/themes/hueman/assets/front/js/scripts.min.js?ver=3.3.22'></script>
 <script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.8.3'></script>
 <script type='text/javascript' src='/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=3.2.4'></script>
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=3.2.5'></script>
 <script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
 <script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min.js?ver=3.4.2'></script>
 <script type='text/javascript'>
@@ -698,7 +719,7 @@ var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchp
 var elementorFrontendConfig = {"isEditMode":"","settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_enable_lightbox_in_editor":"yes"}},"is_rtl":"","post":{"id":3543,"title":"GA Explorer Blog","excerpt":""},"urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/"}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=1.7.12'></script>
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=1.8.0'></script>
 <!--[if lt IE 9]>
 <script src="/wp-content/themes/hueman/assets/front/js/ie/respond.js"></script>
 <![endif]-->

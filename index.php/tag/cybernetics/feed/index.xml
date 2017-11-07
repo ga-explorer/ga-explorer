@@ -12,7 +12,7 @@
 	<atom:link href="/index.php/tag/cybernetics/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Tue, 07 Nov 2017 06:57:43 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 Nov 2017 19:18:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -28,6 +28,7 @@
 	<item>
 		<title>Cybernetics with Transdisciplinary Geometric Algebra</title>
 		<link>/index.php/2017/01/27/ga-cybernetics/</link>
+		<comments>/index.php/2017/01/27/ga-cybernetics/#respond</comments>
 		<pubDate>Fri, 27 Jan 2017 13:23:10 +0000</pubDate>
 		<dc:creator><![CDATA[Ahmad Eid]]></dc:creator>
 				<category><![CDATA[GA Applications]]></category>
@@ -47,17 +48,48 @@
 		<description><![CDATA[<p>A Cyberneticist, or cybernetician, is a person practicing Cybernetics: a transdisciplinary approach for exploring regulatory systems; their structures, constraints, and possibilities. Professor Eduardo Bayro-Corrochano is one such leading academic who uses Geometric Algebra to handle the diverse fields of theoretical knowledge and practical application he needs. Such fields include Robotics, Neural Computing, Computer Vision, and Lie Algebras. In this post, I interview Prof. Eduardo Bayro who tells us about how using GA in his work can simplify dealing with such diverse fields, and how can GA relate, generalize, and unify ideas from these fields together in his mind and the minds of his students.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/27/ga-cybernetics/">Cybernetics with Transdisciplinary Geometric Algebra</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2017/01/Cybernetics.jpg"><img class="aligncenter size-large wp-image-2372" src="/wp-content/uploads/2017/01/Cybernetics-1024x680.jpg" alt="Cybernetics" width="1024" height="680" srcset="/wp-content/uploads/2017/01/Cybernetics-1024x680.jpg 1024w, /wp-content/uploads/2017/01/Cybernetics-300x199.jpg 300w, /wp-content/uploads/2017/01/Cybernetics-768x510.jpg 768w, /wp-content/uploads/2017/01/Cybernetics.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
-<blockquote><p>Hard sciences are successful because they deal with the soft problems; soft sciences are struggling because they deal with the hard problems. &#8212; Heinz von Foerster</p></blockquote>
+				<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curved dropshadowboxes-curved dropshadowboxes-curved-horizontal-2 dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            
+<p><a href="/wp-content/uploads/2017/01/Cybernetics.jpg"><img class="aligncenter size-large wp-image-2372" src="/wp-content/uploads/2017/01/Cybernetics-1024x680.jpg" alt="Cybernetics" width="1024" height="680" srcset="/wp-content/uploads/2017/01/Cybernetics-1024x680.jpg 1024w, /wp-content/uploads/2017/01/Cybernetics-300x199.jpg 300w, /wp-content/uploads/2017/01/Cybernetics-768x510.jpg 768w, /wp-content/uploads/2017/01/Cybernetics.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-clearfix">
+<p>Hard sciences are successful because they deal with the soft problems; soft sciences are struggling because they deal with the hard problems.</p>
+<span class="su-quote-cite">Heinz von Foerster</span></div></div>
+</div>
+
+                            </div>
+                        </div>
+<hr />
 <span class="dropcap">A</span> Cyberneticist, or cybernetician, is a person practicing <a href="https://en.wikipedia.org/wiki/Cybernetics" target="_blank" rel="noopener">Cybernetics</a>: a transdisciplinary approach for exploring regulatory systems; their structures, constraints, and possibilities. Professor Eduardo Bayro-Corrochano is one such leading academic who uses Geometric Algebra to handle the diverse fields of theoretical knowledge and practical application he needs. Such fields include Robotics, Neural Computing, Computer Vision, and Lie Algebras. In this post, I interview Prof. Eduardo Bayro who tells us about how using GA in his work can simplify dealing with such diverse fields, and how can GA relate, generalize, and unify ideas from these fields together in his mind and the minds of his students.</p>
 <hr />
-<p><a href="/wp-content/uploads/2017/01/Prof.-Eduardo-Bayro.jpg"><img class="alignright size-medium wp-image-2380" src="/wp-content/uploads/2017/01/Prof.-Eduardo-Bayro-180x300.jpg" alt="Prof. Eduardo Bayro" width="180" height="300" srcset="/wp-content/uploads/2017/01/Prof.-Eduardo-Bayro-180x300.jpg 180w, /wp-content/uploads/2017/01/Prof.-Eduardo-Bayro.jpg 409w" sizes="(max-width: 180px) 100vw, 180px" /></a>Professor Eduardo Bayro started working on the applications of GA in the late 1990’s. His work is to stress the application of GA in cybernetics which typically involves Robotics, Neural Computing, Computer Vision, and Lie Algebras. Using GA-based geometric computing he tackled problems related to the building of intelligent machines, particularly Humanoids, to formulate algorithms for dealing with computer graphics curves, spheres, hyperplanes, and simple geometric tasks. Another goal is to build intelligent machines with real devices using geometric control, geometric perception and even quaternion wavelet transform, quaternion spike, or quantum quaternion neurons. Currently, he is preparing a new book series of 3 volumes on these topics. He is laying out the theory of future geometric intelligent robots and machines with powerful FPGA and Nvidia geometric accelerators.</p>
-<hr />
-<p><span style="color: #003366;"><strong>Tell us about the benefits of using Geometric Algebra in Geometric Computing applications.  </strong></span></p>
-<p>Geometric Algebra (GA) is a powerful geometric language for the modeling of the physics of systems. It is a highly intuitive language and provides many algebraic tools very useful to tackle complex equation manipulations. GA allows economical representations of transformations due to the GA multivector representation as opposite to analytic geometry or vector calculus. GA-based representations avoid redundant parameters and elegantly encapsulate the geometry of the problem. As a result due to its economical representations, GA is a well-suited framework for the development of real-time computations.</p>
+<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+<div class="su-note" style="border-color:#acb3bd;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#BFC7D2;border-color:#f2f4f6;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class='content-column three_fourth'><h3>About Professor Eduardo Bayro</h3>
+<p>Professor Eduardo Bayro started working on the applications of GA in the late 1990’s. His work is to stress the application of GA in cybernetics which typically involves Robotics, Neural Computing, Computer Vision, and Lie Algebras. Using GA-based geometric computing he tackled problems related to the building of intelligent machines, particularly Humanoids, to formulate algorithms for dealing with computer graphics curves, spheres, hyperplanes, and simple geometric tasks. Another goal is to build intelligent machines with real devices using geometric control, geometric perception and even quaternion wavelet transform, quaternion spike, or quantum quaternion neurons. Currently, he is preparing a new book series of 3 volumes on these topics. He is laying out the theory of future geometric intelligent robots and machines with powerful FPGA and Nvidia geometric accelerators.</p></div>
+<div class='content-column one_fourth last_column'><div class='dropshadowboxes-container dropshadowboxes-center ' style='width:100%;'>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-curved dropshadowboxes-curved dropshadowboxes-curved-horizontal-2 dropshadowboxes-effect-default' style='width:auto; border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            
+<p><a href="/wp-content/uploads/2017/01/Prof.-Eduardo-Bayro.jpg"><img class="size-medium wp-image-2380 aligncenter" src="/wp-content/uploads/2017/01/Prof.-Eduardo-Bayro-180x300.jpg" alt="Prof. Eduardo Bayro" width="180" height="300" srcset="/wp-content/uploads/2017/01/Prof.-Eduardo-Bayro-180x300.jpg 180w, /wp-content/uploads/2017/01/Prof.-Eduardo-Bayro.jpg 409w" sizes="(max-width: 180px) 100vw, 180px" /></a></p>
+
+                            </div>
+                        </div></div><div class='clear_column'></div>
+</div></div>
+</div>
 <p>&nbsp;</p>
-<p><span style="color: #003366;"><strong>How can using GA simplify dealing with the diverse fields of interdisciplinary applications you are working on? What about its range of applicability?</strong></span></p>
-<p><a href="/wp-content/uploads/2017/01/normal_ams_borro.jpg"><img class="alignright size-medium wp-image-2386" src="/wp-content/uploads/2017/01/normal_ams_borro-257x300.jpg" alt="Non-Euclidean Geometry" width="257" height="300" srcset="/wp-content/uploads/2017/01/normal_ams_borro-257x300.jpg 257w, /wp-content/uploads/2017/01/normal_ams_borro.jpg 400w" sizes="(max-width: 257px) 100vw, 257px" /></a>GA achieves the unification of many domains like multilinear algebra, multivariable analysis, conformal geometry, Lie group and Lie algebras, projective geometry, quantum mechanics and general relativity. GA allows:</p>
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Tell us about the benefits of using Geometric Algebra in Geometric Computing applications.</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<p>Geometric Algebra (GA) is a powerful geometric language for the modeling of the physics of systems. It is a highly intuitive language and provides many algebraic tools very useful to tackle complex equation manipulations. GA allows economical representations of transformations due to the GA multivector representation as opposite to analytic geometry or vector calculus. GA-based representations avoid redundant parameters and elegantly encapsulate the geometry of the problem. As a result due to its economical representations, GA is a well-suited framework for the development of real-time computations.</p>
+</div></div>
+<p>&nbsp;</p>
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> How can using GA simplify dealing with the diverse fields of interdisciplinary applications you are working on? What about its range of applicability?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-curved dropshadowboxes-curved dropshadowboxes-curved-horizontal-2 dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            
+<p><a href="/wp-content/uploads/2017/01/normal_ams_borro.jpg"><img class="size-medium wp-image-2386 aligncenter" src="/wp-content/uploads/2017/01/normal_ams_borro-257x300.jpg" alt="Non-Euclidean Geometry" width="257" height="300" srcset="/wp-content/uploads/2017/01/normal_ams_borro-257x300.jpg 257w, /wp-content/uploads/2017/01/normal_ams_borro.jpg 400w" sizes="(max-width: 257px) 100vw, 257px" /></a></p>
+
+                            </div>
+                        </div>
+<p>GA achieves the unification of many domains like multilinear algebra, multivariable analysis, conformal geometry, Lie group and Lie algebras, projective geometry, quantum mechanics and general relativity. GA allows:</p>
 <ul>
 <li>Extending and completing algebraic operations on vectors and multi-vectors.</li>
 <li>Providing unified concepts for geometry and algebra.</li>
@@ -66,15 +98,39 @@
 <li>Acting as a metalanguage for high-level reasoning.</li>
 </ul>
 <p>Because of these features, Geometric Algebra has a wide range of applications: graphics engineering, signal and image processing, computer vision, neural networks and quantum computing, machine learning, and robotics.</p>
+</div></div>
 <p>&nbsp;</p>
-<p><span style="color: #003366;"><strong>Tell us about the recent developments of applying GA in your research activities.</strong></span></p>
-<p><a href="/wp-content/uploads/2017/01/jetson-tk1.png"><img class="alignright size-medium wp-image-2382" src="/wp-content/uploads/2017/01/jetson-tk1-300x171.png" alt="jetson-tk1" width="300" height="171" srcset="/wp-content/uploads/2017/01/jetson-tk1-300x171.png 300w, /wp-content/uploads/2017/01/jetson-tk1.png 350w" sizes="(max-width: 300px) 100vw, 300px" /></a>Recent achievements in geometric accelerators using packets like Versor (P. Colapinto) or Gaalop (Geometric Algebra Algorithms Optimizer, D. Hildenbrand) allow us with FPGA or NVidia to accelerate computations even more. In my lab, we develop and build intelligent machines like in medical robotics or humanoids. The development of GA algorithms follows: algorithmic modeling, using our own C++ programs or Versor, then simply the algorithms with Maple or Gaalop and accelerate them with either FPFGA or Nvidia. The results are quite impressive for real time applications and the visualization of computing in higher dimensions which in turn helps us to gain insight and achieve correctness in the prove of theorems and improve the performance of our algorithms. We are working now to develop in the next 3 years a single small chip for geometric computing using GA with a power superior as the <a href="http://www.nvidia.com/object/jetson-tk1-embedded-dev-kit.html" target="_blank" rel="noopener">Jetson TK1 Nvidia</a> card.</p>
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Tell us about the recent developments of applying GA in your research activities.</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-curved dropshadowboxes-curved dropshadowboxes-curved-horizontal-2 dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            
+<p><a href="/wp-content/uploads/2017/01/jetson-tk1.png"><img class="size-medium wp-image-2382 aligncenter" src="/wp-content/uploads/2017/01/jetson-tk1-300x171.png" alt="jetson-tk1" width="300" height="171" srcset="/wp-content/uploads/2017/01/jetson-tk1-300x171.png 300w, /wp-content/uploads/2017/01/jetson-tk1.png 350w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+
+                            </div>
+                        </div>
+<p>Recent achievements in geometric accelerators using packets like Versor (P. Colapinto) or Gaalop (Geometric Algebra Algorithms Optimizer, D. Hildenbrand) allow us with FPGA or NVidia to accelerate computations even more. In my lab, we develop and build intelligent machines like in medical robotics or humanoids. The development of GA algorithms follows: algorithmic modeling, using our own C++ programs or Versor, then simply the algorithms with Maple or Gaalop and accelerate them with either FPFGA or Nvidia. The results are quite impressive for real time applications and the visualization of computing in higher dimensions which in turn helps us to gain insight and achieve correctness in the prove of theorems and improve the performance of our algorithms. We are working now to develop in the next 3 years a single small chip for geometric computing using GA with a power superior as the <a href="http://www.nvidia.com/object/jetson-tk1-embedded-dev-kit.html" target="_blank" rel="noopener">Jetson TK1 Nvidia</a> card.</p>
+</div></div>
 <p>&nbsp;</p>
-<p><span style="color: #003366;"><strong>In your opinion, are there any relations between Neural Learning and Geometric Learning? How do you use GA as a tool for exploring such relations?</strong></span></p>
-<p><a href="/wp-content/uploads/2017/01/neurons-1739997_640.jpg"><img class="alignright size-medium wp-image-2383" src="/wp-content/uploads/2017/01/neurons-1739997_640-300x214.jpg" alt="Neurons" width="300" height="214" srcset="/wp-content/uploads/2017/01/neurons-1739997_640-300x214.jpg 300w, /wp-content/uploads/2017/01/neurons-1739997_640.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" /></a>The tricky question is what should be a true geometric learning? We started by generalizing the McCulloch-Pitts neuron replacing its inner product via the geometric product, so the neural network weights are then multivectors and the learning rules are formulated using the gradient of multivectors as well. Our networks for classification via their kernels map the data using multivectors to a direct product of Hilbert spaces to separate multivector clusters, this helps a lot to find optimal hyperplanes. We have worked on geometric neural computing since 1995, in fact, we have generalized in GA most of the neural networks: i.e. multivector valued [SOM, NeuralGAS, MLP, ART], Clifford SVM and Quaternion Spike neural Network, currently we are developing the quaternion quantum Neural Network. This year we are also focusing on geometric high-order recurrent Neural Networks.</p>
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> In your opinion, are there any relations between Neural Learning and Geometric Learning? How do you use GA as a tool for exploring such relations?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-curved dropshadowboxes-curved dropshadowboxes-curved-horizontal-2 dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            
+<p><a href="/wp-content/uploads/2017/01/neurons-1739997_640.jpg"><img class="size-medium wp-image-2383 aligncenter" src="/wp-content/uploads/2017/01/neurons-1739997_640-300x214.jpg" alt="Neurons" width="300" height="214" srcset="/wp-content/uploads/2017/01/neurons-1739997_640-300x214.jpg 300w, /wp-content/uploads/2017/01/neurons-1739997_640.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+
+                            </div>
+                        </div>
+<p>The tricky question is what should be a true geometric learning? We started by generalizing the McCulloch-Pitts neuron replacing its inner product via the geometric product, so the neural network weights are then multivectors and the learning rules are formulated using the gradient of multivectors as well. Our networks for classification via their kernels map the data using multivectors to a direct product of Hilbert spaces to separate multivector clusters, this helps a lot to find optimal hyperplanes. We have worked on geometric neural computing since 1995, in fact, we have generalized in GA most of the neural networks: i.e. multivector valued [SOM, NeuralGAS, MLP, ART], Clifford SVM and Quaternion Spike neural Network, currently we are developing the quaternion quantum Neural Network. This year we are also focusing on geometric high-order recurrent Neural Networks.</p>
+</div></div>
 <p>&nbsp;</p>
-<p><span style="color: #003366;"><strong>Tell us about your books describing your valuable work and experience with GA, and the new books you are currently preparing.</strong></span></p>
-<p><a href="/wp-content/uploads/2017/01/Geometric-Computing-Book.jpg"><img class="alignright size-medium wp-image-2384" src="/wp-content/uploads/2017/01/Geometric-Computing-Book-199x300.jpg" alt="Geometric Computing Book" width="199" height="300" srcset="/wp-content/uploads/2017/01/Geometric-Computing-Book-199x300.jpg 199w, /wp-content/uploads/2017/01/Geometric-Computing-Book.jpg 331w" sizes="(max-width: 199px) 100vw, 199px" /></a>I have been teaching since 1997 using the material of my work which was then published in two books:</p>
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Tell us about your books describing your valuable work and experience with GA, and the new books you are currently preparing.</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-curved dropshadowboxes-curved dropshadowboxes-curved-horizontal-2 dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            
+<p><a href="/wp-content/uploads/2017/01/Geometric-Computing-Book.jpg"><img class="size-medium wp-image-2384 aligncenter" src="/wp-content/uploads/2017/01/Geometric-Computing-Book-199x300.jpg" alt="Geometric Computing Book" width="199" height="300" srcset="/wp-content/uploads/2017/01/Geometric-Computing-Book-199x300.jpg 199w, /wp-content/uploads/2017/01/Geometric-Computing-Book.jpg 331w" sizes="(max-width: 199px) 100vw, 199px" /></a></p>
+
+                            </div>
+                        </div>
+<p>I have been teaching since 1997 using the material of my work which was then published in two books:</p>
 <ul>
 <li>Geometric Computing for Perception Action Systems. Eduardo Bayro-Corrochano, Springer-Verlag, April 2001.</li>
 <li>Geometric Computing: for Wavelet Transforms, Robot Vision, Learning, Control, and Action. Eduardo Bayro-Corrochano, Springer-Verlag, 2010.</li>
@@ -86,9 +142,17 @@
 <li>Vol. III: GA for Signal Processing, Filtering, Transforms and Quantum Computing.</li>
 </ul>
 <p>These three volumes are based on my first two books, of course, while including new exciting results. My books generally differ from many the current books on GA applications because my books cover computer vision, graphics engineering, neural networks, machine learning, robotics, integral transforms, and ultimately the endeavor of building intelligent machines with GA; they present real applications. The other books are more related to the foundations of GA and its restricted use to the develop algorithms in computer science and its sub-fields like computer graphics. That is why my continuous work during all these years is helping to be able to prepare these new three volumes, which I believe will certainly establish the true geometric computing for the future development of intelligent machines.</p>
+</div></div>
 <p>&nbsp;</p>
-<p><span style="color: #003366;"><strong>Tell us about your practical experience teaching applied Geometric Algebra. How do you overcome the challenges you face while using GA in teaching?</strong></span></p>
-<p><a href="/wp-content/uploads/2017/01/robocup-400467_640.jpg"><img class="alignright size-medium wp-image-2387" src="/wp-content/uploads/2017/01/robocup-400467_640-300x198.jpg" alt="Robocup" width="300" height="198" srcset="/wp-content/uploads/2017/01/robocup-400467_640-300x198.jpg 300w, /wp-content/uploads/2017/01/robocup-400467_640.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" /></a>I call for studying and applying GA for future cybernetics in my lectures at different universities in Europe, North America (MIT) and Latin America. I have students with different backgrounds as in physics, mathematics, or engineering; some well prepared for some topics and less for others, so I start as in a fractal approach for conveying knowledge:</p>
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Tell us about your practical experience teaching applied Geometric Algebra. How do you overcome the challenges you face while using GA in teaching?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-curved dropshadowboxes-curved dropshadowboxes-curved-horizontal-2 dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            
+<p><a href="/wp-content/uploads/2017/01/robocup-400467_640.jpg"><img class="size-medium wp-image-2387 aligncenter" src="/wp-content/uploads/2017/01/robocup-400467_640-300x198.jpg" alt="Robocup" width="300" height="198" srcset="/wp-content/uploads/2017/01/robocup-400467_640-300x198.jpg 300w, /wp-content/uploads/2017/01/robocup-400467_640.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+
+                            </div>
+                        </div>
+<p>I call for studying and applying GA for future cybernetics in my lectures at different universities in Europe, North America (MIT) and Latin America. I have students with different backgrounds as in physics, mathematics, or engineering; some well prepared for some topics and less for others, so I start as in a fractal approach for conveying knowledge:</p>
 <ul>
 <li>We study 2D- and 3D-GA to become acquainted with the formulation of the geometric primitives and the use of different Clifford operations.</li>
 <li>Then we model the kinematics of points, lines and planes particularly to understand well screw theory and differential kinematics.</li>
@@ -97,8 +161,11 @@
 <li>Then I explain projective geometry using Euclidean and Minkowski metrics for the projective plane and spaces and extensions of the projective space in R(3,3).</li>
 </ul>
 <p>In this manner, the students have learned the most important ingredients to move the Conformal Geometric Algebra and high dimensional geometric algebras like G(6,3) and G(8,2). Thanks to our optimized routines for GA in C++ (with NVidia) and Maple (using the Clifford 14.0 package of R. Ablamowicz), we can prove theorems and develop real-time algorithms for intelligent machines.</p>
+</div></div>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/27/ga-cybernetics/">Cybernetics with Transdisciplinary Geometric Algebra</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>/index.php/2017/01/27/ga-cybernetics/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 	</channel>
 </rss>

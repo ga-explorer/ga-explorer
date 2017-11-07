@@ -12,7 +12,7 @@
 	<atom:link href="/index.php/category/computing/geometric-computing/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Tue, 07 Nov 2017 06:57:43 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 Nov 2017 19:18:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -28,6 +28,7 @@
 	<item>
 		<title>Computing for Geometry: When the Going Gets Tough &#8230;</title>
 		<link>/index.php/2015/09/18/ga-computing2/</link>
+		<comments>/index.php/2015/09/18/ga-computing2/#respond</comments>
 		<pubDate>Fri, 18 Sep 2015 14:00:22 +0000</pubDate>
 		<dc:creator><![CDATA[Ahmad Eid]]></dc:creator>
 				<category><![CDATA[Geometric Computing]]></category>
@@ -143,6 +144,8 @@
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2015/09/18/ga-computing2/">Computing for Geometry: When the Going Gets Tough &#8230;</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>/index.php/2015/09/18/ga-computing2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 	</channel>
 </rss>

@@ -12,7 +12,7 @@
 	<atom:link href="/index.php/tag/development-environment/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Tue, 07 Nov 2017 06:57:43 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 Nov 2017 19:18:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -28,6 +28,7 @@
 	<item>
 		<title>GMac: The Next Generation (2 of 2)</title>
 		<link>/index.php/2017/02/10/gmac-tng-2/</link>
+		<comments>/index.php/2017/02/10/gmac-tng-2/#respond</comments>
 		<pubDate>Fri, 10 Feb 2017 03:00:04 +0000</pubDate>
 		<dc:creator><![CDATA[Ahmad Eid]]></dc:creator>
 				<category><![CDATA[GA Software]]></category>
@@ -167,6 +168,8 @@ In the previous post, I talked about the first part of my journey developing GMa
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/02/10/gmac-tng-2/">GMac: The Next Generation (2 of 2)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>/index.php/2017/02/10/gmac-tng-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 	</channel>
 </rss>

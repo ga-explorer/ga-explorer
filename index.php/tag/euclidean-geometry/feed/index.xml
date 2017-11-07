@@ -12,7 +12,7 @@
 	<atom:link href="/index.php/tag/euclidean-geometry/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Tue, 07 Nov 2017 06:57:43 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 Nov 2017 19:18:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -28,6 +28,7 @@
 	<item>
 		<title>Projective Insights</title>
 		<link>/index.php/2017/03/17/projective-insights/</link>
+		<comments>/index.php/2017/03/17/projective-insights/#respond</comments>
 		<pubDate>Fri, 17 Mar 2017 18:43:11 +0000</pubDate>
 		<dc:creator><![CDATA[Ahmad Eid]]></dc:creator>
 				<category><![CDATA[GA Math]]></category>
@@ -59,13 +60,7 @@
                             </div>
                         </div>
 <hr />
-<div class='dropshadowboxes-container ' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
-                            
-<span class="su-dropcap su-dropcap-style-flat" style="font-size:2em">P</span><strong><a href="https://en.wikipedia.org/wiki/Projective_geometry" target="_blank" rel="noopener">rojective Geometry</a></strong> is the branch of geometry dealing with the properties and invariants of geometric figures under projection. In older literature, projective geometry is sometimes called &#8220;higher geometry,&#8221; &#8220;geometry of position,&#8221; or &#8220;descriptive geometry&#8221;. The most amazing result arising in projective geometry is the <a href="https://en.wikipedia.org/wiki/Duality_(projective_geometry)" target="_blank" rel="noopener"><strong>duality principle</strong></a>, which states that a duality exists between theorems such as <a href="https://en.wikipedia.org/wiki/Pascal's_theorem" target="_blank" rel="noopener">Pascal&#8217;s theorem</a> and <a href="https://en.wikipedia.org/wiki/Brianchon%27s_theorem" target="_blank" rel="noopener">Brianchon&#8217;s theorem</a> which allows one to be instantly transformed into the other. More generally, all the propositions in projective geometry occur in dual pairs, which have the property that, starting from either proposition of a pair, the other can be immediately inferred by interchanging the parts played by the words &#8220;point&#8221; and &#8220;line.&#8221;</p>
-
-                            </div>
-                        </div>
+<span class="dropcap">P</span><strong><a href="https://en.wikipedia.org/wiki/Projective_geometry" target="_blank" rel="noopener">rojective Geometry</a></strong> is the branch of geometry dealing with the properties and invariants of geometric figures under projection. In older literature, projective geometry is sometimes called &#8220;higher geometry,&#8221; &#8220;geometry of position,&#8221; or &#8220;descriptive geometry&#8221;. The most amazing result arising in projective geometry is the <a href="https://en.wikipedia.org/wiki/Duality_(projective_geometry)" target="_blank" rel="noopener"><strong>duality principle</strong></a>, which states that a duality exists between theorems such as <a href="https://en.wikipedia.org/wiki/Pascal's_theorem" target="_blank" rel="noopener">Pascal&#8217;s theorem</a> and <a href="https://en.wikipedia.org/wiki/Brianchon%27s_theorem" target="_blank" rel="noopener">Brianchon&#8217;s theorem</a> which allows one to be instantly transformed into the other. More generally, all the propositions in projective geometry occur in dual pairs, which have the property that, starting from either proposition of a pair, the other can be immediately inferred by interchanging the parts played by the words &#8220;point&#8221; and &#8220;line.&#8221;</p>
 <hr />
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <div class="su-note" style="border-color:#dad5cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#f2ede3;border-color:#fcfbf9;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
@@ -78,7 +73,6 @@
 
                             </div>
                         </div></div><div class='clear_column'></div>
-<p>&nbsp;</p>
 </div></div>
 </div>
 <p>&nbsp;</p>
@@ -137,6 +131,8 @@
 </div></div>
 <p>The post <a rel="nofollow" href="/index.php/2017/03/17/projective-insights/">Projective Insights</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>/index.php/2017/03/17/projective-insights/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 	</channel>
 </rss>
