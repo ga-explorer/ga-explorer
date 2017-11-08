@@ -12,7 +12,7 @@
 	<atom:link href="/index.php/tag/cms/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Tue, 07 Nov 2017 19:18:52 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 Nov 2017 18:52:44 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -48,14 +48,16 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p>The post <a rel="nofollow" href="/index.php/2017/10/18/exploring-static-web/">Exploring The Static Web</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
 				<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
                             
+<div class="su-note" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <p><img class="aligncenter size-large wp-image-3215" src="/wp-content/uploads/2017/10/spider-web-2732247_1280-1024x682.jpg" alt="Web Design" width="1024" height="682" srcset="/wp-content/uploads/2017/10/spider-web-2732247_1280-1024x682.jpg 1024w, /wp-content/uploads/2017/10/spider-web-2732247_1280-300x200.jpg 300w, /wp-content/uploads/2017/10/spider-web-2732247_1280-768x512.jpg 768w, /wp-content/uploads/2017/10/spider-web-2732247_1280.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-clearfix">
-<p>A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.</p>
-<span class="su-quote-cite">Antoine de Saint-Exupéry</span></div></div>
+<blockquote><p>A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.</p>
+<p style="text-align: right;"><em><strong>&#8212; Antoine de Saint-Exupéry</strong></em></p>
+</blockquote>
 </div>
+</div></div>
 
                             </div>
                         </div>
@@ -64,13 +66,13 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p>In this post, I share my reasons, experience, and final workflow for leaving dynamic web development with WordPress and going into the static web development side. I think this might be helpful to someone trying to do the same or wanting to develop a similar website. Enjoy!</p>
 <hr />
 <h2>Web Needs</h2>
+<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div class="su-note" style="border-color:#512310;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#5A2712;border-color:#ded4d0;color:#ffffff;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-clearfix">
-<p>A man travels the world over in search of what he needs and returns home to find it.</p>
-<span class="su-quote-cite">George A. Moore</span></div></div>
-</div></div>
+<blockquote><p>A man travels the world over in search of what he needs and returns home to find it.</p>
+<p style="text-align: right;"><em><strong>&#8212; George A. Moore</strong></em></p>
+</blockquote>
 </div>
+</div></div>
 <p>When I started to look for a tool to create a blog for myself in 2015, I made many searches for the &#8220;best system&#8221;. Many sources pointed me towards WordPress.org. I found many good tutorials and reviews. I didn&#8217;t have a clear list of requirements back then for my blog, so I went with WordPress as being relatively easy to learn and use while providing many features.</p>
 <p>After 2 years I found that I actually have a small and specific set of needs for my online work. I don&#8217;t currently need to buy or sell online, so plugins like <a href="https://woocommerce.com/" target="_blank" rel="noopener">WooCmmerce</a> are not relevant. I don&#8217;t need a glamorous theme like the <a href="https://themify.me/themes/ultra" target="_blank" rel="noopener">Themify Ultra</a> to show my ideas. What I actually need is:</p>
 <ol>
@@ -84,17 +86,20 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p>Web development with WordPress brilliantly satisfies the first 3 points and can be made, with some effort, to satisfy the 4th, but doesn&#8217;t satisfy the last 2.</p>
 <p>&nbsp;</p>
 <h2>Two Sides</h2>
+<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div class="su-note" style="border-color:#512310;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#5A2712;border-color:#ded4d0;color:#ffffff;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-clearfix">
-<p>There&#8217;s a world out there, and you&#8217;ve got to look at both sides of the mountain in your lifetime.</p>
-<span class="su-quote-cite">Bill Janklow</span></div></div>
-</div></div>
+<blockquote><p>There&#8217;s a world out there, and you&#8217;ve got to look at both sides of the mountain in your lifetime.</p>
+<p style="text-align: right;"><em><strong>&#8212; Bill Janklow</strong></em></p>
+</blockquote>
 </div>
+</div></div>
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
                             
-<div id="attachment_3216" style="width: 279px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/10/Static-vs-Dynamic-Website.jpg"><img class="size-medium wp-image-3216" src="/wp-content/uploads/2017/10/Static-vs-Dynamic-Website-269x300.jpg" alt="Static-vs-Dynamic-Website" width="269" height="300" srcset="/wp-content/uploads/2017/10/Static-vs-Dynamic-Website-269x300.jpg 269w, /wp-content/uploads/2017/10/Static-vs-Dynamic-Website.jpg 573w" sizes="(max-width: 269px) 100vw, 269px" /></a><p class="wp-caption-text">Static vs Dynamic Website (<a href="http://yasmeenhy.blogspot.com.eg/2015/05/static-vs-dynamic-web-sites_13.html" target="_blank" rel="noopener">source</a>)</p></div>
+<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+<p><a href="/wp-content/uploads/2017/10/Static-vs-Dynamic-Website.jpg"><img class="aligncenter wp-image-3216 size-medium" src="/wp-content/uploads/2017/10/Static-vs-Dynamic-Website-269x300.jpg" alt="Static-vs-Dynamic-Website" width="269" height="300" srcset="/wp-content/uploads/2017/10/Static-vs-Dynamic-Website-269x300.jpg 269w, /wp-content/uploads/2017/10/Static-vs-Dynamic-Website.jpg 573w" sizes="(max-width: 269px) 100vw, 269px" /></a></p>
+<p style="text-align: center;"><span style="font-size: 14px;">Static vs Dynamic Website (<a href="http://yasmeenhy.blogspot.com.eg/2015/05/static-vs-dynamic-web-sites_13.html" target="_blank" rel="noopener">source</a>)</span></p>
+</div>
 
                             </div>
                         </div>
@@ -112,43 +117,49 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p>For many kinds of websites, like blogs, wikis, and online documentation sites, using a static website is a much better choice. One additional factor is the cost of having a dynamic vs. static website. Dynamic web hosting typically costs much more because the server needs a database and a good deal of security and maintenance efforts. For all these reasons I decided to migrate the GA Explorer into the static side of the web.</p>
 <p>&nbsp;</p>
 <h2>The Search</h2>
+<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div class="su-note" style="border-color:#512310;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#5A2712;border-color:#ded4d0;color:#ffffff;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-clearfix">
-<p>I make static art, not dynamic art. That&#8217;s what I do.</p>
-<span class="su-quote-cite">Michael Heizer</span></div></div>
-</div></div>
+<blockquote><p>I make static art, not dynamic art. That&#8217;s what I do.</p>
+<p style="text-align: right;"><em><strong>&#8212; Michael Heizer</strong></em></p>
+</blockquote>
 </div>
+</div></div>
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
                             
+<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2017/10/jekyll-sticker.jpg"><img class="size-medium wp-image-3209 aligncenter" src="/wp-content/uploads/2017/10/jekyll-sticker-300x189.jpg" alt="Jekyll Sticker" width="300" height="189" srcset="/wp-content/uploads/2017/10/jekyll-sticker-300x189.jpg 300w, /wp-content/uploads/2017/10/jekyll-sticker.jpg 662w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+</div>
 
                             </div>
                         </div>
 <p>A multitude of static web design tools has recently arrived. A <a href="https://www.staticgen.com/" target="_blank" rel="noopener">major class</a> of tools includes <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>, <a href="https://middlemanapp.com/" target="_blank" rel="noopener">Middleman</a>, <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener">Gatsby</a>, and <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a><sup class='endnote'><a href='#en-3208-2' id='enref-3208-2' onclick='return hhEndnotes_show(3208)'>2</a></sup>. This class of tools, called the <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a>, simply uses some form of static web template (a collection of pre-defined web pages with similar visual style and navigation) to generate the final web pages from text input. Most of these tools can take HTML or <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">Markdown</a> text input for generating blog posts and pages. To create a new static website using such tools is a good experience. But because they have no visual interface, they almost always need non-trivial configuration and coding to customize the generated pages. I found it quite difficult and time-consuming, although possible, to migrate my online WordPress website to Jekyll, for example<sup class='endnote'><a href='#en-3208-3' id='enref-3208-3' onclick='return hhEndnotes_show(3208)'>3</a></sup>. To remedy the lack of visual interface of the JAMstack tools, <a href="https://www.cmscritic.com/flat-file-cms/" target="_blank" rel="noopener">many Flat File CMS</a>&#8216;s exist on top of them. I haven&#8217;t tried any of them myself, but I expect a huge interest and fierce competition in the coming years<sup class='endnote'><a href='#en-3208-4' id='enref-3208-4' onclick='return hhEndnotes_show(3208)'>4</a></sup>.</p>
 <p>For my personal needs, the JAMstack and Flat File CMS tools are not suitable for many reasons. They require a fair amount of coding and configuration, a time-consuming learning and exploration process, in addition to the difficulty of migrating my existing work.</p>
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
                             
+<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2017/10/wordpress-581849_1280.jpg"><img class="size-medium wp-image-3211 aligncenter" src="/wp-content/uploads/2017/10/wordpress-581849_1280-300x160.jpg" alt="wordpress-581849_1280" width="300" height="160" srcset="/wp-content/uploads/2017/10/wordpress-581849_1280-300x160.jpg 300w, /wp-content/uploads/2017/10/wordpress-581849_1280-768x409.jpg 768w, /wp-content/uploads/2017/10/wordpress-581849_1280-1024x546.jpg 1024w, /wp-content/uploads/2017/10/wordpress-581849_1280.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+</div>
 
                             </div>
                         </div>
 <p>After a lot of searching and exploration, I finally returned to WordPress again. The WordPress system itself is an open source project and anyone can create a personal web server and install WordPress on it for free. In a final act of exploration, I tried searching for a WordPress plugin that can generate static HTML+CSS+JavaScript files from the dynamic WordPress website. I was surprised and pleased to find two very good plugins for this task. This was a very exciting discovery for me because it meant that I could continue developing my work with WordPress and then generate and publish the static website from it after a small amount of tweaking. Such mixed workflow would allow me to get all the benefits of both dynamic and static web development for my needs. It also meant that I could keep my previous WordPress work with minimum conversion effort and start publishing and updating my new static website in a few days, rather than months. I then had to make some final experiments to make sure which WordPress components and plugins to use for the static website to work correctly after generation. I managed to create a good and simple workflow that satisfies all my blogging and documentation needs. And the best of all, everything in the workflow is completely free.</p>
 <p>&nbsp;</p>
 <h2>Workflow</h2>
+<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div class="su-note" style="border-color:#512310;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#5A2712;border-color:#ded4d0;color:#ffffff;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-clearfix">
-<p>Workflow and usability are not afterthoughts; they impact the core of any project and dictate how it should be engineered.</p>
-<span class="su-quote-cite">Ryan Holmes</span></div></div>
-</div></div>
+<blockquote><p>Workflow and usability are not afterthoughts; they impact the core of any project and dictate how it should be engineered.</p>
+<p style="text-align: right;"><em><strong>&#8212; Ryan Holmes</strong></em></p>
+</blockquote>
 </div>
+</div></div>
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
                             
+<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2017/10/industry-2633879_640.jpg"><img class="size-medium wp-image-3288 aligncenter" src="/wp-content/uploads/2017/10/industry-2633879_640-300x200.jpg" alt="Workflow" width="300" height="200" srcset="/wp-content/uploads/2017/10/industry-2633879_640-300x200.jpg 300w, /wp-content/uploads/2017/10/industry-2633879_640.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+</div>
 
                             </div>
                         </div>
@@ -158,9 +169,11 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p>First of all, you need to install WordPress on a local server for your personal access. No one else would be accessing this server, so it can be made as a simple <a href="https://www.howtogeek.com/196060/beginner-geek-how-to-create-and-use-virtual-machines/" target="_blank" rel="noopener">Virtual Machine</a> on your personal computer or laptop. I found a very good virtual machine that already contains a WordPress installation. You can find and download it here: <a href="https://www.turnkeylinux.org/wordpress" target="_blank" rel="noopener">www.turnkeylinux.org/wordpress</a></p>
 <p>After downloading the virtual machine file you can use any <a href="https://www.digitaltrends.com/computing/best-virtual-machine-apps-for-mac-linux-and-windows-pcs/" target="_blank" rel="noopener">Virtual Machine Application</a> to open it as a virtual server for you to access locally. I personally use <a href="https://www.vmware.com/products/workstation-player.html" target="_blank" rel="noopener">VMWare player</a> for this task.</p>
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
                             
+<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2017/10/Virtual-Server-IPs.png"><img class="size-medium wp-image-3212 aligncenter" src="/wp-content/uploads/2017/10/Virtual-Server-IPs-300x209.png" alt="Virtual-Server-IPs" width="300" height="209" srcset="/wp-content/uploads/2017/10/Virtual-Server-IPs-300x209.png 300w, /wp-content/uploads/2017/10/Virtual-Server-IPs.png 516w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+</div>
 
                             </div>
                         </div>
@@ -192,19 +205,20 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <li><a href="https://wordpress.org/plugins/static-html-output-plugin/" target="_blank" rel="noopener">WP Static HTML Output</a></li>
 <li><a href="https://wordpress.org/plugins/simply-static/" target="_blank" rel="noopener">Simply Static</a></li>
 </ul>
-<p>You will use these plugins in stage II for generating the files of your static website from the local WordPress virtual server. To organize and reduce the size of image thumbnails on your site, you can also install:</p>
+<p>You will use these plugins in stage II for generating the files of your static website from the local WordPress virtual server. To organize and reduce the size of image thumbnails on your site, you can also install<sup class='endnote'><a href='#en-3208-7' id='enref-3208-7' onclick='return hhEndnotes_show(3208)'>7</a></sup>:</p>
 <ul>
 <li><a href="https://wordpress.org/plugins/force-regenerate-thumbnails/" target="_blank" rel="noopener">Force Regenerate Thumbnails</a></li>
 <li><a href="https://wordpress.org/plugins/thumbnail-cleaner/" target="_blank" rel="noopener">Thumbnail Cleaner</a></li>
 <li><a href="https://wordpress.org/plugins/regenerate-thumbnails/" target="_blank" rel="noopener">Regenerate Thumbnails</a></li>
 </ul>
-<p>You can find a nice tutorial explaining these thumbnails organization plugins <a href="https://www.webnots.com/how-to-cleanup-thumbnails-in-wordpress/" target="_blank" rel="noopener">here</a>.</p>
 <p>&nbsp;</p>
 <p><strong>Step I.3. Migrating Online WordPress to Local WordPress</strong></p>
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
                             
+<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2017/10/wordpress-265132_640.jpg"><img class="size-medium wp-image-2924 aligncenter" src="/wp-content/uploads/2017/10/wordpress-265132_640-300x200.jpg" alt="" width="300" height="200" /></a></p>
+</div>
 
                             </div>
                         </div>
@@ -217,9 +231,11 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p><strong>Step I.5. Selecting Online Web Hosting for the Static Website</strong></p>
 <p>If you already have web hosting for your future static website, you can skip to the second stage of this workflow. But for those who need good suggestions, I will tell what I did.</p>
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
                             
+<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2017/10/Netlify-Logo.jpg"><img class="aligncenter wp-image-3404 size-medium" src="/wp-content/uploads/2017/10/Netlify-Logo-300x161.jpg" alt="Netlify Logo" width="300" height="161" srcset="/wp-content/uploads/2017/10/Netlify-Logo-300x161.jpg 300w, /wp-content/uploads/2017/10/Netlify-Logo.jpg 560w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+</div>
 
                             </div>
                         </div>
@@ -227,9 +243,11 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p>&nbsp;</p>
 <h3 style="text-align: center;">Stage II: Updating Your Website</h3>
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
+                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
                             
+<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p style="text-align: left;"><a href="/wp-content/uploads/2017/10/laptop-1246672_640.jpg"><img class="size-medium wp-image-2925 aligncenter" src="/wp-content/uploads/2017/10/laptop-1246672_640-300x221.jpg" alt="" width="300" height="221" /></a></p>
+</div>
 
                             </div>
                         </div>
@@ -238,26 +256,23 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p style="text-align: left;">The next step is to use a good text editor, like <a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener">Notepad++</a>, to replace all URLs containing your local server address with the final web hosting server address. For example, I use Notepad++ <pre class="crayon-plain-tag">Find in Files...</pre> menu to mass-replace text like <pre class="crayon-plain-tag">192.168.80.133</pre> with <pre class="crayon-plain-tag">gmac-guides.netlify.com</pre> in all generated files of the static website. The final step is a simple matter of uploading your generated files to the web hosting service, GitHub in my case, and publishing the website online.</p>
 <p>&nbsp;</p>
 <h2>Things to Explore</h2>
+<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div class="su-note" style="border-color:#512310;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#5A2712;border-color:#ded4d0;color:#ffffff;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-clearfix">
-<p>Education must provide the opportunities for self-fulfillment; it can at best provide a rich and challenging environment for the individual to explore, in his own way.</p>
-<span class="su-quote-cite">Noam Chomsky</span></div></div>
-</div></div>
+<blockquote><p>Education must provide the opportunities for self-fulfillment; it can at best provide a rich and challenging environment for the individual to explore, in his own way.</p>
+<p style="text-align: right;"><em><strong>&#8212; Noam Chomsky</strong></em></p>
+</blockquote>
 </div>
+</div></div>
 <p>If you like this workflow you can make many more explorations of your own. For example, you can try other themes with more interesting visual styles, menu, and formatting plugins. You can also explore email-based commenting systems like <a href="https://disqus.com/" target="_blank" rel="noopener">Disqus</a>. You can even explore modifying the generated web pages using other web design tools. I also found <a href="https://www.youtube.com/watch?v=mXcQ7rVn3ro" target="_blank" rel="noopener">adding google analytics code</a> to be relatively easy in this workflow.</p>
 <p>My new <a href="https://ga-explorer.netlify.com/" target="_blank" rel="noopener">GA Explorer</a> static website is now online. I&#8217;m happy to continue using WordPress with all its power for its development while gaining all of the benefits of using the static side of the web.</p>
+<hr />
+<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div class='dropshadowboxes-container ' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
-                            
-<div class="su-note" style="border-color:#e1e1e1;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#FAFAFA;border-color:#fefefe;color:#666666;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<p style="text-align: center;"><span style="font-size: 28px;"><strong><span style="font-family: 'Traditional Arabic';">تمت بحمد الله الجمعة 14 صفر 1439هـ</span></strong></span></p>
-</div></div>
-
-                            </div>
-                        </div>
+<p style="text-align: center;"><span style="font-size: 28px;"><strong><span style="font-family: 'Traditional Arabic';">تم بحمد الله الجمعة 14 صفر 1439هـ</span></strong></span></p>
 </div>
+</div></div>
+<hr />
+<p>&nbsp;</p>
 <div class='endnotes' id='hhendnotes-3208'>
 <ol>
 <li id='en-3208-1'>If you want to learn WordPress <a href="https://www.youtube.com/user/wpSculptor/featured" target="_blank" rel="noopener">the wpSculptor YouTube channel</a> contains excellent tutorials for you. I personally used <a href="https://www.youtube.com/watch?v=DyARzdLKjKw" target="_blank" rel="noopener">this one</a> back in 2015 for my work. <span class='endnotereverse'><a href='#enref-3208-1'>&#8617;</a></span></li>
@@ -266,6 +281,7 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <li id='en-3208-4'>One tool I expect to grow in the future is <a href="https://getpublii.com/" target="_blank" rel="noopener">Publii</a>; an application for building static websites directly on your desktop. <span class='endnotereverse'><a href='#enref-3208-4'>&#8617;</a></span></li>
 <li id='en-3208-5'>You must configure your Virtual Machine Application to allow internet access to the virtual host, of course. I use <a href="https://www.vmware.com/support/ws45/doc/network_configure_ws.html" target="_blank" rel="noopener">NAT port mapping in VMWare</a> to get these IPs for my virtual server <span class='endnotereverse'><a href='#enref-3208-5'>&#8617;</a></span></li>
 <li id='en-3208-6'>The <a href="https://wordpress.org/plugins/elementor/" target="_blank" rel="noopener">Elementor Page Builder</a> plugin is a beautiful addition to WordPress you can use to create very nice looking pages and posts. The official <a href="https://www.youtube.com/channel/UCt9kG_EDX8zwGSC1-ycJJVA/featured" target="_blank" rel="noopener">Elementor YouTube channel</a> contains many excellent tutorials. You can also find a nice comprehensive tutorial about it <a href="https://www.youtube.com/watch?v=kwmvGpcJux0" target="_blank" rel="noopener">here</a>. <span class='endnotereverse'><a href='#enref-3208-6'>&#8617;</a></span></li>
+<li id='en-3208-7'>You can find a nice tutorial explaining these thumbnails organization plugins <a href="https://www.webnots.com/how-to-cleanup-thumbnails-in-wordpress/" target="_blank" rel="noopener">here</a>. <span class='endnotereverse'><a href='#enref-3208-7'>&#8617;</a></span></li>
 </ol>
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/10/18/exploring-static-web/">Exploring The Static Web</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
