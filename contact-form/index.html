@@ -1,54 +1,73 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Contact The GA Explorer</title>
+<!doctype html>
+<html lang="en">
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta name="description" content="Using Formspree to send our emails.">
-    <meta http-equiv="X-UA-Compatible" content="IE=9" />
-    <link rel="stylesheet" href="/contact-form/libraries/alertifyjs/css/alertify.min.css" />
-      <link rel="stylesheet" href="/contact-form/libraries/alertifyjs/css/themes/default.min.css" />
-      <script src="/contact-form/libraries/alertifyjs/alertify.min.js"></script>
-    <link rel="stylesheet" href="/contact-form/libraries/bootstrap/bootstrap.css" />
-      <script src="/contact-form/libraries/bootstrap/bootstrap.js"></script>
-    <script src="/contact-form/libraries/jquery/jquery.js"></script>
-      <script src="/contact-form/libraries/jquery/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/contact-form/libraries/jquery/jquery.js"></script>
-      <script src="/contact-form/libraries/jquery/jquery-migrate-1.2.1.min.js"></script>
-    <link rel="stylesheet" href="/contact-form/libraries/font-awesome/font-awesome.css" />
-    <link rel="stylesheet" href="/contact-form/libraries/font-awesome/macset.css" />
-    <link rel="stylesheet" href="/contact-form/css/index.css" />
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact form example">
+  <title>Contact Form Example</title>
+</head>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <form id="contact-form">
-        <div class="form-group center-block">
-          <label for="inputName">Name</label>
-          <input type="text" class="form-control contact-input" id="inputName" placeholder="Name" name="name">
-        </div>
-        <div class="form-group center-block">
-          <label for="inputEmail">Email</label>
-          <input type="email" class="form-control contact-input" id="inputEmail" placeholder="Email" name="email">
-        </div>
-        <div class="form-group center-block">
-          <label for="inputMessage">Message</label>
-          <textarea id="inputMessage" class="form-control contact-input" rows="3" placeholder="Your Message" name="message"></textarea>
-        </div>
-        <input type="text" name="_gotcha" class="display-none">
-        <div class="text-center">
-          <button class="btn btn-default" type="submit" id="email-submit-btn" value="Send">
-            Submit
-          </button>
-        </div>
-        <span></span>
-      </form>
-    </div>
+<body>
+  <h2 class="content-head is-center">Contact Us!</h2>
+  <aside>
+       <p>
+           We would <em>love</em> to hear from you! </p>
+           <p>Please use the <b><em>Contact Form</em></b>
+           to send us a message.
+       </p>
+   </aside>
+
+<!-- START HERE -->
+   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <!-- Style The Contact Form How Ever You Prefer -->
+   <link rel="stylesheet" href="/contact-form/style.css">
+
+  <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbxkMR_TPTPproMc-IgW6sA25s1WxKmm-A65QwPwpoL1Qc8q6mGX/exec">
+    <!-- change the form action to your script url -->
+
+    <fieldset class="pure-group">
+      <label for="name">Name: </label>
+      <input id="name" name="name" placeholder="What your Mom calls you" />
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="message">Message: </label>
+      <textarea id="message" name="message" rows="10"
+      placeholder="Tell us what's on your mind..."></textarea>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="email"><em>Your</em> Email Address:</label>
+      <input id="email" name="email" type="email" value=""
+      required placeholder="your.name@email.com"/>
+      <span id="email-invalid" style="display:none">
+        Must be a valid email address</span>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="color">Favourite Color: </label>
+      <input id="color" name="color" placeholder="green" />
+    </fieldset>
+
+    <button class="button-success pure-button button-xlarge">
+      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+  </form>
+
+  <!-- Customise the Thankyou Message People See when they submit the form: -->
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting us!
+      We will get back to you soon!</h2>
   </div>
-</div>
 
-    <script src="/contact-form/js/index.js"></script>
-  </body>
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="/contact-form/form-submission-handler.js"></script>
+  <!-- <script data-cfasync="false" type="text/javascript"
+  src="/form-submission-handler.js"></script> -->
+<!-- END -->
+
+</body>
 </html>
