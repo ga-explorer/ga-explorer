@@ -12,11 +12,11 @@
 	<atom:link href="/index.php/tag/jamstack/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 11 Nov 2017 12:51:09 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 May 2018 05:31:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.8.3</generator>
+	<generator>https://wordpress.org/?v=4.9.5</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>

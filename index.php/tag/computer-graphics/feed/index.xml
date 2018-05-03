@@ -12,11 +12,11 @@
 	<atom:link href="/index.php/tag/computer-graphics/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 11 Nov 2017 12:51:09 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 May 2018 05:31:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.8.3</generator>
+	<generator>https://wordpress.org/?v=4.9.5</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -82,11 +82,11 @@
 </div></div>
 <p>&nbsp;</p>
 <div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Tell us about your important book, coauthored with S. Mann and D. Fontijne, 'Geometric Algebra for Computer Science' (GA4CS). How can the GA community make more books like it to help attract more people to learn and apply GA in their research and teaching?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
-<p>After I just learned GA, I was amazed by the clarity it provides at the computational basis for geometry, and its new elements and operators at an intermediate level of abstraction: it is great to have the very interesting new primitives, especially in CGA (conformal geometric algebra). What can we do more or better once we learn to think in terms of those primitives? I knew I could not develop the consequences for intermediate and high-level algorithms myself &#8212; there is just too much reform to do, in too many fields. So we wrote a book to convey the basic tools and the algebraically supported intuition of their interplay, for others to do that work, each in their own subfield. It has not quite taken off yet in the way I hoped, though there are some examples (such as work by Ishida at Honda on genetic algorithms for road-following using GA primitives and their interactions as the chromosomes and cross-over operations). We need more work at that intermediate level, showing how or when the possibility not to go down to the vector level pays off.</p>
+<p>After I just learned GA, I was amazed by the clarity it provides at the computational basis for geometry, and its new elements and operators at an intermediate level of abstraction: it is great to have the very interesting new primitives, especially in CGA (conformal geometric algebra). What can we do more or better once we learn to think in terms of those primitives? I knew I could not develop the consequences for intermediate and high-level algorithms myself &#8212; there is just too much reform to do, in too many fields. So we wrote a book to convey the basic tools and the algebraically supported intuition of their interplay, for others to do that work, each in their own subfield. It has not quite taken off yet in the way I hoped, though there are some examples (such as <a href="https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_action_common_download&amp;item_id=95768&amp;item_no=1&amp;attribute_id=1&amp;file_no=1" target="_blank" rel="noopener">work by Ishida at Toyota</a> on genetic algorithms for road-following using GA primitives and their interactions as the chromosomes and cross-over operations). We need more work at that intermediate level, showing how or when the possibility not to go down to the vector level pays off.</p>
 </div></div>
 <p>&nbsp;</p>
 <div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> If you were to write a second book on GA mathematics and applications after 10 years of GA4CS, what new GA topics would you include? What new applications?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
-<p>At some point it would be good to collate some convincing applications of the new thinking, directly employing the intermediate primitives (like the Honda example above, or the application to GIS). Our 2011 &#8216;Guide to GA in Practice&#8217; contains some good chapters in those directions, but a proper book would need more tight editorial coherence. I would like to see parts on projective geometric algebra since that is so important to graphics (I believe R(3,3) is the right model, but we still need to learn to encode the world in its primitives, the line complexes), and on finite element methods done in GA (with special emphasis on 3D meshes).</p>
+<p>At some point it would be good to collate some convincing applications of the new thinking, directly employing the intermediate primitives (like the Toyota example above, or the application to GIS). Our 2011 &#8216;Guide to GA in Practice&#8217; contains some good chapters in those directions, but a proper book would need more tight editorial coherence. I would like to see parts on projective geometric algebra since that is so important to graphics (I believe R(3,3) is the right model, but we still need to learn to encode the world in its primitives, the line complexes), and on finite element methods done in GA (with special emphasis on 3D meshes).</p>
 </div></div>
 </div></div>
 <p>&nbsp;</p>

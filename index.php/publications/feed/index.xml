@@ -10,9 +10,9 @@
 	<atom:link href="/index.php/publications/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 11 Nov 2017 12:56:41 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 May 2018 05:36:26 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.8.3</generator>
+	<generator>https://wordpress.org/?v=4.9.5</generator>
 </channel>
 </rss>

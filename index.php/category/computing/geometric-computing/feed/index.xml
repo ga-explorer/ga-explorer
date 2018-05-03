@@ -12,11 +12,11 @@
 	<atom:link href="/index.php/category/computing/geometric-computing/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 11 Nov 2017 12:51:09 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 May 2018 05:31:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.8.3</generator>
+	<generator>https://wordpress.org/?v=4.9.5</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -229,7 +229,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_818" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/compiler.png"><img class="size-medium wp-image-818" src="/wp-content/uploads/2015/09/compiler-300x195.png" alt="compiler" width="300" height="195" srcset="/wp-content/uploads/2015/09/compiler-300x195.png 300w, /wp-content/uploads/2015/09/compiler-768x500.png 768w, /wp-content/uploads/2015/09/compiler.png 813w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Modern general-purpose compilers perform complicated low-level optimizations but fail to make domain-level optimizations. (<a href="http://www.rtcmagazine.com/articles/view/103234">Source</a>)</p></div>
+<div id="attachment_818" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/compiler.png"><img class="size-medium wp-image-818" src="/wp-content/uploads/2015/09/compiler-300x195.png" alt="compiler" width="300" height="195" srcset="/wp-content/uploads/2015/09/compiler-300x195.png 300w, /wp-content/uploads/2015/09/compiler-768x500.png 768w, /wp-content/uploads/2015/09/compiler.png 813w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Modern general-purpose compilers perform complicated low-level optimizations but fail to make domain-level optimizations. (<a href="http://www.rtcmagazine.com/articles/view/103234" class="broken_link">Source</a>)</p></div>
 </div>
 
                             </div>
