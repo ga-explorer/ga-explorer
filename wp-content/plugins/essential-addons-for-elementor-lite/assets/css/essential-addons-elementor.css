@@ -1338,57 +1338,150 @@ body:not(.x-ethos):not(.x-integrity):not(.x-renew):not(.x-icon) .eael-product-ca
 .eael-product-carousel.eael-product-overlay .woocommerce li.product:hover .star-rating-container {
     opacity: 1;
 }
+
+* Contact forms common */
+
+.eael-contact-form input[type=text],
+.eael-contact-form input[type=email],
+.eael-contact-form input[type=url],
+.eael-contact-form input[type=tel],
+.eael-contact-form input[type=date],
+.eael-contact-form input[type=number],
+.eael-contact-form textarea {
+  background: #fff;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  float: none;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  width: auto;
+}
+.eael-contact-form input[type=submit] {
+  border: 0;
+  float: none;
+  height: auto;
+  margin: 0;
+  padding: 10px 20px;
+  width: auto;
+  -webkit-transition: all 0.25s linear 0s;
+  transition: all 0.25s linear 0s;
+}
+.eael-contact-form.placeholder-hide input::-webkit-input-placeholder,
+.eael-contact-form.placeholder-hide textarea::-webkit-input-placeholder {
+  opacity: 0;
+  visibility: hidden;
+}
+.eael-contact-form.placeholder-hide input::-moz-placeholder,
+.eael-contact-form.placeholder-hide textarea::-moz-placeholder {
+  opacity: 0;
+  visibility: hidden;
+}
+.eael-contact-form.placeholder-hide input:-ms-input-placeholder,
+.eael-contact-form.placeholder-hide textarea:-ms-input-placeholder {
+  opacity: 0;
+  visibility: hidden;
+}
+.eael-contact-form.placeholder-hide input:-moz-placeholder,
+.eael-contact-form.placeholder-hide textarea:-moz-placeholder {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.eael-custom-radio-checkbox input[type=checkbox],
+.eael-custom-radio-checkbox input[type=radio] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-style: solid;
+  border-width: 0;
+  outline: none;
+  min-width: 1px;
+  width: 15px;
+  height: 15px;
+  background: #ddd;
+  padding: 3px;
+}
+.eael-custom-radio-checkbox input[type=checkbox]:before,
+.eael-custom-radio-checkbox input[type=radio]:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.eael-custom-radio-checkbox input[type=checkbox]:checked:before,
+.eael-custom-radio-checkbox input[type=radio]:checked:before {
+  background: #999;
+  -webkit-transition: all 0.25s linear 0s;
+  transition: all 0.25s linear 0s;
+}
+.eael-custom-radio-checkbox input[type=radio] {
+  border-radius: 50%;
+}
+.eael-custom-radio-checkbox input[type=radio]:before {
+  border-radius: 50%;
+}
+
 /* Contact Form 7 Styles */
 
-.eael-contact-form-container input,
-.eael-contact-form-container textarea {
-    height: auto;
-    padding: 10px;
+.eael-contact-form.eael-contact-form-align-center, .eael-contact-form-7.eael-contact-form-btn-align-center input.wpcf7-submit {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block;
+  float: none;
 }
-.eael-contact-form-align-center .eael-contact-form-container,
-.eael-contact-form-btn-align-center .eael-contact-form-container input.wpcf7-submit {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    display: block;
-    float: none;
+
+.eael-contact-form.eael-contact-form-align-left, .eael-contact-form-7.eael-contact-form-btn-align-left input.wpcf7-submit {
+  float: left;
+  width: auto;
 }
-.eael-contact-form-align-left .eael-contact-form-container,
-.eael-contact-form-btn-align-left .eael-contact-form-container input.wpcf7-submit {
-    float: left;
-    width: auto;
+
+.eael-contact-form.eael-contact-form-align-right, .eael-contact-form-7.eael-contact-form-btn-align-right input.wpcf7-submit {
+  float: right;
+  width: auto;
 }
-.eael-contact-form-align-right .eael-contact-form-container,
-.eael-contact-form-btn-align-right .eael-contact-form-container input.wpcf7-submit {
-    float: right;
-    width: auto;
+
+.eael-contact-form-7 textarea, .eael-contact-form-7 input[type="text"], .eael-contact-form-7 input[type="password"], .eael-contact-form-7 input[type="datetime"], .eael-contact-form-7 input[type="datetime-local"], .eael-contact-form-7 input[type="date"], .eael-contact-form-7 input[type="month"], .eael-contact-form-7 input[type="time"], .eael-contact-form-7 input[type="week"], .eael-contact-form-7 input[type="number"], .eael-contact-form-7 input[type="email"], .eael-contact-form-7 input[type="url"], .eael-contact-form-7 input[type="search"], .eael-contact-form-7 input[type="tel"], .eael-contact-form-7 input[type="color"], .eael-contact-form-7 .uneditable-input {
+  -webkit-transition: border linear 0.2s,box-shadow linear 0.2s;
+  transition: border linear 0.2s,box-shadow linear 0.2s;
 }
-.eael-contact-form-container textarea,
-.eael-contact-form-container input[type="text"],
-.eael-contact-form-container input[type="password"],
-.eael-contact-form-container input[type="datetime"],
-.eael-contact-form-container input[type="datetime-local"],
-.eael-contact-form-container input[type="date"],
-.eael-contact-form-container input[type="month"],
-.eael-contact-form-container input[type="time"],
-.eael-contact-form-container input[type="week"],
-.eael-contact-form-container input[type="number"],
-.eael-contact-form-container input[type="email"],
-.eael-contact-form-container input[type="url"],
-.eael-contact-form-container input[type="search"],
-.eael-contact-form-container input[type="tel"],
-.eael-contact-form-container input[type="color"],
-.eael-contact-form-container .uneditable-input {
-    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
-    transition: border linear 0.2s, box-shadow linear 0.2s;
+
+.eael-contact-form-7 .wpcf7-form::before, .eael-contact-form-7 .wpcf7-form::after {
+  content: " ";
+  clear: both;
+  display: table;
 }
-.eael-contact-form-container .wpcf7-form::before,
-.eael-contact-form-container .wpcf7-form::after {
-    content: " ";
-    clear: both;
-    display: table;
+
+.eael-contact-form-7 .wpcf7-form:after {
+  clear: both;
+  content: "";
+  font-size: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
 }
-.eael-contact-form-container .wpcf7-response-output {
-    clear: both;
+.eael-contact-form-7 .wpcf7-form label,
+.eael-contact-form-7 .wpcf7-form .wpcf7-form-control-wrap {
+  display: block;
+}
+.eael-contact-form-7 .wpcf7-form p {
+  margin-bottom: 0;
+}
+.eael-contact-form-7.labels-hide .wpcf7-form label {
+  display: none;
+}
+
+.eael-contact-form-7-title {
+  margin-bottom: 10px;
+}
+
+.eael-contact-form-7-description {
+  margin-bottom: 20px;
+}
+
+.eael-contact-form-7-button-full-width .wpcf7-form-control.wpcf7-submit {
+  width: 100%;
 }
 /* weForm Styles */
 
@@ -1448,6 +1541,77 @@ body:not(.x-ethos):not(.x-integrity):not(.x-renew):not(.x-icon) .eael-product-ca
 
 .eael-ninja-container ul.wpuf-form li .wpuf-fields input[type="text"], .eael-ninja-container .nf-field .nf-field-element input[type="password"], .eael-ninja-container ul.wpuf-form li .wpuf-fields input[type="email"], .eael-ninja-container .nf-field .nf-field-element input[type="url"], .eael-ninja-container ul.wpuf-form li .wpuf-fields input[type="number"], .eael-ninja-container .nf-field .nf-field-element textarea {
   max-width: 100%;
+}
+.eael-ninja-form .nf-form-title {
+  display: none;
+}
+.eael-ninja-form-title-yes .nf-form-title {
+  display: block;
+}
+.eael-ninja-form .title-description-hide .nf-form-title {
+  display: none;
+}
+.eael-ninja-form.title-description-hide .nf-form-title {
+  display: none;
+}
+.eael-ninja-form .nf-field-label {
+  display: none;
+}
+.eael-ninja-form-labels-yes .nf-field-label {
+  display: block;
+}
+.eael-ninja-form .submit-container input[type=button] {
+  border: 0;
+  border-radius: 0;
+}
+
+.eael-ninja-form-button-full-width .submit-container input[type=button] {
+  width: 100%;
+}
+
+/**
+ * Gravity Form
+ */
+.eael-gravity-form-align-default,
+.eael-gravity-form-align-left,
+.eael-gravity-form-btn-align-left {
+  text-align: left;
+}
+.eael-gravity-form-align-right,
+.eael-gravity-form-btn-align-right {
+  text-align: right;
+}
+.eael-gravity-form-align-center,
+.eael-gravity-form-btn-align-center {
+  text-align: center;
+}
+
+.eael-gravity-form .gform_wrapper .gform_footer {
+  margin: 0;
+  padding: 0;
+}
+.gform_wrapper form li, .gform_wrapper li {
+    list-style: none;
+}
+.eael-gravity-form .gform_wrapper ul.gform_fields li.gfield {
+  padding: 0;
+}
+.eael-gravity-form .gform_wrapper textarea {
+  padding: 0;
+}
+.eael-gravity-form .gform_wrapper .gform_footer input.button, .eael-gravity-form .gform_wrapper .gform_footer input[type=submit], .eael-gravity-form .gform_wrapper .gform_page_footer input.button, .eael-gravity-form .gform_wrapper .gform_page_footer input[type=submit] {
+  margin: 0;
+}
+.eael-gravity-form.title-description-hide .gform_heading {
+  display: none;
+}
+.eael-gravity-form.labels-hide .gform_wrapper .top_label .gfield_label,
+.eael-gravity-form.labels-hide .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label {
+  display: none;
+}
+
+.eael-gravity-form-button-full-width .gform_wrapper .gform_footer input[type="submit"] {
+  width: 100%;
 }
 
 /* Post Grid Style */
@@ -1661,20 +1825,29 @@ body:not(.x-ethos):not(.x-integrity):not(.x-renew):not(.x-icon) .eael-product-ca
   opacity: 0;
 }
 
-.button--loading {
-  padding-left: 50px!important;
+.eael-load-more-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .eael-load-more-button .button__loader {
-  float: left;
-  position: absolute;
-  left: -50px;
-  top: 10px;
+  left: -100%;
+  top: auto;
+  margin-right: 5px;
   transition: all .2s;
- }
+}
 
-.button--loading .button__loader {
-  left: 15px;
+.eael-load-more-button > span {
+  margin-left: -20px;
+}
+
+.eael-load-more-button.button--loading > span {
+  margin-left: 0;
+}
+
+.eael-load-more-button.button--loading .button__loader {
+  left: 0;
 }
 
 .eael-btn-loader, .eael-btn-loader:after {
@@ -2889,7 +3062,6 @@ h2.eael-elements-flip-box-heading {
     margin: 0px;
 }
 
-
 /**
  * Caldera Contact Form Styler
  */
@@ -2904,6 +3076,38 @@ h2.eael-elements-flip-box-heading {
 .eael-caldera-form-align-center,
 .eael-caldera-form-btn-align-center {
   text-align: center;
+}
+
+.eael-caldera-form .control-label {
+  display: none;
+}
+.eael-caldera-form-labels-yes .control-label {
+  display: block;
+}
+.eael-caldera-form-button-center .form-group input[type=button],
+.eael-caldera-form-button-center .form-group input[type=submit] {
+  display: block;
+  margin: 0 auto;
+}
+.eael-caldera-form-button-right .form-group input[type=button],
+.eael-caldera-form-button-right .form-group input[type=submit] {
+  float: right;
+}
+.eael-caldera-form .intl-tel-input {
+  display: inherit;
+}
+
+.eael-custom-radio-checkbox .caldera-grid input[type=checkbox],
+.eael-custom-radio-checkbox .caldera-grid input[type=radio] {
+  border-style: solid;
+  border-width: 0;
+  padding: 3px;
+  -webkit-appearance: none;
+}
+
+.eael-caldera-form-button-full-width .form-group input[type=submit],
+.eael-caldera-form-button-full-width .form-group input[type=button] {
+  width: 100%;
 }
 
 /**
@@ -4067,11 +4271,6 @@ img.mfp-img {
 }
 
 @media screen and (max-width: 800px) {
-  body {
-    font-size: 1rem;
-    line-height: 1.25;
-  }
-
   .eael-img-accordion {
     flex-direction: column;
   }
@@ -4172,10 +4371,14 @@ img.mfp-img {
 .eael-ticker-wrap .eael-typed-strings {
   padding: 0px 0px 0px 15px;
 }
+
 /**
  * Advance Tabs
  */
-.eael-advance-tabs > .eael-tab-navs {
+.eael-advance-tabs {
+  display: block;
+}
+.eael-advance-tabs .eael-tabs-nav > ul {
   position: relative;
   padding: 0px;
   margin: 0px;
@@ -4185,27 +4388,17 @@ img.mfp-img {
   align-items: center;
   z-index: 1;
 }
-.eael-advance-tabs .eael-tab-navs li {
-  flex: 1 1 auto;
-  cursor: pointer;
+.eael-advance-tabs .eael-tabs-nav > ul li {
+    position: relative;
+    padding: 1em 1.5em;
+    flex: 1 1 auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-.eael-advance-tabs .eael-tab-navs li a {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  padding: 15px;
-  box-sizing: border-box;
-  position: relative;
-  z-index: 0;
-}
-.eael-advance-tabs .eael-tab-navs li a:hover,
-.eael-advance-tabs .eael-tab-navs li a.active {
-  position: relative;
-  z-index: 0;
-}
-.eael-advance-tabs .eael-tab-navs li a:after {
+.eael-advance-tabs .eael-tabs-nav > ul li:after {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -4221,25 +4414,25 @@ img.mfp-img {
   border-bottom: 0px;
   display: none;
 }
-.eael-advance-tabs .eael-tab-navs li a.active:after {
+.eael-advance-tabs .eael-tabs-nav > ul li.active:after,
+.eael-advance-tabs .eael-tabs-nav > ul li.active-default:after {
   display: block;
 }
-.eael-advance-tabs .eael-tab-contents .eael-tab-content {
+.eael-tabs-content {
+  display: flex;
+}
+.eael-advance-tabs .eael-tabs-content > div {
   display: none;
-  box-sizing: border-box;
-  padding: 20px 30px;
   opacity: 0;
-  font-size: 1rem;
-  line-height: 1.7;
-  border: 1px solid #eee;
-  margin-top: -1px;
 }
-.eael-advance-tabs .eael-tab-contents .eael-tab-content.active {
+.eael-advance-tabs .eael-tabs-content > div.active,
+.eael-advance-tabs .eael-tabs-content > div.active-default {
   display: block;
+  width: 100%;
+  padding: 1em;
   opacity: 1;
   animation: fadeIn linear 0.3s;
 }
-
 /* Inline Icon */
 .eael-tab-inline-icon li a .fa {
   margin-right: 10px;
@@ -4258,6 +4451,44 @@ img.mfp-img {
 .eael-tab-top-icon li a .eael-tab-title {
   margin-top: 10px;
 }
+
+/* Vertical Tabs */
+
+.eael-advance-tabs.eael-tabs-vertical {
+  display: flex;
+}
+
+.eael-advance-tabs.eael-tabs-vertical .eael-tabs-nav {
+  flex: 0 0 auto;
+}
+
+.eael-advance-tabs.eael-tabs-vertical .eael-tabs-nav > ul {
+  flex-flow: column wrap;
+}
+.eael-advance-tabs.eael-tabs-vertical .eael-tabs-nav > ul > li {
+    width: 100%;
+    justify-content: start;
+}
+
+.eael-advance-tabs.eael-tabs-vertical .eael-tabs-nav > ul li::after {
+  bottom: auto !important;
+  right: -10px;
+  top: calc(50% - 10px) !important;
+  left: auto !important;
+  border-left: 10px solid #444;
+  border-right: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+@media only screen and (max-width: 767px) {
+.eael-advance-tabs .eael-tabs-nav > ul {
+  flex-wrap: wrap;
+}
+.eael-advance-tabs .eael-tabs-nav > ul li {
+  flex: 1 100%;
+}
+}
 /**
  * Advance Accordion
  */
@@ -4266,7 +4497,6 @@ img.mfp-img {
   height: auto;
   transition: all 0.3s ease-in-out;
 }
-.eael-adv-accordion .eael-accordion-list {}
 .eael-adv-accordion .eael-accordion-list .eael-accordion-header {
   padding: 15px;
   border: 1px solid rgba(0,0,0,0.02);
