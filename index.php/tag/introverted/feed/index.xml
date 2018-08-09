@@ -12,11 +12,11 @@
 	<atom:link href="/index.php/tag/introverted/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Wed, 06 Jun 2018 16:38:39 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 09 Aug 2018 21:09:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -30,7 +30,7 @@
 		<link>/index.php/2017/02/09/gmac-tng-1/</link>
 		<comments>/index.php/2017/02/09/gmac-tng-1/#respond</comments>
 		<pubDate>Thu, 09 Feb 2017 16:00:02 +0000</pubDate>
-		<dc:creator><![CDATA[Ahmad Eid]]></dc:creator>
+		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
 				<category><![CDATA[GA Software]]></category>
 		<category><![CDATA[GMac]]></category>
 		<category><![CDATA[Belief in Allah]]></category>
