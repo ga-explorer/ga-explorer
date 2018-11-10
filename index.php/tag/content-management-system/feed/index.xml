@@ -12,7 +12,7 @@
 	<atom:link href="/index.php/tag/content-management-system/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Thu, 09 Aug 2018 21:09:47 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 10 Nov 2018 17:17:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -42,7 +42,7 @@
 		<category><![CDATA[Static Web Design]]></category>
 		<category><![CDATA[WordPress]]></category>
 
-		<guid isPermaLink="false">/?p=3208</guid>
+		<guid isPermaLink="false">http://192.168.80.131/?p=3208</guid>
 		<description><![CDATA[<p>The Geometric Algebra Explorer website has been up and running for more than 2 years now. I developed this website using the WordPress Content Management System (CMS). WordPress and its countless plugins provide many impressive features for dynamic website developers, especially if they don't want to code much. I really enjoyed working with it, but it's time for me to go static.<br />
 In this post, I share my reasons, experience, and final workflow for leaving dynamic web development with WordPress and going into the static web development side. I think this might be helpful to someone trying to do the same or wanting to develop a similar website. Enjoy!</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/10/18/exploring-static-web/">Exploring The Static Web</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>

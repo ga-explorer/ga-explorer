@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="profile" href="https://gmpg.org/xfn/11" />
   <link rel="pingback" href="/xmlrpc.php">
 
   <title>Exploring The Static Web - Geometric Algebra Explorer</title>
 <script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
 
-<!-- This site is optimized with the Yoast SEO plugin v7.9.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<!-- This site is optimized with the Yoast SEO plugin v9.1 - https://yoast.com/wordpress/plugins/seo/ -->
 <meta name="description" content="In this post, I share my experience for leaving dynamic web development with WordPress and going into the static web development side."/>
 <link rel="canonical" href="/index.php/2017/10/18/exploring-static-web/" />
 <meta property="og:locale" content="en_US" />
@@ -28,9 +28,9 @@
 <meta property="article:tag" content="Static Web Design" />
 <meta property="article:tag" content="WordPress" />
 <meta property="article:section" content="Exploration" />
-<meta property="article:published_time" content="2017-10-18T21:13:54+00:00" />
-<meta property="article:modified_time" content="2018-08-09T23:09:47+00:00" />
-<meta property="og:updated_time" content="2018-08-09T23:09:47+00:00" />
+<meta property="article:published_time" content="2017-10-18T19:13:54+00:00" />
+<meta property="article:modified_time" content="2018-08-09T21:09:47+00:00" />
+<meta property="og:updated_time" content="2018-08-09T21:09:47+00:00" />
 <meta property="og:image" content="/wp-content/uploads/2017/10/spider-web-2732247_1280.jpg" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="853" />
@@ -70,21 +70,23 @@ img.emoji {
 <link rel='stylesheet' id='crayon-theme-github-css'  href='/wp-content/plugins/crayon-syntax-highlighter/themes/github/github.css?ver=_2.7.2_beta' type='text/css' media='all' />
 <link rel='stylesheet' id='crayon-font-monaco-css'  href='/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco.css?ver=_2.7.2_beta' type='text/css' media='all' />
 <link rel='stylesheet' id='cpsh-shortcodes-css'  href='/wp-content/plugins/column-shortcodes//assets/css/shortcodes.css?ver=1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='contact-form-7-css'  href='/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.5' type='text/css' media='all' />
 <link rel='stylesheet' id='essential_addons_elementor-css-css'  href='/wp-content/plugins/essential-addons-for-elementor-lite/assets/css/essential-addons-elementor.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='essential_addons_elementor-tooltipster-css'  href='/wp-content/plugins/essential-addons-for-elementor-lite/assets/css/tooltipster.bundle.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='sek-base-css'  href='/wp-content/plugins/nimble-builder/assets/front/css/sek-base.min.css?ver=1.2.0' type='text/css' media='all' />
 <link rel='stylesheet' id='plantuml-renderer-css'  href='/wp-content/plugins/plantuml-renderer/public/css/plantuml-renderer-public.css?ver=0.0.1' type='text/css' media='all' />
 <link rel='stylesheet' id='dlm-frontend-css'  href='/wp-content/plugins/download-monitor/assets/css/frontend.css?ver=4.9.8' type='text/css' media='all' />
-<link rel='stylesheet' id='hueman-main-style-css'  href='/wp-content/themes/hueman/assets/front/css/main.min.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='hueman-main-style-css'  href='/wp-content/themes/hueman/assets/front/css/main.min.css?ver=3.4.8' type='text/css' media='all' />
 <style id='hueman-main-style-inline-css' type='text/css'>
 body { font-family:'Droid Serif', serif;font-size:1.06rem }@media only screen and (min-width: 720px) {
         .nav > li { font-size:1.06rem; }
       }::selection { background-color: #0066bf; }
 ::-moz-selection { background-color: #0066bf; }a,a+span.hu-external::after,.themeform label .required,#flexslider-featured .flex-direction-nav .flex-next:hover,#flexslider-featured .flex-direction-nav .flex-prev:hover,.post-hover:hover .post-title a,.post-title a:hover,.sidebar.s1 .post-nav li a:hover i,.content .post-nav li a:hover i,.post-related a:hover,.sidebar.s1 .widget_rss ul li a,#footer .widget_rss ul li a,.sidebar.s1 .widget_calendar a,#footer .widget_calendar a,.sidebar.s1 .alx-tab .tab-item-category a,.sidebar.s1 .alx-posts .post-item-category a,.sidebar.s1 .alx-tab li:hover .tab-item-title a,.sidebar.s1 .alx-tab li:hover .tab-item-comment a,.sidebar.s1 .alx-posts li:hover .post-item-title a,#footer .alx-tab .tab-item-category a,#footer .alx-posts .post-item-category a,#footer .alx-tab li:hover .tab-item-title a,#footer .alx-tab li:hover .tab-item-comment a,#footer .alx-posts li:hover .post-item-title a,.comment-tabs li.active a,.comment-awaiting-moderation,.child-menu a:hover,.child-menu .current_page_item > a,.wp-pagenavi a{ color: #0066bf; }.themeform input[type="submit"],.themeform button[type="submit"],.sidebar.s1 .sidebar-top,.sidebar.s1 .sidebar-toggle,#flexslider-featured .flex-control-nav li a.flex-active,.post-tags a:hover,.sidebar.s1 .widget_calendar caption,#footer .widget_calendar caption,.author-bio .bio-avatar:after,.commentlist li.bypostauthor > .comment-body:after,.commentlist li.comment-author-admin > .comment-body:after{ background-color: #0066bf; }.post-format .format-container { border-color: #0066bf; }.sidebar.s1 .alx-tabs-nav li.active a,#footer .alx-tabs-nav li.active a,.comment-tabs li.active a,.wp-pagenavi a:hover,.wp-pagenavi a:active,.wp-pagenavi span.current{ border-bottom-color: #0066bf!important; }.is-scrolled #header #nav-mobile { background-color: #454e5c; background-color: rgba(69,78,92,0.90) }.site-title a img { max-height: 280px; }body { background-color: #eaeaea; }
 </style>
-<link rel='stylesheet' id='hueman-font-awesome-css'  href='/wp-content/themes/hueman/assets/front/css/font-awesome.min.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='hueman-font-awesome-css'  href='/wp-content/themes/hueman/assets/front/css/font-awesome.min.css?ver=3.4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='fo-fonts-declaration-css'  href='/wp-content/uploads/font-organizer/fo-declarations.css?ver=4.9.8' type='text/css' media='all' />
 <link rel='stylesheet' id='fo-fonts-elements-css'  href='/wp-content/uploads/font-organizer/fo-elements.css?ver=4.9.8' type='text/css' media='all' />
-<link rel='stylesheet' id='addtoany-css'  href='/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.14' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css'  href='/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.15' type='text/css' media='all' />
 <!--n2css--><script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <script type='text/javascript' src='/wp-content/plugins/papercite/js/papercite.js?ver=4.9.8'></script>
@@ -104,7 +106,7 @@ var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Cl
 /* ]]> */
 </script>
 <script type='text/javascript' src='/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.te.min.js?ver=_2.7.2_beta'></script>
-<script type='text/javascript' src='/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0'></script>
+<script type='text/javascript' src='/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1'></script>
 <script type='text/javascript' src='/wp-content/plugins/plantuml-renderer/public/js/plantuml-renderer-public.js?ver=0.0.1'></script>
 <link rel='https://api.w.org/' href='/index.php/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
@@ -147,7 +149,7 @@ img.graphviz { vertical-align: middle; border: none; }
   ga('send', 'pageview');
 </script>
 <!-- END ExactMetrics Universal Analytics -->
-<style type="text/css"> #turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } body.wp-admin #turnkey-credit, body#image #turnkey-credit, body#media-upload #turnkey-credit { display: none; } </style></head>
+<style type="text/css" id="nimble-global-options"></style><style type="text/css"> #turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } body.wp-admin #turnkey-credit, body#image #turnkey-credit, body#media-upload #turnkey-credit { display: none; } </style></head>
 
 <body class="post-template-default single single-post postid-3208 single-format-standard col-1c boxed header-desktop-sticky header-mobile-sticky unknown elementor-default">
 
@@ -211,7 +213,7 @@ img.graphviz { vertical-align: middle; border: none; }
               <div class="group pad central-header-zone">
                                                   </div>
 
-              <a href="/" rel="home"><img class="site-image" src="/wp-content/uploads/2017/02/GA-Explorer-Logo-v2.jpg" alt="Geometric Algebra Explorer"></a>          </div>
+              <a href="/" rel="home"><img class="site-image" src="http://192.168.80.131/wp-content/uploads/2017/02/GA-Explorer-Logo-v2.jpg" alt="Geometric Algebra Explorer"></a>          </div>
       
                 <nav class="nav-container group desktop-menu" id="nav-header" data-menu-id="header-2">
     <div class="nav-text"><!-- put your mobile menu text here --></div>
@@ -253,13 +255,13 @@ img.graphviz { vertical-align: middle; border: none; }
               <div class="page-title pad group">
           	    		<ul class="meta-single group">
     			<li class="category"><a href="/index.php/category/exploration/" rel="category tag">Exploration</a></li>
-    			    			<li class="comments"><a href="/index.php/2017/10/18/exploring-static-web/#respond"><i class="far fa-comments"></i><span class="dsq-postid" data-dsqidentifier="3208 /?p=3208">0</span></a></li>
+    			    			<li class="comments"><a href="/index.php/2017/10/18/exploring-static-web/#respond"><i class="far fa-comments"></i><span class="dsq-postid" data-dsqidentifier="3208 http://192.168.80.131/?p=3208">0</span></a></li>
     			    		</ul>
 
     	
     </div><!--/.page-title-->
           <div class="pad group">
-              <article class="post-3208 post type-post status-publish format-standard has-post-thumbnail hentry category-exploration tag-blogging tag-cms tag-content-management-system tag-dynamic-web-design tag-github tag-jamstack tag-netlify tag-static-web-design tag-wordpress">
+                                                        <article class="post-3208 post type-post status-publish format-standard has-post-thumbnail hentry category-exploration tag-blogging tag-cms tag-content-management-system tag-dynamic-web-design tag-github tag-jamstack tag-netlify tag-static-web-design tag-wordpress">
     <div class="post-inner group">
 
       <h1 class="post-title entry-title">Exploring The Static Web</h1>
@@ -274,33 +276,20 @@ img.graphviz { vertical-align: middle; border: none; }
 
       <div class="entry themeform share">
         <div class="entry-inner">
-          <div class="addtoany_share_save_container addtoany_content addtoany_content_top"><div class="a2a_kit a2a_kit_size_24 addtoany_list" data-a2a-url="/index.php/2017/10/18/exploring-static-web/" data-a2a-title="Exploring The Static Web"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="Google+" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="LinkedIn" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div><div class='dropshadowboxes-container' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
-                            
-<div class="su-note" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<p><img class="aligncenter size-large wp-image-3215" src="/wp-content/uploads/2017/10/spider-web-2732247_1280-1024x682.jpg" alt="Web Design" width="1024" height="682" srcset="/wp-content/uploads/2017/10/spider-web-2732247_1280-1024x682.jpg 1024w, /wp-content/uploads/2017/10/spider-web-2732247_1280-300x200.jpg 300w, /wp-content/uploads/2017/10/spider-web-2732247_1280-768x512.jpg 768w, /wp-content/uploads/2017/10/spider-web-2732247_1280.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+          <div class="addtoany_share_save_container addtoany_content addtoany_content_top"><div class="a2a_kit a2a_kit_size_24 addtoany_list" data-a2a-url="/index.php/2017/10/18/exploring-static-web/" data-a2a-title="Exploring The Static Web"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="Google+" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="LinkedIn" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div><div class='dropshadowboxes-container' style='width:auto;'><div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '><div class="su-note" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<p><img class="aligncenter size-large wp-image-3215" src="/wp-content/uploads/2017/10/spider-web-2732247_1280-1024x682.jpg" alt="Web Design" width="1024" height="682" srcset="/wp-content/uploads/2017/10/spider-web-2732247_1280-1024x682.jpg 1024w, /wp-content/uploads/2017/10/spider-web-2732247_1280-300x200.jpg 300w, /wp-content/uploads/2017/10/spider-web-2732247_1280-768x512.jpg 768w, /wp-content/uploads/2017/10/spider-web-2732247_1280.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></p><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.</p>
 <p style="text-align: right;"><em><strong>&#8212; Antoine de Saint-Exupéry</strong></em></p>
 </blockquote>
-</div>
-</div></div>
-
-                            </div>
-                        </div>
-<hr />
+</div></div></div></div></div><hr />
 <span class="dropcap">T</span>he Geometric Algebra Explorer website has been up and running for more than 2 years now. I developed this website using the WordPress <a href="http://searchcontentmanagement.techtarget.com/definition/content-management-system-CMS" target="_blank" rel="noopener">Content Management System</a> (CMS). WordPress and its countless plugins provide many impressive features for dynamic website developers, especially if they don&#8217;t want to code much<sup class='endnote'><a href='#en-3208-1' id='enref-3208-1' onclick='return hhEndnotes_show(3208)'>1</a></sup>. I really enjoyed working with it, but it&#8217;s time for me to go static.</p>
 <p>In this post, I share my reasons, experience, and final workflow for leaving dynamic web development with WordPress and going into the static web development side. I think this might be helpful to someone trying to do the same or wanting to develop a similar website. Enjoy!</p>
 <hr />
-<h2>Web Needs</h2>
-<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+<h2>Web Needs</h2><div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>A man travels the world over in search of what he needs and returns home to find it.</p>
 <p style="text-align: right;"><em><strong>&#8212; George A. Moore</strong></em></p>
 </blockquote>
-</div>
-</div></div>
-<p>When I started to look for a tool to create a blog for myself in 2015, I made many searches for the &#8220;best system&#8221;. Many sources pointed me towards WordPress.org. I found many good tutorials and reviews. I didn&#8217;t have a clear list of requirements back then for my blog, so I went with WordPress as being relatively easy to learn and use while providing many features.</p>
+</div></div></div><p>When I started to look for a tool to create a blog for myself in 2015, I made many searches for the &#8220;best system&#8221;. Many sources pointed me towards WordPress.org. I found many good tutorials and reviews. I didn&#8217;t have a clear list of requirements back then for my blog, so I went with WordPress as being relatively easy to learn and use while providing many features.</p>
 <p>After 2 years I found that I actually have a small and specific set of needs for my online work. I don&#8217;t currently need to buy or sell online, so plugins like <a href="https://woocommerce.com/" target="_blank" rel="noopener">WooCmmerce</a> are not relevant. I don&#8217;t need a glamorous theme like the <a href="https://themify.me/themes/ultra" target="_blank" rel="noopener">Themify Ultra</a> to show my ideas. What I actually need is:</p>
 <ol>
 <li>A simple workflow to add and edit good looking pages, posts, and menus.</li>
@@ -312,25 +301,14 @@ img.graphviz { vertical-align: middle; border: none; }
 </ol>
 <p>Web development with WordPress brilliantly satisfies the first 3 points and can be made, with some effort, to satisfy the 4th, but doesn&#8217;t satisfy the last 2.</p>
 <p>&nbsp;</p>
-<h2>Two Sides</h2>
-<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+<h2>Two Sides</h2><div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>There&#8217;s a world out there, and you&#8217;ve got to look at both sides of the mountain in your lifetime.</p>
 <p style="text-align: right;"><em><strong>&#8212; Bill Janklow</strong></em></p>
 </blockquote>
-</div>
-</div></div>
-<div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
-                            
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+</div></div></div><div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'><div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2017/10/Static-vs-Dynamic-Website.jpg"><img class="aligncenter wp-image-3216 size-medium" src="/wp-content/uploads/2017/10/Static-vs-Dynamic-Website-269x300.jpg" alt="Static-vs-Dynamic-Website" width="269" height="300" srcset="/wp-content/uploads/2017/10/Static-vs-Dynamic-Website-269x300.jpg 269w, /wp-content/uploads/2017/10/Static-vs-Dynamic-Website.jpg 573w" sizes="(max-width: 269px) 100vw, 269px" /></a></p>
 <p style="text-align: center;"><span style="font-size: 14px;">Static vs Dynamic Website (<a href="http://yasmeenhy.blogspot.com.eg/2015/05/static-vs-dynamic-web-sites_13.html" target="_blank" rel="noopener">source</a>)</span></p>
-</div>
-
-                            </div>
-                        </div>
-<p>Static websites have been there from the start. People used to create static <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">HTML</a> pages with some <a href="http://www.w3.org/Style/CSS/Overview.en.html" target="_blank" rel="noopener">CSS</a> and <a href="https://www.w3schools.com/js/">JavaScript</a><sup class='endnote'><a href='#en-3208-2' id='enref-3208-2' onclick='return hhEndnotes_show(3208)'>2</a></sup> that would be rendered on the user&#8217;s browser. The web server just stores these static files and delivers them the whoever has access to the server on the network. There was very little room for personalized content delivery as we experience it today.</p>
+</div></div></div><p>Static websites have been there from the start. People used to create static <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">HTML</a> pages with some <a href="http://www.w3.org/Style/CSS/Overview.en.html" target="_blank" rel="noopener">CSS</a> and <a href="https://www.w3schools.com/js/">JavaScript</a><sup class='endnote'><a href='#en-3208-2' id='enref-3208-2' onclick='return hhEndnotes_show(3208)'>2</a></sup> that would be rendered on the user&#8217;s browser. The web server just stores these static files and delivers them the whoever has access to the server on the network. There was very little room for personalized content delivery as we experience it today.</p>
 <p>Then came dynamic web servers where web pages are generated and delivered in real-time depending on many parameters the web server receives from the user. We then need to program the server to tell it how to generate the web pages for our users based on the parameters and their data stored on a server database. As these systems matured, we got many useful dynamic web systems, like WordPress, for delivering web content without even writing a single line of code for the server. Using such dynamic visual Content Management Systems, the web designer can develop a dynamic website using plugins and visual elements that have the server code inside them. The advantages of dynamic websites are many, but so are the disadvantages.</p>
 <p>In the past couple of years, static websites came back into focus. Some of the <a href="https://www.quora.com/What-is-the-difference-between-Static-Websites-and-Dynamic-Websites" target="_blank" rel="noopener">advantages</a> with a static website are:</p>
 <ul>
@@ -343,68 +321,30 @@ img.graphviz { vertical-align: middle; border: none; }
 </ul>
 <p>For many kinds of websites, like blogs, wikis, and online documentation sites, using a static website is a much better choice. One additional factor is the cost of having a dynamic vs. static website. Dynamic web hosting typically costs much more because the server needs a database and a good deal of security and maintenance efforts. For all these reasons I decided to migrate the GA Explorer into the static side of the web.</p>
 <p>&nbsp;</p>
-<h2>The Search</h2>
-<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+<h2>The Search</h2><div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>I make static art, not dynamic art. That&#8217;s what I do.</p>
 <p style="text-align: right;"><em><strong>&#8212; Michael Heizer</strong></em></p>
 </blockquote>
-</div>
-</div></div>
-<div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
-                            
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+</div></div></div><div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'><div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2017/10/jekyll-sticker.jpg"><img class="size-medium wp-image-3209 aligncenter" src="/wp-content/uploads/2017/10/jekyll-sticker-300x189.jpg" alt="Jekyll Sticker" width="300" height="189" srcset="/wp-content/uploads/2017/10/jekyll-sticker-300x189.jpg 300w, /wp-content/uploads/2017/10/jekyll-sticker.jpg 662w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
-</div>
-
-                            </div>
-                        </div>
-<p>A multitude of static web design tools has recently arrived. A <a href="https://www.staticgen.com/" target="_blank" rel="noopener">major class</a> of tools includes <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>, <a href="https://middlemanapp.com/" target="_blank" rel="noopener">Middleman</a>, <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener">Gatsby</a>, and <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a><sup class='endnote'><a href='#en-3208-3' id='enref-3208-3' onclick='return hhEndnotes_show(3208)'>3</a></sup>. This class of tools, called the <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a>, simply uses some form of static web template (a collection of pre-defined web pages with similar visual style and navigation) to generate the final web pages from text input. Most of these tools can take HTML or <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">Markdown</a> text input for generating blog posts and pages. To create a new static website using such tools is a good experience. But because they have no visual interface, they almost always need non-trivial configuration and coding to customize the generated pages. I found it quite difficult and time-consuming, although possible, to migrate my online WordPress website to Jekyll, for example<sup class='endnote'><a href='#en-3208-4' id='enref-3208-4' onclick='return hhEndnotes_show(3208)'>4</a></sup>. To remedy the lack of visual interface of the JAMstack tools, <a href="https://www.cmscritic.com/flat-file-cms/" target="_blank" rel="noopener">many Flat File CMS</a>&#8216;s exist on top of them. I haven&#8217;t tried any of them myself, but I expect a huge interest and fierce competition in the coming years<sup class='endnote'><a href='#en-3208-5' id='enref-3208-5' onclick='return hhEndnotes_show(3208)'>5</a></sup>.</p>
-<p>For my personal needs, the JAMstack and Flat File CMS tools are not suitable for many reasons. They require a fair amount of coding and configuration, a time-consuming learning and exploration process, in addition to the difficulty of migrating my existing work.</p>
-<div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
-                            
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+</div></div></div><p>A multitude of static web design tools has recently arrived. A <a href="https://www.staticgen.com/" target="_blank" rel="noopener">major class</a> of tools includes <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>, <a href="https://middlemanapp.com/" target="_blank" rel="noopener">Middleman</a>, <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener">Gatsby</a>, and <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a><sup class='endnote'><a href='#en-3208-3' id='enref-3208-3' onclick='return hhEndnotes_show(3208)'>3</a></sup>. This class of tools, called the <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a>, simply uses some form of static web template (a collection of pre-defined web pages with similar visual style and navigation) to generate the final web pages from text input. Most of these tools can take HTML or <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">Markdown</a> text input for generating blog posts and pages. To create a new static website using such tools is a good experience. But because they have no visual interface, they almost always need non-trivial configuration and coding to customize the generated pages. I found it quite difficult and time-consuming, although possible, to migrate my online WordPress website to Jekyll, for example<sup class='endnote'><a href='#en-3208-4' id='enref-3208-4' onclick='return hhEndnotes_show(3208)'>4</a></sup>. To remedy the lack of visual interface of the JAMstack tools, <a href="https://www.cmscritic.com/flat-file-cms/" target="_blank" rel="noopener">many Flat File CMS</a>&#8216;s exist on top of them. I haven&#8217;t tried any of them myself, but I expect a huge interest and fierce competition in the coming years<sup class='endnote'><a href='#en-3208-5' id='enref-3208-5' onclick='return hhEndnotes_show(3208)'>5</a></sup>.</p>
+<p>For my personal needs, the JAMstack and Flat File CMS tools are not suitable for many reasons. They require a fair amount of coding and configuration, a time-consuming learning and exploration process, in addition to the difficulty of migrating my existing work.</p><div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'><div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2017/10/wordpress-581849_1280.jpg"><img class="size-medium wp-image-3211 aligncenter" src="/wp-content/uploads/2017/10/wordpress-581849_1280-300x160.jpg" alt="wordpress-581849_1280" width="300" height="160" srcset="/wp-content/uploads/2017/10/wordpress-581849_1280-300x160.jpg 300w, /wp-content/uploads/2017/10/wordpress-581849_1280-768x409.jpg 768w, /wp-content/uploads/2017/10/wordpress-581849_1280-1024x546.jpg 1024w, /wp-content/uploads/2017/10/wordpress-581849_1280.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
-</div>
-
-                            </div>
-                        </div>
-<p>After a lot of searching and exploration, I finally returned to WordPress again. The WordPress system itself is an open source project and anyone can create a personal web server and install WordPress on it for free. In a final act of exploration, I tried searching for a WordPress plugin that can generate static HTML+CSS+JavaScript files from the dynamic WordPress website. I was surprised and pleased to find two very good plugins for this task. This was a very exciting discovery for me because it meant that I could continue developing my work with WordPress and then generate and publish the static website from it after a small amount of tweaking. Such mixed workflow would allow me to get all the benefits of both dynamic and static web development for my needs. It also meant that I could keep my previous WordPress work with minimum conversion effort and start publishing and updating my new static website in a few days, rather than months. I then had to make some final experiments to make sure which WordPress components and plugins to use for the static website to work correctly after generation. I managed to create a good and simple workflow that satisfies all my blogging and documentation needs. And the best of all, everything in the workflow is completely free.</p>
+</div></div></div><p>After a lot of searching and exploration, I finally returned to WordPress again. The WordPress system itself is an open source project and anyone can create a personal web server and install WordPress on it for free. In a final act of exploration, I tried searching for a WordPress plugin that can generate static HTML+CSS+JavaScript files from the dynamic WordPress website. I was surprised and pleased to find two very good plugins for this task. This was a very exciting discovery for me because it meant that I could continue developing my work with WordPress and then generate and publish the static website from it after a small amount of tweaking. Such mixed workflow would allow me to get all the benefits of both dynamic and static web development for my needs. It also meant that I could keep my previous WordPress work with minimum conversion effort and start publishing and updating my new static website in a few days, rather than months. I then had to make some final experiments to make sure which WordPress components and plugins to use for the static website to work correctly after generation. I managed to create a good and simple workflow that satisfies all my blogging and documentation needs. And the best of all, everything in the workflow is completely free.</p>
 <p>&nbsp;</p>
-<h2>Workflow</h2>
-<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+<h2>Workflow</h2><div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Workflow and usability are not afterthoughts; they impact the core of any project and dictate how it should be engineered.</p>
 <p style="text-align: right;"><em><strong>&#8212; Ryan Holmes</strong></em></p>
 </blockquote>
-</div>
-</div></div>
-<div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
-                            
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+</div></div></div><div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'><div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2017/10/industry-2633879_640.jpg"><img class="size-medium wp-image-3288 aligncenter" src="/wp-content/uploads/2017/10/industry-2633879_640-300x200.jpg" alt="Workflow" width="300" height="200" srcset="/wp-content/uploads/2017/10/industry-2633879_640-300x200.jpg 300w, /wp-content/uploads/2017/10/industry-2633879_640.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
-</div>
-
-                            </div>
-                        </div>
-<p>After two full weeks of exploration, here is my final workflow for my static website. I will list the steps of the two stages of initializing the tools and then updating the website. Initialization is only made once, so it&#8217;s very important to get right be patient with it. I will not provide detailed explanations but rather give a general idea about the needed steps. This way, anyone deciding to use this can explore other changes suiting specific needs.</p>
+</div></div></div><p>After two full weeks of exploration, here is my final workflow for my static website. I will list the steps of the two stages of initializing the tools and then updating the website. Initialization is only made once, so it&#8217;s very important to get right be patient with it. I will not provide detailed explanations but rather give a general idea about the needed steps. This way, anyone deciding to use this can explore other changes suiting specific needs.</p>
 <h3 style="text-align: center;">Stage I: Initializing Your Website</h3>
 <p><strong>Step I.1. Installing Local WordPress Server</strong></p>
 <p>First of all, you need to install WordPress on a local server for your personal access. No one else would be accessing this server, so it can be made as a simple <a href="https://www.howtogeek.com/196060/beginner-geek-how-to-create-and-use-virtual-machines/" target="_blank" rel="noopener">Virtual Machine</a> on your personal computer or laptop. I found a very good virtual machine that already contains a WordPress installation. You can find and download it here: <a href="https://www.turnkeylinux.org/wordpress" target="_blank" rel="noopener">www.turnkeylinux.org/wordpress</a></p>
-<p>After downloading the virtual machine file you can use any <a href="https://www.digitaltrends.com/computing/best-virtual-machine-apps-for-mac-linux-and-windows-pcs/" target="_blank" rel="noopener">Virtual Machine Application</a> to open it as a virtual server for you to access locally. I personally use <a href="https://www.vmware.com/products/workstation-player.html" target="_blank" rel="noopener">VMWare player</a> for this task.</p>
-<div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
-                            
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+<p>After downloading the virtual machine file you can use any <a href="https://www.digitaltrends.com/computing/best-virtual-machine-apps-for-mac-linux-and-windows-pcs/" target="_blank" rel="noopener">Virtual Machine Application</a> to open it as a virtual server for you to access locally. I personally use <a href="https://www.vmware.com/products/workstation-player.html" target="_blank" rel="noopener">VMWare player</a> for this task.</p><div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'><div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2017/10/Virtual-Server-IPs.png"><img class="size-medium wp-image-3212 aligncenter" src="/wp-content/uploads/2017/10/Virtual-Server-IPs-300x209.png" alt="Virtual-Server-IPs" width="300" height="209" srcset="/wp-content/uploads/2017/10/Virtual-Server-IPs-300x209.png 300w, /wp-content/uploads/2017/10/Virtual-Server-IPs.png 516w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
-</div>
-
-                            </div>
-                        </div>
-<p>When you start the Turnkey WordPress virtual machine it will ask about some usernames and passwords. Enter these and keep them somewhere safe. These users and passwords will allow you to access the virtual server itself and the WordPress dashboard for developing your site. You should finally arrive at a screen with a listing of IPs like this one<sup class='endnote'><a href='#en-3208-6' id='enref-3208-6' onclick='return hhEndnotes_show(3208)'>6</a></sup>.</p>
+</div></div></div><p>When you start the Turnkey WordPress virtual machine it will ask about some usernames and passwords. Enter these and keep them somewhere safe. These users and passwords will allow you to access the virtual server itself and the WordPress dashboard for developing your site. You should finally arrive at a screen with a listing of IPs like this one<sup class='endnote'><a href='#en-3208-6' id='enref-3208-6' onclick='return hhEndnotes_show(3208)'>6</a></sup>.</p>
 <p>The IP addresses in this screen are local to your system. You need to keep them for your access. The first IP (192.168.80.133 in this picture) is the main address of your WordPress installation. Open any browser in your PC and go to this IP and WordPress opens. Then you can work with WordPress like do online. The last IP (labeled SSH/SFTP in the picture) is very important for some tasks. You can use an FTP client application, like <a href="https://filezilla-project.org/" target="_blank" rel="noopener">FileZilla</a>, to access the file structure of your virtual server at any time. This is sometimes helpful for some maintenance tasks, but most of the time you won&#8217;t be needing it.</p>
 <p>&nbsp;</p>
 <p><strong>Step I.2. Configuring Local WordPress Server</strong></p>
@@ -425,7 +365,7 @@ img.graphviz { vertical-align: middle; border: none; }
 <li><a href="https://wordpress.org/plugins/tinymce-advanced/" target="_blank" rel="noopener">TinyMCE Advanced</a>: Enables advanced features and plugins in TinyMCE, the visual editor in WordPress.</li>
 <li><a href="https://wordpress.org/plugins/updraftplus/" target="_blank" rel="noopener">UpdraftPlus &#8211; Backup/Restore</a>: Backup and restore: take backups locally, or backup to Amazon S3, Dropbox, Google Drive, Rackspace, (S)FTP, WebDAV &amp; email, on automatic schedules.</li>
 <li><a href="https://wordpress.org/plugins/wp-katex/" target="_blank" rel="noopener">WP-KaTeX</a>: The plugin allows you to put LaTeX in a 
-			<span id="crayon-5b6cb0d40ec51961602610" class="crayon-syntax crayon-syntax-inline  crayon-theme-github crayon-theme-github-inline crayon-font-monaco" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important;"><span class="crayon-pre crayon-code" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">[latex]...[/latex]</span></span> shortcode and beautiful math appear on your post or page.</li>
+			<span id="crayon-5be718184e86a517853979" class="crayon-syntax crayon-syntax-inline  crayon-theme-github crayon-theme-github-inline crayon-font-monaco" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important;"><span class="crayon-pre crayon-code" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">[latex]...[/latex]</span></span> shortcode and beautiful math appear on your post or page.</li>
 <li><a href="https://wordpress.org/plugins/wp-optimize/" target="_blank" rel="noopener">WP-Optimize</a>: An effective tool for automatically cleaning your WordPress database so that it runs at maximum efficiency.</li>
 </ul>
 <p>You will also need to install one, or both, of these two great plugins on the local virtual WordPress server:</p>
@@ -440,71 +380,38 @@ img.graphviz { vertical-align: middle; border: none; }
 <li><a href="https://wordpress.org/plugins/regenerate-thumbnails/" target="_blank" rel="noopener">Regenerate Thumbnails</a></li>
 </ul>
 <p>&nbsp;</p>
-<p><strong>Step I.3. Migrating Online WordPress to Local WordPress</strong></p>
-<div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
-                            
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+<p><strong>Step I.3. Migrating Online WordPress to Local WordPress</strong></p><div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'><div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2017/10/wordpress-265132_640.jpg"><img class="size-medium wp-image-2924 aligncenter" src="/wp-content/uploads/2017/10/wordpress-265132_640-300x200.jpg" alt="" width="300" height="200" /></a></p>
-</div>
-
-                            </div>
-                        </div>
-<p>Now it&#8217;s time to migrate your WordPress website from the online version, if you already have one like me, to your local WordPress virtual server. On the online WordPress site, you need to install the <a href="https://wordpress.org/plugins/wp-export-menus/" target="_blank" rel="noopener">Export WordPress Menus plugin</a> to export your online menus as an XML file. Then you can use the builtin <a href="https://en.support.wordpress.com/export/" target="_blank" rel="noopener">WordPress Export tool</a> to generate one or more XML files from your online WordPress website. You can also install the <a href="https://wordpress.org/plugins/wp-exporter/" target="_blank" rel="noopener">WordPress Exporter plugin</a> to export single pages, posts, or media files as you wish.</p>
+</div></div></div><p>Now it&#8217;s time to migrate your WordPress website from the online version, if you already have one like me, to your local WordPress virtual server. On the online WordPress site, you need to install the <a href="https://wordpress.org/plugins/wp-export-menus/" target="_blank" rel="noopener">Export WordPress Menus plugin</a> to export your online menus as an XML file. Then you can use the builtin <a href="https://en.support.wordpress.com/export/" target="_blank" rel="noopener">WordPress Export tool</a> to generate one or more XML files from your online WordPress website. You can also install the <a href="https://wordpress.org/plugins/wp-exporter/" target="_blank" rel="noopener">WordPress Exporter plugin</a> to export single pages, posts, or media files as you wish.</p>
 <p>You will then import these XML files to your local virtual WordPress server while it&#8217;s connected to the internet to get a copy of all your posts, pages, media files, and menus. On the local WordPress virtual server install the <a href="https://wordpress.org/plugins/wordpress-importer/" target="_blank" rel="noopener">WordPress Importer plugin</a>. You can use <a href="https://www.youtube.com/watch?v=9Oa2LEdoqdY" target="_blank" rel="noopener">this tutorial video</a> for instructions on how to import your online contents using the XML files. Just make sure to check the &#8220;Download and import file attachments&#8221; checkbox to get all your contents. You will need to wait for the whole process to complete, and it may take longer if you have a large online website.</p>
 <p>&nbsp;</p>
 <p><strong>Step I.4. Update URLs on the Local WordPress Server</strong></p>
 <p>After importing your online website into your local virtual server you can expect to still have links to the online version. You don&#8217;t want these links on your final static website, however. To solve this problem you can install and use the <a href="https://wordpress.org/plugins/velvet-blues-update-urls/" target="_blank" rel="noopener">Velvet Blues Update URLs</a> plugin in your local WordPress virtual server to replace such links with your local WordPress server address. You can also test all your links on the local server using the <a href="https://wordpress.org/plugins/broken-link-checker/" target="_blank" rel="noopener">Broken Link Checker</a> plugin. After making sure everything is ok you can test your local site and make any necessary updates, configurations, and improvements.</p>
 <p>&nbsp;</p>
 <p><strong>Step I.5. Selecting Online Web Hosting for the Static Website</strong></p>
-<p>If you already have web hosting for your future static website, you can skip to the second stage of this workflow. But for those who need good suggestions, I will tell what I did.</p>
-<div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
-                            
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+<p>If you already have web hosting for your future static website, you can skip to the second stage of this workflow. But for those who need good suggestions, I will tell what I did.</p><div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'><div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2017/10/Netlify-Logo.jpg"><img class="aligncenter wp-image-3404 size-medium" src="/wp-content/uploads/2017/10/Netlify-Logo-300x161.jpg" alt="Netlify Logo" width="300" height="161" srcset="/wp-content/uploads/2017/10/Netlify-Logo-300x161.jpg 300w, /wp-content/uploads/2017/10/Netlify-Logo.jpg 560w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
-</div>
-
-                            </div>
-                        </div>
-<p>Two good options for free static web hosting are <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub pages</a> and <a href="https://www.netlify.com/" target="_blank" rel="noopener">Netlify</a>. Many bloggers and companies use one or both for their static websites. For my workflow, I use GitHub only as a repository for uploading the static website&#8217;s generated files: HTML, CSS, JavaScript, etc. As I will shortly explain in stage II, I generate my static website files from the local WordPress virtual server. I have a local GitHub repository linked with an online one under <a href="https://github.com/ga-explorer" target="_blank" rel="noopener">my GitHub account</a>. I use <a href="https://desktop.github.com/" target="_blank" rel="noopener">GitHub Desktop</a> to synchronize the local and online GitHub repositories regularly while developing my static website. I&#8217;ve created a Netlify free account that I use to deploy my GitHub online repository files as an online website. I found using Netlify offering many advantages over GitHub pages as described <a href="https://www.netlify.com/github-pages-vs-netlify/" target="_blank" rel="noopener">here</a> and <a href="https://yihui.name/en/2017/06/netlify-instead-of-github-pages/" target="_blank" rel="noopener">here</a>. You can take a look at one of my sites, the GMac Guides website, hosted on Netlify <a href="https://gmac-guides.netlify.com/" target="_blank" rel="noopener">here</a> and its source web page files on GitHub <a href="https://github.com/ga-explorer/gmac-guides" target="_blank" rel="noopener">here</a>.</p>
+</div></div></div><p>Two good options for free static web hosting are <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub pages</a> and <a href="https://www.netlify.com/" target="_blank" rel="noopener">Netlify</a>. Many bloggers and companies use one or both for their static websites. For my workflow, I use GitHub only as a repository for uploading the static website&#8217;s generated files: HTML, CSS, JavaScript, etc. As I will shortly explain in stage II, I generate my static website files from the local WordPress virtual server. I have a local GitHub repository linked with an online one under <a href="https://github.com/ga-explorer" target="_blank" rel="noopener">my GitHub account</a>. I use <a href="https://desktop.github.com/" target="_blank" rel="noopener">GitHub Desktop</a> to synchronize the local and online GitHub repositories regularly while developing my static website. I&#8217;ve created a Netlify free account that I use to deploy my GitHub online repository files as an online website. I found using Netlify offering many advantages over GitHub pages as described <a href="https://www.netlify.com/github-pages-vs-netlify/" target="_blank" rel="noopener">here</a> and <a href="https://yihui.name/en/2017/06/netlify-instead-of-github-pages/" target="_blank" rel="noopener">here</a>. You can take a look at one of my sites, the GMac Guides website, hosted on Netlify <a href="https://gmac-guides.netlify.com/" target="_blank" rel="noopener">here</a> and its source web page files on GitHub <a href="https://github.com/ga-explorer/gmac-guides" target="_blank" rel="noopener">here</a>.</p>
 <p>&nbsp;</p>
-<h3 style="text-align: center;">Stage II: Updating Your Website</h3>
-<div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'>
-                            <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
-                            
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+<h3 style="text-align: center;">Stage II: Updating Your Website</h3><div class='dropshadowboxes-container dropshadowboxes-right' style='width:auto;'><div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p style="text-align: left;"><a href="/wp-content/uploads/2017/10/laptop-1246672_640.jpg"><img class="size-medium wp-image-2925 aligncenter" src="/wp-content/uploads/2017/10/laptop-1246672_640-300x221.jpg" alt="" width="300" height="221" /></a></p>
-</div>
-
-                            </div>
-                        </div>
-<p>This is the easy part of the workflow. If you have enough patience to complete stage I successfully, you can update your website using WordPress&#8217;s dashboard and plugins, then you can generate your static pages and upload to the online hosting service.</p>
+</div></div></div><p>This is the easy part of the workflow. If you have enough patience to complete stage I successfully, you can update your website using WordPress&#8217;s dashboard and plugins, then you can generate your static pages and upload to the online hosting service.</p>
 <p style="text-align: left;">You start by using either the <a href="https://wordpress.org/plugins/static-html-output-plugin/" target="_blank" rel="noopener">WP Static HTML Output</a> or <a href="https://wordpress.org/plugins/simply-static/" target="_blank" rel="noopener">Simply Static</a> plugin to generate your static pages and files. I found that WP Static HTML Output generates files with less size, but I  prefer Simply Static because it gives much better results for most themes and formatting plugins.</p>
 <p style="text-align: left;">The next step is to use a good text editor, like <a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener">Notepad++</a>, to replace all URLs containing your local server address with the final web hosting server address. For example, I use Notepad++ 
-			<span id="crayon-5b6cb0d40ec65476779115" class="crayon-syntax crayon-syntax-inline  crayon-theme-github crayon-theme-github-inline crayon-font-monaco" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important;"><span class="crayon-pre crayon-code" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">Find in Files...</span></span> menu to mass-replace text like 
-			<span id="crayon-5b6cb0d40ec6a550779597" class="crayon-syntax crayon-syntax-inline  crayon-theme-github crayon-theme-github-inline crayon-font-monaco" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important;"><span class="crayon-pre crayon-code" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">192.168.80.133</span></span> with 
-			<span id="crayon-5b6cb0d40ec6e834941469" class="crayon-syntax crayon-syntax-inline  crayon-theme-github crayon-theme-github-inline crayon-font-monaco" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important;"><span class="crayon-pre crayon-code" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">gmac-guides.netlify.com</span></span> in all generated files of the static website. The final step is a simple matter of uploading your generated files to the web hosting service, GitHub in my case, and publishing the website online.</p>
+			<span id="crayon-5be718184e87f935556400" class="crayon-syntax crayon-syntax-inline  crayon-theme-github crayon-theme-github-inline crayon-font-monaco" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important;"><span class="crayon-pre crayon-code" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">Find in Files...</span></span> menu to mass-replace text like 
+			<span id="crayon-5be718184e883541415734" class="crayon-syntax crayon-syntax-inline  crayon-theme-github crayon-theme-github-inline crayon-font-monaco" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important;"><span class="crayon-pre crayon-code" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">192.168.80.133</span></span> with 
+			<span id="crayon-5be718184e887660347497" class="crayon-syntax crayon-syntax-inline  crayon-theme-github crayon-theme-github-inline crayon-font-monaco" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important;"><span class="crayon-pre crayon-code" style="font-size: 14px !important; line-height: 15px !important;font-size: 14px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">gmac-guides.netlify.com</span></span> in all generated files of the static website. The final step is a simple matter of uploading your generated files to the web hosting service, GitHub in my case, and publishing the website online.</p>
 <p>&nbsp;</p>
-<h2>Things to Explore</h2>
-<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+<h2>Things to Explore</h2><div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Education must provide the opportunities for self-fulfillment; it can at best provide a rich and challenging environment for the individual to explore, in his own way.</p>
 <p style="text-align: right;"><em><strong>&#8212; Noam Chomsky</strong></em></p>
 </blockquote>
-</div>
-</div></div>
-<p>If you like this workflow you can make many more explorations of your own. For example, you can try other themes with more interesting visual styles, menu, and formatting plugins. You can also explore email-based commenting systems like <a href="https://disqus.com/" target="_blank" rel="noopener">Disqus</a>. You can even explore modifying the generated web pages using other web design tools. I also found <a href="https://www.youtube.com/watch?v=mXcQ7rVn3ro" target="_blank" rel="noopener">adding google analytics code</a> to be relatively easy in this workflow.</p>
+</div></div></div><p>If you like this workflow you can make many more explorations of your own. For example, you can try other themes with more interesting visual styles, menu, and formatting plugins. You can also explore email-based commenting systems like <a href="https://disqus.com/" target="_blank" rel="noopener">Disqus</a>. You can even explore modifying the generated web pages using other web design tools. I also found <a href="https://www.youtube.com/watch?v=mXcQ7rVn3ro" target="_blank" rel="noopener">adding google analytics code</a> to be relatively easy in this workflow.</p>
 <p>My new <a href="https://ga-explorer.netlify.com/" target="_blank" rel="noopener">GA Explorer</a> static website is now online. I&#8217;m happy to continue using WordPress with all its power for its development while gaining all of the benefits of using the static side of the web.</p>
-<hr />
-<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
+<hr /><div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p style="text-align: center;"><span style="font-size: 28px;"><strong><span style="font-family: 'Traditional Arabic';">تم بحمد الله الجمعة 14 صفر 1439هـ</span></strong></span></p>
-</div>
-</div></div>
-<hr />
-<p>&nbsp;</p>
-<div class='endnotes' id='hhendnotes-3208'>
+</div></div></div><hr />
+<p>&nbsp;</p><div class='endnotes' id='hhendnotes-3208'>
 <ol>
 <li id='en-3208-1'>If you want to learn WordPress <a href="https://www.youtube.com/user/wpSculptor/featured" target="_blank" rel="noopener">the wpSculptor YouTube channel</a> contains excellent tutorials for you. I personally used <a href="https://www.youtube.com/watch?v=DyARzdLKjKw" target="_blank" rel="noopener">this one</a> back in 2015 for my work. <span class='endnotereverse'><a href='#enref-3208-1'>&#8617;</a></span></li>
 <li id='en-3208-2'>For a quick tutorial to learn about some general features of JavaScript, a nice introduction can be found <a href="https://www.guru99.com/interactive-javascript-tutorials.html" target="_blank" rel="noopener">here</a>. For a more detailed and in-depth information, <a href="https://javascript.info/" target="_blank" rel="noopener">this website</a> is an excellent resource. <span class='endnotereverse'><a href='#enref-3208-2'>&#8617;</a></span></li>
@@ -515,8 +422,7 @@ img.graphviz { vertical-align: middle; border: none; }
 <li id='en-3208-7'>The <a href="https://wordpress.org/plugins/elementor/" target="_blank" rel="noopener">Elementor Page Builder</a> plugin is a beautiful addition to WordPress you can use to create very nice looking pages and posts. The official <a href="https://www.youtube.com/channel/UCt9kG_EDX8zwGSC1-ycJJVA/featured" target="_blank" rel="noopener">Elementor YouTube channel</a> contains many excellent tutorials. You can also find a nice comprehensive tutorial about it <a href="https://www.youtube.com/watch?v=kwmvGpcJux0" target="_blank" rel="noopener">here</a>. <span class='endnotereverse'><a href='#enref-3208-7'>&#8617;</a></span></li>
 <li id='en-3208-8'>You can find a nice tutorial explaining these thumbnails organization plugins <a href="https://www.webnots.com/how-to-cleanup-thumbnails-in-wordpress/" target="_blank" rel="noopener">here</a>. <span class='endnotereverse'><a href='#enref-3208-8'>&#8617;</a></span></li>
 </ol>
-</div>
-<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_24 addtoany_list" data-a2a-url="/index.php/2017/10/18/exploring-static-web/" data-a2a-title="Exploring The Static Web"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="Google+" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="LinkedIn" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>          <nav class="pagination group">
+</div><div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_24 addtoany_list" data-a2a-url="/index.php/2017/10/18/exploring-static-web/" data-a2a-title="Exploring The Static Web"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="Google+" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=%2Findex.php%2F2017%2F10%2F18%2Fexploring-static-web%2F&amp;linkname=Exploring%20The%20Static%20Web" title="LinkedIn" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>          <nav class="pagination group">
                       </nav><!--/.pagination-->
         </div>
 
@@ -675,7 +581,7 @@ img.graphviz { vertical-align: middle; border: none; }
 
     </div><!--/.post-inner-->
   </article><!--/.post-->
-
+                                          
 <div class="clear"></div>
 
 <p class="post-tags"><span>Tags:</span> <a href="/index.php/tag/blogging/" rel="tag">Blogging</a><a href="/index.php/tag/cms/" rel="tag">CMS</a><a href="/index.php/tag/content-management-system/" rel="tag">Content Management System</a><a href="/index.php/tag/dynamic-web-design/" rel="tag">Dynamic Web Design</a><a href="/index.php/tag/github/" rel="tag">GitHub</a><a href="/index.php/tag/jamstack/" rel="tag">JAMstack</a><a href="/index.php/tag/netlify/" rel="tag">Netlify</a><a href="/index.php/tag/static-web-design/" rel="tag">Static Web Design</a><a href="/index.php/tag/wordpress/" rel="tag">WordPress</a></p>
@@ -709,7 +615,7 @@ img.graphviz { vertical-align: middle; border: none; }
 				<div class="elementor-section-wrap">
 							<section data-id="3c29f21" class="elementor-element elementor-element-3c29f21 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
 							<div class="elementor-background-overlay"></div>
-						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-container elementor-column-gap-default">
 				<div class="elementor-row">
 				<div data-id="1237598" class="elementor-element elementor-element-1237598 elementor-column elementor-col-66 elementor-top-column" data-element_type="column">
 			<div class="elementor-column-wrap elementor-element-populated">
@@ -796,7 +702,7 @@ img.graphviz { vertical-align: middle; border: none; }
 				<div class="elementor-section-wrap">
 							<section data-id="21e8b0c" class="elementor-element elementor-element-21e8b0c animated fadeIn elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}" data-element_type="section">
 							<div class="elementor-background-overlay"></div>
-						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-container elementor-column-gap-default">
 				<div class="elementor-row">
 				<div data-id="5cdc581" class="elementor-element elementor-element-5cdc581 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
 			<div class="elementor-column-wrap elementor-element-populated">
@@ -860,21 +766,21 @@ img.graphviz { vertical-align: middle; border: none; }
 
 </div><!--/#wrapper-->
 
-<link rel='stylesheet' id='elementor-frontend-css'  href='/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.1.6' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-3907-css'  href='/wp-content/uploads/elementor/css/post-3907.css?ver=1533845413' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-3442-css'  href='/wp-content/uploads/elementor/css/post-3442.css?ver=1533845414' type='text/css' media='all' />
-<link rel='stylesheet' id='su-box-shortcodes-css'  href='/wp-content/plugins/shortcodes-ultimate/assets/css/box-shortcodes.css?ver=5.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-3907-css'  href='/wp-content/uploads/elementor/css/post-3907.css?ver=1541868859' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-3442-css'  href='/wp-content/uploads/elementor/css/post-3442.css?ver=1541868859' type='text/css' media='all' />
+<link rel='stylesheet' id='su-shortcodes-css'  href='/wp-content/plugins/shortcodes-ultimate/includes/css/shortcodes.css?ver=5.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='animate-css'  href='/wp-content/plugins/shortcodes-ultimate/assets/css/animate.css?ver=3.1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-icons-css'  href='/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=3.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=3.8.0' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-css'  href='/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-animations-css'  href='/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.1.6' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-global-css'  href='/wp-content/uploads/elementor/css/global.css?ver=1533845415' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='/wp-content/uploads/elementor/css/global.css?ver=1541868860' type='text/css' media='all' />
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.3'></script>
+<script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.5'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var countVars = {"disqusShortname":"ga-explorer"};
@@ -883,7 +789,7 @@ var countVars = {"disqusShortname":"ga-explorer"};
 <script type='text/javascript' src='/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.16'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.16"},"disqusIdentifier":"3208 \/?p=3208","disqusShortname":"ga-explorer","disqusTitle":"Exploring The Static Web","disqusUrl":"\/index.php\/2017\/10\/18\/exploring-static-web\/","postId":"3208"};
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.16"},"disqusIdentifier":"3208 http:\/\/192.168.80.131\/?p=3208","disqusShortname":"ga-explorer","disqusTitle":"Exploring The Static Web","disqusUrl":"\/index.php\/2017\/10\/18\/exploring-static-web\/","postId":"3208"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='/wp-content/plugins/disqus-comment-system/public/js/comment_embed.js?ver=3.0.16'></script>
@@ -903,14 +809,22 @@ var eaelPostGrid = {"ajaxurl":"\/wp-admin\/admin-ajax.php"};
 <script type='text/javascript' src='/wp-content/plugins/essential-addons-for-elementor-lite/assets/social-feeds/jquery.socialfeed.js?ver=1.0'></script>
 <script type='text/javascript' src='/wp-content/plugins/essential-addons-for-elementor-lite/assets/js/mixitup.min.js?ver=1.0'></script>
 <script type='text/javascript' src='/wp-content/plugins/essential-addons-for-elementor-lite/assets/js/jquery.magnific-popup.min.js?ver=1.0'></script>
+<script type='text/javascript' src='/wp-content/plugins/essential-addons-for-elementor-lite/assets/js/tooltipster.bundle.min.js?ver=1.0'></script>
+<script type='text/javascript' src='/wp-content/plugins/essential-addons-for-elementor-lite/assets/js/loading-bar.min.js?ver=1.0'></script>
 <script type='text/javascript' src='/wp-content/plugins/hueman-addons/addons/assets/front/js/jQuerySharrre.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sekFrontLocalized = {"isDevMode":"","frontNonce":{"id":"SEKFrontNonce","handle":"70dc0be2fd"},"localSeks":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/nimble-builder/assets/front/js/ccat-nimble-front.min.js?ver=1.2.0'></script>
 <script type='text/javascript' src='/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"1","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":false,"mobile":false},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"0ff9c190e0"},"userStarted":{"with":"with|3.3.21","on":{"date":"2017-10-12 21:00:09.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
+var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"1","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":false,"mobile":false},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"mobileSubmenuExpandOnClick":"","submenuTogglerIcon":"<i class=\"fas fa-angle-down\"><\/i>","isDevMode":"","ajaxUrl":"\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"fe84eb3741"},"userStarted":{"with":"with|3.3.21","on":{"date":"2017-10-12 21:00:09.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":"","i18n":{"collapsibleExpand":"Expand","collapsibleCollapse":"Collapse"}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='/wp-content/themes/hueman/assets/front/js/scripts.min.js?ver=3.4.1'></script>
+<script type='text/javascript' src='/wp-content/themes/hueman/assets/front/js/scripts.min.js?ver=3.4.8'></script>
 <script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
 <script type='text/javascript' src='/wp-content/plugins/shortcodes-ultimate/assets/js/jquery.inview.js?ver=1.1.2'></script>
 <script type='text/javascript'>
@@ -918,17 +832,17 @@ var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchp
 var su_other_shortcodes = {"no_preview":"This shortcode doesn't work in live preview. Please insert it into editor and preview on the site."};
 /* ]]> */
 </script>
-<script type='text/javascript' src='/wp-content/plugins/shortcodes-ultimate/assets/js/other-shortcodes.js?ver=5.0.4'></script>
+<script type='text/javascript' src='/wp-content/plugins/shortcodes-ultimate/assets/js/other-shortcodes.js?ver=5.1.1'></script>
 <script type='text/javascript' src='/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.4.1'></script>
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.5.0'></script>
 <script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
 <script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min.js?ver=4.4.3'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var elementorFrontendConfig = {"isEditMode":"","is_rtl":"","breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_enable_lightbox_in_editor":"yes"}},"post":{"id":3208,"title":"Exploring The Static Web","excerpt":"The Geometric Algebra Explorer website has been up and running for more than 2 years now. I developed this website using the\u00a0WordPress Content Management System (CMS). WordPress and its countless plugins provide many impressive features for dynamic website developers, especially if they don't want to code much. I really enjoyed working with it, but it's time for me to go static.\r\nIn this post, I share my reasons, experience, and final workflow for leaving dynamic web development with WordPress and going into the static web development side. I think this might be helpful to someone trying to do the same or wanting to develop a similar website. Enjoy!"}};
+var elementorFrontendConfig = {"isEditMode":"","is_rtl":"","breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.2.7","urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_enable_lightbox_in_editor":"yes"}},"post":{"id":3208,"title":"Exploring The Static Web","excerpt":"The Geometric Algebra Explorer website has been up and running for more than 2 years now. I developed this website using the\u00a0WordPress Content Management System (CMS). WordPress and its countless plugins provide many impressive features for dynamic website developers, especially if they don't want to code much. I really enjoyed working with it, but it's time for me to go static.\r\nIn this post, I share my reasons, experience, and final workflow for leaving dynamic web development with WordPress and going into the static web development side. I think this might be helpful to someone trying to do the same or wanting to develop a similar website. Enjoy!"}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.1.6'></script>
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.2.7'></script>
 <!--[if lt IE 9]>
 <script src="/wp-content/themes/hueman/assets/front/js/ie/respond.js"></script>
 <![endif]-->
