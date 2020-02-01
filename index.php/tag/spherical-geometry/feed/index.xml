@@ -12,11 +12,13 @@
 	<atom:link href="/index.php/tag/spherical-geometry/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 10 Nov 2018 17:17:38 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 Nov 2017 19:17:27 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -25,11 +27,11 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-	<item>
+                                          	<item>
 		<title>Projective Insights</title>
 		<link>/index.php/2017/03/17/projective-insights/</link>
-		<comments>/index.php/2017/03/17/projective-insights/#respond</comments>
-		<pubDate>Fri, 17 Mar 2017 18:43:11 +0000</pubDate>
+				<comments>/index.php/2017/03/17/projective-insights/#respond</comments>
+				<pubDate>Fri, 17 Mar 2017 20:43:11 +0000</pubDate>
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
 				<category><![CDATA[GA Math]]></category>
 		<category><![CDATA[Geometric Algebra]]></category>
@@ -44,15 +46,15 @@
 		<category><![CDATA[Visualization]]></category>
 
 		<guid isPermaLink="false">https://gacomputing.info/?p=2706</guid>
-		<description><![CDATA[<p>In this post, I interview Dr. Charles Gunn, a mathematician, movie-maker, and teacher whose mathematical activities center around projective geometry and its connection to the human being and the world.  He is particularly excited by his recent work on Projective Geometric Algebra (PGA), which he believes has a great role to play in bringing the benefits of GA to a wider audience.</p>
+				<description><![CDATA[<p>In this post, I interview Dr. Charles Gunn, a mathematician, movie-maker, and teacher whose mathematical activities center around projective geometry and its connection to the human being and the world.  He is particularly excited by his recent work on Projective Geometric Algebra (PGA), which he believes has a great role to play in bringing the benefits of GA to a wider audience.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/03/17/projective-insights/">Projective Insights</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
 <p><a href="/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724.jpg"><img class="aligncenter size-large wp-image-2723" src="/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-1024x576.jpg" alt="Projective Insights" width="1024" height="576" srcset="/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-1024x576.jpg 1024w, /wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-300x169.jpg 300w, /wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-768x432.jpg 768w, /wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-clearfix">
+<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-u-clearfix su-u-trim">
 <p>Projective geometry is all geometry.</p>
 <span class="su-quote-cite">Arthur Cayley</span></div></div>
 </div>
@@ -63,7 +65,7 @@
 <span class="dropcap">P</span><strong><a href="https://en.wikipedia.org/wiki/Projective_geometry" target="_blank" rel="noopener">rojective Geometry</a></strong> is the branch of geometry dealing with the properties and invariants of geometric figures under projection. In older literature, projective geometry is sometimes called &#8220;higher geometry,&#8221; &#8220;geometry of position,&#8221; or &#8220;descriptive geometry&#8221;. The most amazing result arising in projective geometry is the <a href="https://en.wikipedia.org/wiki/Duality_(projective_geometry)" target="_blank" rel="noopener"><strong>duality principle</strong></a>, which states that a duality exists between theorems such as <a href="https://en.wikipedia.org/wiki/Pascal's_theorem" target="_blank" rel="noopener">Pascal&#8217;s theorem</a> and <a href="https://en.wikipedia.org/wiki/Brianchon%27s_theorem" target="_blank" rel="noopener">Brianchon&#8217;s theorem</a> which allows one to be instantly transformed into the other. More generally, all the propositions in projective geometry occur in dual pairs, which have the property that, starting from either proposition of a pair, the other can be immediately inferred by interchanging the parts played by the words &#8220;point&#8221; and &#8220;line.&#8221;</p>
 <hr />
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div class="su-note" style="border-color:#dad5cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#f2ede3;border-color:#fcfbf9;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d8d3c9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#f2ede3;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class='content-column three_fourth'><h3>About Dr. Charles Gunn</h3>
 <p>In this post, I interview <a href="http://page.math.tu-berlin.de/~gunn/" target="_blank" rel="noopener">Dr. Charles Gunn</a>, a mathematician, movie-maker, and teacher whose mathematical activities center around projective geometry and its connection to the human being and the world.  He is particularly excited by his recent work on <strong><a href="http://dgd.service.tu-berlin.de/wordpress/vismathws12/" target="_blank" rel="noopener">Projective Geometric Algebra</a> (PGA)</strong>, which he believes has a great role to play in bringing the benefits of GA to a wider audience.</p></div>
 <div class='content-column one_fourth last_column'><div class='dropshadowboxes-container dropshadowboxes-center ' style='width:100%;'>
@@ -76,13 +78,13 @@
 </div></div>
 </div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Tell us about your interest in Projective Geometric Algebra (PGA). Why do you focus on this particular area? Do you have specific PGA-related long-term goals?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> Tell us about your interest in Projective Geometric Algebra (PGA). Why do you focus on this particular area? Do you have specific PGA-related long-term goals?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <p>My interest in PGA is a natural outgrowth of my long-standing interest in projective geometry. One of the phases in this process was my work at the <a href="http://www.geom.uiuc.edu/">Geometry Center</a> at the University of Minnesota (1987-1993), where we created interactive visualizations of hyperbolic and spherical space for the first time using the projective models of these spaces, under the guidance of the late Bill Thurston.</p>
 <p>It was natural then that when I went back (quite a bit later) to get a Ph. D. I looked into how not just to make pictures but how to do physics in these non-euclidean spaces. That&#8217;s when I became aware of a certain family of geometric algebras that I have since christened PGA and that formed the technical foundation for <a href="http://page.math.tu-berlin.de/~gunn/Documents/Papers/Thesis-final.pdf">my thesis</a> (Technical University Berlin, 2011).</p>
 <p>The non-euclidean cases were already familiar to the pioneers of GA in the 1870&#8217;s such as Clifford and Klein; the euclidean case, however, is a bit tricky and was first enunciated by Jon Selig in around 2000. I have gone on to explore PGA more thoroughly and have published a series of articles devoted especially to the euclidean case; since I think it&#8217;s a fantastic tool &#8212; both conceptually and practically &#8212; for doing euclidean geometry. It includes as sub-algebras the well-known vector, quaternion, and dual (or bi-) quaternion algebras, but offers much more besides. It deserves to be much better-known than it is, especially in the applied mathematics and engineering community. In the article &#8220;<a href="https://arxiv.org/abs/1411.6502">Geometric algebras for euclidean geometry</a>&#8221; I have shown that for classical &#8220;flat&#8221; euclidean geometry, PGA exhibits distinct advantages over the alternative approaches. It serves also as an ideal stepping-stone both scientifically and pedagogically to more complex GAs such as CGA. This article and others can be accessed at my <a href="http://page.math.tu-berlin.de/~gunn/PGA/">PGA resource page</a>.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> What do you think about the great legacy of 19th-century geometry? Do you feel the scientific community is properly making good use of this legacy? Are there serious obstacles in the way of discovering the true power of 19th-century geometry? Can PGA be useful in this context?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> What do you think about the great legacy of 19th-century geometry? Do you feel the scientific community is properly making good use of this legacy? Are there serious obstacles in the way of discovering the true power of 19th-century geometry? Can PGA be useful in this context?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
@@ -95,7 +97,7 @@
 <p>The prospect of using PGA in this way to better understand Nature also resonates with the 19th-century heritage.  The great pioneers of that era &#8212; Möbius, Plücker, Riemann, Grassmann, Clifford, and Klein, among others &#8212; were all inspired, in their mathematical research, by physical questions. I personally think that mathematics needs such real-world connections in order to develop healthily and am curious to see whether PGA can help to strengthen such connections.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> In one of your papers, you talk about representing N. J. Wildberger's Rational Trigonometry via PGA. Tell us about some interesting aspects of Rational Trigonometry from your point of view. How can PGA representation exhibit distinct advantages over the original coordinates-based approach?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> In one of your papers, you talk about representing N. J. Wildberger's Rational Trigonometry via PGA. Tell us about some interesting aspects of Rational Trigonometry from your point of view. How can PGA representation exhibit distinct advantages over the original coordinates-based approach?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
@@ -106,7 +108,7 @@
 <p>I am no expert on <a href="http://www.cut-the-knot.org/pythagoras/RationalTrig/CutTheKnot.shtml">Wildberger&#8217;s Rational Trigonometry</a>, although I find the basic idea intriguing. One avoids the messiness of evaluating irrational and/or transcendental functions by working with the sine/cosine of the angle rather than with the angle itself, the square of the norm of a vector instead of the norm, etc. A friend loaned me a copy of Wildberger&#8217;s book as I was finishing my thesis and I made it a project to see how many of his results I could rephrase in the language of PGA. I was surprised myself by how well this process went. For example, the fundamental concepts of rational trigonometry &#8212; quadrance and spread &#8212; reveal themselves in PGA to be precisely dual to each other, a fact not obvious in the original treatment. Furthermore, many of the derivations in PGA are, in my humble opinion, clearer and shorter than the coordinate-based ones in the original. I determined that the whole subject could probably be rephrased in this way using PGA but the lack of time has prevented further work in this direction. This experience is typical when I &#8220;translate&#8221; standard treatments of Euclidean geometry into PGA: often I discover a remarkable conciseness and elegance in the PGA version.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Tell us about the process of creating software for PGA investigations. What characteristics should this kind of software have? Which software development paradigms you feel most suitable for this process? What are the components you find lacking in current programming languages in this regard?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> Tell us about the process of creating software for PGA investigations. What characteristics should this kind of software have? Which software development paradigms you feel most suitable for this process? What are the components you find lacking in current programming languages in this regard?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <p>I am not a software purist; I used whatever helps me get the job done. Robustness and thorough documentation are my primary criteria. All my PGA investigations also involve visualization, so these two themes go hand-in-hand. Among commercial products, my favorite tool is Mathematica and I use it for prototype development. In fact, I used Mathematica to check all the results in my thesis for correctness.</p>
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
@@ -119,11 +121,11 @@
 <p>I have also been learning Haskell recently since its pure functional, polymorphic style is particularly well-suited to reliably mapping mathematical domains such as PGA and it seems to be gaining quite a large following. I have looked at other GA packages, hoping to apply them to PGA, but at the time I looked none of them supported a degenerate metric (a key feature of Euclidean PGA). If anyone reading this knows of a standard GA package that supports a non-metric &#8220;duality&#8221; operator please let me know (projgeom@gmail.com).</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> In one of your papers, you describe an algorithm for decorating the edges of a regular tetrahedron with helical ribbons to generate new interesting forms. Do you feel there is a strong connection between Projective Geometry and Art? Can PGA be useful as an abstract generative modeling language for such activity?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> In one of your papers, you describe an algorithm for decorating the edges of a regular tetrahedron with helical ribbons to generate new interesting forms. Do you feel there is a strong connection between Projective Geometry and Art? Can PGA be useful as an abstract generative modeling language for such activity?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
-<div id="attachment_2739" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/03/ribbonEdges-01.jpg"><img class="size-medium wp-image-2739" src="/wp-content/uploads/2017/03/ribbonEdges-01-300x283.jpg" alt="Ribbon Edges Sculpture" width="300" height="283" srcset="/wp-content/uploads/2017/03/ribbonEdges-01-300x283.jpg 300w, /wp-content/uploads/2017/03/ribbonEdges-01-768x723.jpg 768w, /wp-content/uploads/2017/03/ribbonEdges-01.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Ribbon edge sculpture 3D print</p></div>
+<div id="attachment_2739" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/03/ribbonEdges-01.jpg"><img aria-describedby="caption-attachment-2739" class="size-medium wp-image-2739" src="/wp-content/uploads/2017/03/ribbonEdges-01-300x283.jpg" alt="Ribbon Edges Sculpture" width="300" height="283" srcset="/wp-content/uploads/2017/03/ribbonEdges-01-300x283.jpg 300w, /wp-content/uploads/2017/03/ribbonEdges-01-768x723.jpg 768w, /wp-content/uploads/2017/03/ribbonEdges-01.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-2739" class="wp-caption-text">Ribbon edge sculpture 3D print</p></div>
 
                             </div>
                         </div>
@@ -131,8 +133,8 @@
 </div></div>
 <p>The post <a rel="nofollow" href="/index.php/2017/03/17/projective-insights/">Projective Insights</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/index.php/2017/03/17/projective-insights/feed/</wfw:commentRss>
+							<wfw:commentRss>/index.php/2017/03/17/projective-insights/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
-	</channel>
+							</item>
+	                                          </channel>
 </rss>

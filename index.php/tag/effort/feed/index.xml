@@ -12,11 +12,13 @@
 	<atom:link href="/index.php/tag/effort/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 10 Nov 2018 17:17:38 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 09 Nov 2017 05:57:07 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -25,11 +27,11 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-	<item>
+                                          	<item>
 		<title>GMac: The Next Generation (1 of 2)</title>
 		<link>/index.php/2017/02/09/gmac-tng-1/</link>
-		<comments>/index.php/2017/02/09/gmac-tng-1/#respond</comments>
-		<pubDate>Thu, 09 Feb 2017 16:00:02 +0000</pubDate>
+				<comments>/index.php/2017/02/09/gmac-tng-1/#respond</comments>
+				<pubDate>Thu, 09 Feb 2017 18:00:02 +0000</pubDate>
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
 				<category><![CDATA[GA Software]]></category>
 		<category><![CDATA[GMac]]></category>
@@ -46,13 +48,13 @@
 		<category><![CDATA[Software Engineering]]></category>
 
 		<guid isPermaLink="false">https://gacomputing.info/?p=2532</guid>
-		<description><![CDATA[<p>In the summer of 2003, I was almost at the end of my M.Sc. thesis. One day I was surfing the web searching for some references to add to the thesis I'd been writing. I ran into Mikael Nilsson’s interesting M.Sc. thesis “Geometric Algebra with Conzilla: Building a Conceptual Web of Mathematics”. His work contains a nice introduction to Geometric Algebra, with accompanying UML-based conceptual models. It got me very curious about GA. I made some more searches finding a few papers, books, and tutorials. After reading some of them I was suddenly transferred into a new world of algebraic abstractions. For the first time in my life as a student, engineer, and software developer I could hope to express, explore, and manipulate geometric abstractions with such clarity. I then decided that my Ph.D. will be about exploring Geometric Algebra using the best way I know: developing software. </p>
+				<description><![CDATA[<p>In the summer of 2003, I was almost at the end of my M.Sc. thesis. One day I was surfing the web searching for some references to add to the thesis I'd been writing. I ran into Mikael Nilsson’s interesting M.Sc. thesis “Geometric Algebra with Conzilla: Building a Conceptual Web of Mathematics”. His work contains a nice introduction to Geometric Algebra, with accompanying UML-based conceptual models. It got me very curious about GA. I made some more searches finding a few papers, books, and tutorials. After reading some of them I was suddenly transferred into a new world of algebraic abstractions. For the first time in my life as a student, engineer, and software developer I could hope to express, explore, and manipulate geometric abstractions with such clarity. I then decided that my Ph.D. will be about exploring Geometric Algebra using the best way I know: developing software. </p>
 <p>The post <a rel="nofollow" href="/index.php/2017/02/09/gmac-tng-1/">GMac: The Next Generation (1 of 2)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#f2ede3;    '>
                             
-<div class="su-note" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <p><a href="/wp-content/uploads/2017/02/water-1828846_1280.jpg"><img class="aligncenter size-large wp-image-2536" src="/wp-content/uploads/2017/02/water-1828846_1280-1024x682.jpg" alt="Water Drop" width="1024" height="682" srcset="/wp-content/uploads/2017/02/water-1828846_1280-1024x682.jpg 1024w, /wp-content/uploads/2017/02/water-1828846_1280-300x200.jpg 300w, /wp-content/uploads/2017/02/water-1828846_1280-768x512.jpg 768w, /wp-content/uploads/2017/02/water-1828846_1280.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>The belief that complex systems require armies of designers and programmers is wrong. A system that is not understood in its entirety, or at least to a significant degree of detail by a single individual, should probably not be built.</p>
@@ -68,7 +70,7 @@
 <p>In this post and the next, I talk about this journey and some of the lessons I learned along the way. I talk about how the current GMac design came to appear and the joys I found learning the hard way that profound belief <sup class='endnote'><a href='#en-2532-1' id='enref-2532-1' onclick='return hhEndnotes_show(2532)'>1</a></sup>, solid foundation, clear goals, and lots of patience are together the only way to realizing distant dreams.</p>
 <hr />
 <h3>Discovering The Computational Universe</h3>
-<div class="su-note" style="border-color:#dad5cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#f2ede3;border-color:#fcfbf9;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d8d3c9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#f2ede3;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>I had a very selfish reason for building Mathematica. I wanted to use it myself, a bit like Galileo got to use his telescope four hundred years ago. But I wanted to look, not at the astronomical universe, but at the computational universe.</p>
 <p style="text-align: right;"><em><strong>&#8212; Stephen Wolfram</strong></em></p>
@@ -91,7 +93,7 @@ very simple computational rules. (<a href="https://en.wikipedia.org/wiki/Rule_30
 <p>I instantly realized that Geometric Algebra can be a uniquely valuable tool in any attempt to explore the computational universe. I just needed the right computational vessel to make such explorations. I searched a lot but found none that suited my goals. I read that Wolfram had created <a href="https://en.wikipedia.org/wiki/Wolfram_Mathematica" target="_blank" rel="noopener"><strong>Mathematica</strong></a> as his personal lab for doing computational experiments. All this made me decide to create my own GA-based tool for voyaging and exploring the computational universe, and so my journey began.</p>
 <p>&nbsp;</p>
 <h3>Creating The Perfect Library</h3>
-<div class="su-note" style="border-color:#dad5cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#f2ede3;border-color:#fcfbf9;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d8d3c9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#f2ede3;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Good judgment comes from experience, and experience comes from bad judgment.</p>
 <p style="text-align: right;"><em><strong>&#8212; Frederick P. Brooks</strong></em></p>
@@ -115,7 +117,7 @@ very simple computational rules. (<a href="https://en.wikipedia.org/wiki/Rule_30
 <p>Failing in my initial attempt I went higher in the level of abstraction. I had a good background in <a href="https://en.wikipedia.org/wiki/Object-oriented_design" target="_blank" rel="noopener">Object-Oriented (OO) Software Design</a>. Why not, I asked myself, create an OO design based on the mathematical concepts of Geometric Algebra and then derive specific concrete implementations for specific applications. After all, this is how I learned about GA originally; using UML to diagram GA&#8217;s main concepts and relations. I soon found that OO design is a good conceptual tool to study some domain, but there can never be a single OO design suitable for all purposes either; especially when good memory\processing performance is critical <sup class='endnote'><a href='#en-2532-3' id='enref-2532-3' onclick='return hhEndnotes_show(2532)'>3</a></sup>. This got me to learn about other <a href="https://en.wikipedia.org/wiki/Programming_paradigm" target="_blank" rel="noopener">programming paradigms</a> I&#8217;ve never considered reading about before.</p>
 <p>&nbsp;</p>
 <h3>Shifting Paradigms</h3>
-<div class="su-note" style="border-color:#dad5cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#f2ede3;border-color:#fcfbf9;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d8d3c9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#f2ede3;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>One principle problem of educating software engineers is that they will not use a new method until they believe it works and, more importantly, that they will not believe the method will work until they see it for themselves.</p>
 <p style="text-align: right;"><em><strong>&#8212; W. S. Humphrey, The Personal Software Process</strong></em></p>
@@ -138,7 +140,7 @@ very simple computational rules. (<a href="https://en.wikipedia.org/wiki/Rule_30
 <p>Using Automatic Programming and Code Generation is a fundamental design decision I made for GMac. My experience with OO design can be expected to extend to all other programming paradigms. There can be no universal design methodology suitable for all applications. Even more, in a single large application, we might need several paradigms to be used <sup class='endnote'><a href='#en-2532-5' id='enref-2532-5' onclick='return hhEndnotes_show(2532)'>5</a></sup>. The only common activity between all paradigms is the creative composition of structured textual code that is both human-readable and machine-compilable. Instead of trying to force some kind of fixed design method upon GA-based application developers, we can just provide a set of powerful tools to help them in composing their application in whatever programming paradigm, software system design, or programming language they choose. I still believe this is the best, most effective, and most general way to use GA in software development.</p>
 <p>&nbsp;</p>
 <h3>Swimming Upstream</h3>
-<div class="su-note" style="border-color:#dad5cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#f2ede3;border-color:#fcfbf9;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d8d3c9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#f2ede3;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>I had to resign from the University to continue my intellectual research project<sup class='endnote'><a href='#en-2532-6' id='enref-2532-6' onclick='return hhEndnotes_show(2532)'>6</a></sup>.</p>
 <p style="text-align: right;"><em><strong>&#8212; <a href="http://www.arabphilosophers.com/English/philosophers/contemporary/contemporary-names/Abdl-Wahab%20Elmessiri/Article/E_Elmessiri.htm" target="_blank" rel="noopener">Professor Abdel-Wahab Elmessiri</a></strong></em></p>
@@ -166,7 +168,7 @@ Extroverts work quite differently.</span></p>
 <p>After I finally got promoted to Assistant Professor <sup class='endnote'><a href='#en-2532-10' id='enref-2532-10' onclick='return hhEndnotes_show(2532)'>10</a></sup> in July 2010 and for another full year up to Summer 2011, I had to find additional jobs to support my family, so I had to delay developing the next generation of GMac until August 2011.</p>
 <p>In <a href="/index.php/2017/02/10/gmac-tng-2/" target="_blank" rel="noopener">the final part</a> of this series, I will talk about the next phase of my journey developing GMac&#8217;s next generation. I will explain its main components and how I arrived at their design.</p>
 <hr />
-<div class="su-note" style="border-color:#dad5cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#f2ede3;border-color:#fcfbf9;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d8d3c9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#f2ede3;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p style="text-align: center;"><span style="font-size: 28px; font-family: 'Traditional Arabic';"><strong>تم بحمد الله الجمعة 13 جماد أول 1438هـ</strong></span></p>
 </div>
@@ -189,8 +191,8 @@ Extroverts work quite differently.</span></p>
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/02/09/gmac-tng-1/">GMac: The Next Generation (1 of 2)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/index.php/2017/02/09/gmac-tng-1/feed/</wfw:commentRss>
+							<wfw:commentRss>/index.php/2017/02/09/gmac-tng-1/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
-	</channel>
+							</item>
+	                                          </channel>
 </rss>

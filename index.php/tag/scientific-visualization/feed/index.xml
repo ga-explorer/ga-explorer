@@ -12,11 +12,13 @@
 	<atom:link href="/index.php/tag/scientific-visualization/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 10 Nov 2018 17:17:38 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 Nov 2017 19:17:33 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -25,11 +27,11 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-	<item>
+                                          	<item>
 		<title>Visualizing Scientific Insights</title>
 		<link>/index.php/2017/02/20/ga-sciviz/</link>
-		<comments>/index.php/2017/02/20/ga-sciviz/#respond</comments>
-		<pubDate>Mon, 20 Feb 2017 20:51:31 +0000</pubDate>
+				<comments>/index.php/2017/02/20/ga-sciviz/#respond</comments>
+				<pubDate>Mon, 20 Feb 2017 22:51:31 +0000</pubDate>
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
 				<category><![CDATA[GA Computing]]></category>
 		<category><![CDATA[GA Software]]></category>
@@ -47,20 +49,20 @@
 		<category><![CDATA[Vish]]></category>
 
 		<guid isPermaLink="false">https://gacomputing.info/?p=2447</guid>
-		<description><![CDATA[<p>The area of Scientific Visualization (SciViz) is an interdisciplinary branch of science. According to Friendly, it is "primarily concerned with the visualization of three-dimensional phenomena (architectural, meteorological, medical, biological, etc.), where the emphasis is on realistic renderings of volumes, surfaces, illumination sources, and so forth, perhaps with a dynamic (time) component". It is also considered a subset of computer graphics, a branch of computer science. The purpose of scientific visualization is to graphically illustrate scientific data to enable scientists to understand, illustrate, and glean insight from their data.<br />
+				<description><![CDATA[<p>The area of Scientific Visualization (SciViz) is an interdisciplinary branch of science. According to Friendly, it is "primarily concerned with the visualization of three-dimensional phenomena (architectural, meteorological, medical, biological, etc.), where the emphasis is on realistic renderings of volumes, surfaces, illumination sources, and so forth, perhaps with a dynamic (time) component". It is also considered a subset of computer graphics, a branch of computer science. The purpose of scientific visualization is to graphically illustrate scientific data to enable scientists to understand, illustrate, and glean insight from their data.<br />
 In this post, I interview Dr. Werner Benger who describes his views on SciViz using Geometric Algebra and provides valuable insights about the use of SciViz in Big Data applications.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/02/20/ga-sciviz/">Visualizing Scientific Insights</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
-<div id="attachment_2646" style="width: 1034px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/02/SciViz.jpg"><img class="size-large wp-image-2646" src="/wp-content/uploads/2017/02/SciViz-1024x540.jpg" alt="SciViz" width="1024" height="540" srcset="/wp-content/uploads/2017/02/SciViz-1024x540.jpg 1024w, /wp-content/uploads/2017/02/SciViz-300x158.jpg 300w, /wp-content/uploads/2017/02/SciViz-768x405.jpg 768w, /wp-content/uploads/2017/02/SciViz.jpg 1214w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><p class="wp-caption-text">A frame from a movie illustrating flys into New Orleans LIDAR terrain over Lake Pontchartrain where the three drainage canals can be seen. This sequence was also rendered for the planetarium in Baton Rouge (<a href="http://sciviz.cct.lsu.edu/gallery/katrina/links/flyintonola_Lakeview_4K.html" target="_blank" rel="noopener">source</a>).<span style="font-size: 16px;"> </span></p></div>
+<div id="attachment_2646" style="width: 1034px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/02/SciViz.jpg"><img aria-describedby="caption-attachment-2646" class="size-large wp-image-2646" src="/wp-content/uploads/2017/02/SciViz-1024x540.jpg" alt="SciViz" width="1024" height="540" srcset="/wp-content/uploads/2017/02/SciViz-1024x540.jpg 1024w, /wp-content/uploads/2017/02/SciViz-300x158.jpg 300w, /wp-content/uploads/2017/02/SciViz-768x405.jpg 768w, /wp-content/uploads/2017/02/SciViz.jpg 1214w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><p id="caption-attachment-2646" class="wp-caption-text">A frame from a movie illustrating flys into New Orleans LIDAR terrain over Lake Pontchartrain where the three drainage canals can be seen. This sequence was also rendered for the planetarium in Baton Rouge (<a href="http://sciviz.cct.lsu.edu/gallery/katrina/links/flyintonola_Lakeview_4K.html" target="_blank" rel="noopener">source</a>).<span style="font-size: 16px;"> </span></p></div>
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-clearfix">
+<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-u-clearfix su-u-trim">
 <p>Visualize this thing that you want, see it, feel it, believe in it. Make your mental blue print, and begin to build.</p>
 <span class="su-quote-cite">Robert Collier</span></div></div>
 <hr />
-<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-clearfix">
+<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-u-clearfix su-u-trim">
 <p>Visualization is daydreaming with a purpose.</p>
 <span class="su-quote-cite">Bo Bennett</span></div></div>
 </div>
@@ -72,7 +74,7 @@ In this post, I interview Dr. Werner Benger who describes his views on SciViz us
 <p>In this post, I interview Dr. Werner Benger who describes his views on SciViz using Geometric Algebra and provides valuable insights about the use of SciViz in Big Data applications.</p>
 <hr />
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div class="su-note" style="border-color:#87bee5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#96d3ff;border-color:#eaf6ff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#7cb9e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#96d3ff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class='content-column three_fourth'><h3>About Dr. Werner Benger</h3>
 <p><a href="https://www.cct.lsu.edu/~werner/" target="_blank" rel="noopener">Dr. Werner Benger</a> is Chief Designer, Software Architect, and Co-Founder at <a href="https://www.facebook.com/pg/AirborneHydroMapping/about/?ref=page_internal" target="_blank" rel="noopener">Airborne Hydro Mapping Software GmbH</a> (AHMS). He worked on the design and development of the Vish Visualization Shell for Scientific Visualization of Big Data. Vish is designed to be suitable for scientific big data from any kind of application domain by using a generic data model. Within the context of AHMS, it is used for topo-bathymetric datasets from LIDAR measurements.</p>
 <p>Dr. Werner Benger has a scientific background in astrophysics. His main research is in the area of Generic Visualization methods based on mathematical models for multidisciplinary applications, with a special focus on astrophysics and computational fluid dynamics. The applied methods are based on Differential Geometry, Geometric Algebra, Topology, and Fiber Bundles. His current special focus is on iso topo-bathymetric data via his work in AHMS.</p></div>
@@ -86,7 +88,7 @@ In this post, I interview Dr. Werner Benger who describes his views on SciViz us
 </div></div>
 </div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Tell us about your primary research interest: Scientific Visualization (SciViz). Why have you chosen to work in this field?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> Tell us about your primary research interest: Scientific Visualization (SciViz). Why have you chosen to work in this field?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
@@ -104,11 +106,11 @@ In this post, I interview Dr. Werner Benger who describes his views on SciViz us
 <p>Actually, I would not say that I have chosen to work in SciViz. It&#8217;s more that SciViz has chosen me. For most of the time I&#8217;ve considered myself rather an astrophysicist that became &#8220;delinquent&#8221; by engaging with computers too much. The origin came from the question how a black hole actually looks like. I asked that questions to one of my professors at university and he could not answer it, so I had to find out myself. I wrote a computer program for that purpose and that got me into this field. A couple of years ago I gave a presentation to students telling this story, you can find <a href="https://www.cct.lsu.edu/~werner/4REU2010.pdf" target="_blank" rel="noopener">the presentation slides here</a>.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Do you see significant differences between Engineering and Computer Science when trying to solve practical problems?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> Do you see significant differences between Engineering and Computer Science when trying to solve practical problems?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <p>As you mention Engineering vs. Computer Science &#8211; I often feel the difference between these two is that in Engineering you worry to get things to work &#8220;somehow&#8221;, while in Computer Science you also worry how things are getting to work and you want to find a systematic, future-safe approach. I&#8217;m myself more behind this theoretical approach to finding a powerful general solution that also but not only works for a special case, rather than just solving one particular special case. I also want to know why things work or why things cannot work, rather than finding an algorithm that solves a problem &#8220;somehow&#8221;.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> What major branches of Engineering and Computer Science are directly related to SciViz research and applications?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> What major branches of Engineering and Computer Science are directly related to SciViz research and applications?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
@@ -121,15 +123,15 @@ In this post, I interview Dr. Werner Benger who describes his views on SciViz us
 <p>Systematic scientific visualization fuses all those interesting mathematical fields of differential geometry, topology, and geometric algebra. SciViz is also on the bridge between artwork and science, so touching both aspects is what many want, but only SciViz achieves if done well. You can read more about this aspect in my article &#8220;<a href="http://www.zib.de/hege/pdf/Benger-1999-Visions-of-numerical-relativity_SC-99-53.pdf" target="_blank" rel="noopener">Visions of Numerical Relativity 1999</a>&#8220;.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> What recent SciViz developments you find most important that you can tell us about?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> What recent SciViz developments you find most important that you can tell us about?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <p>Concerning new developments &#8211; that is certainly &#8220;Big Data&#8221;, which has become a buzzword that is all around now. With more and advanced numerical and observation technology available, the trend is to no longer filter data during generation, but to just retrieve and store anything possible, leaving the crucial problem of identifying &#8211; i.e., visualizing &#8211; the important aspects of the data to the last data processing step, the visualization. This is a topic by itself of course, but just to mention that Big Data is often considered synonymous with High-Performance Computing (HPC). Actually, SciViz only covers one aspect of HPC, but indeed many methods and approaches from HPC are needed to deal with SciViz, even on single PCs and laptops. There it is of course all about parallelism, about GPU computing, about parallel I/O, and about scaling up algorithms to deal with bigger amounts of data.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Tell us about the relations between Geometric Computing (GC) and SciViz. How does SciViz benefit from developments in GC and the other way around?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> Tell us about the relations between Geometric Computing (GC) and SciViz. How does SciViz benefit from developments in GC and the other way around?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <p>Geometric Computing is a tool that is used in SciViz to solve its various detail problems. It&#8217;s frequent that in SciViz you want to achieve something and you need to search for the best GC algorithm to solve it. For the other way around, SciViz may help to develop a GC algorithm as it allows visual insight to what actually happens during the algorithm, not merely the result.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> What benefits can Geometric Algebra provide in this context for both domains? Do you find everyone agreeing with your point of view on using GA?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> What benefits can Geometric Algebra provide in this context for both domains? Do you find everyone agreeing with your point of view on using GA?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
@@ -143,7 +145,7 @@ In this post, I interview Dr. Werner Benger who describes his views on SciViz us
 <p>Now it&#8217;s a bit of matter of taste which side is more confusing, the one identifying different geometric concepts into the same algebraic representation, or the one that unfolds a widely used geometric concept into more expressive algebraic objects. For my taste, the latter, and the more you have unfolded those geometric concepts, the better you understand which algebraic structures are required for identification &#8211; and those structures may be non-trivial in general, thus need to be considered explicitly in a general-purpose data model, even though via various optimization techniques they would vanish. This should be the last step, not the first one. &#8220;Implicit assumptions&#8221; are the death of data descriptions and file formats, there must at least be a way to identify which assumptions have been made, and they need to be part of the data description.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> What is the importance of embedding the assumptions into Big Data descriptions and file formats? How can we approach this effectively?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> What is the importance of embedding the assumptions into Big Data descriptions and file formats? How can we approach this effectively?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <p>When we classify algebraic properties of geometric concepts we obtain a &#8220;zoo&#8221; of vector types. This determines the metadata that needs to be written to a file (or other means of persistent storage such as a database) such that the data remain identifiable. Just writing floating point data is simple, but problems occur when the need arises to know what the data mean when reading them. Self-description of data is important for archival purposes and restartable algorithms, which are particularly important for long-term archiving and out-of-memory data processing. There are not many file formats that even provide the required expressivity of meta-data as required for this purpose to describe such variety of vectorial types.</p>
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
@@ -156,7 +158,7 @@ In this post, I interview Dr. Werner Benger who describes his views on SciViz us
 <p>For a generic application, we need runtime type identification that maps a type description, may it be provided by HDF5 or another capable file format \ storage medium, into compile-time types such that the correct precompiled code for the respective vector types can be called. On the other hand, the I/O mechanisms should not need to know about the complexity of vector types, it only needs to know about arrays of floating points plus some metadata. Thus what is left is to map the compile-time type meta-information to some run-time meta-information about types. The mechanism of type traits comes into play here for writing data. For reading data, however, it is not sufficient. When a certain data type is identified in some persistent storage, the reading code has to look up some registry to find a routine that produces actual instances of data arrays of the given type (which is then known by application code only). Given such an application code produced data array, it remains sufficient for the reading code to look at its numerical values only.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> As I understand, SciViz is a core part of any practical simulator. In your opinion, what are the software engineering methods most suitable for designing and implementing scalable SciViz software components and systems?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> As I understand, SciViz is a core part of any practical simulator. In your opinion, what are the software engineering methods most suitable for designing and implementing scalable SciViz software components and systems?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
@@ -169,7 +171,7 @@ In this post, I interview Dr. Werner Benger who describes his views on SciViz us
 <p>Concerning code readability, I believe code should be written in a most intuitive way; mathematical algorithms as close to the mathematical notation as possible. For example, operator overloading and C++ 14 string literals provide syntactic sugar to do so, but a naive implementation may suffer performance issues. Expression templates have demonstrated how human-readable code can be transformed into efficient code by using C++ templates. The more constraints are known about some code, the better it can be optimized, and systems such as Gaalop or GMac that rely on symbolic algebra packages may be able to optimize a certain algorithm even better than the more generic C++ compiler. It is thus desirable that a C++ library providing GA algorithm allows for application code that is not only human-readable but also readable as a domain-specific language such that it is parseable by tools beyond the C++ compiler itself.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> How can GA be useful in this software design context? Are there any difficulties associated with using GA here?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> How can GA be useful in this software design context? Are there any difficulties associated with using GA here?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
@@ -181,7 +183,7 @@ In this post, I interview Dr. Werner Benger who describes his views on SciViz us
 <p>For instance, this means considering GA in arbitrary coordinate systems, not merely in orthonormal coordinate systems, which is what most implementations of GA do &#8211; because mathematically, it can be done, and the problem is solved thereby. But it&#8217;s only mathematically solved, and in practice, non-orthonormal coordinate systems are more common; for instance in numerical relativity or in computational fluid dynamic simulations. GA-based implementations need to be as general as possible to cover all such applications that can use GA as an algebraic representation. At the same time, we need to keep the highly optimized reductions that are possible for special cases, and at this time some automatic code generators may come into play to allow specifying constraints and knowledge available for a particular use case (e.g. global orthonormality of coordinates) which are not available on the level of a compiler.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> How do you think designing GA-based SciViz software, like your Vish Shell, for Big Data processing can be different from small-scale GC applications?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> How do you think designing GA-based SciViz software, like your Vish Shell, for Big Data processing can be different from small-scale GC applications?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
@@ -192,16 +194,16 @@ In this post, I interview Dr. Werner Benger who describes his views on SciViz us
 <p>A certain difference is that one must avoid any overhead &#8220;per vector element&#8221; and consider doing operations on &#8220;arrays of multivectors&#8221;. This comes with constraints that need to be taken into consideration. Vish stems from a background of dealing with big data from numerical relativity and bases all its data operations on the concept of fiber bundles. This means operations are done as array operations as much as possible, which are parallelizable and allow optimal data throughput, for both I/O and transferring data on the graphics card for rendering. Modern rendering is based on vertex buffers and vertex arrays, which mathematically are fiber bundles, whereas the old OpenGL 1.0 was about primitives and lists of primitives. This model did not scale to the highly parallel data processing that happens on GPUs and thus is considered deprecated now, whereas the fiber bundle data model, envisioned originally by D. Butler in 1989, shines, even though only a few people are aware that they actually do fiber bundles.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> What role does GA have in such Big-Data software design context?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> What role does GA have in such Big-Data software design context?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <p>In this context, GA is complementary, as it basically implements fibers on the fiber bundle data model. So the basic change is to think about operations on arrays of multivectors and to extend solutions to consider array operations instead of single variables. Now that &#8220;should&#8221; be rather easy when an array of multivectors is homogenous, i.e. each array element consists of multivectors with the same zero and non-zero components. Fortunately, this will most likely be the case in practical applications, and code-generators such as GMac are able to predict which multivector components will always be zero within an algorithm &#8211; that is an essential part of applying GA algorithms for big data, both for computational speed and even more memory consumption.</p>
 <p>For a single input operation, optimizing out zeroes is just some computational optimization, but the algorithm would still work without it. For big data having many inputs, keeping arrays which are all zero are performance killers and may prevent an entire application from becoming functional. So an optional optimization for small data applications becomes a mandatory component for big data applications. But things become really complex if we had to consider heterogeneous multivector arrays where the zeros would be different at each array element. This basically leaves us with two options: Carry all zeroes everywhere for the sake of parallelism, or use locally dynamic multivectors, which will be much slower but more memory-friendly. Let&#8217;s hope we don&#8217;t have many such application cases.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Can you tell us about other interesting aspects of Vish?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> Can you tell us about other interesting aspects of Vish?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <p>I would like to point out that Vish is adhering to <a href="http://vish.fiberbundle.net/download/license/" target="_blank" rel="noopener">a particular license with a non-military aspect</a>. I think it&#8217;s important for developers of technology to also think how their technology can be used. Otherwise, the Oppenheimer effect may strike them later on. Many people would object, and promote &#8220;free software&#8221; just for the sake of freedom, saying the military would not respect a software license anyway. However, my experience on that matter has been just the opposite. It is respected, and I had a couple of requests from the military that I was putting down, and it was accepted.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> You mentioned earlier that most scientists don't like to use advanced SciViz tools often. What can we do in terms of educating and training new generations of researchers to change this? Can GA provide help in solving this problem?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> You mentioned earlier that most scientists don't like to use advanced SciViz tools often. What can we do in terms of educating and training new generations of researchers to change this? Can GA provide help in solving this problem?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
@@ -215,8 +217,8 @@ In this post, I interview Dr. Werner Benger who describes his views on SciViz us
 </div></div>
 <p>The post <a rel="nofollow" href="/index.php/2017/02/20/ga-sciviz/">Visualizing Scientific Insights</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/index.php/2017/02/20/ga-sciviz/feed/</wfw:commentRss>
+							<wfw:commentRss>/index.php/2017/02/20/ga-sciviz/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
-	</channel>
+							</item>
+	                                          </channel>
 </rss>

@@ -12,11 +12,13 @@
 	<atom:link href="/index.php/tag/blogging/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 10 Nov 2018 17:17:38 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 09 Aug 2018 21:09:47 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -25,11 +27,11 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-	<item>
+                                          	<item>
 		<title>Exploring The Static Web</title>
 		<link>/index.php/2017/10/18/exploring-static-web/</link>
-		<comments>/index.php/2017/10/18/exploring-static-web/#respond</comments>
-		<pubDate>Wed, 18 Oct 2017 19:13:54 +0000</pubDate>
+				<comments>/index.php/2017/10/18/exploring-static-web/#respond</comments>
+				<pubDate>Wed, 18 Oct 2017 21:13:54 +0000</pubDate>
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
 				<category><![CDATA[Exploration]]></category>
 		<category><![CDATA[Blogging]]></category>
@@ -42,15 +44,15 @@
 		<category><![CDATA[Static Web Design]]></category>
 		<category><![CDATA[WordPress]]></category>
 
-		<guid isPermaLink="false">http://ga-explorer.netlify.com/?p=3208</guid>
-		<description><![CDATA[<p>The Geometric Algebra Explorer website has been up and running for more than 2 years now. I developed this website using the WordPress Content Management System (CMS). WordPress and its countless plugins provide many impressive features for dynamic website developers, especially if they don't want to code much. I really enjoyed working with it, but it's time for me to go static.<br />
+		<guid isPermaLink="false">/?p=3208</guid>
+				<description><![CDATA[<p>The Geometric Algebra Explorer website has been up and running for more than 2 years now. I developed this website using the WordPress Content Management System (CMS). WordPress and its countless plugins provide many impressive features for dynamic website developers, especially if they don't want to code much. I really enjoyed working with it, but it's time for me to go static.<br />
 In this post, I share my reasons, experience, and final workflow for leaving dynamic web development with WordPress and going into the static web development side. I think this might be helpful to someone trying to do the same or wanting to develop a similar website. Enjoy!</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/10/18/exploring-static-web/">Exploring The Static Web</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
                             
-<div class="su-note" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <p><img class="aligncenter size-large wp-image-3215" src="/wp-content/uploads/2017/10/spider-web-2732247_1280-1024x682.jpg" alt="Web Design" width="1024" height="682" srcset="/wp-content/uploads/2017/10/spider-web-2732247_1280-1024x682.jpg 1024w, /wp-content/uploads/2017/10/spider-web-2732247_1280-300x200.jpg 300w, /wp-content/uploads/2017/10/spider-web-2732247_1280-768x512.jpg 768w, /wp-content/uploads/2017/10/spider-web-2732247_1280.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.</p>
@@ -66,7 +68,7 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p>In this post, I share my reasons, experience, and final workflow for leaving dynamic web development with WordPress and going into the static web development side. I think this might be helpful to someone trying to do the same or wanting to develop a similar website. Enjoy!</p>
 <hr />
 <h2>Web Needs</h2>
-<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#e0d6cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#faf0e6;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>A man travels the world over in search of what he needs and returns home to find it.</p>
 <p style="text-align: right;"><em><strong>&#8212; George A. Moore</strong></em></p>
@@ -86,7 +88,7 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p>Web development with WordPress brilliantly satisfies the first 3 points and can be made, with some effort, to satisfy the 4th, but doesn&#8217;t satisfy the last 2.</p>
 <p>&nbsp;</p>
 <h2>Two Sides</h2>
-<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#e0d6cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#faf0e6;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>There&#8217;s a world out there, and you&#8217;ve got to look at both sides of the mountain in your lifetime.</p>
 <p style="text-align: right;"><em><strong>&#8212; Bill Janklow</strong></em></p>
@@ -117,7 +119,7 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p>For many kinds of websites, like blogs, wikis, and online documentation sites, using a static website is a much better choice. One additional factor is the cost of having a dynamic vs. static website. Dynamic web hosting typically costs much more because the server needs a database and a good deal of security and maintenance efforts. For all these reasons I decided to migrate the GA Explorer into the static side of the web.</p>
 <p>&nbsp;</p>
 <h2>The Search</h2>
-<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#e0d6cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#faf0e6;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>I make static art, not dynamic art. That&#8217;s what I do.</p>
 <p style="text-align: right;"><em><strong>&#8212; Michael Heizer</strong></em></p>
@@ -147,7 +149,7 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p>After a lot of searching and exploration, I finally returned to WordPress again. The WordPress system itself is an open source project and anyone can create a personal web server and install WordPress on it for free. In a final act of exploration, I tried searching for a WordPress plugin that can generate static HTML+CSS+JavaScript files from the dynamic WordPress website. I was surprised and pleased to find two very good plugins for this task. This was a very exciting discovery for me because it meant that I could continue developing my work with WordPress and then generate and publish the static website from it after a small amount of tweaking. Such mixed workflow would allow me to get all the benefits of both dynamic and static web development for my needs. It also meant that I could keep my previous WordPress work with minimum conversion effort and start publishing and updating my new static website in a few days, rather than months. I then had to make some final experiments to make sure which WordPress components and plugins to use for the static website to work correctly after generation. I managed to create a good and simple workflow that satisfies all my blogging and documentation needs. And the best of all, everything in the workflow is completely free.</p>
 <p>&nbsp;</p>
 <h2>Workflow</h2>
-<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#e0d6cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#faf0e6;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Workflow and usability are not afterthoughts; they impact the core of any project and dictate how it should be engineered.</p>
 <p style="text-align: right;"><em><strong>&#8212; Ryan Holmes</strong></em></p>
@@ -256,7 +258,7 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p style="text-align: left;">The next step is to use a good text editor, like <a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener">Notepad++</a>, to replace all URLs containing your local server address with the final web hosting server address. For example, I use Notepad++ <pre class="crayon-plain-tag">Find in Files...</pre> menu to mass-replace text like <pre class="crayon-plain-tag">192.168.80.133</pre> with <pre class="crayon-plain-tag">gmac-guides.netlify.com</pre> in all generated files of the static website. The final step is a simple matter of uploading your generated files to the web hosting service, GitHub in my case, and publishing the website online.</p>
 <p>&nbsp;</p>
 <h2>Things to Explore</h2>
-<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#e0d6cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#faf0e6;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Education must provide the opportunities for self-fulfillment; it can at best provide a rich and challenging environment for the individual to explore, in his own way.</p>
 <p style="text-align: right;"><em><strong>&#8212; Noam Chomsky</strong></em></p>
@@ -266,7 +268,7 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 <p>If you like this workflow you can make many more explorations of your own. For example, you can try other themes with more interesting visual styles, menu, and formatting plugins. You can also explore email-based commenting systems like <a href="https://disqus.com/" target="_blank" rel="noopener">Disqus</a>. You can even explore modifying the generated web pages using other web design tools. I also found <a href="https://www.youtube.com/watch?v=mXcQ7rVn3ro" target="_blank" rel="noopener">adding google analytics code</a> to be relatively easy in this workflow.</p>
 <p>My new <a href="https://ga-explorer.netlify.com/" target="_blank" rel="noopener">GA Explorer</a> static website is now online. I&#8217;m happy to continue using WordPress with all its power for its development while gaining all of the benefits of using the static side of the web.</p>
 <hr />
-<div class="su-note" style="border-color:#e1d8cf;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#faf0e6;border-color:#fefcfa;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#e0d6cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#faf0e6;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p style="text-align: center;"><span style="font-size: 28px;"><strong><span style="font-family: 'Traditional Arabic';">تم بحمد الله الجمعة 14 صفر 1439هـ</span></strong></span></p>
 </div>
@@ -287,8 +289,8 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/10/18/exploring-static-web/">Exploring The Static Web</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/index.php/2017/10/18/exploring-static-web/feed/</wfw:commentRss>
+							<wfw:commentRss>/index.php/2017/10/18/exploring-static-web/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
-	</channel>
+							</item>
+	                                          </channel>
 </rss>

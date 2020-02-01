@@ -12,11 +12,13 @@
 	<atom:link href="/index.php/tag/blade/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 10 Nov 2018 17:17:38 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 Nov 2017 15:49:51 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -25,11 +27,11 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-	<item>
+                                          	<item>
 		<title>Geometric Algebra: Ascension of the Mind</title>
 		<link>/index.php/2017/01/13/ga-computing3/</link>
-		<comments>/index.php/2017/01/13/ga-computing3/#respond</comments>
-		<pubDate>Fri, 13 Jan 2017 14:00:42 +0000</pubDate>
+				<comments>/index.php/2017/01/13/ga-computing3/#respond</comments>
+				<pubDate>Fri, 13 Jan 2017 16:00:42 +0000</pubDate>
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
 				<category><![CDATA[Geometric Algebra]]></category>
 		<category><![CDATA[Algebra]]></category>
@@ -48,13 +50,13 @@
 		<category><![CDATA[Versor]]></category>
 
 		<guid isPermaLink="false">http://gacomputing.info/?p=636</guid>
-		<description><![CDATA[<p>I discovered Geometric Algebra (GA) back in 2003 and it caught my attention immediately. In my whole life as a student, engineer, researcher, and teacher I've never met a symbolic mathematical system so beautifully close to geometric abstractions. In this post, I try to explain how Geometric Algebra can express, unify, and generalize many geometric abstractions we use as engineers and computer scientists.</p>
+				<description><![CDATA[<p>I discovered Geometric Algebra (GA) back in 2003 and it caught my attention immediately. In my whole life as a student, engineer, researcher, and teacher I've never met a symbolic mathematical system so beautifully close to geometric abstractions. In this post, I try to explain how Geometric Algebra can express, unify, and generalize many geometric abstractions we use as engineers and computer scientists.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/13/ga-computing3/">Geometric Algebra: Ascension of the Mind</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#f2ede3;    '>
                             
-<div class="su-note" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <p><img class="aligncenter wp-image-2197 size-large" src="/wp-content/uploads/2017/01/flow-1086468_1280-1024x768.jpg" alt="Abstract Flow" width="1024" height="768" srcset="/wp-content/uploads/2017/01/flow-1086468_1280-1024x768.jpg 1024w, /wp-content/uploads/2017/01/flow-1086468_1280-300x225.jpg 300w, /wp-content/uploads/2017/01/flow-1086468_1280-768x576.jpg 768w, /wp-content/uploads/2017/01/flow-1086468_1280.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>If you understand something in only one way, then you don&#8217;t really understand it at all. The secret of what anything means to us depends on how we&#8217;ve connected it to all other things we know. Well-connected representations let you turn ideas around in your mind, to envision things from many perspectives until you find one that works for you. And that&#8217;s what we mean by thinking!</p>
@@ -69,7 +71,7 @@
 <span class="dropcap">I</span> discovered <a href="https://en.wikipedia.org/wiki/Geometric_algebra">Geometric Algebra</a> (GA) back in 2003 and it caught my attention immediately. In my whole life as a student, engineer, researcher, and teacher I&#8217;ve never met a symbolic mathematical system so beautifully close to geometric abstractions. In this post, I try to explain how Geometric Algebra can express, unify, and generalize many geometric abstractions we use as engineers and computer scientists.</p>
 <hr />
 <h3>The Generative Pattern</h3>
-<div class="su-note" style="border-color:#dad5cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#f2ede3;border-color:#fcfbf9;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d8d3c9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#f2ede3;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>What I cannot create, I do not understand.</p>
 <p style="text-align: right;"><em><strong>&#8212; Richard Feynman</strong></em></p>
@@ -86,7 +88,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#f2ede3;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_2205" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/01/640px-Terragen_render.jpg"><img class="wp-image-2205 size-medium" src="/wp-content/uploads/2017/01/640px-Terragen_render-300x225.jpg" alt="Generative Modeling" width="300" height="225" srcset="/wp-content/uploads/2017/01/640px-Terragen_render-300x225.jpg 300w, /wp-content/uploads/2017/01/640px-Terragen_render.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Generative Modeling can be used in simple geometric constructions up to complex graphics scene generation (<a href="https://en.wikipedia.org/wiki/Scenery_generator">source</a>)</p></div>
+<div id="attachment_2205" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/01/640px-Terragen_render.jpg"><img aria-describedby="caption-attachment-2205" class="wp-image-2205 size-medium" src="/wp-content/uploads/2017/01/640px-Terragen_render-300x225.jpg" alt="Generative Modeling" width="300" height="225" srcset="/wp-content/uploads/2017/01/640px-Terragen_render-300x225.jpg 300w, /wp-content/uploads/2017/01/640px-Terragen_render.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-2205" class="wp-caption-text">Generative Modeling can be used in simple geometric constructions up to complex graphics scene generation (<a href="https://en.wikipedia.org/wiki/Scenery_generator">source</a>)</p></div>
 </div>
 
                             </div>
@@ -97,7 +99,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#f2ede3;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_2215" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/01/6811026597_c282242276_z.jpg"><img class="size-medium wp-image-2215" src="/wp-content/uploads/2017/01/6811026597_c282242276_z-300x205.jpg" alt="Parametric Architectural Design" width="300" height="205" srcset="/wp-content/uploads/2017/01/6811026597_c282242276_z-300x205.jpg 300w, /wp-content/uploads/2017/01/6811026597_c282242276_z.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Parametric Architectural Design is one important application of the Geometric Generators pattern (<a href="https://www.flickr.com/photos/eager/6811026597">source</a>)</p></div>
+<div id="attachment_2215" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/01/6811026597_c282242276_z.jpg"><img aria-describedby="caption-attachment-2215" class="size-medium wp-image-2215" src="/wp-content/uploads/2017/01/6811026597_c282242276_z-300x205.jpg" alt="Parametric Architectural Design" width="300" height="205" srcset="/wp-content/uploads/2017/01/6811026597_c282242276_z-300x205.jpg 300w, /wp-content/uploads/2017/01/6811026597_c282242276_z.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-2215" class="wp-caption-text">Parametric Architectural Design is one important application of the Geometric Generators pattern (<a href="https://www.flickr.com/photos/eager/6811026597">source</a>)</p></div>
 </div>
 
                             </div>
@@ -119,7 +121,7 @@
 <p>We need to find an algebra that can be used to clearly express our generative pattern of geometry in a unified manner, independent of coordinates, and with algebraic relations generalizable to any space dimension.</p>
 <p>&nbsp;</p>
 <h3>An Algebra for Geometric Computing</h3>
-<div class="su-note" style="border-color:#dad5cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#f2ede3;border-color:#fcfbf9;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d8d3c9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#f2ede3;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>The two operations of our understanding, intuition and deduction, on which alone we have said we must rely in the acquisition of knowledge.</p>
 <p style="text-align: right;"><em><strong>&#8212; Rene Descartes</strong></em></p>
@@ -130,7 +132,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#f2ede3;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_2220" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/01/1024px-ReverseaccumulationAD.jpg"><img class="size-medium wp-image-2220" src="/wp-content/uploads/2017/01/1024px-ReverseaccumulationAD-300x175.jpg" alt="Automatic Differentiation" width="300" height="175" srcset="/wp-content/uploads/2017/01/1024px-ReverseaccumulationAD-300x175.jpg 300w, /wp-content/uploads/2017/01/1024px-ReverseaccumulationAD-768x448.jpg 768w, /wp-content/uploads/2017/01/1024px-ReverseaccumulationAD.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">The Algebra of Dual Numbers can be used to implement Automatic Differentiation (<a href="https://commons.wikimedia.org/wiki/File:ReverseaccumulationAD.png">source</a>)</p></div>
+<div id="attachment_2220" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/01/1024px-ReverseaccumulationAD.jpg"><img aria-describedby="caption-attachment-2220" class="size-medium wp-image-2220" src="/wp-content/uploads/2017/01/1024px-ReverseaccumulationAD-300x175.jpg" alt="Automatic Differentiation" width="300" height="175" srcset="/wp-content/uploads/2017/01/1024px-ReverseaccumulationAD-300x175.jpg 300w, /wp-content/uploads/2017/01/1024px-ReverseaccumulationAD-768x448.jpg 768w, /wp-content/uploads/2017/01/1024px-ReverseaccumulationAD.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-2220" class="wp-caption-text">The Algebra of Dual Numbers can be used to implement Automatic Differentiation (<a href="https://commons.wikimedia.org/wiki/File:ReverseaccumulationAD.png">source</a>)</p></div>
 </div>
 
                             </div>
@@ -155,7 +157,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#f2ede3;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_2237" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/01/Conformal_Embedding.jpg"><img class="size-medium wp-image-2237" src="/wp-content/uploads/2017/01/Conformal_Embedding-300x256.jpg" alt="Conformal Embedding" width="300" height="256" srcset="/wp-content/uploads/2017/01/Conformal_Embedding-300x256.jpg 300w, /wp-content/uploads/2017/01/Conformal_Embedding.jpg 531w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">The Conformal Embedding (<a href="https://commons.wikimedia.org/wiki/File:Conformal_Embedding.svg">source</a>)</p></div>
+<div id="attachment_2237" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/01/Conformal_Embedding.jpg"><img aria-describedby="caption-attachment-2237" class="size-medium wp-image-2237" src="/wp-content/uploads/2017/01/Conformal_Embedding-300x256.jpg" alt="Conformal Embedding" width="300" height="256" srcset="/wp-content/uploads/2017/01/Conformal_Embedding-300x256.jpg 300w, /wp-content/uploads/2017/01/Conformal_Embedding.jpg 531w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-2237" class="wp-caption-text">The Conformal Embedding (<a href="https://commons.wikimedia.org/wiki/File:Conformal_Embedding.svg">source</a>)</p></div>
 </div>
 
                             </div>
@@ -167,7 +169,7 @@
 <p>Working with the algebra, physicists have developed a conformal split mapping of a 3 dimensional Euclidean space G(3) into a 5-dimensional one, G(4,1), based on Riemannian projection of 3D Euclidean space (R3) onto a hypersphere. Introduced into the geometric algebra community by Hongbo Li, Alan Rockwood, and David Hestenes in 2001, the conformal model greatly simplifies and generalizes calculations of general rigid body movements in Euclidean space. As a mathematical system for describing closed form solutions within Euclidean, spherical, and hyperbolic geometries, conformal geometric algebra opens the door to a rich set of Möbius transformations typically restricted to the 2D plane. The operators which reflect, rotate, translate, twist, dilate, and boost other elements and objects are called versors.</p></blockquote>
 <p>&nbsp;</p>
 <h3>The Universal Matrix</h3>
-<div class="su-note" style="border-color:#dad5cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#f2ede3;border-color:#fcfbf9;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d8d3c9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#f2ede3;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>We may always depend on it that algebra, which cannot be translated into good English and sound common sense, is bad algebra.</p>
 <p style="text-align: right;"><em><strong>&#8212; William Kingdon Clifford</strong></em></p>
@@ -178,7 +180,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#f2ede3;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_2211" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/01/NLA.jpg"><img class="wp-image-2211 size-medium" src="/wp-content/uploads/2017/01/NLA-300x233.jpg" alt="Numerical Linear Algebra" width="300" height="233" srcset="/wp-content/uploads/2017/01/NLA-300x233.jpg 300w, /wp-content/uploads/2017/01/NLA.jpg 691w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Many problems in engineering can be modeled and solved using Numerical Linear Algebra software (<a href="https://commons.wikimedia.org/wiki/File:Navier_Stokes_Laminar.svg">source</a>)</p></div>
+<div id="attachment_2211" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/01/NLA.jpg"><img aria-describedby="caption-attachment-2211" class="wp-image-2211 size-medium" src="/wp-content/uploads/2017/01/NLA-300x233.jpg" alt="Numerical Linear Algebra" width="300" height="233" srcset="/wp-content/uploads/2017/01/NLA-300x233.jpg 300w, /wp-content/uploads/2017/01/NLA.jpg 691w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-2211" class="wp-caption-text">Many problems in engineering can be modeled and solved using Numerical Linear Algebra software (<a href="https://commons.wikimedia.org/wiki/File:Navier_Stokes_Laminar.svg">source</a>)</p></div>
 </div>
 
                             </div>
@@ -196,7 +198,7 @@
 </ul>
 <p>&nbsp;</p>
 <h3>The Geometric Multivector</h3>
-<div class="su-note" style="border-color:#dad5cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#f2ede3;border-color:#fcfbf9;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d8d3c9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#f2ede3;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>You don’t see something until you have the right metaphor to let you perceive it.</p>
 <p style="text-align: right;"><em><strong>&#8212; James Gleick, Chaos: Making a New Science</strong></em></p>
@@ -207,7 +209,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#f2ede3;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_2272" style="width: 272px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/01/Geometric-Product.jpg"><img class="size-medium wp-image-2272" src="/wp-content/uploads/2017/01/Geometric-Product-262x300.jpg" alt="Geometric Product" width="262" height="300" srcset="/wp-content/uploads/2017/01/Geometric-Product-262x300.jpg 262w, /wp-content/uploads/2017/01/Geometric-Product.jpg 482w" sizes="(max-width: 262px) 100vw, 262px" /></a><p class="wp-caption-text">The sophisticated mathematical structure of Geometric Algebra resulting from the geometric product of its basis blades (<a href="http://www.euclideanspace.com/maths/algebra/clifford/d3/">source</a>)</p></div>
+<div id="attachment_2272" style="width: 272px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/01/Geometric-Product.jpg"><img aria-describedby="caption-attachment-2272" class="size-medium wp-image-2272" src="/wp-content/uploads/2017/01/Geometric-Product-262x300.jpg" alt="Geometric Product" width="262" height="300" srcset="/wp-content/uploads/2017/01/Geometric-Product-262x300.jpg 262w, /wp-content/uploads/2017/01/Geometric-Product.jpg 482w" sizes="(max-width: 262px) 100vw, 262px" /></a><p id="caption-attachment-2272" class="wp-caption-text">The sophisticated mathematical structure of Geometric Algebra resulting from the geometric product of its basis blades (<a href="http://www.euclideanspace.com/maths/algebra/clifford/d3/">source</a>)</p></div>
 </div>
 
                             </div>
@@ -224,7 +226,7 @@
 <p>Naturally, we need both matrix and multivector representations. We just need to select the most appropriate one for the problem. We may, for example, select to express our problem using multivectors for teaching purposes, while coding computations for the same problem with matrices at a later stage. The good news here is that we can create <a href="https://en.wikipedia.org/wiki/Optimizing_compiler">optimizing compilers</a> that automatically generate matrices from GA operations on multivectors. We need to explore both methods of representation and never walk with the &#8220;hammer of matrices&#8221; as our only symbolic tool for dealing with all problems.</p>
 <p>&nbsp;</p>
 <h3>Geometric Algebra: The Way Ahead</h3>
-<div class="su-note" style="border-color:#dad5cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#f2ede3;border-color:#fcfbf9;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d8d3c9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#f2ede3;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Instead of five hundred thousand average algebra teachers, we need one good algebra teacher. We need that teacher to create software, videotape themselves, answer questions, let your computer or the iPad teach algebra&#8230; The hallmark of any good technology is that it destroys jobs.</p>
 <p style="text-align: right;"><em><strong>&#8212; Michael J. Saylor</strong></em></p>
@@ -257,7 +259,7 @@
 </ul>
 <p><a href="/index.php/2017/01/28/ga-elements/" target="_blank" rel="noopener">In the following post</a>, I will talk about the main mathematical elements of Geometric Algebra and how they integrate to create its full power and beauty. This kind of information is a good starting point for anyone new to the subject and in need for a clear roadmap to follow.</p>
 <hr />
-<div class="su-note" style="border-color:#dad5cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#f2ede3;border-color:#fcfbf9;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d8d3c9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#f2ede3;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p style="text-align: center;"><span style="font-family: 'Traditional Arabic'; font-size: 28px;"><strong>تم بحمد الله الجمعة 15 ربيع الآخر 1438هـ</strong></span></p>
 </div>
@@ -276,8 +278,8 @@
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/13/ga-computing3/">Geometric Algebra: Ascension of the Mind</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/index.php/2017/01/13/ga-computing3/feed/</wfw:commentRss>
+							<wfw:commentRss>/index.php/2017/01/13/ga-computing3/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
-	</channel>
+							</item>
+	                                          </channel>
 </rss>

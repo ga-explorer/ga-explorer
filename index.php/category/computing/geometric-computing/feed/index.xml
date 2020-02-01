@@ -12,11 +12,13 @@
 	<atom:link href="/index.php/category/computing/geometric-computing/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 10 Nov 2018 17:17:38 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 Nov 2017 17:13:32 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -25,23 +27,23 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-	<item>
+                                          	<item>
 		<title>Computing for Geometry: When the Going Gets Tough &#8230;</title>
 		<link>/index.php/2015/09/18/ga-computing2/</link>
-		<comments>/index.php/2015/09/18/ga-computing2/#respond</comments>
-		<pubDate>Fri, 18 Sep 2015 14:00:22 +0000</pubDate>
+				<comments>/index.php/2015/09/18/ga-computing2/#respond</comments>
+				<pubDate>Fri, 18 Sep 2015 16:00:22 +0000</pubDate>
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
 				<category><![CDATA[Geometric Computing]]></category>
 
 		<guid isPermaLink="false">http://gacomputing.info/?p=622</guid>
-		<description><![CDATA[<p>In the previous post we read how our languages and ideas about the computational universe are best expressed using either a general purpose language with balanced human-computational aspects like Python or using a domain-specific language carefully crafted for our particular domain of abstractions. In this post, we will focus our attention on a specific domain for computation, geometric computing, and the design of geometry-specific programming languages.</p>
+				<description><![CDATA[<p>In the previous post we read how our languages and ideas about the computational universe are best expressed using either a general purpose language with balanced human-computational aspects like Python or using a domain-specific language carefully crafted for our particular domain of abstractions. In this post, we will focus our attention on a specific domain for computation, geometric computing, and the design of geometry-specific programming languages.</p>
 <p>The post <a rel="nofollow" href="/index.php/2015/09/18/ga-computing2/">Computing for Geometry: When the Going Gets Tough &#8230;</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
-<div class="su-note" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-<div id="attachment_376" style="width: 1010px" class="wp-caption aligncenter"><img class="wp-image-376 size-full" src="/wp-content/uploads/2015/07/bathsheba-grossman-lamp.jpg" alt="bathsheba-grossman-lamp" width="1000" height="1000" srcset="/wp-content/uploads/2015/07/bathsheba-grossman-lamp.jpg 1000w, /wp-content/uploads/2015/07/bathsheba-grossman-lamp-150x150.jpg 150w, /wp-content/uploads/2015/07/bathsheba-grossman-lamp-300x300.jpg 300w, /wp-content/uploads/2015/07/bathsheba-grossman-lamp-768x768.jpg 768w, /wp-content/uploads/2015/07/bathsheba-grossman-lamp-160x160.jpg 160w, /wp-content/uploads/2015/07/bathsheba-grossman-lamp-320x320.jpg 320w" sizes="(max-width: 1000px) 100vw, 1000px" /><p class="wp-caption-text">Complex Geometric Lamp Designs Produced with 3D Printing (<a href="http://mymodernmet.com/bathsheba-grossman-3d-printed-lamps/">Source</a>)</p></div>
+<div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div id="attachment_376" style="width: 1010px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-376" class="wp-image-376 size-full" src="/wp-content/uploads/2015/07/bathsheba-grossman-lamp.jpg" alt="bathsheba-grossman-lamp" width="1000" height="1000" srcset="/wp-content/uploads/2015/07/bathsheba-grossman-lamp.jpg 1000w, /wp-content/uploads/2015/07/bathsheba-grossman-lamp-150x150.jpg 150w, /wp-content/uploads/2015/07/bathsheba-grossman-lamp-300x300.jpg 300w, /wp-content/uploads/2015/07/bathsheba-grossman-lamp-768x768.jpg 768w, /wp-content/uploads/2015/07/bathsheba-grossman-lamp-160x160.jpg 160w, /wp-content/uploads/2015/07/bathsheba-grossman-lamp-320x320.jpg 320w" sizes="(max-width: 1000px) 100vw, 1000px" /><p id="caption-attachment-376" class="wp-caption-text">Complex Geometric Lamp Designs Produced with 3D Printing (<a href="http://mymodernmet.com/bathsheba-grossman-3d-printed-lamps/">Source</a>)</p></div>
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>The power of mathematics is often to change one thing into another, to change geometry into language.</p>
 <p style="text-align: right;"><em><strong>&#8212; Marcus du Sautoy</strong></em></p>
@@ -55,7 +57,7 @@
 <span class="dropcap">I</span>n <a href="/index.php/2015/09/11/ga-computing1/" target="_blank" rel="noopener">the previous post</a> we read how our languages and ideas about the computational universe are best expressed using either a general purpose language with balanced human-computational aspects like Python or using a domain-specific language carefully crafted for our particular domain of abstractions. In this post, we will focus our attention on a specific domain for computation, geometric computing, and the design of geometry-specific programming languages.</p>
 <hr />
 <h3>Geometric Computing: The 6th Discipline</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Computing is kind of a mess. Your computer doesn&#8217;t know where you are. It doesn&#8217;t know what you&#8217;re doing. It doesn&#8217;t know what you know.</p>
 <p style="text-align: right;"><em><strong>&#8212; Larry Page</strong></em></p>
@@ -66,7 +68,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_794" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/2005Clear_FITNZ_01.jpg"><img class="wp-image-794 size-medium" src="/wp-content/uploads/2015/09/2005Clear_FITNZ_01-300x227.jpg" alt="2005Clear_FITNZ_01" width="300" height="227" srcset="/wp-content/uploads/2015/09/2005Clear_FITNZ_01-300x227.jpg 300w, /wp-content/uploads/2015/09/2005Clear_FITNZ_01.jpg 583w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">The US experience in the development of the academic computing disciplines. Computer Science (CS) and Software Engineering (SE) can be further sub-divided to include Geometric Computing (<a href="http://www.citrenz.ac.nz/bacit/0303/2005Clear_FITNZ.htm">Source</a>)</p></div>
+<div id="attachment_794" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/2005Clear_FITNZ_01.jpg"><img aria-describedby="caption-attachment-794" class="wp-image-794 size-medium" src="/wp-content/uploads/2015/09/2005Clear_FITNZ_01-300x227.jpg" alt="2005Clear_FITNZ_01" width="300" height="227" srcset="/wp-content/uploads/2015/09/2005Clear_FITNZ_01-300x227.jpg 300w, /wp-content/uploads/2015/09/2005Clear_FITNZ_01.jpg 583w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-794" class="wp-caption-text">The US experience in the development of the academic computing disciplines. Computer Science (CS) and Software Engineering (SE) can be further sub-divided to include Geometric Computing (<a href="http://www.citrenz.ac.nz/bacit/0303/2005Clear_FITNZ.htm">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -95,7 +97,7 @@
 <p>The mathematical courses in this list, like Euclidean and non-Euclidean geometries, differential geometry, geometric algebra, and number theory, should be taught as introductions with emphasis on applications, not mathematical rigor; similar to how we are teaching Fourier and Laplace transforms in electrical engineering courses for example. Many career opportunities are waiting for graduates of such geometric computing programs; just have a look <a href="http://study.com/articles/Graphics_Engineer_Job_Description_Duties_and_Requirements.html">here</a> to get a general idea. Most traditional computing teaching programs do not provide specific training for these important and fast-growing career paths. A well designed geometric computing teaching program will create more advancement opportunities for both students and markets. I hope that someday I will have the opportunity to be one of the designers of a geometric computing academic teaching program.</p>
 <p>&nbsp;</p>
 <h3>Computational Geometry Out of the Way</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Program testing can be used to show the presence of bugs, but never to show their absence!</p>
 <p style="text-align: right;"><em><strong>&#8212; Edsger Dijkstra</strong></em></p>
@@ -107,7 +109,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_773" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/bunnyboy.jpg"><img class="size-medium wp-image-773" src="/wp-content/uploads/2015/09/bunnyboy-300x241.jpg" alt="bunnyboy" width="300" height="241" srcset="/wp-content/uploads/2015/09/bunnyboy-300x241.jpg 300w, /wp-content/uploads/2015/09/bunnyboy-768x616.jpg 768w, /wp-content/uploads/2015/09/bunnyboy.jpg 808w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Ray tracing is an example of a geometric computing problem where algorithmic complexity is deceiving. (<a href="https://viscomp.alexandra.dk/?p=278">Source</a>)</p></div>
+<div id="attachment_773" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/bunnyboy.jpg"><img aria-describedby="caption-attachment-773" class="size-medium wp-image-773" src="/wp-content/uploads/2015/09/bunnyboy-300x241.jpg" alt="bunnyboy" width="300" height="241" srcset="/wp-content/uploads/2015/09/bunnyboy-300x241.jpg 300w, /wp-content/uploads/2015/09/bunnyboy-768x616.jpg 768w, /wp-content/uploads/2015/09/bunnyboy.jpg 808w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-773" class="wp-caption-text">Ray tracing is an example of a geometric computing problem where algorithmic complexity is deceiving. (<a href="https://viscomp.alexandra.dk/?p=278">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -117,7 +119,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_638" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/triangulation3.png"><img class="size-medium wp-image-638" src="/wp-content/uploads/2015/08/triangulation3-300x105.png" alt="triangulation3" width="300" height="105" srcset="/wp-content/uploads/2015/08/triangulation3-300x105.png 300w, /wp-content/uploads/2015/08/triangulation3-768x268.png 768w, /wp-content/uploads/2015/08/triangulation3.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">3D Triangulation in the CGAL Computational Geometry Library (<a href="https://doc.cgal.org/latest/Triangulation_3/">Source</a>)</p></div>
+<div id="attachment_638" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/triangulation3.png"><img aria-describedby="caption-attachment-638" class="size-medium wp-image-638" src="/wp-content/uploads/2015/08/triangulation3-300x105.png" alt="triangulation3" width="300" height="105" srcset="/wp-content/uploads/2015/08/triangulation3-300x105.png 300w, /wp-content/uploads/2015/08/triangulation3-768x268.png 768w, /wp-content/uploads/2015/08/triangulation3.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-638" class="wp-caption-text">3D Triangulation in the CGAL Computational Geometry Library (<a href="https://doc.cgal.org/latest/Triangulation_3/">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -125,7 +127,7 @@
 <p>The two most notable software libraries for computational geometry are <a href="https://www.cgal.org/">The Computational Geometry Algorithms Library</a> (CGAL) and <a href="http://www.algorithmic-solutions.com/leda/index.htm">The Library of Efficient Data types and Algorithms</a> (LEDA); they reveal another distinction between computational geometry and geometric computing. Geometric computing is a form of geometry-specific software development. In geometric computing we can never be satisfied by a single library to say it&#8217;s equally suitable for all applications requiring geometric data representation and processing. Each geometric computing application has its unique characteristics and domain of ideas that deserves special care and requires unique software architecture. A computational geometry library like CGAL or LEDA can be a part of such architecture but it&#8217;s not the only part or even the only important part; the usability of the geometric computing application is certainly determined by many other factors. In this context computational geometry can benefit geometric computing as a general utility for rapid prototyping; computational geometry can, at the same time, benefit from geometric computing developments as well. Many practical concerns for creating computational geometry software are actually more related to general software engineering than to algorithmic complexity as we will see shortly; computational geometry libraries can be re-organized to deliver better performance for their computational aspect while being more accessible for their human aspect. Creating better geometric computing methodologies, practices, and DSLs can make libraries for computational geometry, robotics, computer graphics, and other geometric computing applications more accessible and practical to use.</p>
 <p>&nbsp;</p>
 <h3>Geometric State vs Geometric Action</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>All action is an attempt to exchange a less satisfactory state of affairs for a more satisfactory one.</p>
 <p style="text-align: right;"><em><strong>&#8212; Murray Rothbard</strong></em></p>
@@ -145,7 +147,7 @@
 <p>The mathematical tools used for representing these two very different types of geometric constructs are, unfortunately, more often than not, mixed without proper investigation of consequences. For example, we use the same 3-tuples of numbers to represent both positions (states) and directions (actions) in 3D Euclidean geometric models. Another example is the use of unit quaternions and rotation matrices to represent both orientations (states) and rotations (actions). The main problem here is the different geometric semantics of states and actions that should be reflected in their proper mathematical representations. For example, a direction vector is translation invariant while a position vector is not, we can interpolate rotations naturally but the same operation for orientations is not well defined. This situation is very common in practical geometric computing software implementations, typically leading to many special cases and parametric singularities that need to be specifically handled. Such mixing of state\action representations increases the difficulty for debugging and creating modular geometric computing code <sup class='endnote'><a href='#en-622-6' id='enref-622-6' onclick='return hhEndnotes_show(622)'>6</a></sup>.</p>
 <p>&nbsp;</p>
 <h3>Geometry &gt; Algebra &gt; Algorithm &gt; Code</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Despite all of our technological advances, content creation still requires time, inspiration, and a certain amount of sweat. There aren&#8217;t any shortcuts. You can&#8217;t write an algorithm for it. You can&#8217;t predict it. You can&#8217;t code it.</p>
 <p style="text-align: right;"><em><strong>&#8212; Shawn Amos</strong></em></p>
@@ -156,7 +158,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_827" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/ldc3.jpg"><img class="size-medium wp-image-827" src="/wp-content/uploads/2015/09/ldc3-300x214.jpg" alt="ldc3" width="300" height="214" srcset="/wp-content/uploads/2015/09/ldc3-300x214.jpg 300w, /wp-content/uploads/2015/09/ldc3.jpg 582w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">The road from abstract geometric ideas to concrete computer code is hard but rewarding. (<a href="http://blog.hvidtfeldts.net/index.php/category/mathematical-art/">Source</a>)</p></div>
+<div id="attachment_827" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/ldc3.jpg"><img aria-describedby="caption-attachment-827" class="size-medium wp-image-827" src="/wp-content/uploads/2015/09/ldc3-300x214.jpg" alt="ldc3" width="300" height="214" srcset="/wp-content/uploads/2015/09/ldc3-300x214.jpg 300w, /wp-content/uploads/2015/09/ldc3.jpg 582w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-827" class="wp-caption-text">The road from abstract geometric ideas to concrete computer code is hard but rewarding. (<a href="http://blog.hvidtfeldts.net/index.php/category/mathematical-art/">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -170,7 +172,7 @@
 </ol>
 <p>&nbsp;</p>
 <h3>Moving from Abstract to Concrete</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Difficulties mastered are opportunities won.</p>
 <p style="text-align: right;"><em><strong>&#8212; Winston Churchill</strong></em></p>
@@ -181,7 +183,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_808" style="width: 450px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/Gram-Schmidt_orthonormalization_process.gif"><img class="size-full wp-image-808" src="/wp-content/uploads/2015/09/Gram-Schmidt_orthonormalization_process.gif" alt="Gram-Schmidt_orthonormalization_process" width="440" height="330" /></a><p class="wp-caption-text">The modified Gram-Schmidt process on 3 vectors.</p></div>
+<div id="attachment_808" style="width: 450px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/Gram-Schmidt_orthonormalization_process.gif"><img aria-describedby="caption-attachment-808" class="size-full wp-image-808" src="/wp-content/uploads/2015/09/Gram-Schmidt_orthonormalization_process.gif" alt="Gram-Schmidt_orthonormalization_process" width="440" height="330" /></a><p id="caption-attachment-808" class="wp-caption-text">The modified Gram-Schmidt process on 3 vectors.</p></div>
 </div>
 
                             </div>
@@ -198,7 +200,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_820" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/csg-tree.png"><img class="size-medium wp-image-820" src="/wp-content/uploads/2015/09/csg-tree-300x266.png" alt="csg-tree" width="300" height="266" srcset="/wp-content/uploads/2015/09/csg-tree-300x266.png 300w, /wp-content/uploads/2015/09/csg-tree.png 677w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Constructive Solid Geometry (CSG) uses combinatorial trees to represent geometry. (<a href="https://mit-crpg.github.io/OpenMOC/methods/constructive_solid_geometry.html">Source</a>)</p></div>
+<div id="attachment_820" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/csg-tree.png"><img aria-describedby="caption-attachment-820" class="size-medium wp-image-820" src="/wp-content/uploads/2015/09/csg-tree-300x266.png" alt="csg-tree" width="300" height="266" srcset="/wp-content/uploads/2015/09/csg-tree-300x266.png 300w, /wp-content/uploads/2015/09/csg-tree.png 677w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-820" class="wp-caption-text">Constructive Solid Geometry (CSG) uses combinatorial trees to represent geometry. (<a href="https://mit-crpg.github.io/OpenMOC/methods/constructive_solid_geometry.html">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -209,7 +211,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_829" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/World-scenegraph.png"><img class="size-medium wp-image-829" src="/wp-content/uploads/2015/09/World-scenegraph-300x239.png" alt="World-scenegraph" width="300" height="239" srcset="/wp-content/uploads/2015/09/World-scenegraph-300x239.png 300w, /wp-content/uploads/2015/09/World-scenegraph.png 536w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">The Scene Graph is the largest, most important combinatorial representation in modern computer graphics. (<a href="http://theknextedmind.blogspot.com.eg/2013/09/if-i-made-graph-of-what-my-eyes-see-can.html">Source</a>)</p></div>
+<div id="attachment_829" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/World-scenegraph.png"><img aria-describedby="caption-attachment-829" class="size-medium wp-image-829" src="/wp-content/uploads/2015/09/World-scenegraph-300x239.png" alt="World-scenegraph" width="300" height="239" srcset="/wp-content/uploads/2015/09/World-scenegraph-300x239.png 300w, /wp-content/uploads/2015/09/World-scenegraph.png 536w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-829" class="wp-caption-text">The Scene Graph is the largest, most important combinatorial representation in modern computer graphics. (<a href="http://theknextedmind.blogspot.com.eg/2013/09/if-i-made-graph-of-what-my-eyes-see-can.html">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -219,7 +221,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_831" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/method01.png"><img class="size-medium wp-image-831" src="/wp-content/uploads/2015/09/method01-300x118.png" alt="method01" width="300" height="118" srcset="/wp-content/uploads/2015/09/method01-300x118.png 300w, /wp-content/uploads/2015/09/method01.png 753w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Different representations for different geometric computing algorithms. (<a href="https://www.nogrid.com/index.php">Source</a>)</p></div>
+<div id="attachment_831" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/method01.png"><img aria-describedby="caption-attachment-831" class="size-medium wp-image-831" src="/wp-content/uploads/2015/09/method01-300x118.png" alt="method01" width="300" height="118" srcset="/wp-content/uploads/2015/09/method01-300x118.png 300w, /wp-content/uploads/2015/09/method01.png 753w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-831" class="wp-caption-text">Different representations for different geometric computing algorithms. (<a href="https://www.nogrid.com/index.php">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -229,7 +231,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_818" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/compiler.png"><img class="size-medium wp-image-818" src="/wp-content/uploads/2015/09/compiler-300x195.png" alt="compiler" width="300" height="195" srcset="/wp-content/uploads/2015/09/compiler-300x195.png 300w, /wp-content/uploads/2015/09/compiler-768x500.png 768w, /wp-content/uploads/2015/09/compiler.png 813w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Modern general-purpose compilers perform complicated low-level optimizations but fail to make domain-level optimizations. (<a href="http://www.rtcmagazine.com/articles/view/103234" class="broken_link">Source</a>)</p></div>
+<div id="attachment_818" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/compiler.png"><img aria-describedby="caption-attachment-818" class="size-medium wp-image-818" src="/wp-content/uploads/2015/09/compiler-300x195.png" alt="compiler" width="300" height="195" srcset="/wp-content/uploads/2015/09/compiler-300x195.png 300w, /wp-content/uploads/2015/09/compiler-768x500.png 768w, /wp-content/uploads/2015/09/compiler.png 813w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-818" class="wp-caption-text">Modern general-purpose compilers perform complicated low-level optimizations but fail to make domain-level optimizations. (<a href="http://www.rtcmagazine.com/articles/view/103234" class="broken_link">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -239,7 +241,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_824" style="width: 283px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/NBBJ_HANGZHOU_STADIUM.jpg"><img class="size-medium wp-image-824" src="/wp-content/uploads/2015/09/NBBJ_HANGZHOU_STADIUM-273x300.jpg" alt="NBBJ_HANGZHOU_STADIUM" width="273" height="300" srcset="/wp-content/uploads/2015/09/NBBJ_HANGZHOU_STADIUM-273x300.jpg 273w, /wp-content/uploads/2015/09/NBBJ_HANGZHOU_STADIUM.jpg 545w" sizes="(max-width: 273px) 100vw, 273px" /></a><p class="wp-caption-text">Procedural geometry using Grasshopper on Rhino (<a href="http://www.grasshopper3d.com/photo/nbbj-ccdi-hangzhou-stadium?context=featured">Source</a>)</p></div>
+<div id="attachment_824" style="width: 283px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/NBBJ_HANGZHOU_STADIUM.jpg"><img aria-describedby="caption-attachment-824" class="size-medium wp-image-824" src="/wp-content/uploads/2015/09/NBBJ_HANGZHOU_STADIUM-273x300.jpg" alt="NBBJ_HANGZHOU_STADIUM" width="273" height="300" srcset="/wp-content/uploads/2015/09/NBBJ_HANGZHOU_STADIUM-273x300.jpg 273w, /wp-content/uploads/2015/09/NBBJ_HANGZHOU_STADIUM.jpg 545w" sizes="(max-width: 273px) 100vw, 273px" /></a><p id="caption-attachment-824" class="wp-caption-text">Procedural geometry using Grasshopper on Rhino (<a href="http://www.grasshopper3d.com/photo/nbbj-ccdi-hangzhou-stadium?context=featured">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -250,7 +252,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_833" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/symmetry3d.jpg"><img class="size-medium wp-image-833" src="/wp-content/uploads/2015/09/symmetry3d-300x210.jpg" alt="symmetry3d" width="300" height="210" srcset="/wp-content/uploads/2015/09/symmetry3d-300x210.jpg 300w, /wp-content/uploads/2015/09/symmetry3d.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Geometric symmetries are not preserved when using floating-point arithmetic. (<a href="http://www.numeracy-bank.net/?q=t/mea/ssg/4">Source</a>)</p></div>
+<div id="attachment_833" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/symmetry3d.jpg"><img aria-describedby="caption-attachment-833" class="size-medium wp-image-833" src="/wp-content/uploads/2015/09/symmetry3d-300x210.jpg" alt="symmetry3d" width="300" height="210" srcset="/wp-content/uploads/2015/09/symmetry3d-300x210.jpg 300w, /wp-content/uploads/2015/09/symmetry3d.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-833" class="wp-caption-text">Geometric symmetries are not preserved when using floating-point arithmetic. (<a href="http://www.numeracy-bank.net/?q=t/mea/ssg/4">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -261,7 +263,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_836" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/cloth_simulation_in_blender_by_shyngyskhan-d85k74g.png"><img class="size-medium wp-image-836" src="/wp-content/uploads/2015/09/cloth_simulation_in_blender_by_shyngyskhan-d85k74g-300x169.png" alt="cloth_simulation_in_blender_by_shyngyskhan-d85k74g" width="300" height="169" srcset="/wp-content/uploads/2015/09/cloth_simulation_in_blender_by_shyngyskhan-d85k74g-300x169.png 300w, /wp-content/uploads/2015/09/cloth_simulation_in_blender_by_shyngyskhan-d85k74g-768x432.png 768w, /wp-content/uploads/2015/09/cloth_simulation_in_blender_by_shyngyskhan-d85k74g-1024x576.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Collision detection, a very important geometric query, can be used for cloth simulation. (<a href="http://shyngyskhan.deviantart.com/art/Cloth-Simulation-in-Blender-493069840">Source</a>)</p></div>
+<div id="attachment_836" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/cloth_simulation_in_blender_by_shyngyskhan-d85k74g.png"><img aria-describedby="caption-attachment-836" class="size-medium wp-image-836" src="/wp-content/uploads/2015/09/cloth_simulation_in_blender_by_shyngyskhan-d85k74g-300x169.png" alt="cloth_simulation_in_blender_by_shyngyskhan-d85k74g" width="300" height="169" srcset="/wp-content/uploads/2015/09/cloth_simulation_in_blender_by_shyngyskhan-d85k74g-300x169.png 300w, /wp-content/uploads/2015/09/cloth_simulation_in_blender_by_shyngyskhan-d85k74g-768x432.png 768w, /wp-content/uploads/2015/09/cloth_simulation_in_blender_by_shyngyskhan-d85k74g-1024x576.png 1024w, /wp-content/uploads/2015/09/cloth_simulation_in_blender_by_shyngyskhan-d85k74g.png 1920w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-836" class="wp-caption-text">Collision detection, a very important geometric query, can be used for cloth simulation. (<a href="http://shyngyskhan.deviantart.com/art/Cloth-Simulation-in-Blender-493069840">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -272,7 +274,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_838" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/fgworkshop-software-vulnerability-49-638.jpg"><img class="size-medium wp-image-838" src="/wp-content/uploads/2015/09/fgworkshop-software-vulnerability-49-638-300x225.jpg" alt="fgworkshop-software-vulnerability-49-638" width="300" height="225" srcset="/wp-content/uploads/2015/09/fgworkshop-software-vulnerability-49-638-300x225.jpg 300w, /wp-content/uploads/2015/09/fgworkshop-software-vulnerability-49-638.jpg 638w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Pointer arithmetic and array bounds checking. (<a href="https://www.slideshare.net/fg_informatik/fgworkshop-software-vulnerability">Source</a>)</p></div>
+<div id="attachment_838" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/09/fgworkshop-software-vulnerability-49-638.jpg"><img aria-describedby="caption-attachment-838" class="size-medium wp-image-838" src="/wp-content/uploads/2015/09/fgworkshop-software-vulnerability-49-638-300x225.jpg" alt="fgworkshop-software-vulnerability-49-638" width="300" height="225" srcset="/wp-content/uploads/2015/09/fgworkshop-software-vulnerability-49-638-300x225.jpg 300w, /wp-content/uploads/2015/09/fgworkshop-software-vulnerability-49-638.jpg 638w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-838" class="wp-caption-text">Pointer arithmetic and array bounds checking. (<a href="https://www.slideshare.net/fg_informatik/fgworkshop-software-vulnerability">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -280,7 +282,7 @@
 <p><strong>Using Arrays, Loops, and Indirect Memory Access.</strong> Many direct implementations of geometric algorithms rely on looping, arrays, and other indirect memory access schemes; this should be avoided as much as possible. For example, if we need to compute Gram–Schmidt process for only 3D vectors we should create a structure with 3 members not a single array of 3 elements. The reason for that is the access of local variables takes fewer instructions than accessing array items that may require indirect memory access (i.e. pointer arithmetic) and array bounds checks. The difference may seem insignificant at first but anyone who created a game engine or a real-time flight simulator knows it&#8217;s not; every processor cycle counts. Writing the manual code will get more difficult but performance will be better than using a for loop on an array, as the case for inner product computation for example. The problem of manual coding in such case can be easily solved using automatic code generation techniques.</p>
 <p>&nbsp;</p>
 <h3>A Geometric Computing Conclusion</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>A conclusion is the place where you get tired of thinking.</p>
 <p style="text-align: right;"><em><strong>&#8212; Arthur Bloch</strong></em></p>
@@ -289,7 +291,7 @@
 </div></div>
 <p>In this post, I tried to give a definition to Geometric Computing as a very important but currently very scattered discipline of computing deserving the development of specialized teaching programs. I tried to differentiate and relate geometric computing and computational geometry. I also tried to describe the steps involved in creating a concrete software implementation from our abstract geometric ideas. Finally, I have a list of some significant problems we need to answer when designing geometric computing software. In the next posts, I will try to describe how good use of Geometric Algebra and some standard software engineering methods can address many of the problems listed in this post. Until next time, I hope you follow and enjoy.</p>
 <hr />
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p style="text-align: center;"><span style="font-size: 28px; font-family: 'Traditional Arabic';"><strong>تم بحمد الله الجمعة 5 ذو الحجة 1438هـ</strong></span></p>
 </div>
@@ -312,8 +314,8 @@
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2015/09/18/ga-computing2/">Computing for Geometry: When the Going Gets Tough &#8230;</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/index.php/2015/09/18/ga-computing2/feed/</wfw:commentRss>
+							<wfw:commentRss>/index.php/2015/09/18/ga-computing2/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
-	</channel>
+							</item>
+	                                          </channel>
 </rss>

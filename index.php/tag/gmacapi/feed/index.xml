@@ -12,11 +12,13 @@
 	<atom:link href="/index.php/tag/gmacapi/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 10 Nov 2018 17:17:38 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 Nov 2017 09:53:28 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -25,11 +27,11 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-	<item>
+                                          	<item>
 		<title>GMac: The Next Generation (2 of 2)</title>
 		<link>/index.php/2017/02/10/gmac-tng-2/</link>
-		<comments>/index.php/2017/02/10/gmac-tng-2/#respond</comments>
-		<pubDate>Fri, 10 Feb 2017 03:00:04 +0000</pubDate>
+				<comments>/index.php/2017/02/10/gmac-tng-2/#respond</comments>
+				<pubDate>Fri, 10 Feb 2017 05:00:04 +0000</pubDate>
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
 				<category><![CDATA[GA Software]]></category>
 		<category><![CDATA[GMac]]></category>
@@ -51,14 +53,14 @@
 		<category><![CDATA[TextComposerLib]]></category>
 
 		<guid isPermaLink="false">https://gacomputing.info/?p=2531</guid>
-		<description><![CDATA[<p>Planning for the next generation of GMac began in August 2011. I started to design the new version of GMac from scratch by reading significant parts of Terence Parr's book "Language Implementation Patterns", Robert W. Sebesta's classic book "Concepts of Programming Languages", and the second edition of the bestseller Dragon Book "Compilers: Principles, Techniques, and Tools". I had learned many lessons during developing the first GMac prototype. These books provided a solid conceptual framework for designing the new version of GMac containing all the lessons I'd learned before.<br />
+				<description><![CDATA[<p>Planning for the next generation of GMac began in August 2011. I started to design the new version of GMac from scratch by reading significant parts of Terence Parr's book "Language Implementation Patterns", Robert W. Sebesta's classic book "Concepts of Programming Languages", and the second edition of the bestseller Dragon Book "Compilers: Principles, Techniques, and Tools". I had learned many lessons during developing the first GMac prototype. These books provided a solid conceptual framework for designing the new version of GMac containing all the lessons I'd learned before.<br />
 In the previous post, I talked about the first part of my journey developing GMac, the fascinating discoveries I made, and the difficulties I faced along the way. In this final part, I explain the design decisions I made for GMac and how I came to select them, in addition to the developments I hope to make in the future.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/02/10/gmac-tng-2/">GMac: The Next Generation (2 of 2)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#E4EDF8;    '>
                             
-<div class="su-note" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <p><a href="/wp-content/uploads/2017/02/Arches.jpg"><img class="aligncenter size-large wp-image-2539" src="/wp-content/uploads/2017/02/Arches-1024x768.jpg" alt="Arches" width="1024" height="768" srcset="/wp-content/uploads/2017/02/Arches-1024x768.jpg 1024w, /wp-content/uploads/2017/02/Arches-300x225.jpg 300w, /wp-content/uploads/2017/02/Arches-768x576.jpg 768w, /wp-content/uploads/2017/02/Arches.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult.</p>
@@ -74,7 +76,7 @@ In the previous post, I talked about the first part of my journey developing GMa
 <p>In the <a href="/index.php/2017/02/09/gmac-tng-1/" target="_blank" rel="noopener">previous post</a>, I talked about the first part of my journey developing GMac, the fascinating discoveries I made, and the difficulties I faced along the way. In this final part, I explain the design decisions I made for GMac and how I came to select them, in addition to the developments I hope to make in the future.</p>
 <hr />
 <h3>Having a Symbolic Value</h3>
-<div class="su-note" style="border-color:#cdd5df;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#E4EDF8;border-color:#fafbfe;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#cad3de;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#E4EDF8;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>&#8230; with proper design, the features come cheaply. This approach is arduous, but continues to succeed.</p>
 <p style="text-align: right;"><em><strong>&#8212; Dennis Ritchie</strong></em></p>
@@ -107,7 +109,7 @@ In the previous post, I talked about the first part of my journey developing GMa
 <p>The SymbolicInterface classes are used extensively across all layers and components of GMac to communicate with Mathematica through a unified OO interface. This interface can be used in similar projects. I hope I could make it an open source component in the near future, if I could obtain proper funding for GMac, to be further developed by interested people. I also need to add automatic symbolic multivector differentiation to increase the range of applications that GMac can be used in.</p>
 <p>&nbsp;</p>
 <h3>Being Specific</h3>
-<div class="su-note" style="border-color:#cdd5df;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#E4EDF8;border-color:#fafbfe;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#cad3de;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#E4EDF8;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>It&#8217;s OK to figure out murder mysteries, but you shouldn&#8217;t need to figure out code. You should be able to read it.</p>
 <p style="direction: ltr; text-align: right;"><em><strong>&#8212; Steve McConnell</strong></em></p>
@@ -139,7 +141,7 @@ In the previous post, I talked about the first part of my journey developing GMa
 <p>This structure is simple to understand and use for non-programmers working with GA models while being sufficient for covering many practical GA models. In the future, I hope to develop GMacDSL using the <a href="https://en.wikipedia.org/wiki/Functional_programming" target="_blank" rel="noopener">Functional Programming Paradigm</a>. This would provide elegant and powerful syntax and semantics for GA-based models that would take great benefit from GA&#8217;s unified and elegant mathematical abstractions.</p>
 <p>&nbsp;</p>
 <h3>Finding Irony</h3>
-<div class="su-note" style="border-color:#cdd5df;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#E4EDF8;border-color:#fafbfe;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#cad3de;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#E4EDF8;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>When debugging, novices insert corrective code; experts remove defective code.</p>
 <p style="text-align: right;"><em><strong>&#8212; Richard Pattis</strong></em></p>
@@ -150,7 +152,7 @@ In the previous post, I talked about the first part of my journey developing GMa
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#E4EDF8;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_2494" style="width: 266px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/02/Compiler.png"><img class="size-medium wp-image-2494" src="/wp-content/uploads/2017/02/Compiler-256x300.png" alt="Compiler" width="256" height="300" srcset="/wp-content/uploads/2017/02/Compiler-256x300.png 256w, /wp-content/uploads/2017/02/Compiler.png 378w" sizes="(max-width: 256px) 100vw, 256px" /></a><p class="wp-caption-text">Construction of a typical compiler (<a href="https://commons.wikimedia.org/wiki/File:Compilador.png" target="_blank" rel="noopener">source</a>)</p></div>
+<div id="attachment_2494" style="width: 266px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/02/Compiler.png"><img aria-describedby="caption-attachment-2494" class="size-medium wp-image-2494" src="/wp-content/uploads/2017/02/Compiler-256x300.png" alt="Compiler" width="256" height="300" srcset="/wp-content/uploads/2017/02/Compiler-256x300.png 256w, /wp-content/uploads/2017/02/Compiler.png 378w" sizes="(max-width: 256px) 100vw, 256px" /></a><p id="caption-attachment-2494" class="wp-caption-text">Construction of a typical compiler (<a href="https://commons.wikimedia.org/wiki/File:Compilador.png" target="_blank" rel="noopener">source</a>)</p></div>
 </div>
 
                             </div>
@@ -160,7 +162,7 @@ In the previous post, I talked about the first part of my journey developing GMa
 <p>I used IronyGrammars to create the GMacCompiler front-end as a specific compiler of GMacDSL code. The GMacCompiler front-end parses and translates the GMacDSL code into the desired intermediate data structure; the <strong><a href="https://gmac-guides.netlify.com/index.php/gmacast-guide/" target="_blank" rel="noopener">GMacAST</a></strong> structure used as the primary GA-based high-level information source for further symbolic processing at later stages. I also created mini-compilers that can translate partial GMacDSL code like a single multivector expression, a single user-defined structure, or a single macro. This kind of small compilers is very useful during code composition for adding temporary structure to an already created GMacAST.</p>
 <p>&nbsp;</p>
 <h3>Caring for the Environment, Talking to Trees</h3>
-<div class="su-note" style="border-color:#cdd5df;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#E4EDF8;border-color:#fafbfe;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#cad3de;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#E4EDF8;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Perfection (in design) is achieved not when there is nothing more to add, but rather when there is nothing more to take away.</p>
 <p style="text-align: right;"><em><strong>&#8212; Antoine de Saint-Exupery</strong></em></p>
@@ -171,7 +173,7 @@ In the previous post, I talked about the first part of my journey developing GMa
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#E4EDF8;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_1220" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/11/GMacAST_MainComponents.jpeg"><img class="size-medium wp-image-1220" src="/wp-content/uploads/2015/11/GMacAST_MainComponents-300x268.jpeg" alt="GMacAST Main Components" width="300" height="268" /></a><p class="wp-caption-text">GMacAST Main Components</p></div>
+<div id="attachment_1220" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/11/GMacAST_MainComponents.jpeg"><img aria-describedby="caption-attachment-1220" class="size-medium wp-image-1220" src="/wp-content/uploads/2015/11/GMacAST_MainComponents-300x268.jpeg" alt="GMacAST Main Components" width="300" height="268" /></a><p id="caption-attachment-1220" class="wp-caption-text">GMacAST Main Components</p></div>
 </div>
 
                             </div>
@@ -181,7 +183,7 @@ In the previous post, I talked about the first part of my journey developing GMa
 <p>The current GMacIDE is very simple, I hope in the future it can be extended to contain a set of Visual Editors for creating and modifying GMacDSL code and manage the details of code composition from GA-models. In addition, I need to add some form of interactive multivector visualization component to enable exploring GA-based geometry visually.</p>
 <p>&nbsp;</p>
 <h3>Scripting Your Next Play</h3>
-<div class="su-note" style="border-color:#cdd5df;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#E4EDF8;border-color:#fafbfe;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#cad3de;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#E4EDF8;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Talk is cheap. Show me the code.</p>
 <p style="text-align: right;"><em><strong>&#8212; Linus Torvalds</strong></em></p>
@@ -208,7 +210,7 @@ In the previous post, I talked about the first part of my journey developing GMa
 <p>Scripting in GMac is not intended for efficient execution of GA-based algorithms. If the user is satisfied by the final algorithm, GMacAPI can be used by a good software designer to implement an efficient, well-structured version of the script in any desired programming language, with specific types of multivectors and GA algorithms.</p>
 <p>&nbsp;</p>
 <h3>Composing Text Art</h3>
-<div class="su-note" style="border-color:#cdd5df;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#E4EDF8;border-color:#fafbfe;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#cad3de;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#E4EDF8;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>In science, if you don&#8217;t do it, somebody else will. Whereas in art, if Beethoven didn&#8217;t compose the &#8216;Ninth Symphony,&#8217; no one else before or after is going to compose the &#8216;Ninth Symphony&#8217; that he composed; no one else is going to paint &#8216;Starry Night&#8217; by van Gogh.</p>
 <p style="text-align: right;"><em><strong>&#8212; Neil deGrasse Tyson</strong></em></p>
@@ -243,7 +245,7 @@ In the previous post, I talked about the first part of my journey developing GMa
 <p>In the future, I hope to make TextComposerLib more versatile and reliable by introducing <a href="https://en.wikipedia.org/wiki/Multithreading_(software)" target="_blank" rel="noopener">Multithreading</a> capabilities and designing a <a href="https://en.wikipedia.org/wiki/Service-oriented_programming" target="_blank" rel="noopener">Service-Oriented</a> interface. I also hope to release it as an open-source component for general text composition tasks.</p>
 <p>&nbsp;</p>
 <h3>Building A Factory</h3>
-<div class="su-note" style="border-color:#cdd5df;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#E4EDF8;border-color:#fafbfe;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#cad3de;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#E4EDF8;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Make everything as simple as possible, but not simpler.</p>
 <p style="text-align: right;"><em><strong>&#8212; Albert Einstein</strong></em></p>
@@ -270,7 +272,7 @@ In the previous post, I talked about the first part of my journey developing GMa
 <p>I&#8217;m very proud of my work in the GMacAPI as it contains many interesting techniques from computer science and software engineering; especially techniques related to <a href="https://en.wikipedia.org/wiki/Optimizing_compiler" target="_blank" rel="noopener">code block optimization</a>. The tasks in which GMacAPI can be used are diverse and wide-ranging. I&#8217;ve tried my best to make it as simple as possible for a good software Engineer to use a given GA-model and create a full code library out of it. Because such goal is not easy to reach, using the GMacAPI component requires a good deal of learning and experimentation. I hope in the future to make it more accessible through some form of Visual Interface in which the software engineer can lay out the components, connect, and configure them visually with few lines of code as possible.</p>
 <p>&nbsp;</p>
 <h3>Seeking Guidance</h3>
-<div class="su-note" style="border-color:#cdd5df;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#E4EDF8;border-color:#fafbfe;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#cad3de;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#E4EDF8;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Conceptual integrity is the most important consideration in system design.</p>
 <p style="text-align: right;"><em><strong>&#8212; Fred Brooks, &#8220;The Mythical Man-Month&#8221;</strong></em></p>
@@ -290,7 +292,7 @@ In the previous post, I talked about the first part of my journey developing GMa
 <p>Naturally, the full power of GMac can only be illustrated through practical examples. I&#8217;ve created the <strong><a href="https://gmac-guides.netlify.com/index.php/gmac-samples/" target="_blank" rel="noopener">GMac Samples</a></strong> page on this website for this purpose. In time this page should contain enough examples that I hope would motivate users to explore the computational space using Geometric Algebra and GMac.</p>
 <p>&nbsp;</p>
 <h3>The Next Generation</h3>
-<div class="su-note" style="border-color:#cdd5df;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#E4EDF8;border-color:#fafbfe;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#cad3de;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#E4EDF8;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Space: the final frontier. These are the voyages of the starship Enterprise. Its continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before.</p>
 <p style="text-align: right;"><em><strong>&#8212; <a href="https://www.youtube.com/watch?v=HnDtvZXYHgE" target="_blank" rel="noopener">Captain Jean-Luc Picard, Star Trek: The Next Generation</a></strong></em></p>
@@ -301,14 +303,14 @@ In the previous post, I talked about the first part of my journey developing GMa
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#E4EDF8;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div id="attachment_2497" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/02/GMac-Components.png"><img class="wp-image-2497 size-medium" src="/wp-content/uploads/2017/02/GMac-Components-300x141.png" alt="GMac Components" width="300" height="141" srcset="/wp-content/uploads/2017/02/GMac-Components-300x141.png 300w, /wp-content/uploads/2017/02/GMac-Components-768x360.png 768w, /wp-content/uploads/2017/02/GMac-Components-520x245.png 520w, /wp-content/uploads/2017/02/GMac-Components-720x340.png 720w, /wp-content/uploads/2017/02/GMac-Components.png 939w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">The main components of GMac</p></div>
+<div id="attachment_2497" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/02/GMac-Components.png"><img aria-describedby="caption-attachment-2497" class="wp-image-2497 size-medium" src="/wp-content/uploads/2017/02/GMac-Components-300x141.png" alt="GMac Components" width="300" height="141" srcset="/wp-content/uploads/2017/02/GMac-Components-300x141.png 300w, /wp-content/uploads/2017/02/GMac-Components-768x360.png 768w, /wp-content/uploads/2017/02/GMac-Components-520x245.png 520w, /wp-content/uploads/2017/02/GMac-Components-720x340.png 720w, /wp-content/uploads/2017/02/GMac-Components.png 939w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-2497" class="wp-caption-text">The main components of GMac</p></div>
 </div>
 
                             </div>
                         </div>
 <p>I&#8217;m writing these words on the 9th of February 2017; it is my 40th birthday. This post is my final thoughts on the 8 years journey creating my own vessel for exploration, GMac. I don&#8217;t know if I will actually get to use it, as I hope, to explore the computational universe. I still need to add a visualization component and a multivector differentiation component to the mix. I also hope I could modify the design to use other CAS like SymPy or Maple and add a Visual Interface to create GMacDSL code that should be developed to apply functional programming techniques. Many other enhancements and components are possible. Nevertheless, I have learned a lot as I initially expected. I&#8217;m now ready to explore applications and algorithms with my own tool. I&#8217;m ready to contact other people to exchange ideas and investigate possibilities. I&#8217;m ready to begin a new journey as this one ends.</p>
 <hr />
-<div class="su-note" style="border-color:#cdd5df;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#E4EDF8;border-color:#fafbfe;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#cad3de;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#E4EDF8;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p style="text-align: center;"><span style="font-family: 'Traditional Arabic'; font-size: 28px;"><strong>تم بحمد الله الجمعة 13 جماد أول 1438هـ</strong></span></p>
 </div>
@@ -326,8 +328,8 @@ In the previous post, I talked about the first part of my journey developing GMa
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/02/10/gmac-tng-2/">GMac: The Next Generation (2 of 2)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/index.php/2017/02/10/gmac-tng-2/feed/</wfw:commentRss>
+							<wfw:commentRss>/index.php/2017/02/10/gmac-tng-2/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
-	</channel>
+							</item>
+	                                          </channel>
 </rss>

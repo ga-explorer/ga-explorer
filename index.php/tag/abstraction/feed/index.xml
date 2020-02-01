@@ -12,11 +12,13 @@
 	<atom:link href="/index.php/tag/abstraction/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 10 Nov 2018 17:17:38 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 09 Nov 2017 10:11:14 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -25,11 +27,11 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-	<item>
+                                          	<item>
 		<title>The Abstract</title>
 		<link>/index.php/2015/07/03/the-abstract/</link>
-		<comments>/index.php/2015/07/03/the-abstract/#respond</comments>
-		<pubDate>Fri, 03 Jul 2015 14:00:18 +0000</pubDate>
+				<comments>/index.php/2015/07/03/the-abstract/#respond</comments>
+				<pubDate>Fri, 03 Jul 2015 16:00:18 +0000</pubDate>
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
 				<category><![CDATA[Geometric Algebra]]></category>
 		<category><![CDATA[Abstraction]]></category>
@@ -38,13 +40,13 @@
 		<category><![CDATA[Teaching]]></category>
 
 		<guid isPermaLink="false">http://gacomputing.info/?p=130</guid>
-		<description><![CDATA[<p>I've been dealing with mathematical abstractions most of my life, as a student then as a software engineer and faculty member, on various levels and forms. My experience is like trying to find a safe path in a big forest of data and ideas that keep on growing and changing each day.</p>
+				<description><![CDATA[<p>I've been dealing with mathematical abstractions most of my life, as a student then as a software engineer and faculty member, on various levels and forms. My experience is like trying to find a safe path in a big forest of data and ideas that keep on growing and changing each day.</p>
 <p>The post <a rel="nofollow" href="/index.php/2015/07/03/the-abstract/">The Abstract</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
-<div class="su-note" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2015/07/The-Abstract.jpeg"><img class="aligncenter wp-image-3894 size-full" src="/wp-content/uploads/2015/07/The-Abstract.jpeg" alt="The Abstract" width="1280" height="960" srcset="/wp-content/uploads/2015/07/The-Abstract.jpeg 1280w, /wp-content/uploads/2015/07/The-Abstract-300x225.jpeg 300w, /wp-content/uploads/2015/07/The-Abstract-768x576.jpeg 768w, /wp-content/uploads/2015/07/The-Abstract-1024x768.jpeg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
 </div>
@@ -64,7 +66,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_249" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/254-750x726.jpg"><img class="size-medium wp-image-249" src="/wp-content/uploads/2015/07/254-750x726-300x290.jpg" alt="The Forest of Abstractions" width="300" height="290" srcset="/wp-content/uploads/2015/07/254-750x726-300x290.jpg 300w, /wp-content/uploads/2015/07/254-750x726.jpg 750w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">The Forest of Abstractions</p></div>
+<div id="attachment_249" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/254-750x726.jpg"><img aria-describedby="caption-attachment-249" class="size-medium wp-image-249" src="/wp-content/uploads/2015/07/254-750x726-300x290.jpg" alt="The Forest of Abstractions" width="300" height="290" srcset="/wp-content/uploads/2015/07/254-750x726-300x290.jpg 300w, /wp-content/uploads/2015/07/254-750x726.jpg 750w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-249" class="wp-caption-text">The Forest of Abstractions</p></div>
 </div>
 
                             </div>
@@ -73,7 +75,7 @@
 <p>Writing your first computer code at 11 and continuing to write more code for 25 or more years gives you many joys, disappointments, questions, ideas, and ultimately more knowledge. From an early stage, you realize that mathematics is both a fuel and limit for your computing skills. The more efficient your mathematical abstractions are the more powerful ideas you have, the more you can realize in your code, and the more wisdom you gain. This intuition was emphasized in my engineering study and practice through the universal presence of mathematics in computer science books and articles more than any other engineering discipline. Searching for and using good mathematical abstractions is, in my opinion, an important task for anyone in my position.</p>
 <p>&nbsp;</p>
 <h3>The Linear Engineer</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>When the number of factors coming into play in a phenomenological complex is too large scientific method in most cases fails. One need only think of the weather, in which case the prediction even for a few days ahead is impossible.</p>
 <p style="text-align: right;"><em><strong>&#8212; Albert Einstein</strong></em></p>
@@ -84,7 +86,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_3889" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg.png"><img class="wp-image-3889 size-medium" src="/wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-300x268.png" alt="Flagellum_base_diagram" width="300" height="268" srcset="/wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-300x268.png 300w, /wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-768x685.png 768w, /wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-1024x913.png 1024w, /wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg.png 1148w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Engineers can only learn from nature if they fully embrace its non-linearity</p></div>
+<div id="attachment_3889" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg.png"><img aria-describedby="caption-attachment-3889" class="wp-image-3889 size-medium" src="/wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-300x268.png" alt="Flagellum_base_diagram" width="300" height="268" srcset="/wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-300x268.png 300w, /wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-768x685.png 768w, /wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-1024x913.png 1024w, /wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg.png 1148w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-3889" class="wp-caption-text">Engineers can only learn from nature if they fully embrace its non-linearity</p></div>
 </div>
 
                             </div>
@@ -97,7 +99,7 @@
 <p>I discovered after graduation, as my second shock, that the universe is mostly non-linear, that there is nothing that can be time-invariant because of the second law of thermodynamics, and that most systems are very sensitive to initial conditions to be predictable for indefinite periods of time (as clearly stated by chaos theory and widely experienced in practice). Nevertheless, a linear system is a good starting point to model and solve almost all problems in engineering; mostly because many engineers are afraid of the darkness of the mathematics of non-linear chaotic systems, a very dark part of the mathematical forest of abstractions.</p>
 <p>&nbsp;</p>
 <h3>The Geometric Engineer</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>The engineer is concerned to travel from the abstract to the concrete. He begins with an idea and ends with an object. He journeys from theory to practice. The scientist’s job is the precise opposite. He explores nature with his telescopes or microscopes, or much more sophisticated techniques, and feeds into a computer what he finds or sees in an attempt to define mathematically its significance and relationships. He travels from the real to the symbolic, from the concrete to the abstract. The scientist and the engineer are the mirror image of each other.</p>
 <p style="text-align: right;"><em><strong>&#8212; Gordon Lindsay Glegg</strong></em></p>
@@ -108,7 +110,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_3886" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/construction-2682641_1280.jpg"><img class="wp-image-3886 size-medium" src="/wp-content/uploads/2015/07/construction-2682641_1280-300x169.jpg" alt="construction-2682641_1280" width="300" height="169" srcset="/wp-content/uploads/2015/07/construction-2682641_1280-300x169.jpg 300w, /wp-content/uploads/2015/07/construction-2682641_1280-768x432.jpg 768w, /wp-content/uploads/2015/07/construction-2682641_1280-1024x576.jpg 1024w, /wp-content/uploads/2015/07/construction-2682641_1280.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Geometry and Engineering are tightly linked</p></div>
+<div id="attachment_3886" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/construction-2682641_1280.jpg"><img aria-describedby="caption-attachment-3886" class="wp-image-3886 size-medium" src="/wp-content/uploads/2015/07/construction-2682641_1280-300x169.jpg" alt="construction-2682641_1280" width="300" height="169" srcset="/wp-content/uploads/2015/07/construction-2682641_1280-300x169.jpg 300w, /wp-content/uploads/2015/07/construction-2682641_1280-768x432.jpg 768w, /wp-content/uploads/2015/07/construction-2682641_1280-1024x576.jpg 1024w, /wp-content/uploads/2015/07/construction-2682641_1280.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-3886" class="wp-caption-text">Geometry and Engineering are tightly linked</p></div>
 </div>
 
                             </div>
@@ -117,7 +119,7 @@
 <p>Throughout history, the main efforts to further our understanding and use of geometry have always been through algebra. From the very old theory of Pythagoras, through the vast advancements of algebra, trigonometry, and geometry by Muslim mathematicians <sup class='endnote'><a href='#en-130-8' id='enref-130-8' onclick='return hhEndnotes_show(130)'>8</a></sup>, to the modern view of Cayley–Klein geometry <sup class='endnote'><a href='#en-130-9' id='enref-130-9' onclick='return hhEndnotes_show(130)'>9</a></sup>, the struggle was to find algebraic abstractions to express geometric ideas. Currently, we have many such algebraic abstractions (too many in fact); the problem now is not to find such abstractions, but how to teach them to whom it may concern!</p>
 <p>&nbsp;</p>
 <h3>The Computational Engineer</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Failure is central to engineering. Every single calculation that an engineer makes is a failure calculation. Successful engineering is all about understanding how things break or fail.</p>
 <p style="text-align: right;"><em><strong>&#8212; Henry Petroski</strong></em></p>
@@ -128,7 +130,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_3885" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/Jet_engine_simulation.jpg"><img class="wp-image-3885 size-medium" src="/wp-content/uploads/2015/07/Jet_engine_simulation-300x233.jpg" alt="Jet_engine_simulation" width="300" height="233" srcset="/wp-content/uploads/2015/07/Jet_engine_simulation-300x233.jpg 300w, /wp-content/uploads/2015/07/Jet_engine_simulation.jpg 616w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Simulation and Computer Aided Design are standard tools for modern engineering</p></div>
+<div id="attachment_3885" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/Jet_engine_simulation.jpg"><img aria-describedby="caption-attachment-3885" class="wp-image-3885 size-medium" src="/wp-content/uploads/2015/07/Jet_engine_simulation-300x233.jpg" alt="Jet_engine_simulation" width="300" height="233" srcset="/wp-content/uploads/2015/07/Jet_engine_simulation-300x233.jpg 300w, /wp-content/uploads/2015/07/Jet_engine_simulation.jpg 616w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-3885" class="wp-caption-text">Simulation and Computer Aided Design are standard tools for modern engineering</p></div>
 </div>
 
                             </div>
@@ -137,7 +139,7 @@
 <p>There are two main kinds of programming languages: the general and the specific. General purpose programming languages are dominant in creating geometric-algebraic solutions to our problems. Everybody knows C++, Java, C#, Python, or some other such language. But generality comes with many problems in readability, writablity, and elegance of written code. In addition creating code by a general-purpose programming language usually separates the designer of the algorithm from the developer of the code. If the &#8220;geometric modeler&#8221; tries to write the code himself, as he should, using a general purpose language all kinds of problems often occur including memory leaks, bad performance, and having to learn the full details of a whole language just to create an efficient implementation of a required algorithm. Object-oriented programming may solve some of these problems, but a good tool to implement computational software should contain a domain specific language (DSL)<sup class='endnote'><a href='#en-130-13' id='enref-130-13' onclick='return hhEndnotes_show(130)'>13</a></sup> that can be used directly by the &#8220;domain expert&#8221; to write code that can be translated automatically to machine code or to a general purpose language code as an intermediate stage of compilation.</p>
 <p>&nbsp;</p>
 <h3>The Pedagogical Engineer</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Put glibly: In science if you know what you are doing you should not be doing it. In engineering if you do not know what you are doing you should not be doing it. Of course, you seldom, if ever, see either pure state.</p>
 <p style="text-align: right;"><em><strong>&#8212; Richard Hamming</strong></em></p>
@@ -148,7 +150,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_3887" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/Descriptive-Geometry.jpg"><img class="wp-image-3887 size-medium" src="/wp-content/uploads/2015/07/Descriptive-Geometry-300x221.jpg" alt="Descriptive Geometry" width="300" height="221" srcset="/wp-content/uploads/2015/07/Descriptive-Geometry-300x221.jpg 300w, /wp-content/uploads/2015/07/Descriptive-Geometry.jpg 736w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Learning Descriptive Geometry is a good way for developing engineering intuition</p></div>
+<div id="attachment_3887" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/Descriptive-Geometry.jpg"><img aria-describedby="caption-attachment-3887" class="wp-image-3887 size-medium" src="/wp-content/uploads/2015/07/Descriptive-Geometry-300x221.jpg" alt="Descriptive Geometry" width="300" height="221" srcset="/wp-content/uploads/2015/07/Descriptive-Geometry-300x221.jpg 300w, /wp-content/uploads/2015/07/Descriptive-Geometry.jpg 736w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-3887" class="wp-caption-text">Learning Descriptive Geometry is a good way for developing engineering intuition</p></div>
 </div>
 
                             </div>
@@ -158,7 +160,7 @@
 <p>The direct result of such problem is a limited number of geometrically competent engineers; a very frustrating outcome for many teachers and students alike. Another consequence is the need for many teaching hours per subject to establish a mathematical base of algebraic tools specific to that subject <sup class='endnote'><a href='#en-130-14' id='enref-130-14' onclick='return hhEndnotes_show(130)'>14</a></sup>. If there were a single abstract framework to be taught once for most subjects that would make more time for teaching the engineering concepts rather than the mathematical tools. The current state of affairs in engineering teaching is a lack of such a unifying framework; after all, abstraction is about unification through extraction of common patterns.</p>
 <p>&nbsp;</p>
 <h3>Into The Geometric Algebra Pathway</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>The wonderful thing about maths is it&#8217;s a totally logical subject, and a pathway has been marked out. I think a lot of these things can be crystallised in something quite essential, that people can get. If I can&#8217;t explain it, I realise that&#8217;s probably because I don&#8217;t completely understand it myself.</p>
 <p style="text-align: right;"><em><strong>&#8212; Marcus du Sautoy</strong></em></p>
@@ -187,7 +189,7 @@
 <p>Personally, I think about Geometric Algebra as a way of <em><strong>symbolic geometric thinking</strong></em>, not just another algebraic system. Computers can only be programmed when we fully understand the abstractions and processes involved in the problem at hand. Computing with Geometric Algebra is fascinating because it&#8217;s a high-level language for geometry as we humans think and understand and, at the same time, a logical algebraic system suitable for being a universal base for creating computer code for geometric processing using current compiler technology. Most of my research efforts are dedicated to illustrating and realizing the full potential of GA in various scientific computing applications.</p>
 <p>I hope this site is successful in illustrating the power of GA-based linear models and DSLs. I hope you find your own path in the great forest of mathematical abstractions enjoyable and maturing.</p>
 <hr />
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p style="text-align: center;"><span style="font-size: 28px; font-family: 'Traditional Arabic';"><strong>تم بحمد الله الجمعة 16 رمضان 1436هـ</strong></span></p>
 </div>
@@ -214,8 +216,8 @@
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2015/07/03/the-abstract/">The Abstract</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/index.php/2015/07/03/the-abstract/feed/</wfw:commentRss>
+							<wfw:commentRss>/index.php/2015/07/03/the-abstract/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
-	</channel>
+							</item>
+	                                          </channel>
 </rss>

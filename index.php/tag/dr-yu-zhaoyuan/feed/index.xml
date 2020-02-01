@@ -12,11 +12,13 @@
 	<atom:link href="/index.php/tag/dr-yu-zhaoyuan/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 10 Nov 2018 17:17:38 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 Nov 2017 19:18:07 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -25,11 +27,11 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-	<item>
+                                          	<item>
 		<title>Knowing About the World via GIS</title>
 		<link>/index.php/2017/01/17/gis/</link>
-		<comments>/index.php/2017/01/17/gis/#respond</comments>
-		<pubDate>Tue, 17 Jan 2017 00:09:16 +0000</pubDate>
+				<comments>/index.php/2017/01/17/gis/#respond</comments>
+				<pubDate>Tue, 17 Jan 2017 02:09:16 +0000</pubDate>
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
 				<category><![CDATA[GA Applications]]></category>
 		<category><![CDATA[Geometric Algebra]]></category>
@@ -39,15 +41,15 @@
 		<category><![CDATA[GIS]]></category>
 
 		<guid isPermaLink="false">http://gacomputing.info/?p=2295</guid>
-		<description><![CDATA[<p>In this post, I interview Dr. Yu Zhaoyuan who explains the importance of Geographical Information Science (GIS) and the potential of Geometric Algebra as a mathematical modeling tool in this fascinating field of study. Dr. Zhaoyuan talks about the deep relations between Geometric Computing and GIS. He then tells us about the difficulties facing the creation of good GIS simulators and how GA can help in this regard. Finally, he talks about the recent GAGIS conference and the important research presented there.</p>
+				<description><![CDATA[<p>In this post, I interview Dr. Yu Zhaoyuan who explains the importance of Geographical Information Science (GIS) and the potential of Geometric Algebra as a mathematical modeling tool in this fascinating field of study. Dr. Zhaoyuan talks about the deep relations between Geometric Computing and GIS. He then tells us about the difficulties facing the creation of good GIS simulators and how GA can help in this regard. Finally, he talks about the recent GAGIS conference and the important research presented there.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/17/gis/">Knowing About the World via GIS</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curved dropshadowboxes-curved dropshadowboxes-curved-horizontal-2 dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
 <p><a href="/wp-content/uploads/2017/01/FESSlideShow6.jpg"><img class="aligncenter size-large wp-image-2297" src="/wp-content/uploads/2017/01/FESSlideShow6-1024x576.jpg" alt="GIS" width="1024" height="576" srcset="/wp-content/uploads/2017/01/FESSlideShow6-1024x576.jpg 1024w, /wp-content/uploads/2017/01/FESSlideShow6-300x169.jpg 300w, /wp-content/uploads/2017/01/FESSlideShow6-768x432.jpg 768w, /wp-content/uploads/2017/01/FESSlideShow6.jpg 1366w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-clearfix">
+<div class="su-quote su-quote-style-default su-quote-has-cite"><div class="su-quote-inner su-u-clearfix su-u-trim">
 <p>Our world is evolving without consideration, and the result is a loss of biodiversity, energy issues, congestion in cities. But geography, if used correctly, can be used to redesign sustainable and more livable cities.</p>
 <span class="su-quote-cite">Jack Dangermond</span></div></div>
 </div>
@@ -58,7 +60,7 @@
 <span class="dropcap">I</span>n this post, I interview Dr. Yu Zhaoyuan who explains the importance of Geographical Information Science (GIS) and the potential of Geometric Algebra as a mathematical modeling tool in this fascinating field of study. Dr. Zhaoyuan talks about the deep relations between Geometric Computing and GIS. He then tells us about the difficulties facing the creation of good GIS simulators and how GA can help in this regard. Finally, he talks about the recent GAGIS conference and the important research presented there.</p>
 <hr />
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
-<div class="su-note" style="border-color:#d6dcc0;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#EEF4D5;border-color:#fcfdf7;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d4dabb;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#EEF4D5;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class='content-column three_fourth'><h3><strong>About Dr. Yu Zhaoyuan</strong></h3>
 <p>Dr. Yu Zhaoyuan has a Ph.D. in Cartography and Geographic Information Science (GIS), Nanjing Normal University (2010). His research interests include GIS, geographical modeling, and human geography.</p>
 <p>For the last eight years, Dr. Yu has systematically introduced GA into the GIS construction and developed key theories and technologies. He has made solid studies to develop GA-based unified multiscale representation theory for geographical space-time and also developed GA-based geographical data models, data structures, computational models, analysis algorithms, software systems and application/demonstration in various fields. He has been funded for 10 GA-related projects and joined 17 different projects as a core member or contributor. He published a total of 72 journal papers and gained 8 authorized software copyrights until the Dec-2016.</p></div>
@@ -73,7 +75,7 @@
 </div>
 <p>&nbsp;</p>
 <h3>Geographical Information Science</h3>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Geographical Information Science (GIS) is a fascinating field of research, tell us about it and its impact on our lives.</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> Geographical Information Science (GIS) is a fascinating field of research, tell us about it and its impact on our lives.</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-curved dropshadowboxes-curved dropshadowboxes-curved-horizontal-2 dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
@@ -94,12 +96,12 @@
 <p>To industry applications, GIS undoubtedly enhances the production efficiency. Let’s take China’s logistics industry as an example. GIS established a perfect management system for it, which includes supply management, personnel management, path planning and so on. So, everyone can sit at home to buy all the things from Internet and then get your commodities after one or two days. To everyone’s daily life, “Uber Taxi” may be one of the best examples of GIS applications. People can search the taxi at service nearby, plan the route to your own destination with real-time calculated prices and query for interest points around all by smartphones, which profoundly changes the way travel.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> What other major branches of Engineering and Computer Science are directly related to GIS applications?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> What other major branches of Engineering and Computer Science are directly related to GIS applications?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <p>GIS is an interdisciplinary science and makes use of many advanced achievements of Engineering and Computer Science. The major branches directly related to GIS applications I think are Topography, Graphics, Data Science and High-performance heterogeneous computing. Topography provides the data source and measurement calculation methods to GIS, and Data Science instructs the data storage, management, and analysis process of GIS data models. Graphics provides strong tools for GIS visualization. At last, High-performance heterogeneous computing gives GIS an efficient method for calculating, which is the energy of GIS applications.</p>
 </div></div>
 <p>&nbsp;</p>
 <h3>The Geometry of Our World</h3>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Tell us about the deep relations between Geometric Computing and GIS. </div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> Tell us about the deep relations between Geometric Computing and GIS. </div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-curved dropshadowboxes-curved dropshadowboxes-curved-horizontal-2 dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
@@ -110,7 +112,7 @@
 <p>According to the characteristics of GIS mentioned above, geographical objects expression and computation based on Euclidean geometry are highly dependent on object coordinates and coordinate systems and the expression and analysis of different dimensional geographical objects are at disunity. So, we need to find out a corresponding unified coordinate system to represent the geographical objects of a different scale from global to local. In GIS, we are not only studying the geographical objects but also the geographical phenomena and geographical process. Geographical phenomena and process are usually characterized as multidimensional features and span many different spatio-temporal scales. Moreover, as the fusion analysis of geometric objects with different dimensions, it is rather difficult to be linked and integrated effectively with geographical models. All in all, in GIS, we have got a lot of multi-source heterogeneous data which is referenced as geometry and developed much more analysis models which are referenced as algebra, but they cannot be integrated appropriately.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> So what benefits can Geometric Algebra provide in this context?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> So what benefits can Geometric Algebra provide in this context?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <p>Based on philosophical and physical considerations, it seems that only Geometry Algebra can solve these problems effectively. As a unified descriptive language, GA can connect algebra and geometry, mathematics and physics, abstract space-time and entity space-time. So, introducing GA to GIS has a prospective to improve the multidimensional expression and analysis ability of GIS.</p>
 <p>Products in GA define spatial operation sets as geometries, measurements, topologies and directions, and have the ability to achieve expression and mutual transformation among various kinds of space, and thus support unification and expression of various algebra and geometric system. Under the GA framework, operation rules and operators are designed to support the complex geometric calculation, in order to construct GIS computing engine based on GA.</p>
 <p>The ability of geometric computation and expression in GA makes time an equivalent dimension to space in computational space construction, thus the expression and computation of unified time and space are achieved. For example, if we want to track a ship moving in the ocean together with cameras (optical remote sensing), sonar (acoustic remote sensing) and radar (electromagnetic remote sensing), we have to deal with images, waves, and fields with different speeds through very large scales, we need to integrate different spatio-temporal references. And classical Euclidean geometry will be invalid for this situation due to numerical computational precision. However, with GA, we can easily deal with this situation using frame-based representations and versors like what we have already done in spacetime algebra.</p>
@@ -119,7 +121,7 @@
 </div></div>
 <p>&nbsp;</p>
 <h3>Simulations</h3>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> As I understand, simulation plays a fundamental role in GIS research and applications. In your opinion, what are the difficulties of creating good GIS simulators?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> As I understand, simulation plays a fundamental role in GIS research and applications. In your opinion, what are the difficulties of creating good GIS simulators?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-curved dropshadowboxes-curved dropshadowboxes-curved-horizontal-2 dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
@@ -134,7 +136,7 @@
 <p>(4) How to deal with dynamical simulation and continues data updating and visualization by coupling various different geographical models. How can we combine them in an integrating framework and make them work together.</p>
 </div></div>
 <p>&nbsp;</p>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> How do you think GA can be used to create better GIS simulators?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> How do you think GA can be used to create better GIS simulators?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <p>The above three conflicts all points to one thing: that a transmission tool is an urgent need. So, Geometric Algebra is found from the areas of mathematics and physics to act as a convergence tool. The unity of geometry and algebra, time and space, different dimensions, expression and computation of GA is just as the effective way to solve the existing problem.</p>
 <p>In our past work, we have done the Multi-dimensional complex object expression based on Blade, the Multi-dimensional complex scenes expression based on Multivector, and the Multi-dimensional unified computation based on geometric algebra, which laid the foundation for the new GIS simulator through the data structure, expression, and calculation.</p>
 <p>GA can effectively represent the relationship and measurement of different shapes, and Multivectors can realize the integration and unification of different dimensions and types of geometric objects. Then in the computation part, GA calculation is almost based on operators, which have good compatibility with various analysis models, such as dynamic model or differential equation model. A famous example is the expression of Maxwell’s equation, which can be transformed into a single equation by GA. So, to geographic computation, it’s of great significance to integrating and optimizing the existing models.</p>
@@ -142,7 +144,7 @@
 </div></div>
 <p>&nbsp;</p>
 <h3>The Gathering</h3>
-<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="fa fa-comments-o" style="font-size:32px;color:#333"></i> Tell us about your experiences in the recently organized 2016 conference Geometric Algebra and Geographical Information Science: Development and Applications (GAGIS). What were your expectations before the conference? What can you tell us about the conference benefits to both the GA and GIS communities?</div><div class="su-service-content su-clearfix" style="padding-left:46px">
+<div class="su-service"><div class="su-service-title" style="padding-left:46px;min-height:32px;line-height:32px"><i class="sui sui-comments-o" style="font-size:32px;color:#333"></i> Tell us about your experiences in the recently organized 2016 conference Geometric Algebra and Geographical Information Science: Development and Applications (GAGIS). What were your expectations before the conference? What can you tell us about the conference benefits to both the GA and GIS communities?</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:46px">
 <div class='dropshadowboxes-container dropshadowboxes-right ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-outside-shadow dropshadowboxes-curved dropshadowboxes-curved dropshadowboxes-curved-horizontal-2 dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
@@ -156,8 +158,8 @@
 </div></div>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/17/gis/">Knowing About the World via GIS</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/index.php/2017/01/17/gis/feed/</wfw:commentRss>
+							<wfw:commentRss>/index.php/2017/01/17/gis/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
-	</channel>
+							</item>
+	                                          </channel>
 </rss>

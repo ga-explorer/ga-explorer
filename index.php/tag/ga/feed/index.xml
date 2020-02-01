@@ -12,11 +12,13 @@
 	<atom:link href="/index.php/tag/ga/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Voyaging the Computational Universe with Geometric Algebra</description>
-	<lastBuildDate>Sat, 10 Nov 2018 17:17:38 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 09 Nov 2017 10:11:14 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -25,11 +27,11 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-	<item>
+                                          	<item>
 		<title>A Functional History of Numbers (2 of 3)</title>
 		<link>/index.php/2015/08/07/history-of-numbers2/</link>
-		<comments>/index.php/2015/08/07/history-of-numbers2/#respond</comments>
-		<pubDate>Fri, 07 Aug 2015 14:00:09 +0000</pubDate>
+				<comments>/index.php/2015/08/07/history-of-numbers2/#respond</comments>
+				<pubDate>Fri, 07 Aug 2015 16:00:09 +0000</pubDate>
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
 				<category><![CDATA[GA History]]></category>
 		<category><![CDATA[Algebra]]></category>
@@ -40,13 +42,13 @@
 		<category><![CDATA[Numbers]]></category>
 
 		<guid isPermaLink="false">http://gacomputing.info/?p=270</guid>
-		<description><![CDATA[<p>In part one of this functional history of numbers we saw the development of various number systems we are mostly familiar with. In this part, we will see the development of many number systems that are important for our modern scientific needs, geometrically and computationally. The sad fact about these developments is that we are using and teaching less effective number systems today because of a "series of unfortunate events" that took place during the grand drama of human development of modern mathematics.</p>
+				<description><![CDATA[<p>In part one of this functional history of numbers we saw the development of various number systems we are mostly familiar with. In this part, we will see the development of many number systems that are important for our modern scientific needs, geometrically and computationally. The sad fact about these developments is that we are using and teaching less effective number systems today because of a "series of unfortunate events" that took place during the grand drama of human development of modern mathematics.</p>
 <p>The post <a rel="nofollow" href="/index.php/2015/08/07/history-of-numbers2/">A Functional History of Numbers (2 of 3)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
-<div class="su-note" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2015/08/Old-Geometry.png"><img class=" size-full wp-image-364 aligncenter" src="/wp-content/uploads/2015/08/Old-Geometry.png" alt="Old-Geometry" width="968" height="768" srcset="/wp-content/uploads/2015/08/Old-Geometry.png 968w, /wp-content/uploads/2015/08/Old-Geometry-300x238.png 300w, /wp-content/uploads/2015/08/Old-Geometry-768x609.png 768w" sizes="(max-width: 968px) 100vw, 968px" /></a></p>
 </div>
@@ -63,7 +65,7 @@
 <span class="dropcap">I</span>n <a href="/index.php/2015/07/24/history-of-numbers1/">part one</a> of this functional history of numbers we saw the development of various number systems we are mostly familiar with. In this part, we will see the development of many number systems that are important for our modern scientific needs, geometrically and computationally. The sad fact about these developments is that we are using and teaching less effective number systems today because of a &#8220;series of unfortunate events&#8221; that took place during the grand drama of human development of modern mathematics.</p>
 <hr />
 <h3>Missing the Truth in Pursuit of Beauty</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Here as he walked by on the 16th of October 1843 Sir William Rowan Hamilton in a flash of genius discovered the fundamental formula for quaternion multiplication <span class="wp-katex-eq" data-display="false">i^{2}=j^{2}=k^{2}=ijk=-1</span> &amp; cut it on a stone of this bridge.</p>
 <p style="text-align: right;"><em><strong>&#8212; <a href="https://en.wikipedia.org/wiki/History_of_quaternions#/media/File:William_Rowan_Hamilton_Plaque_-_geograph.org.uk_-_347941.jpg">Quaternion plaque</a> on Brougham (Broom) Bridge, Dublin</strong></em></p>
@@ -74,7 +76,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_330" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/6a0163057a21c8970d017743e0b713970d.jpg"><img class="size-medium wp-image-330" src="/wp-content/uploads/2015/08/6a0163057a21c8970d017743e0b713970d-300x150.jpg" alt="Avoiding a gimbal lock using quaternions" width="300" height="150" srcset="/wp-content/uploads/2015/08/6a0163057a21c8970d017743e0b713970d-300x150.jpg 300w, /wp-content/uploads/2015/08/6a0163057a21c8970d017743e0b713970d.jpg 694w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Avoiding a gimbal lock using quaternions; see <a href="http://around-the-corner.typepad.com/adn/2012/08/avoid-gimbal-lock-for-rotationdirection-maya-manipulators.html">here</a> for the full article</p></div>
+<div id="attachment_330" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/6a0163057a21c8970d017743e0b713970d.jpg"><img aria-describedby="caption-attachment-330" class="size-medium wp-image-330" src="/wp-content/uploads/2015/08/6a0163057a21c8970d017743e0b713970d-300x150.jpg" alt="Avoiding a gimbal lock using quaternions" width="300" height="150" srcset="/wp-content/uploads/2015/08/6a0163057a21c8970d017743e0b713970d-300x150.jpg 300w, /wp-content/uploads/2015/08/6a0163057a21c8970d017743e0b713970d.jpg 694w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-330" class="wp-caption-text">Avoiding a gimbal lock using quaternions; see <a href="http://around-the-corner.typepad.com/adn/2012/08/avoid-gimbal-lock-for-rotationdirection-maya-manipulators.html" class="broken_link">here</a> for the full article</p></div>
 </div>
 
                             </div>
@@ -86,7 +88,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_351" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/quaternions.jpg"><img class="size-medium wp-image-351" src="/wp-content/uploads/2015/08/quaternions-300x220.jpg" alt="Irish stamp on the Quaternions," width="300" height="220" srcset="/wp-content/uploads/2015/08/quaternions-300x220.jpg 300w, /wp-content/uploads/2015/08/quaternions-768x564.jpg 768w, /wp-content/uploads/2015/08/quaternions.jpg 994w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Irish stamp on the Quaternions, issued by Ireland on May 4, 1983. (<a href="http://jeff560.tripod.com/images/quaternions.jpg">Source</a>)</p></div>
+<div id="attachment_351" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/quaternions.jpg"><img aria-describedby="caption-attachment-351" class="size-medium wp-image-351" src="/wp-content/uploads/2015/08/quaternions-300x220.jpg" alt="Irish stamp on the Quaternions," width="300" height="220" srcset="/wp-content/uploads/2015/08/quaternions-300x220.jpg 300w, /wp-content/uploads/2015/08/quaternions-768x564.jpg 768w, /wp-content/uploads/2015/08/quaternions.jpg 994w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-351" class="wp-caption-text">Irish stamp on the Quaternions, issued by Ireland on May 4, 1983. (<a href="http://jeff560.tripod.com/images/quaternions.jpg" class="broken_link">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -96,7 +98,7 @@
 <p>This was not the end of the story for quaternions. They would resurface many years later as advantageous rotation operators in 3D space; currently used in robotics, aviation, and computer graphics to name a few applications. Nevertheless, many important lessons can be taught from the story of the last division algebra. The main lesson being: you have to consistently follow the truth and it will lead to more beauty than the one you might imagine.</p>
 <p>&nbsp;</p>
 <h3>Hyperspace and the Womb of Numbers</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>The Matrix is everywhere. It is all around us. Even now, in this very room.</p>
 <p style="text-align: right;"><em><strong>&#8212; Morpheus, The Matrix</strong></em></p>
@@ -107,7 +109,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_367" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/Matrix.png"><img class="wp-image-367 size-medium" src="/wp-content/uploads/2015/08/Matrix-300x65.png" alt="Matrix" width="300" height="65" srcset="/wp-content/uploads/2015/08/Matrix-300x65.png 300w, /wp-content/uploads/2015/08/Matrix.png 576w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">A Matrix is the &#8220;Womb of Numbers&#8221; in which Linear Algebra was born</p></div>
+<div id="attachment_367" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/Matrix.png"><img aria-describedby="caption-attachment-367" class="wp-image-367 size-medium" src="/wp-content/uploads/2015/08/Matrix-300x65.png" alt="Matrix" width="300" height="65" srcset="/wp-content/uploads/2015/08/Matrix-300x65.png 300w, /wp-content/uploads/2015/08/Matrix.png 576w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-367" class="wp-caption-text">A Matrix is the &#8220;Womb of Numbers&#8221; in which Linear Algebra was born</p></div>
 </div>
 
                             </div>
@@ -121,7 +123,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_356" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/clifford3d.png"><img class="size-medium wp-image-356" src="/wp-content/uploads/2015/08/clifford3d-300x97.png" alt="Exterior Product" width="300" height="97" srcset="/wp-content/uploads/2015/08/clifford3d-300x97.png 300w, /wp-content/uploads/2015/08/clifford3d-768x248.png 768w, /wp-content/uploads/2015/08/clifford3d.png 1012w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Grassmann used vectors to define higher-dimensional subspaces algebraically using his exterior product (<a href="https://slehar.wordpress.com/2014/03/18/clifford-algebra-a-visual-introduction/">Source</a>)</p></div>
+<div id="attachment_356" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/clifford3d.png"><img aria-describedby="caption-attachment-356" class="size-medium wp-image-356" src="/wp-content/uploads/2015/08/clifford3d-300x97.png" alt="Exterior Product" width="300" height="97" srcset="/wp-content/uploads/2015/08/clifford3d-300x97.png 300w, /wp-content/uploads/2015/08/clifford3d-768x248.png 768w, /wp-content/uploads/2015/08/clifford3d.png 1012w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-356" class="wp-caption-text">Grassmann used vectors to define higher-dimensional subspaces algebraically using his exterior product (<a href="https://slehar.wordpress.com/2014/03/18/clifford-algebra-a-visual-introduction/">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -131,7 +133,7 @@
 <p>Grassmann expected his ideas would be revived even if unused for 17 years or longer; it actually took a hundred years. At that time in the 19th century, Grassmann&#8217;s ideas (especially in geometry) were revolutionary; they were too advanced for the necessities of his age. Ironically, Grassmann was renowned in his day as a linguist but as a mathematician, he had poor notational skills. His ideas were great but his symbolic expression of them was awkward. Few mathematicians of his age acknowledged his brilliance. One of them was the English mathematician and philosopher William Kingdon Clifford. Clifford was the one who would give new form and meaning to Grassmann&#8217;s ideas.</p>
 <p>&nbsp;</p>
 <h3>Lost and Found: Geometric Algebra</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>The further a mathematical theory is developed, the more harmoniously and uniformly does its construction proceed, and unsuspected relations are disclosed between hitherto separated branches of the science.</p>
 <p style="text-align: right;"><em><strong>&#8212; David Hilbert</strong></em></p>
@@ -142,7 +144,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_391" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/Spinor_on_the_circle.pdf.jpg"><img class="size-medium wp-image-391" src="/wp-content/uploads/2015/08/Spinor_on_the_circle.pdf-300x228.jpg" alt="When the vector is rotated along the Möbius strip it reverses direction after an odd number of full rotations; it's a spinor." width="300" height="228" srcset="/wp-content/uploads/2015/08/Spinor_on_the_circle.pdf-300x228.jpg 300w, /wp-content/uploads/2015/08/Spinor_on_the_circle.pdf-768x585.jpg 768w, /wp-content/uploads/2015/08/Spinor_on_the_circle.pdf.jpg 787w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">When the vector is rotated along the Möbius strip it reverses direction after an odd number of full rotations; it&#8217;s a spinor.</p></div>
+<div id="attachment_391" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/Spinor_on_the_circle.pdf.jpg"><img aria-describedby="caption-attachment-391" class="size-medium wp-image-391" src="/wp-content/uploads/2015/08/Spinor_on_the_circle.pdf-300x228.jpg" alt="When the vector is rotated along the Möbius strip it reverses direction after an odd number of full rotations; it's a spinor." width="300" height="228" srcset="/wp-content/uploads/2015/08/Spinor_on_the_circle.pdf-300x228.jpg 300w, /wp-content/uploads/2015/08/Spinor_on_the_circle.pdf-768x585.jpg 768w, /wp-content/uploads/2015/08/Spinor_on_the_circle.pdf.jpg 787w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-391" class="wp-caption-text">When the vector is rotated along the Möbius strip it reverses direction after an odd number of full rotations; it&#8217;s a spinor.</p></div>
 </div>
 
                             </div>
@@ -154,7 +156,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_433" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-hestenes-dev.png"><img class="size-medium wp-image-433" src="/wp-content/uploads/2015/08/ga-hestenes-dev-300x184.png" alt="ga-hestenes-dev" width="300" height="184" srcset="/wp-content/uploads/2015/08/ga-hestenes-dev-300x184.png 300w, /wp-content/uploads/2015/08/ga-hestenes-dev-768x471.png 768w, /wp-content/uploads/2015/08/ga-hestenes-dev.png 844w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Revival and Development of GA starting at David Hestenes research efforts</p></div>
+<div id="attachment_433" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-hestenes-dev.png"><img aria-describedby="caption-attachment-433" class="size-medium wp-image-433" src="/wp-content/uploads/2015/08/ga-hestenes-dev-300x184.png" alt="ga-hestenes-dev" width="300" height="184" srcset="/wp-content/uploads/2015/08/ga-hestenes-dev-300x184.png 300w, /wp-content/uploads/2015/08/ga-hestenes-dev-768x471.png 768w, /wp-content/uploads/2015/08/ga-hestenes-dev.png 844w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-433" class="wp-caption-text">Revival and Development of GA starting at David Hestenes research efforts</p></div>
 </div>
 
                             </div>
@@ -170,7 +172,7 @@
 <p>Later on, Hestenes ideas in physics found their way into many computer science and engineering applications over the last 15 years. We are still at the beginning of the road to exploring this powerful abstract number system for our ever growing geometric dependent applications.</p>
 <p>&nbsp;</p>
 <h3>GA&#8217;s Multivectors: The Spacious Number System</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Physics is mathematical not because we know so much about the physical world, but because we know so little; it is only its mathematical properties that we can discover.</p>
 <p style="text-align: right;"><em><strong>&#8212; Bertrand Russell</strong></em></p>
@@ -182,7 +184,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_426" style="width: 964px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-basis-blades.png"><img class="size-full wp-image-426" src="/wp-content/uploads/2015/08/ga-basis-blades.png" alt="ga-basis-blades" width="954" height="294" srcset="/wp-content/uploads/2015/08/ga-basis-blades.png 954w, /wp-content/uploads/2015/08/ga-basis-blades-300x92.png 300w, /wp-content/uploads/2015/08/ga-basis-blades-768x237.png 768w" sizes="(max-width: 954px) 100vw, 954px" /></a><p class="wp-caption-text">GA basis blades are constructed from basis vectors using the outer product (<a href="http://www2.ic.uff.br/~laffernandes/projects/ga/2009_SIBGRAPI_tutorial/fernandes_oliveia_SIBGRAPI_2009_tutorial_slides.pdf">Source</a>)</p></div>
+<div id="attachment_426" style="width: 964px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-basis-blades.png"><img aria-describedby="caption-attachment-426" class="size-full wp-image-426" src="/wp-content/uploads/2015/08/ga-basis-blades.png" alt="ga-basis-blades" width="954" height="294" srcset="/wp-content/uploads/2015/08/ga-basis-blades.png 954w, /wp-content/uploads/2015/08/ga-basis-blades-300x92.png 300w, /wp-content/uploads/2015/08/ga-basis-blades-768x237.png 768w" sizes="(max-width: 954px) 100vw, 954px" /></a><p id="caption-attachment-426" class="wp-caption-text">GA basis blades are constructed from basis vectors using the outer product (<a href="http://www2.ic.uff.br/~laffernandes/projects/ga/2009_SIBGRAPI_tutorial/fernandes_oliveia_SIBGRAPI_2009_tutorial_slides.pdf" class="broken_link">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -192,7 +194,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_417" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-R3-blades.png"><img class="size-medium wp-image-417" src="/wp-content/uploads/2015/08/ga-R3-blades-300x274.png" alt="ga-R3-blades" width="300" height="274" srcset="/wp-content/uploads/2015/08/ga-R3-blades-300x274.png 300w, /wp-content/uploads/2015/08/ga-R3-blades.png 406w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">The 3D Euclidean GA has 8 basis blades constructed from 3 basis vectors (<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.158.4974&amp;rep=rep1&amp;type=pdf">Source</a>)</p></div>
+<div id="attachment_417" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-R3-blades.png"><img aria-describedby="caption-attachment-417" class="size-medium wp-image-417" src="/wp-content/uploads/2015/08/ga-R3-blades-300x274.png" alt="ga-R3-blades" width="300" height="274" srcset="/wp-content/uploads/2015/08/ga-R3-blades-300x274.png 300w, /wp-content/uploads/2015/08/ga-R3-blades.png 406w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-417" class="wp-caption-text">The 3D Euclidean GA has 8 basis blades constructed from 3 basis vectors (<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.158.4974&amp;rep=rep1&amp;type=pdf">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -204,7 +206,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_419" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-spaces.png"><img class="wp-image-419 size-medium" src="/wp-content/uploads/2015/08/ga-spaces-300x227.png" alt="ga-spaces" width="300" height="227" srcset="/wp-content/uploads/2015/08/ga-spaces-300x227.png 300w, /wp-content/uploads/2015/08/ga-spaces.png 474w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">GA can be used to study non-Euclidean Geometries (<a href="https://arxiv.org/pdf/1101.4542v3.pdf">Source</a>)</p></div>
+<div id="attachment_419" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-spaces.png"><img aria-describedby="caption-attachment-419" class="wp-image-419 size-medium" src="/wp-content/uploads/2015/08/ga-spaces-300x227.png" alt="ga-spaces" width="300" height="227" srcset="/wp-content/uploads/2015/08/ga-spaces-300x227.png 300w, /wp-content/uploads/2015/08/ga-spaces.png 474w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-419" class="wp-caption-text">GA can be used to study non-Euclidean Geometries (<a href="https://arxiv.org/pdf/1101.4542v3.pdf">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -215,7 +217,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_411" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-3d-rotation.png"><img class="wp-image-411 size-medium" src="/wp-content/uploads/2015/08/ga-3d-rotation-300x236.png" alt="ga-3d-rotation" width="300" height="236" srcset="/wp-content/uploads/2015/08/ga-3d-rotation-300x236.png 300w, /wp-content/uploads/2015/08/ga-3d-rotation.png 560w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Quaternions as GA versors (<a href="http://geometricalgebra.net/figures.html">Source</a>)</p></div>
+<div id="attachment_411" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-3d-rotation.png"><img aria-describedby="caption-attachment-411" class="wp-image-411 size-medium" src="/wp-content/uploads/2015/08/ga-3d-rotation-300x236.png" alt="ga-3d-rotation" width="300" height="236" srcset="/wp-content/uploads/2015/08/ga-3d-rotation-300x236.png 300w, /wp-content/uploads/2015/08/ga-3d-rotation.png 560w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-411" class="wp-caption-text">Quaternions as GA versors (<a href="http://geometricalgebra.net/figures.html">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -226,7 +228,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_423" style="width: 271px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-blades-geometry.png"><img class="wp-image-423 size-medium" src="/wp-content/uploads/2015/08/ga-blades-geometry-261x300.png" alt="ga-blades-geometry" width="261" height="300" srcset="/wp-content/uploads/2015/08/ga-blades-geometry-261x300.png 261w, /wp-content/uploads/2015/08/ga-blades-geometry.png 579w" sizes="(max-width: 261px) 100vw, 261px" /></a><p class="wp-caption-text">The same GA blade (subspace) can have several geometric interpretations (<a href="http://www2.ic.uff.br/~laffernandes/projects/ga/2009_SIBGRAPI_tutorial/fernandes_oliveia_SIBGRAPI_2009_tutorial_slides.pdf">Source</a>)</p></div>
+<div id="attachment_423" style="width: 271px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-blades-geometry.png"><img aria-describedby="caption-attachment-423" class="wp-image-423 size-medium" src="/wp-content/uploads/2015/08/ga-blades-geometry-261x300.png" alt="ga-blades-geometry" width="261" height="300" srcset="/wp-content/uploads/2015/08/ga-blades-geometry-261x300.png 261w, /wp-content/uploads/2015/08/ga-blades-geometry.png 579w" sizes="(max-width: 261px) 100vw, 261px" /></a><p id="caption-attachment-423" class="wp-caption-text">The same GA blade (subspace) can have several geometric interpretations (<a href="http://www2.ic.uff.br/~laffernandes/projects/ga/2009_SIBGRAPI_tutorial/fernandes_oliveia_SIBGRAPI_2009_tutorial_slides.pdf" class="broken_link">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -238,7 +240,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_410" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-3d-reflection.png"><img class="wp-image-410 size-medium" src="/wp-content/uploads/2015/08/ga-3d-reflection-300x226.png" alt="ga-3d-reflection" width="300" height="226" srcset="/wp-content/uploads/2015/08/ga-3d-reflection-300x226.png 300w, /wp-content/uploads/2015/08/ga-3d-reflection.png 530w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">In GA, versors come from using vectors as reflection operators; all orthogonal transformations are series of reflections (<a href="http://geometricalgebra.net/figures.html">Source</a>)</p></div>
+<div id="attachment_410" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-3d-reflection.png"><img aria-describedby="caption-attachment-410" class="wp-image-410 size-medium" src="/wp-content/uploads/2015/08/ga-3d-reflection-300x226.png" alt="ga-3d-reflection" width="300" height="226" srcset="/wp-content/uploads/2015/08/ga-3d-reflection-300x226.png 300w, /wp-content/uploads/2015/08/ga-3d-reflection.png 530w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-410" class="wp-caption-text">In GA, versors come from using vectors as reflection operators; all orthogonal transformations are series of reflections (<a href="http://geometricalgebra.net/figures.html">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -250,7 +252,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_414" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-ops.png"><img class="wp-image-414 size-medium" src="/wp-content/uploads/2015/08/ga-ops-300x141.png" alt="ga-blades" width="300" height="141" srcset="/wp-content/uploads/2015/08/ga-ops-300x141.png 300w, /wp-content/uploads/2015/08/ga-ops-768x362.png 768w, /wp-content/uploads/2015/08/ga-ops-1024x482.png 1024w, /wp-content/uploads/2015/08/ga-ops-520x245.png 520w, /wp-content/uploads/2015/08/ga-ops-720x340.png 720w, /wp-content/uploads/2015/08/ga-ops.png 1153w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Geometric entities expressed as GA blades can be used to covariantly transform other geometric entities (<a href="https://staff.fnwi.uva.nl/t.h.koornwinder/specialdays/veldenwegen/Dorst.pdf">Source</a>)</p></div>
+<div id="attachment_414" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/ga-ops.png"><img aria-describedby="caption-attachment-414" class="wp-image-414 size-medium" src="/wp-content/uploads/2015/08/ga-ops-300x141.png" alt="ga-blades" width="300" height="141" srcset="/wp-content/uploads/2015/08/ga-ops-300x141.png 300w, /wp-content/uploads/2015/08/ga-ops-768x362.png 768w, /wp-content/uploads/2015/08/ga-ops-1024x482.png 1024w, /wp-content/uploads/2015/08/ga-ops-520x245.png 520w, /wp-content/uploads/2015/08/ga-ops-720x340.png 720w, /wp-content/uploads/2015/08/ga-ops.png 1153w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-414" class="wp-caption-text">Geometric entities expressed as GA blades can be used to covariantly transform other geometric entities (<a href="https://staff.fnwi.uva.nl/t.h.koornwinder/specialdays/veldenwegen/Dorst.pdf">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -261,7 +263,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_429" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/isea_img2_01_flat2.jpg"><img class="wp-image-429 size-medium" src="/wp-content/uploads/2015/08/isea_img2_01_flat2-300x146.jpg" alt="isea_img2_01_flat2" width="300" height="146" srcset="/wp-content/uploads/2015/08/isea_img2_01_flat2-300x146.jpg 300w, /wp-content/uploads/2015/08/isea_img2_01_flat2-768x373.jpg 768w, /wp-content/uploads/2015/08/isea_img2_01_flat2-1024x497.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">GA interpolations of motion using versors (<a href="http://isea2011.sabanciuniv.edu/paper/versor-proposal-system-organic-constructivism">Source</a>)</p></div>
+<div id="attachment_429" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/08/isea_img2_01_flat2.jpg"><img aria-describedby="caption-attachment-429" class="wp-image-429 size-medium" src="/wp-content/uploads/2015/08/isea_img2_01_flat2-300x146.jpg" alt="isea_img2_01_flat2" width="300" height="146" srcset="/wp-content/uploads/2015/08/isea_img2_01_flat2-300x146.jpg 300w, /wp-content/uploads/2015/08/isea_img2_01_flat2-768x373.jpg 768w, /wp-content/uploads/2015/08/isea_img2_01_flat2-1024x497.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-429" class="wp-caption-text">GA interpolations of motion using versors (<a href="http://isea2011.sabanciuniv.edu/paper/versor-proposal-system-organic-constructivism" class="broken_link">Source</a>)</p></div>
 </div>
 
                             </div>
@@ -270,7 +272,7 @@
 <p>10. All the above and other GA characteristics can make life much easier for people creating computational code for geometric modeling applications. GA is consistent and systematic algebraically with direct geometric interpretation. You just need to select your model and do the math; programming is straight forward. For example take a look at <a href="https://vimeo.com/wolftype">these videos</a> created using the <a href="http://versor.mat.ucsb.edu/">Versor GA library</a>.</p>
 <p>All these unique characteristics will certainly have deep influence, over the long run, on our understanding and development of geometric models in science and engineering. Many problems related to practical use and teaching of GA remain to be solved, but the concept had already been proven and the way is now much more clear for many researchers. In our next and final part of this functional history of numbers we will investigate another kind of numbers; the numbers we use in computing everything.</p>
 <hr />
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p style="text-align: center;"><span style="font-size: 28px; font-family: 'Traditional Arabic';"><strong>تم بحمد الله الجمعة 22 شوال 1436هـ</strong></span></p>
 </div>
@@ -279,7 +281,7 @@
 <p>&nbsp;</p>
 <div class='endnotes' id='hhendnotes-270'>
 <ol>
-<li id='en-270-1'>During my research for this post I found that the 1873 edition of James Clerk Maxwell&#8217;s &#8220;A Treatise on Electricity and Magnetism&#8221; contains 20 Quaternion Equations that later were rewritten by Oliver Heaviside, et al.. See <a href="http://www.rexresearch.com/maxwell.htm">here</a> and <a href="http://visualphysics.org/forum/topics/200-missing-quaternion-equations-maxwells-treatis-electromagnetism-edition-1">here</a> for some details <span class='endnotereverse'><a href='#enref-270-1'>&#8617;</a></span></li>
+<li id='en-270-1'>During my research for this post I found that the 1873 edition of James Clerk Maxwell&#8217;s &#8220;A Treatise on Electricity and Magnetism&#8221; contains 20 Quaternion Equations that later were rewritten by Oliver Heaviside, et al.. See <a href="http://www.rexresearch.com/maxwell.htm">here</a> and <a href="http://visualphysics.org/forum/topics/200-missing-quaternion-equations-maxwells-treatis-electromagnetism-edition-1" class="broken_link">here</a> for some details <span class='endnotereverse'><a href='#enref-270-1'>&#8617;</a></span></li>
 <li id='en-270-2'>Simon L. Altmann, &#8220;Rotations, Quaternions, and Double Groups&#8221;. Oxford University Press 1986 <span class='endnotereverse'><a href='#enref-270-2'>&#8617;</a></span></li>
 <li id='en-270-3'>Simon L. Altmann, &#8220;Hamilton, Rodrigues, and the Quaternion Scandal&#8221;. Mathematics Magazine 62 (5): 306, December 1989. JSTOR 2689481. <span class='endnotereverse'><a href='#enref-270-3'>&#8617;</a></span></li>
 <li id='en-270-4'>As later proven by Frobenius that the only possible associative division algebras are the real, complex, and quaternion algebras <span class='endnotereverse'><a href='#enref-270-4'>&#8617;</a></span></li>
@@ -301,14 +303,14 @@
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2015/08/07/history-of-numbers2/">A Functional History of Numbers (2 of 3)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/index.php/2015/08/07/history-of-numbers2/feed/</wfw:commentRss>
+							<wfw:commentRss>/index.php/2015/08/07/history-of-numbers2/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
+							</item>
 		<item>
 		<title>The Abstract</title>
 		<link>/index.php/2015/07/03/the-abstract/</link>
-		<comments>/index.php/2015/07/03/the-abstract/#respond</comments>
-		<pubDate>Fri, 03 Jul 2015 14:00:18 +0000</pubDate>
+				<comments>/index.php/2015/07/03/the-abstract/#respond</comments>
+				<pubDate>Fri, 03 Jul 2015 16:00:18 +0000</pubDate>
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
 				<category><![CDATA[Geometric Algebra]]></category>
 		<category><![CDATA[Abstraction]]></category>
@@ -317,13 +319,13 @@
 		<category><![CDATA[Teaching]]></category>
 
 		<guid isPermaLink="false">http://gacomputing.info/?p=130</guid>
-		<description><![CDATA[<p>I've been dealing with mathematical abstractions most of my life, as a student then as a software engineer and faculty member, on various levels and forms. My experience is like trying to find a safe path in a big forest of data and ideas that keep on growing and changing each day.</p>
+				<description><![CDATA[<p>I've been dealing with mathematical abstractions most of my life, as a student then as a software engineer and faculty member, on various levels and forms. My experience is like trying to find a safe path in a big forest of data and ideas that keep on growing and changing each day.</p>
 <p>The post <a rel="nofollow" href="/index.php/2015/07/03/the-abstract/">The Abstract</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
-<div class="su-note" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
 <p><a href="/wp-content/uploads/2015/07/The-Abstract.jpeg"><img class="aligncenter wp-image-3894 size-full" src="/wp-content/uploads/2015/07/The-Abstract.jpeg" alt="The Abstract" width="1280" height="960" srcset="/wp-content/uploads/2015/07/The-Abstract.jpeg 1280w, /wp-content/uploads/2015/07/The-Abstract-300x225.jpeg 300w, /wp-content/uploads/2015/07/The-Abstract-768x576.jpeg 768w, /wp-content/uploads/2015/07/The-Abstract-1024x768.jpeg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
 </div>
@@ -343,7 +345,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_249" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/254-750x726.jpg"><img class="size-medium wp-image-249" src="/wp-content/uploads/2015/07/254-750x726-300x290.jpg" alt="The Forest of Abstractions" width="300" height="290" srcset="/wp-content/uploads/2015/07/254-750x726-300x290.jpg 300w, /wp-content/uploads/2015/07/254-750x726.jpg 750w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">The Forest of Abstractions</p></div>
+<div id="attachment_249" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/254-750x726.jpg"><img aria-describedby="caption-attachment-249" class="size-medium wp-image-249" src="/wp-content/uploads/2015/07/254-750x726-300x290.jpg" alt="The Forest of Abstractions" width="300" height="290" srcset="/wp-content/uploads/2015/07/254-750x726-300x290.jpg 300w, /wp-content/uploads/2015/07/254-750x726.jpg 750w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-249" class="wp-caption-text">The Forest of Abstractions</p></div>
 </div>
 
                             </div>
@@ -352,7 +354,7 @@
 <p>Writing your first computer code at 11 and continuing to write more code for 25 or more years gives you many joys, disappointments, questions, ideas, and ultimately more knowledge. From an early stage, you realize that mathematics is both a fuel and limit for your computing skills. The more efficient your mathematical abstractions are the more powerful ideas you have, the more you can realize in your code, and the more wisdom you gain. This intuition was emphasized in my engineering study and practice through the universal presence of mathematics in computer science books and articles more than any other engineering discipline. Searching for and using good mathematical abstractions is, in my opinion, an important task for anyone in my position.</p>
 <p>&nbsp;</p>
 <h3>The Linear Engineer</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>When the number of factors coming into play in a phenomenological complex is too large scientific method in most cases fails. One need only think of the weather, in which case the prediction even for a few days ahead is impossible.</p>
 <p style="text-align: right;"><em><strong>&#8212; Albert Einstein</strong></em></p>
@@ -363,7 +365,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_3889" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg.png"><img class="wp-image-3889 size-medium" src="/wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-300x268.png" alt="Flagellum_base_diagram" width="300" height="268" srcset="/wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-300x268.png 300w, /wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-768x685.png 768w, /wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-1024x913.png 1024w, /wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg.png 1148w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Engineers can only learn from nature if they fully embrace its non-linearity</p></div>
+<div id="attachment_3889" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg.png"><img aria-describedby="caption-attachment-3889" class="wp-image-3889 size-medium" src="/wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-300x268.png" alt="Flagellum_base_diagram" width="300" height="268" srcset="/wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-300x268.png 300w, /wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-768x685.png 768w, /wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg-1024x913.png 1024w, /wp-content/uploads/2015/07/1148px-Flagellum_base_diagram_en.svg.png 1148w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-3889" class="wp-caption-text">Engineers can only learn from nature if they fully embrace its non-linearity</p></div>
 </div>
 
                             </div>
@@ -376,7 +378,7 @@
 <p>I discovered after graduation, as my second shock, that the universe is mostly non-linear, that there is nothing that can be time-invariant because of the second law of thermodynamics, and that most systems are very sensitive to initial conditions to be predictable for indefinite periods of time (as clearly stated by chaos theory and widely experienced in practice). Nevertheless, a linear system is a good starting point to model and solve almost all problems in engineering; mostly because many engineers are afraid of the darkness of the mathematics of non-linear chaotic systems, a very dark part of the mathematical forest of abstractions.</p>
 <p>&nbsp;</p>
 <h3>The Geometric Engineer</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>The engineer is concerned to travel from the abstract to the concrete. He begins with an idea and ends with an object. He journeys from theory to practice. The scientist’s job is the precise opposite. He explores nature with his telescopes or microscopes, or much more sophisticated techniques, and feeds into a computer what he finds or sees in an attempt to define mathematically its significance and relationships. He travels from the real to the symbolic, from the concrete to the abstract. The scientist and the engineer are the mirror image of each other.</p>
 <p style="text-align: right;"><em><strong>&#8212; Gordon Lindsay Glegg</strong></em></p>
@@ -387,7 +389,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_3886" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/construction-2682641_1280.jpg"><img class="wp-image-3886 size-medium" src="/wp-content/uploads/2015/07/construction-2682641_1280-300x169.jpg" alt="construction-2682641_1280" width="300" height="169" srcset="/wp-content/uploads/2015/07/construction-2682641_1280-300x169.jpg 300w, /wp-content/uploads/2015/07/construction-2682641_1280-768x432.jpg 768w, /wp-content/uploads/2015/07/construction-2682641_1280-1024x576.jpg 1024w, /wp-content/uploads/2015/07/construction-2682641_1280.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Geometry and Engineering are tightly linked</p></div>
+<div id="attachment_3886" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/construction-2682641_1280.jpg"><img aria-describedby="caption-attachment-3886" class="wp-image-3886 size-medium" src="/wp-content/uploads/2015/07/construction-2682641_1280-300x169.jpg" alt="construction-2682641_1280" width="300" height="169" srcset="/wp-content/uploads/2015/07/construction-2682641_1280-300x169.jpg 300w, /wp-content/uploads/2015/07/construction-2682641_1280-768x432.jpg 768w, /wp-content/uploads/2015/07/construction-2682641_1280-1024x576.jpg 1024w, /wp-content/uploads/2015/07/construction-2682641_1280.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-3886" class="wp-caption-text">Geometry and Engineering are tightly linked</p></div>
 </div>
 
                             </div>
@@ -396,7 +398,7 @@
 <p>Throughout history, the main efforts to further our understanding and use of geometry have always been through algebra. From the very old theory of Pythagoras, through the vast advancements of algebra, trigonometry, and geometry by Muslim mathematicians <sup class='endnote'><a href='#en-130-8' id='enref-130-8' onclick='return hhEndnotes_show(130)'>8</a></sup>, to the modern view of Cayley–Klein geometry <sup class='endnote'><a href='#en-130-9' id='enref-130-9' onclick='return hhEndnotes_show(130)'>9</a></sup>, the struggle was to find algebraic abstractions to express geometric ideas. Currently, we have many such algebraic abstractions (too many in fact); the problem now is not to find such abstractions, but how to teach them to whom it may concern!</p>
 <p>&nbsp;</p>
 <h3>The Computational Engineer</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Failure is central to engineering. Every single calculation that an engineer makes is a failure calculation. Successful engineering is all about understanding how things break or fail.</p>
 <p style="text-align: right;"><em><strong>&#8212; Henry Petroski</strong></em></p>
@@ -407,7 +409,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_3885" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/Jet_engine_simulation.jpg"><img class="wp-image-3885 size-medium" src="/wp-content/uploads/2015/07/Jet_engine_simulation-300x233.jpg" alt="Jet_engine_simulation" width="300" height="233" srcset="/wp-content/uploads/2015/07/Jet_engine_simulation-300x233.jpg 300w, /wp-content/uploads/2015/07/Jet_engine_simulation.jpg 616w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Simulation and Computer Aided Design are standard tools for modern engineering</p></div>
+<div id="attachment_3885" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/Jet_engine_simulation.jpg"><img aria-describedby="caption-attachment-3885" class="wp-image-3885 size-medium" src="/wp-content/uploads/2015/07/Jet_engine_simulation-300x233.jpg" alt="Jet_engine_simulation" width="300" height="233" srcset="/wp-content/uploads/2015/07/Jet_engine_simulation-300x233.jpg 300w, /wp-content/uploads/2015/07/Jet_engine_simulation.jpg 616w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-3885" class="wp-caption-text">Simulation and Computer Aided Design are standard tools for modern engineering</p></div>
 </div>
 
                             </div>
@@ -416,7 +418,7 @@
 <p>There are two main kinds of programming languages: the general and the specific. General purpose programming languages are dominant in creating geometric-algebraic solutions to our problems. Everybody knows C++, Java, C#, Python, or some other such language. But generality comes with many problems in readability, writablity, and elegance of written code. In addition creating code by a general-purpose programming language usually separates the designer of the algorithm from the developer of the code. If the &#8220;geometric modeler&#8221; tries to write the code himself, as he should, using a general purpose language all kinds of problems often occur including memory leaks, bad performance, and having to learn the full details of a whole language just to create an efficient implementation of a required algorithm. Object-oriented programming may solve some of these problems, but a good tool to implement computational software should contain a domain specific language (DSL)<sup class='endnote'><a href='#en-130-13' id='enref-130-13' onclick='return hhEndnotes_show(130)'>13</a></sup> that can be used directly by the &#8220;domain expert&#8221; to write code that can be translated automatically to machine code or to a general purpose language code as an intermediate stage of compilation.</p>
 <p>&nbsp;</p>
 <h3>The Pedagogical Engineer</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>Put glibly: In science if you know what you are doing you should not be doing it. In engineering if you do not know what you are doing you should not be doing it. Of course, you seldom, if ever, see either pure state.</p>
 <p style="text-align: right;"><em><strong>&#8212; Richard Hamming</strong></em></p>
@@ -427,7 +429,7 @@
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeIn" data-duration="2" data-delay="0">
-<div id="attachment_3887" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/Descriptive-Geometry.jpg"><img class="wp-image-3887 size-medium" src="/wp-content/uploads/2015/07/Descriptive-Geometry-300x221.jpg" alt="Descriptive Geometry" width="300" height="221" srcset="/wp-content/uploads/2015/07/Descriptive-Geometry-300x221.jpg 300w, /wp-content/uploads/2015/07/Descriptive-Geometry.jpg 736w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Learning Descriptive Geometry is a good way for developing engineering intuition</p></div>
+<div id="attachment_3887" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/07/Descriptive-Geometry.jpg"><img aria-describedby="caption-attachment-3887" class="wp-image-3887 size-medium" src="/wp-content/uploads/2015/07/Descriptive-Geometry-300x221.jpg" alt="Descriptive Geometry" width="300" height="221" srcset="/wp-content/uploads/2015/07/Descriptive-Geometry-300x221.jpg 300w, /wp-content/uploads/2015/07/Descriptive-Geometry.jpg 736w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-3887" class="wp-caption-text">Learning Descriptive Geometry is a good way for developing engineering intuition</p></div>
 </div>
 
                             </div>
@@ -437,7 +439,7 @@
 <p>The direct result of such problem is a limited number of geometrically competent engineers; a very frustrating outcome for many teachers and students alike. Another consequence is the need for many teaching hours per subject to establish a mathematical base of algebraic tools specific to that subject <sup class='endnote'><a href='#en-130-14' id='enref-130-14' onclick='return hhEndnotes_show(130)'>14</a></sup>. If there were a single abstract framework to be taught once for most subjects that would make more time for teaching the engineering concepts rather than the mathematical tools. The current state of affairs in engineering teaching is a lack of such a unifying framework; after all, abstraction is about unification through extraction of common patterns.</p>
 <p>&nbsp;</p>
 <h3>Into The Geometric Algebra Pathway</h3>
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <blockquote><p>The wonderful thing about maths is it&#8217;s a totally logical subject, and a pathway has been marked out. I think a lot of these things can be crystallised in something quite essential, that people can get. If I can&#8217;t explain it, I realise that&#8217;s probably because I don&#8217;t completely understand it myself.</p>
 <p style="text-align: right;"><em><strong>&#8212; Marcus du Sautoy</strong></em></p>
@@ -466,7 +468,7 @@
 <p>Personally, I think about Geometric Algebra as a way of <em><strong>symbolic geometric thinking</strong></em>, not just another algebraic system. Computers can only be programmed when we fully understand the abstractions and processes involved in the problem at hand. Computing with Geometric Algebra is fascinating because it&#8217;s a high-level language for geometry as we humans think and understand and, at the same time, a logical algebraic system suitable for being a universal base for creating computer code for geometric processing using current compiler technology. Most of my research efforts are dedicated to illustrating and realizing the full potential of GA in various scientific computing applications.</p>
 <p>I hope this site is successful in illustrating the power of GA-based linear models and DSLs. I hope you find your own path in the great forest of mathematical abstractions enjoyable and maturing.</p>
 <hr />
-<div class="su-note" style="border-color:#d9d9d9;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-clearfix" style="background-color:#F1F1F1;border-color:#fcfcfc;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+<div class="su-note" id="" style="border-color:#d7d7d7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#F1F1F1;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
 <p style="text-align: center;"><span style="font-size: 28px; font-family: 'Traditional Arabic';"><strong>تم بحمد الله الجمعة 16 رمضان 1436هـ</strong></span></p>
 </div>
@@ -493,8 +495,8 @@
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2015/07/03/the-abstract/">The Abstract</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/index.php/2015/07/03/the-abstract/feed/</wfw:commentRss>
+							<wfw:commentRss>/index.php/2015/07/03/the-abstract/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
-	</channel>
+							</item>
+	                                          </channel>
 </rss>
