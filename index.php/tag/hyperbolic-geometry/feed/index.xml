@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -29,10 +29,11 @@
 </image> 
                                           	<item>
 		<title>Projective Insights</title>
-		<link>/index.php/2017/03/17/projective-insights/</link>
-				<comments>/index.php/2017/03/17/projective-insights/#respond</comments>
-				<pubDate>Fri, 17 Mar 2017 20:43:11 +0000</pubDate>
+		<link>/index.php/2017/03/17/projective-insights/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=projective-insights</link>
+					<comments>/index.php/2017/03/17/projective-insights/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Fri, 17 Mar 2017 20:43:11 +0000</pubDate>
 				<category><![CDATA[GA Math]]></category>
 		<category><![CDATA[Geometric Algebra]]></category>
 		<category><![CDATA[Interview]]></category>
@@ -44,12 +45,12 @@
 		<category><![CDATA[Rational Trigonometry]]></category>
 		<category><![CDATA[Spherical Geometry]]></category>
 		<category><![CDATA[Visualization]]></category>
-
 		<guid isPermaLink="false">https://gacomputing.info/?p=2706</guid>
-				<description><![CDATA[<p>In this post, I interview Dr. Charles Gunn, a mathematician, movie-maker, and teacher whose mathematical activities center around projective geometry and its connection to the human being and the world.  He is particularly excited by his recent work on Projective Geometric Algebra (PGA), which he believes has a great role to play in bringing the benefits of GA to a wider audience.</p>
+
+					<description><![CDATA[<p>In this post, I interview Dr. Charles Gunn, a mathematician, movie-maker, and teacher whose mathematical activities center around projective geometry and its connection to the human being and the world.  He is particularly excited by his recent work on Projective Geometric Algebra (PGA), which he believes has a great role to play in bringing the benefits of GA to a wider audience.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/03/17/projective-insights/">Projective Insights</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
 <p><a href="/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724.jpg"><img class="aligncenter size-large wp-image-2723" src="/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-1024x576.jpg" alt="Projective Insights" width="1024" height="576" srcset="/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-1024x576.jpg 1024w, /wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-300x169.jpg 300w, /wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-768x432.jpg 768w, /wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
@@ -133,8 +134,11 @@
 </div></div>
 <p>The post <a rel="nofollow" href="/index.php/2017/03/17/projective-insights/">Projective Insights</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2017/03/17/projective-insights/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2017/03/17/projective-insights/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	                                          </channel>
 </rss>

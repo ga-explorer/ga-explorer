@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -29,10 +29,11 @@
 </image> 
                                           	<item>
 		<title>Elements of Geometric Algebra</title>
-		<link>/index.php/2017/01/28/ga-elements/</link>
-				<comments>/index.php/2017/01/28/ga-elements/#respond</comments>
-				<pubDate>Sat, 28 Jan 2017 16:00:08 +0000</pubDate>
+		<link>/index.php/2017/01/28/ga-elements/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ga-elements</link>
+					<comments>/index.php/2017/01/28/ga-elements/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Sat, 28 Jan 2017 16:00:08 +0000</pubDate>
 				<category><![CDATA[GA Math]]></category>
 		<category><![CDATA[Geometric Algebra]]></category>
 		<category><![CDATA[Blades]]></category>
@@ -48,12 +49,12 @@
 		<category><![CDATA[Space Embedding]]></category>
 		<category><![CDATA[Vector Space]]></category>
 		<category><![CDATA[Versors]]></category>
-
 		<guid isPermaLink="false">http://gacomputing.info/?p=2285</guid>
-				<description><![CDATA[<p>Any useful mathematical structure consists of some integrating abstract elements. The mathematical structure of Geometric Algebra is sophisticated but very elegant and easy to understand. In my view as a software engineer, I could identify 10 main elements of the mathematical structure of GA. Some of these elements are well studied mathematical disciplines by their own right. The integration of the 10 elements, however, produces a rich mathematical language capable of expressing much more than the mere sum of its parts. In this post, I will describe each component and talk a little about its significance and varieties without delving into any mathematical details. The interested reader can find many tutorials and links to explain in full details the mathematics of Geometric Algebra on my GA Online Resources page. The information in this post can be useful for someone starting to study GA and wanting a clear roadmap for understanding and relating its main concepts and algebraic tools.</p>
+
+					<description><![CDATA[<p>Any useful mathematical structure consists of some integrating abstract elements. The mathematical structure of Geometric Algebra is sophisticated but very elegant and easy to understand. In my view as a software engineer, I could identify 10 main elements of the mathematical structure of GA. Some of these elements are well studied mathematical disciplines by their own right. The integration of the 10 elements, however, produces a rich mathematical language capable of expressing much more than the mere sum of its parts. In this post, I will describe each component and talk a little about its significance and varieties without delving into any mathematical details. The interested reader can find many tutorials and links to explain in full details the mathematics of Geometric Algebra on my GA Online Resources page. The information in this post can be useful for someone starting to study GA and wanting a clear roadmap for understanding and relating its main concepts and algebraic tools.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/28/ga-elements/">Elements of Geometric Algebra</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#fcf4c1;    '>
                             
 <div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
@@ -462,27 +463,31 @@
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/28/ga-elements/">Elements of Geometric Algebra</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2017/01/28/ga-elements/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2017/01/28/ga-elements/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>A Functional History of Numbers (3 of 3)</title>
-		<link>/index.php/2015/08/14/history-of-numbers3/</link>
-				<comments>/index.php/2015/08/14/history-of-numbers3/#respond</comments>
-				<pubDate>Fri, 14 Aug 2015 16:00:55 +0000</pubDate>
+		<link>/index.php/2015/08/14/history-of-numbers3/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=history-of-numbers3</link>
+					<comments>/index.php/2015/08/14/history-of-numbers3/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Fri, 14 Aug 2015 16:00:55 +0000</pubDate>
 				<category><![CDATA[GA History]]></category>
 		<category><![CDATA[Algebra]]></category>
 		<category><![CDATA[Computing]]></category>
 		<category><![CDATA[History]]></category>
 		<category><![CDATA[Numbers]]></category>
-
 		<guid isPermaLink="false">http://gacomputing.info/?p=395</guid>
-				<description><![CDATA[<p>There are 3 kinds of science: the experimental, the theoretical, and the simulated. The third kind of scientific activity only appeared recently, about 75 years ago, when the first electronic computers were made; effectively creating the "human computational universe" and upgrading our scientific methods to a whole new level. The idea of this third kind of science is to computationally and visually investigate our theoretical mathematical models encoded as computer programs executed on various sets of inputs to get new patterns, ideas, and "virtual" discoveries that can be verified experimentally later or at least may provide grounds for new abstractions, theories, and practical applications. This third kind of science, the science and art of computer simulations, is now unavoidable in all scientific research and education activities. All this is made possible by using only the two numbers 1 and 0; a.k.a True and False.<br />
+
+					<description><![CDATA[<p>There are 3 kinds of science: the experimental, the theoretical, and the simulated. The third kind of scientific activity only appeared recently, about 75 years ago, when the first electronic computers were made; effectively creating the "human computational universe" and upgrading our scientific methods to a whole new level. The idea of this third kind of science is to computationally and visually investigate our theoretical mathematical models encoded as computer programs executed on various sets of inputs to get new patterns, ideas, and "virtual" discoveries that can be verified experimentally later or at least may provide grounds for new abstractions, theories, and practical applications. This third kind of science, the science and art of computer simulations, is now unavoidable in all scientific research and education activities. All this is made possible by using only the two numbers 1 and 0; a.k.a True and False.<br />
 After our journey with classic numbers in part one and geometric numbers in part two, in this final part of our functional history of numbers, we will take a look at a third kind of numbers: the computational numbers.</p>
 <p>The post <a rel="nofollow" href="/index.php/2015/08/14/history-of-numbers3/">A Functional History of Numbers (3 of 3)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
@@ -744,15 +749,19 @@ After our journey with classic numbers in part one and geometric numbers in par
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2015/08/14/history-of-numbers3/">A Functional History of Numbers (3 of 3)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2015/08/14/history-of-numbers3/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2015/08/14/history-of-numbers3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>A Functional History of Numbers (2 of 3)</title>
-		<link>/index.php/2015/08/07/history-of-numbers2/</link>
-				<comments>/index.php/2015/08/07/history-of-numbers2/#respond</comments>
-				<pubDate>Fri, 07 Aug 2015 16:00:09 +0000</pubDate>
+		<link>/index.php/2015/08/07/history-of-numbers2/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=history-of-numbers2</link>
+					<comments>/index.php/2015/08/07/history-of-numbers2/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Fri, 07 Aug 2015 16:00:09 +0000</pubDate>
 				<category><![CDATA[GA History]]></category>
 		<category><![CDATA[Algebra]]></category>
 		<category><![CDATA[Computing]]></category>
@@ -760,12 +769,12 @@ After our journey with classic numbers in part one and geometric numbers in par
 		<category><![CDATA[Geometry]]></category>
 		<category><![CDATA[History]]></category>
 		<category><![CDATA[Numbers]]></category>
-
 		<guid isPermaLink="false">http://gacomputing.info/?p=270</guid>
-				<description><![CDATA[<p>In part one of this functional history of numbers we saw the development of various number systems we are mostly familiar with. In this part, we will see the development of many number systems that are important for our modern scientific needs, geometrically and computationally. The sad fact about these developments is that we are using and teaching less effective number systems today because of a "series of unfortunate events" that took place during the grand drama of human development of modern mathematics.</p>
+
+					<description><![CDATA[<p>In part one of this functional history of numbers we saw the development of various number systems we are mostly familiar with. In this part, we will see the development of many number systems that are important for our modern scientific needs, geometrically and computationally. The sad fact about these developments is that we are using and teaching less effective number systems today because of a "series of unfortunate events" that took place during the grand drama of human development of modern mathematics.</p>
 <p>The post <a rel="nofollow" href="/index.php/2015/08/07/history-of-numbers2/">A Functional History of Numbers (2 of 3)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
@@ -1023,26 +1032,30 @@ After our journey with classic numbers in part one and geometric numbers in par
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2015/08/07/history-of-numbers2/">A Functional History of Numbers (2 of 3)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2015/08/07/history-of-numbers2/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2015/08/07/history-of-numbers2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>A Functional History of Numbers (1 of 3)</title>
-		<link>/index.php/2015/07/24/history-of-numbers1/</link>
-				<comments>/index.php/2015/07/24/history-of-numbers1/#respond</comments>
-				<pubDate>Fri, 24 Jul 2015 16:00:19 +0000</pubDate>
+		<link>/index.php/2015/07/24/history-of-numbers1/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=history-of-numbers1</link>
+					<comments>/index.php/2015/07/24/history-of-numbers1/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Fri, 24 Jul 2015 16:00:19 +0000</pubDate>
 				<category><![CDATA[GA History]]></category>
 		<category><![CDATA[Algebra]]></category>
 		<category><![CDATA[Geometry]]></category>
 		<category><![CDATA[History]]></category>
 		<category><![CDATA[Numbers]]></category>
-
 		<guid isPermaLink="false">http://gacomputing.info/?p=251</guid>
-				<description><![CDATA[<p>The main goal of this post is to link Geometric Algebra to mathematics on the fundamental level of numbers. Here I briefly describe the history of numbers with emphasis on their functional role in mathematics, science, and engineering to put the computational role GA can play into perspective.</p>
+
+					<description><![CDATA[<p>The main goal of this post is to link Geometric Algebra to mathematics on the fundamental level of numbers. Here I briefly describe the history of numbers with emphasis on their functional role in mathematics, science, and engineering to put the computational role GA can play into perspective.</p>
 <p>The post <a rel="nofollow" href="/index.php/2015/07/24/history-of-numbers1/">A Functional History of Numbers (1 of 3)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#F1F1F1;    '>
                             
 <div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
@@ -1264,7 +1277,7 @@ While engineers and scientists viewed real numbers primarily as “decimals whic
 <li id='en-251-10'>Johannes Grabmeier, Erich Kaltofen, Volker Weispfenning (Editors), &#8220;Computer Algebra Handbook &#8211; Foundations, Applications, Systems&#8221;. Springer 2003 <span class='endnotereverse'><a href='#enref-251-10'>&#8617;</a></span></li>
 <li id='en-251-11'>During my research for this post, I found some articles stating a misconception about females having less inheritance than males in Islam. The truth is giving women less inheritance is not a universal law of inheritance in Islam. As clearly explained <a href="https://en.wikipedia.org/wiki/Islamic_inheritance_jurisprudence#Women_and_inheritance">here</a>:<br />
 <blockquote><p>However, this principle is not universally applicable, and there are other circumstances where women might receive equal shares to men. For example, the share of the mother and father of a childless decedent. Also the share of a uterine brother is equal to the share of a uterine sister, as do the shares of their descendants &#8230; Some times women get double the share then that of men, for example if there are only parents and husband, husband will receive half, father gets 1/6 and mother gets 2/6.</p></blockquote>
-<p>A good study for the reasons behind giving less inheritance to women in some situations can be found <a href="http://www.kantakji.com/media/3799/4015.pdf" class="broken_link">here</a>. <span class='endnotereverse'><a href='#enref-251-11'>&#8617;</a></span></li>
+<p>A good study for the reasons behind giving less inheritance to women in some situations can be found <a href="http://www.kantakji.com/media/3799/4015.pdf">here</a>. <span class='endnotereverse'><a href='#enref-251-11'>&#8617;</a></span></li>
 <li id='en-251-12'>Contrast this religion-motivated development of science in the middle ages Islamic lands with the (lack of) development of science in the same period called dark age Europe that lasted until the 12th century, driven by religion and continuous wars in the direction of scientific degeneracy. See <a href="https://www.quora.com/Why-did-science-make-little-real-progress-in-Europe-in-the-Middle-Ages-3?redirected_qid=489923">this article</a> for more interesting details <span class='endnotereverse'><a href='#enref-251-12'>&#8617;</a></span></li>
 <li id='en-251-13'>O&#8217;Connor, John J.; Robertson, Edmund F., &#8220;<a href="http://www-history.mcs.st-and.ac.uk/HistTopics/Arabic_mathematics.html">Arabic mathematics: forgotten brilliance?</a>&#8220;, MacTutor History of Mathematics archive, University of St Andrews. <span class='endnotereverse'><a href='#enref-251-13'>&#8617;</a></span></li>
 <li id='en-251-14'>more accurately Islamic mathematics, many Muslim scientists and mathematicians were not of Arab origin <span class='endnotereverse'><a href='#enref-251-14'>&#8617;</a></span></li>
@@ -1294,8 +1307,11 @@ While engineers and scientists viewed real numbers primarily as “decimals whic
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2015/07/24/history-of-numbers1/">A Functional History of Numbers (1 of 3)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2015/07/24/history-of-numbers1/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2015/07/24/history-of-numbers1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	                                          </channel>
 </rss>

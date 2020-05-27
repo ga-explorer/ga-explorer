@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -29,10 +29,11 @@
 </image> 
                                           	<item>
 		<title>Geometric Algebra: Ascension of the Mind</title>
-		<link>/index.php/2017/01/13/ga-computing3/</link>
-				<comments>/index.php/2017/01/13/ga-computing3/#respond</comments>
-				<pubDate>Fri, 13 Jan 2017 16:00:42 +0000</pubDate>
+		<link>/index.php/2017/01/13/ga-computing3/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ga-computing3</link>
+					<comments>/index.php/2017/01/13/ga-computing3/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Fri, 13 Jan 2017 16:00:42 +0000</pubDate>
 				<category><![CDATA[Geometric Algebra]]></category>
 		<category><![CDATA[Algebra]]></category>
 		<category><![CDATA[Blade]]></category>
@@ -48,12 +49,12 @@
 		<category><![CDATA[Multivector]]></category>
 		<category><![CDATA[Optimizing Compiler]]></category>
 		<category><![CDATA[Versor]]></category>
-
 		<guid isPermaLink="false">http://gacomputing.info/?p=636</guid>
-				<description><![CDATA[<p>I discovered Geometric Algebra (GA) back in 2003 and it caught my attention immediately. In my whole life as a student, engineer, researcher, and teacher I've never met a symbolic mathematical system so beautifully close to geometric abstractions. In this post, I try to explain how Geometric Algebra can express, unify, and generalize many geometric abstractions we use as engineers and computer scientists.</p>
+
+					<description><![CDATA[<p>I discovered Geometric Algebra (GA) back in 2003 and it caught my attention immediately. In my whole life as a student, engineer, researcher, and teacher I've never met a symbolic mathematical system so beautifully close to geometric abstractions. In this post, I try to explain how Geometric Algebra can express, unify, and generalize many geometric abstractions we use as engineers and computer scientists.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/13/ga-computing3/">Geometric Algebra: Ascension of the Mind</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#f2ede3;    '>
                             
 <div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
@@ -278,8 +279,11 @@
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/13/ga-computing3/">Geometric Algebra: Ascension of the Mind</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2017/01/13/ga-computing3/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2017/01/13/ga-computing3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	                                          </channel>
 </rss>

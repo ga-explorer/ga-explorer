@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -29,10 +29,11 @@
 </image> 
                                           	<item>
 		<title>Visualizing Scientific Insights</title>
-		<link>/index.php/2017/02/20/ga-sciviz/</link>
-				<comments>/index.php/2017/02/20/ga-sciviz/#respond</comments>
-				<pubDate>Mon, 20 Feb 2017 22:51:31 +0000</pubDate>
+		<link>/index.php/2017/02/20/ga-sciviz/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ga-sciviz</link>
+					<comments>/index.php/2017/02/20/ga-sciviz/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Mon, 20 Feb 2017 22:51:31 +0000</pubDate>
 				<category><![CDATA[GA Computing]]></category>
 		<category><![CDATA[GA Software]]></category>
 		<category><![CDATA[Interview]]></category>
@@ -47,13 +48,13 @@
 		<category><![CDATA[Scientific Visualization]]></category>
 		<category><![CDATA[SciViz]]></category>
 		<category><![CDATA[Vish]]></category>
-
 		<guid isPermaLink="false">https://gacomputing.info/?p=2447</guid>
-				<description><![CDATA[<p>The area of Scientific Visualization (SciViz) is an interdisciplinary branch of science. According to Friendly, it is "primarily concerned with the visualization of three-dimensional phenomena (architectural, meteorological, medical, biological, etc.), where the emphasis is on realistic renderings of volumes, surfaces, illumination sources, and so forth, perhaps with a dynamic (time) component". It is also considered a subset of computer graphics, a branch of computer science. The purpose of scientific visualization is to graphically illustrate scientific data to enable scientists to understand, illustrate, and glean insight from their data.<br />
+
+					<description><![CDATA[<p>The area of Scientific Visualization (SciViz) is an interdisciplinary branch of science. According to Friendly, it is "primarily concerned with the visualization of three-dimensional phenomena (architectural, meteorological, medical, biological, etc.), where the emphasis is on realistic renderings of volumes, surfaces, illumination sources, and so forth, perhaps with a dynamic (time) component". It is also considered a subset of computer graphics, a branch of computer science. The purpose of scientific visualization is to graphically illustrate scientific data to enable scientists to understand, illustrate, and glean insight from their data.<br />
 In this post, I interview Dr. Werner Benger who describes his views on SciViz using Geometric Algebra and provides valuable insights about the use of SciViz in Big Data applications.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/02/20/ga-sciviz/">Visualizing Scientific Insights</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
 <div id="attachment_2646" style="width: 1034px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2017/02/SciViz.jpg"><img aria-describedby="caption-attachment-2646" class="size-large wp-image-2646" src="/wp-content/uploads/2017/02/SciViz-1024x540.jpg" alt="SciViz" width="1024" height="540" srcset="/wp-content/uploads/2017/02/SciViz-1024x540.jpg 1024w, /wp-content/uploads/2017/02/SciViz-300x158.jpg 300w, /wp-content/uploads/2017/02/SciViz-768x405.jpg 768w, /wp-content/uploads/2017/02/SciViz.jpg 1214w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><p id="caption-attachment-2646" class="wp-caption-text">A frame from a movie illustrating flys into New Orleans LIDAR terrain over Lake Pontchartrain where the three drainage canals can be seen. This sequence was also rendered for the planetarium in Baton Rouge (<a href="http://sciviz.cct.lsu.edu/gallery/katrina/links/flyintonola_Lakeview_4K.html" target="_blank" rel="noopener">source</a>).<span style="font-size: 16px;"> </span></p></div>
@@ -217,8 +218,11 @@ In this post, I interview Dr. Werner Benger who describes his views on SciViz us
 </div></div>
 <p>The post <a rel="nofollow" href="/index.php/2017/02/20/ga-sciviz/">Visualizing Scientific Insights</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2017/02/20/ga-sciviz/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2017/02/20/ga-sciviz/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	                                          </channel>
 </rss>

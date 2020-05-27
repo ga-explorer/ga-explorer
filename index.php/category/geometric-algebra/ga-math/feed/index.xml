@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -29,10 +29,11 @@
 </image> 
                                           	<item>
 		<title>Edifying The Young</title>
-		<link>/index.php/2017/04/26/edifying-the-young/</link>
-				<comments>/index.php/2017/04/26/edifying-the-young/#respond</comments>
-				<pubDate>Wed, 26 Apr 2017 10:00:20 +0000</pubDate>
+		<link>/index.php/2017/04/26/edifying-the-young/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=edifying-the-young</link>
+					<comments>/index.php/2017/04/26/edifying-the-young/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Wed, 26 Apr 2017 10:00:20 +0000</pubDate>
 				<category><![CDATA[GA Books]]></category>
 		<category><![CDATA[GA Math]]></category>
 		<category><![CDATA[Geometric Algebra]]></category>
@@ -41,13 +42,13 @@
 		<category><![CDATA[Learning]]></category>
 		<category><![CDATA[Linear Algebra]]></category>
 		<category><![CDATA[Teaching]]></category>
-
 		<guid isPermaLink="false">https://gacomputing.info/?p=2731</guid>
-				<description><![CDATA[<p>Two elementary courses common to modern physics, mathematics, and engineering curricula are Linear Algebra and Vector Calculus. Geometric Algebra is a natural and powerful extension of linear algebra and Geometric Calculus is even more so for vector calculus.</p>
+
+					<description><![CDATA[<p>Two elementary courses common to modern physics, mathematics, and engineering curricula are Linear Algebra and Vector Calculus. Geometric Algebra is a natural and powerful extension of linear algebra and Geometric Calculus is even more so for vector calculus.</p>
 <p>In this post, I interview Dr. Alan Macdonald who talks about his experience with both subjects and how he contributes in educating young undergraduate students about them through his books and online videos.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/04/26/edifying-the-young/">Edifying The Young</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
 <p><a href="/wp-content/uploads/2017/04/mathematics-1622448_1280.jpg"><img class="aligncenter size-large wp-image-2759" src="/wp-content/uploads/2017/04/mathematics-1622448_1280-1024x682.jpg" alt="" width="1024" height="682" srcset="/wp-content/uploads/2017/04/mathematics-1622448_1280-1024x682.jpg 1024w, /wp-content/uploads/2017/04/mathematics-1622448_1280-300x200.jpg 300w, /wp-content/uploads/2017/04/mathematics-1622448_1280-768x512.jpg 768w, /wp-content/uploads/2017/04/mathematics-1622448_1280.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
@@ -151,15 +152,19 @@
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/04/26/edifying-the-young/">Edifying The Young</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2017/04/26/edifying-the-young/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2017/04/26/edifying-the-young/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Projective Insights</title>
-		<link>/index.php/2017/03/17/projective-insights/</link>
-				<comments>/index.php/2017/03/17/projective-insights/#respond</comments>
-				<pubDate>Fri, 17 Mar 2017 20:43:11 +0000</pubDate>
+		<link>/index.php/2017/03/17/projective-insights/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=projective-insights</link>
+					<comments>/index.php/2017/03/17/projective-insights/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Fri, 17 Mar 2017 20:43:11 +0000</pubDate>
 				<category><![CDATA[GA Math]]></category>
 		<category><![CDATA[Geometric Algebra]]></category>
 		<category><![CDATA[Interview]]></category>
@@ -171,12 +176,12 @@
 		<category><![CDATA[Rational Trigonometry]]></category>
 		<category><![CDATA[Spherical Geometry]]></category>
 		<category><![CDATA[Visualization]]></category>
-
 		<guid isPermaLink="false">https://gacomputing.info/?p=2706</guid>
-				<description><![CDATA[<p>In this post, I interview Dr. Charles Gunn, a mathematician, movie-maker, and teacher whose mathematical activities center around projective geometry and its connection to the human being and the world.  He is particularly excited by his recent work on Projective Geometric Algebra (PGA), which he believes has a great role to play in bringing the benefits of GA to a wider audience.</p>
+
+					<description><![CDATA[<p>In this post, I interview Dr. Charles Gunn, a mathematician, movie-maker, and teacher whose mathematical activities center around projective geometry and its connection to the human being and the world.  He is particularly excited by his recent work on Projective Geometric Algebra (PGA), which he believes has a great role to play in bringing the benefits of GA to a wider audience.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/03/17/projective-insights/">Projective Insights</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-lifted-both dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
 <p><a href="/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724.jpg"><img class="aligncenter size-large wp-image-2723" src="/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-1024x576.jpg" alt="Projective Insights" width="1024" height="576" srcset="/wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-1024x576.jpg 1024w, /wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-300x169.jpg 300w, /wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724-768x432.jpg 768w, /wp-content/uploads/2017/03/maxpixel.freegreatpicture.com-Sunrise-Crystal-Ball-New-Brighton-1239724.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
@@ -260,15 +265,19 @@
 </div></div>
 <p>The post <a rel="nofollow" href="/index.php/2017/03/17/projective-insights/">Projective Insights</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2017/03/17/projective-insights/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2017/03/17/projective-insights/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Elements of Geometric Algebra</title>
-		<link>/index.php/2017/01/28/ga-elements/</link>
-				<comments>/index.php/2017/01/28/ga-elements/#respond</comments>
-				<pubDate>Sat, 28 Jan 2017 16:00:08 +0000</pubDate>
+		<link>/index.php/2017/01/28/ga-elements/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ga-elements</link>
+					<comments>/index.php/2017/01/28/ga-elements/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Sat, 28 Jan 2017 16:00:08 +0000</pubDate>
 				<category><![CDATA[GA Math]]></category>
 		<category><![CDATA[Geometric Algebra]]></category>
 		<category><![CDATA[Blades]]></category>
@@ -284,12 +293,12 @@
 		<category><![CDATA[Space Embedding]]></category>
 		<category><![CDATA[Vector Space]]></category>
 		<category><![CDATA[Versors]]></category>
-
 		<guid isPermaLink="false">http://gacomputing.info/?p=2285</guid>
-				<description><![CDATA[<p>Any useful mathematical structure consists of some integrating abstract elements. The mathematical structure of Geometric Algebra is sophisticated but very elegant and easy to understand. In my view as a software engineer, I could identify 10 main elements of the mathematical structure of GA. Some of these elements are well studied mathematical disciplines by their own right. The integration of the 10 elements, however, produces a rich mathematical language capable of expressing much more than the mere sum of its parts. In this post, I will describe each component and talk a little about its significance and varieties without delving into any mathematical details. The interested reader can find many tutorials and links to explain in full details the mathematics of Geometric Algebra on my GA Online Resources page. The information in this post can be useful for someone starting to study GA and wanting a clear roadmap for understanding and relating its main concepts and algebraic tools.</p>
+
+					<description><![CDATA[<p>Any useful mathematical structure consists of some integrating abstract elements. The mathematical structure of Geometric Algebra is sophisticated but very elegant and easy to understand. In my view as a software engineer, I could identify 10 main elements of the mathematical structure of GA. Some of these elements are well studied mathematical disciplines by their own right. The integration of the 10 elements, however, produces a rich mathematical language capable of expressing much more than the mere sum of its parts. In this post, I will describe each component and talk a little about its significance and varieties without delving into any mathematical details. The interested reader can find many tutorials and links to explain in full details the mathematics of Geometric Algebra on my GA Online Resources page. The information in this post can be useful for someone starting to study GA and wanting a clear roadmap for understanding and relating its main concepts and algebraic tools.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/28/ga-elements/">Elements of Geometric Algebra</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#fcf4c1;    '>
                             
 <div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
@@ -698,8 +707,11 @@
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/28/ga-elements/">Elements of Geometric Algebra</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2017/01/28/ga-elements/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2017/01/28/ga-elements/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	                                          </channel>
 </rss>

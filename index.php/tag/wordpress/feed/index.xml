@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -29,10 +29,11 @@
 </image> 
                                           	<item>
 		<title>Exploring The Static Web</title>
-		<link>/index.php/2017/10/18/exploring-static-web/</link>
-				<comments>/index.php/2017/10/18/exploring-static-web/#respond</comments>
-				<pubDate>Wed, 18 Oct 2017 21:13:54 +0000</pubDate>
+		<link>/index.php/2017/10/18/exploring-static-web/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=exploring-static-web</link>
+					<comments>/index.php/2017/10/18/exploring-static-web/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Wed, 18 Oct 2017 21:13:54 +0000</pubDate>
 				<category><![CDATA[Exploration]]></category>
 		<category><![CDATA[Blogging]]></category>
 		<category><![CDATA[CMS]]></category>
@@ -43,13 +44,13 @@
 		<category><![CDATA[Netlify]]></category>
 		<category><![CDATA[Static Web Design]]></category>
 		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">https://ga-explorer.netlify.app/?p=3208</guid>
 
-		<guid isPermaLink="false">/?p=3208</guid>
-				<description><![CDATA[<p>The Geometric Algebra Explorer website has been up and running for more than 2 years now. I developed this website using the WordPress Content Management System (CMS). WordPress and its countless plugins provide many impressive features for dynamic website developers, especially if they don't want to code much. I really enjoyed working with it, but it's time for me to go static.<br />
+					<description><![CDATA[<p>The Geometric Algebra Explorer website has been up and running for more than 2 years now. I developed this website using the WordPress Content Management System (CMS). WordPress and its countless plugins provide many impressive features for dynamic website developers, especially if they don't want to code much. I really enjoyed working with it, but it's time for me to go static.<br />
 In this post, I share my reasons, experience, and final workflow for leaving dynamic web development with WordPress and going into the static web development side. I think this might be helpful to someone trying to do the same or wanting to develop a similar website. Enjoy!</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/10/18/exploring-static-web/">Exploring The Static Web</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#faf0e6;    '>
                             
 <div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
@@ -266,7 +267,7 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 </div>
 </div></div>
 <p>If you like this workflow you can make many more explorations of your own. For example, you can try other themes with more interesting visual styles, menu, and formatting plugins. You can also explore email-based commenting systems like <a href="https://disqus.com/" target="_blank" rel="noopener">Disqus</a>. You can even explore modifying the generated web pages using other web design tools. I also found <a href="https://www.youtube.com/watch?v=mXcQ7rVn3ro" target="_blank" rel="noopener">adding google analytics code</a> to be relatively easy in this workflow.</p>
-<p>My new <a href="/" target="_blank" rel="noopener">GA Explorer</a> static website is now online. I&#8217;m happy to continue using WordPress with all its power for its development while gaining all of the benefits of using the static side of the web.</p>
+<p>My new <a href="https://ga-explorer.netlify.com/" target="_blank" rel="noopener">GA Explorer</a> static website is now online. I&#8217;m happy to continue using WordPress with all its power for its development while gaining all of the benefits of using the static side of the web.</p>
 <hr />
 <div class="su-note" id="" style="border-color:#e0d6cc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#faf0e6;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
 <div class="su-animate" style="visibility:hidden;-webkit-animation-duration:2s;-webkit-animation-delay:0s;animation-duration:2s;animation-delay:0s;" data-animation="fadeInUp" data-duration="2" data-delay="0">
@@ -289,8 +290,11 @@ In this post, I share my reasons, experience, and final workflow for leaving dyn
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/10/18/exploring-static-web/">Exploring The Static Web</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2017/10/18/exploring-static-web/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2017/10/18/exploring-static-web/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	                                          </channel>
 </rss>

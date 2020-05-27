@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -29,10 +29,11 @@
 </image> 
                                           	<item>
 		<title>GMac: The Next Generation (2 of 2)</title>
-		<link>/index.php/2017/02/10/gmac-tng-2/</link>
-				<comments>/index.php/2017/02/10/gmac-tng-2/#respond</comments>
-				<pubDate>Fri, 10 Feb 2017 05:00:04 +0000</pubDate>
+		<link>/index.php/2017/02/10/gmac-tng-2/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gmac-tng-2</link>
+					<comments>/index.php/2017/02/10/gmac-tng-2/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Fri, 10 Feb 2017 05:00:04 +0000</pubDate>
 				<category><![CDATA[GA Software]]></category>
 		<category><![CDATA[GMac]]></category>
 		<category><![CDATA[Compiler]]></category>
@@ -51,13 +52,13 @@
 		<category><![CDATA[Scripting]]></category>
 		<category><![CDATA[Semantic Analysis]]></category>
 		<category><![CDATA[TextComposerLib]]></category>
-
 		<guid isPermaLink="false">https://gacomputing.info/?p=2531</guid>
-				<description><![CDATA[<p>Planning for the next generation of GMac began in August 2011. I started to design the new version of GMac from scratch by reading significant parts of Terence Parr's book "Language Implementation Patterns", Robert W. Sebesta's classic book "Concepts of Programming Languages", and the second edition of the bestseller Dragon Book "Compilers: Principles, Techniques, and Tools". I had learned many lessons during developing the first GMac prototype. These books provided a solid conceptual framework for designing the new version of GMac containing all the lessons I'd learned before.<br />
+
+					<description><![CDATA[<p>Planning for the next generation of GMac began in August 2011. I started to design the new version of GMac from scratch by reading significant parts of Terence Parr's book "Language Implementation Patterns", Robert W. Sebesta's classic book "Concepts of Programming Languages", and the second edition of the bestseller Dragon Book "Compilers: Principles, Techniques, and Tools". I had learned many lessons during developing the first GMac prototype. These books provided a solid conceptual framework for designing the new version of GMac containing all the lessons I'd learned before.<br />
 In the previous post, I talked about the first part of my journey developing GMac, the fascinating discoveries I made, and the difficulties I faced along the way. In this final part, I explain the design decisions I made for GMac and how I came to select them, in addition to the developments I hope to make in the future.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/02/10/gmac-tng-2/">GMac: The Next Generation (2 of 2)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#E4EDF8;    '>
                             
 <div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
@@ -328,15 +329,19 @@ In the previous post, I talked about the first part of my journey developing GMa
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/02/10/gmac-tng-2/">GMac: The Next Generation (2 of 2)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2017/02/10/gmac-tng-2/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2017/02/10/gmac-tng-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>GMac: The Next Generation (1 of 2)</title>
-		<link>/index.php/2017/02/09/gmac-tng-1/</link>
-				<comments>/index.php/2017/02/09/gmac-tng-1/#respond</comments>
-				<pubDate>Thu, 09 Feb 2017 18:00:02 +0000</pubDate>
+		<link>/index.php/2017/02/09/gmac-tng-1/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gmac-tng-1</link>
+					<comments>/index.php/2017/02/09/gmac-tng-1/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Thu, 09 Feb 2017 18:00:02 +0000</pubDate>
 				<category><![CDATA[GA Software]]></category>
 		<category><![CDATA[GMac]]></category>
 		<category><![CDATA[Belief in Allah]]></category>
@@ -350,12 +355,12 @@ In the previous post, I talked about the first part of my journey developing GMa
 		<category><![CDATA[Programming Paradigm]]></category>
 		<category><![CDATA[Requirements]]></category>
 		<category><![CDATA[Software Engineering]]></category>
-
 		<guid isPermaLink="false">https://gacomputing.info/?p=2532</guid>
-				<description><![CDATA[<p>In the summer of 2003, I was almost at the end of my M.Sc. thesis. One day I was surfing the web searching for some references to add to the thesis I'd been writing. I ran into Mikael Nilsson’s interesting M.Sc. thesis “Geometric Algebra with Conzilla: Building a Conceptual Web of Mathematics”. His work contains a nice introduction to Geometric Algebra, with accompanying UML-based conceptual models. It got me very curious about GA. I made some more searches finding a few papers, books, and tutorials. After reading some of them I was suddenly transferred into a new world of algebraic abstractions. For the first time in my life as a student, engineer, and software developer I could hope to express, explore, and manipulate geometric abstractions with such clarity. I then decided that my Ph.D. will be about exploring Geometric Algebra using the best way I know: developing software. </p>
+
+					<description><![CDATA[<p>In the summer of 2003, I was almost at the end of my M.Sc. thesis. One day I was surfing the web searching for some references to add to the thesis I'd been writing. I ran into Mikael Nilsson’s interesting M.Sc. thesis “Geometric Algebra with Conzilla: Building a Conceptual Web of Mathematics”. His work contains a nice introduction to Geometric Algebra, with accompanying UML-based conceptual models. It got me very curious about GA. I made some more searches finding a few papers, books, and tutorials. After reading some of them I was suddenly transferred into a new world of algebraic abstractions. For the first time in my life as a student, engineer, and software developer I could hope to express, explore, and manipulate geometric abstractions with such clarity. I then decided that my Ph.D. will be about exploring Geometric Algebra using the best way I know: developing software. </p>
 <p>The post <a rel="nofollow" href="/index.php/2017/02/09/gmac-tng-1/">GMac: The Next Generation (1 of 2)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curled dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#f2ede3;    '>
                             
 <div class="su-note" id="" style="border-color:#e5e5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:#ffffff;border-color:#ffffff;color:#464646;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
@@ -495,8 +500,11 @@ Extroverts work quite differently.</span></p>
 </div>
 <p>The post <a rel="nofollow" href="/index.php/2017/02/09/gmac-tng-1/">GMac: The Next Generation (1 of 2)</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2017/02/09/gmac-tng-1/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2017/02/09/gmac-tng-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	                                          </channel>
 </rss>

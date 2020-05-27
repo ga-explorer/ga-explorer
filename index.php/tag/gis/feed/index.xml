@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 
 <image>
 	<url>/wp-content/uploads/2016/12/cropped-GAExplorer-Icon-150x150.jpg</url>
@@ -29,22 +29,23 @@
 </image> 
                                           	<item>
 		<title>Knowing About the World via GIS</title>
-		<link>/index.php/2017/01/17/gis/</link>
-				<comments>/index.php/2017/01/17/gis/#respond</comments>
-				<pubDate>Tue, 17 Jan 2017 02:09:16 +0000</pubDate>
+		<link>/index.php/2017/01/17/gis/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gis</link>
+					<comments>/index.php/2017/01/17/gis/#respond</comments>
+		
 		<dc:creator><![CDATA[GA Explorer]]></dc:creator>
+		<pubDate>Tue, 17 Jan 2017 02:09:16 +0000</pubDate>
 				<category><![CDATA[GA Applications]]></category>
 		<category><![CDATA[Geometric Algebra]]></category>
 		<category><![CDATA[Interview]]></category>
 		<category><![CDATA[Dr. Yu Zhaoyuan]]></category>
 		<category><![CDATA[Geographic Information]]></category>
 		<category><![CDATA[GIS]]></category>
-
 		<guid isPermaLink="false">http://gacomputing.info/?p=2295</guid>
-				<description><![CDATA[<p>In this post, I interview Dr. Yu Zhaoyuan who explains the importance of Geographical Information Science (GIS) and the potential of Geometric Algebra as a mathematical modeling tool in this fascinating field of study. Dr. Zhaoyuan talks about the deep relations between Geometric Computing and GIS. He then tells us about the difficulties facing the creation of good GIS simulators and how GA can help in this regard. Finally, he talks about the recent GAGIS conference and the important research presented there.</p>
+
+					<description><![CDATA[<p>In this post, I interview Dr. Yu Zhaoyuan who explains the importance of Geographical Information Science (GIS) and the potential of Geometric Algebra as a mathematical modeling tool in this fascinating field of study. Dr. Zhaoyuan talks about the deep relations between Geometric Computing and GIS. He then tells us about the difficulties facing the creation of good GIS simulators and how GA can help in this regard. Finally, he talks about the recent GAGIS conference and the important research presented there.</p>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/17/gis/">Knowing About the World via GIS</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></description>
-								<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
+										<content:encoded><![CDATA[<div class='dropshadowboxes-container ' style='width:auto;'>
                             <div class='dropshadowboxes-drop-shadow dropshadowboxes-rounded-corners dropshadowboxes-inside-and-outside-shadow dropshadowboxes-curved dropshadowboxes-curved dropshadowboxes-curved-horizontal-2 dropshadowboxes-effect-default' style=' border: 1px solid #dddddd; height:; background-color:#ffffff;    '>
                             
 <p><a href="/wp-content/uploads/2017/01/FESSlideShow6.jpg"><img class="aligncenter size-large wp-image-2297" src="/wp-content/uploads/2017/01/FESSlideShow6-1024x576.jpg" alt="GIS" width="1024" height="576" srcset="/wp-content/uploads/2017/01/FESSlideShow6-1024x576.jpg 1024w, /wp-content/uploads/2017/01/FESSlideShow6-300x169.jpg 300w, /wp-content/uploads/2017/01/FESSlideShow6-768x432.jpg 768w, /wp-content/uploads/2017/01/FESSlideShow6.jpg 1366w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
@@ -158,8 +159,11 @@
 </div></div>
 <p>The post <a rel="nofollow" href="/index.php/2017/01/17/gis/">Knowing About the World via GIS</a> appeared first on <a rel="nofollow" href="/">Geometric Algebra Explorer</a>.</p>
 ]]></content:encoded>
-							<wfw:commentRss>/index.php/2017/01/17/gis/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>/index.php/2017/01/17/gis/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	                                          </channel>
 </rss>
